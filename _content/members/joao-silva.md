@@ -3,7 +3,7 @@ id: 1
 name: Dr. João Silva
 role: Coordenador
 category: coordenacao
-photo: assets/images/members/joao-silva.jpg
+photo: https://randomuser.me/api/portraits/men/1.jpg
 lattes: http://lattes.cnpq.br/1234567890
 orcid: 0000-0000-0000-0001
 scholar: https://scholar.google.com/citations?user=example1

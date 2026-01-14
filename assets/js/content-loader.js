@@ -45,64 +45,66 @@ function renderMember(member, isCoordinator = false) {
     ${member.data.email ? `<a href="mailto:${member.data.email}"><i class="fas fa-envelope" title="Email"></i></a>` : ''}
   `;
   
+  // Renderizar foto ou placeholder
+  const photoHeight = isCoordinator ? '200px' : '180px';
+  const photoWidth = isCoordinator ? '200px' : '100%';
+  const photoHtml = member.data.photo 
+    ? `<img src="${member.data.photo}" alt="${member.data.name}" style="width:100%;height:100%;object-fit:cover;border-radius:8px;">`
+    : `<div style="width:100%;height:100%;background:linear-gradient(135deg,#f0f4f8,#e2e8f0);display:flex;align-items:center;justify-content:center;border-radius:8px;border:2px dashed #cbd5e0;">
+         <i class="fas ${icon}" style="font-size:${iconSize};color:#a0aec0;"></i>
+       </div>`;
+  
   return `
-    <div class="card member-card">
-      <div style="width:${size};height:${size};border-radius:50%;background:linear-gradient(135deg,var(--color-primary),var(--color-primary-light));margin:0 auto var(--spacing-md);display:flex;align-items:center;justify-content:center;">
-        <i class="fas ${icon}" style="font-size:${iconSize};color:white;"></i>
+    <div class="card member-card" style="padding:0;overflow:hidden;">
+      <div style="padding:var(--spacing-md);padding-bottom:0;${isCoordinator ? 'display:flex;justify-content:center;' : ''}">
+        <div style="width:${photoWidth};height:${photoHeight};overflow:hidden;">
+          ${photoHtml}
+        </div>
       </div>
-      <h${isCoordinator ? '3' : '4'} class="member-name"${isCoordinator ? '' : ' style="font-size:1.125rem;"'}>${member.data.name}</h${isCoordinator ? '3' : '4'}>
-      <p class="member-role">${member.data.role}</p>
-      ${bioText && isCoordinator ? `<p class="member-bio">${bioText}</p>` : ''}
-      ${interestsList && isCoordinator ? `<p style="color:var(--color-text-medium);margin-bottom:var(--spacing-sm);"><strong>Interesses:</strong> ${interestsList}</p>` : ''}
-      <div class="member-links">${links}</div>
+      <div style="padding:var(--spacing-md);">
+        <h${isCoordinator ? '3' : '4'} class="member-name"${isCoordinator ? '' : ' style="font-size:1.125rem;"'}>${member.data.name}</h${isCoordinator ? '3' : '4'}>
+        <p class="member-role">${member.data.role}</p>
+        ${bioText && isCoordinator ? `<p class="member-bio">${bioText}</p>` : ''}
+        ${interestsList && isCoordinator ? `<p style="color:var(--color-text-medium);margin-bottom:var(--spacing-sm);"><strong>Interesses:</strong> ${interestsList}</p>` : ''}
+        <div class="member-links">${links}</div>
+      </div>
     </div>
   `;
 }
 
-async function renderMembersPage() {
-  const coordSection = document.querySelector('section:has(.section-title h2:first-child)');
-  const pesqSection = document.querySelector('section.section-alt:has(.section-title h2:first-child)');
-  const discSection = document.querySelector('section:has(.section-title h2:nth-child(1)):not(.section-alt)');
-  
-  if (!coordSection && !pesqSection && !discSection) return;
+function renderMembersPage() {
+  const coordContainer = document.getElementById('coordenacao-container');
+  const pesqContainer = document.getElementById('pesquisadores-container');
+  const discContainer = document.getElementById('discentes-container');
   
   const members = loadMembers();
   
   // Coordenação
-  if (coordSection && members.coordenacao.length > 0) {
-    const container = coordSection.querySelector('.container');
-    if (container) {
-      container.innerHTML = `
-        <div class="section-title"><h2>Coordenação</h2></div>
-        ${members.coordenacao.map(m => renderMember(m, true)).join('')}
-      `;
-    }
+  if (coordContainer && members.coordenacao.length > 0) {
+    coordContainer.innerHTML = `
+      <div class="section-title"><h2>Coordenação</h2></div>
+      ${members.coordenacao.map(m => renderMember(m, true)).join('')}
+    `;
   }
   
   // Pesquisadores
-  if (pesqSection && members.pesquisadores.length > 0) {
-    const container = pesqSection.querySelector('.container');
-    if (container) {
-      container.innerHTML = `
-        <div class="section-title"><h2>Pesquisadores</h2></div>
-        <div class="grid grid-3">
-          ${members.pesquisadores.map(m => renderMember(m, true)).join('')}
-        </div>
-      `;
-    }
+  if (pesqContainer && members.pesquisadores.length > 0) {
+    pesqContainer.innerHTML = `
+      <div class="section-title"><h2>Pesquisadores</h2></div>
+      <div class="grid grid-3">
+        ${members.pesquisadores.map(m => renderMember(m, true)).join('')}
+      </div>
+    `;
   }
   
   // Discentes
-  if (discSection && members.discentes.length > 0) {
-    const container = discSection.querySelector('.container');
-    if (container) {
-      container.innerHTML = `
-        <div class="section-title"><h2>Discentes</h2></div>
-        <div class="grid grid-4">
-          ${members.discentes.map(m => renderMember(m, false)).join('')}
-        </div>
-      `;
-    }
+  if (discContainer && members.discentes.length > 0) {
+    discContainer.innerHTML = `
+      <div class="section-title"><h2>Discentes</h2></div>
+      <div class="grid grid-4">
+        ${members.discentes.map(m => renderMember(m, false)).join('')}
+      </div>
+    `;
   }
 }
 
@@ -136,14 +138,11 @@ function renderNewsItem(newsItem) {
   `;
 }
 
-async function renderNewsPage() {
-  const section = document.querySelector('main section:not(.hero)');
-  if (!section) return;
-  
-  const container = section.querySelector('.container');
+function renderNewsPage() {
+  const container = document.getElementById('noticias-container');
   if (!container) return;
   
-  const news = await loadNews();
+  const news = loadNews();
   
   if (news.length === 0) {
     container.innerHTML = '<p>Nenhuma notícia disponível no momento.</p>';
@@ -194,54 +193,47 @@ function renderProject(project) {
   `;
 }
 
-async function renderProjectsPage() {
-  const sections = document.querySelectorAll('main section');
-  if (sections.length < 2) return;
+function renderProjectsPage() {
+  const activosContainer = document.getElementById('projetos-ativos-container');
+  const concluidosContainer = document.getElementById('projetos-concluidos-container');
   
-  const projects = await loadProjects();
+  const projects = loadProjects();
   
   // Projetos Ativos
-  const activeSection = sections[1];
-  if (activeSection && projects.ativos.length > 0) {
-    const container = activeSection.querySelector('.container');
-    if (container) {
-      container.innerHTML = `
-        <div class="section-title"><h2>Projetos Ativos</h2></div>
-        <div class="grid grid-2">
-          ${projectos.map(p => renderProject(p)).join('')}
-        </div>
-      `;
-    }
+  if (activosContainer && projects.ativos.length > 0) {
+    activosContainer.innerHTML = `
+      <div class="section-title"><h2>Projetos Ativos</h2></div>
+      <div class="grid grid-2">
+        ${projects.ativos.map(p => renderProject(p)).join('')}
+      </div>
+    `;
   }
   
   // Projetos Concluídos
-  if (sections[2] && projects.concluidos.length > 0) {
-    const container = sections[2].querySelector('.container');
-    if (container) {
-      container.innerHTML = `
-        <div class="section-title"><h2>Projetos Concluídos</h2></div>
-        ${projects.concluidos.map(p => renderProject(p)).join('')}
-      `;
-    }
+  if (concluidosContainer && projects.concluidos.length > 0) {
+    concluidosContainer.innerHTML = `
+      <div class="section-title"><h2>Projetos Concluídos</h2></div>
+      ${projects.concluidos.map(p => renderProject(p)).join('')}
+    `;
   }
 }
 
 // ============================================
 // PUBLICAÇÕES
 // ============================================
-async function loadPublications() {
-  const files = [
-    '2025-icse-deep-learning.md',
-    '2025-jsep-sentiment.md',
-    '2025-maltesque-transfer-learning.md',
-    '2024-saner-llms.md',
-    '2024-ist-systematic-mapping.md',
-    '2024-sbes-feature-engineering.md'
-  ];
-  
 function loadPublications() {
   // Ordenar por ano (mais recente primeiro)
-  return PUBLICATIONS_DATAt ? `<a href="${pub.data.dataset}"><i class="fas fa-database"></i> Dataset</a>` : ''}
+  return PUBLICATIONS_DATA.sort((a, b) => b.data.year - a.data.year);
+}
+
+function renderPublication(pub) {
+  const authors = pub.data.authors || '';
+  
+  const links = `
+    ${pub.data.pdf ? `<a href="${pub.data.pdf}"><i class="fas fa-file-pdf"></i> PDF</a>` : ''}
+    ${pub.data.doi ? `<a href="https://doi.org/${pub.data.doi}"><i class="fas fa-link"></i> DOI</a>` : ''}
+    ${pub.data.github ? `<a href="${pub.data.github}"><i class="fab fa-github"></i> Código</a>` : ''}
+    ${pub.data.dataset ? `<a href="${pub.data.dataset}"><i class="fas fa-database"></i> Dataset</a>` : ''}
   `;
   
   return `
@@ -255,13 +247,49 @@ function loadPublications() {
   `;
 }
 
-async function renderPublicationsPage() {
-  const container = document.querySelector('main section:not(.hero) .container');
-  if (!container) return;
+function renderPublicationsPage() {
+  console.log('renderPublicationsPage chamada');
+  const container = document.getElementById('publicacoes-container');
+  console.log('Container encontrado:', container);
+  if (!container) {
+    console.error('Container publicacoes-container não encontrado!');
+    return;
+  }
   
-  const publications = await loadPublications();
+  const publications = loadPublications();
+  console.log('Publicações carregadas:', publications.length, publications);
+  
+  if (publications.length === 0) {
+    container.innerHTML = '<p>Nenhuma publicação disponível no momento.</p>';
+    return;
+  }
   
   container.innerHTML = publications.map(p => renderPublication(p)).join('');
+  console.log('Publicações renderizadas com sucesso');
+}
+
+// ============================================
+// HOME PAGE STATS
+// ============================================
+function updateHomeStats() {
+  const statPesquisadores = document.getElementById('stat-pesquisadores');
+  const statPublicacoes = document.getElementById('stat-publicacoes');
+  const statProjetos = document.getElementById('stat-projetos');
+  
+  if (statPesquisadores) {
+    const totalPesquisadores = MEMBERS_DATA.length;
+    statPesquisadores.textContent = totalPesquisadores + '+';
+  }
+  
+  if (statPublicacoes) {
+    const totalPublicacoes = PUBLICATIONS_DATA.length;
+    statPublicacoes.textContent = totalPublicacoes + '+';
+  }
+  
+  if (statProjetos) {
+    const projetosAtivos = PROJECTS_DATA.filter(p => p.data.status === 'ativo').length;
+    statProjetos.textContent = projetosAtivos + '+';
+  }
 }
 
 // ============================================
@@ -270,8 +298,17 @@ async function renderPublicationsPage() {
 document.addEventListener('DOMContentLoaded', () => {
   const path = window.location.pathname;
   console.log('Content Loader iniciado. Página:', path);
+  console.log('Dados disponíveis:', {
+    membros: typeof MEMBERS_DATA !== 'undefined' ? MEMBERS_DATA.length : 0,
+    noticias: typeof NEWS_DATA !== 'undefined' ? NEWS_DATA.length : 0,
+    projetos: typeof PROJECTS_DATA !== 'undefined' ? PROJECTS_DATA.length : 0,
+    publicacoes: typeof PUBLICATIONS_DATA !== 'undefined' ? PUBLICATIONS_DATA.length : 0
+  });
   
-  if (path.includes('membros.html')) {
+  if (path.includes('index.html') || path.endsWith('/')) {
+    console.log('Atualizando estatísticas da home...');
+    updateHomeStats();
+  } else if (path.includes('membros.html')) {
     console.log('Carregando membros...');
     renderMembersPage();
   } else if (path.includes('noticias.html')) {

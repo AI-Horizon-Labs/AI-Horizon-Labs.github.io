@@ -3,7 +3,7 @@ id: 6
 name: Juliana Lima
 role: Mestranda
 category: discentes
-photo: assets/images/members/juliana-lima.jpg
+photo: https://randomuser.me/api/portraits/women/6.jpg
 lattes: http://lattes.cnpq.br/6789012345
 email: juliana.lima@aluno.unipampa.edu.br
 ---

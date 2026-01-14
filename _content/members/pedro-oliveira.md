@@ -3,7 +3,7 @@ id: 3
 name: Dr. Pedro Oliveira
 role: Pesquisador
 category: pesquisadores
-photo: assets/images/members/pedro-oliveira.jpg
+photo: https://randomuser.me/api/portraits/men/3.jpg
 lattes: http://lattes.cnpq.br/3456789012
 orcid: 0000-0000-0000-0003
 scholar: https://scholar.google.com/citations?user=example3

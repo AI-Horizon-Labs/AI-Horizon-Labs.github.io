@@ -1,167 +1,450 @@
-# AI Horizon Labs - Gerenciamento de Conteúdo
+# AI Horizon Labs - Guia Completo do Site
 
-## Estrutura de Arquivos Markdown
+## 📋 Visão Geral
 
-O site agora utiliza arquivos **Markdown (.md)** em vez de JSON para gerenciar o conteúdo. Esta abordagem oferece:
+Este site é uma aplicação **estática** com conteúdo **dinâmico** gerenciado por arquivos Markdown. O sistema utiliza um script Python para converter `.md` em JavaScript, permitindo que o conteúdo seja carregado dinamicamente sem necessidade de servidor backend.
 
-- ✅ Edição mais simples e legível
-- ✅ Suporte a formatação rica (Markdown)
-- ✅ Metadados via Front Matter (YAML)
-- ✅ Versionamento mais claro no Git
-- ✅ Fácil revisão de conteúdo
+### Tecnologias Utilizadas
 
-## Estrutura de Diretórios
+- **HTML5 + CSS3**: Estrutura e estilo
+- **JavaScript**: Carregamento dinâmico de conteúdo
+- **Markdown + YAML**: Gerenciamento de conteúdo
+- **Python 3**: Build script para conversão
+- **Git Hooks + GitHub Actions**: Automação
+
+## 🎯 Como Funciona
+
+1. **Edite arquivos `.md`** em `_content/` com seus dados
+2. **Faça commit** → Git hook executa `build-content.py` automaticamente
+3. **`build-content.py`** converte `.md` → `content-data.js`
+4. **JavaScript** carrega `content-data.js` e renderiza as páginas
+5. **GitHub Actions** valida e regenera (se necessário) ao fazer push
+
+## 📁 Estrutura do Projeto
 
 ```
-_content/
-├── members/          # Membros da equipe
-│   ├── joao-silva.md
-│   ├── ana-costa.md
-│   └── ...
-├── news/             # Notícias e eventos
-│   ├── 2026-01-10-artigo-icse.md
-│   ├── 2026-01-05-projeto-fapergs.md
-│   └── ...
-├── projects/         # Projetos de pesquisa
-│   ├── automacao-testes-ia.md
-│   ├── analise-sentimentos.md
-│   └── ...
-└── publications/     # Publicações científicas
-    ├── 2025-icse-deep-learning.md
-    ├── 2025-jsep-sentiment.md
-    └── ...
+AI-Horizon-Labs.github.io/
+├── _content/              # 📝 EDITE AQUI - Conteúdo em Markdown
+│   ├── members/          # Membros da equipe
+│   ├── news/             # Notícias e eventos
+│   ├── projects/         # Projetos de pesquisa
+│   └── publications/     # Publicações científicas
+├── assets/
+│   ├── css/              # Estilos
+│   ├── js/
+│   │   ├── main.js       # Menu, animações gerais
+│   │   ├── content-data.js      # 🤖 GERADO AUTOMATICAMENTE
+│   │   └── content-loader.js    # Renderiza conteúdo dinâmico
+│   └── images/           # Imagens e favicon
+├── build-content.py      # 🔧 Script de build
+├── .githooks/            # Automação local
+│   └── pre-commit        # Roda build antes de commit
+├── .github/workflows/    # Automação GitHub
+│   └── build-content.yml # CI/CD pipeline
+├── *.html                # Páginas do site
+├── AUTOMATION.md         # Guia de automação
+└── CONTENT_GUIDE.md      # Este arquivo
 ```
 
-## Formato dos Arquivos
+## 🚀 Workflow Rápido
 
-### Membros (`_content/members/`)
+```bash
+# Adicionar novo membro
+nano _content/members/novo-membro.md
+git add _content/members/novo-membro.md
+git commit -m "Adicionar novo membro"
+git push
+
+# Hook roda automaticamente e gera content-data.js!
+```
+
+---
+
+## 📝 Formatos dos Arquivos Markdown
+
+### 👤 Membros (`_content/members/`)
+
+**Arquivo:** `nome-sobrenome.md`
 
 ```markdown
 ---
-id: 1
-name: Dr. João Silva
-role: Coordenador
-category: coordenacao
-photo: assets/images/members/joao-silva.jpg
-lattes: http://lattes.cnpq.br/1234567890
-orcid: 0000-0000-0000-0001
-email: joao.silva@unipampa.edu.br
+id: 8
+name: Mestre Yoda
+role: Pesquisador Sênior
+category: pesquisadores
+photo: assets/images/members/yoda.jpeg
+lattes: http://lattes.cnpq.br/9999999999
+orcid: 0000-0002-1138-0900
+scholar: https://scholar.google.com/citations?user=yoda
+email: mestre.yoda@unipampa.edu.br
 ---
 
-# Nome do Membro
+# Mestre Yoda
 
-Biografia e informações detalhadas aqui...
+**Função:** Pesquisador Sênior
+
+## Biografia
+
+Mestre Jedi com mais de 900 anos de experiência em IA...
+
+## Interesses de Pesquisa
+
+- Machine Learning Avançado
+- Processamento de Linguagem Natural
 ```
 
-### Notícias (`_content/news/`)
+**Campos obrigatórios:** `id`, `name`, `role`, `category`  
+**Campos opcionais:** `photo`, `lattes`, `orcid`, `scholar`, `email`
+
+**Categorias:**
+- `coordenacao` → Seção "Coordenação"
+- `pesquisadores` → Seção "Pesquisadores"
+- `discentes` → Seção "Discentes"
+
+---
+
+### 📰 Notícias (`_content/news/`)
+
+**Arquivo:** `YYYY-MM-DD-titulo-slug.md`
 
 ```markdown
 ---
 date: 2026-01-10
-title: Título da Notícia
+title: Artigo aceito na ICSE 2025
 category: publicacao
-summary: Resumo breve da notícia
+summary: Trabalho sobre IA aceito na principal conferência da área.
 ---
 
-# Título da Notícia
+# Artigo aceito na ICSE 2025
 
-Conteúdo completo da notícia em Markdown...
+## Resumo
+
+Nosso trabalho foi aceito...
+
+## Conteúdo Completo
+
+É com grande satisfação...
 ```
 
-### Projetos (`_content/projects/`)
+**Campos obrigatórios:** `date` (YYYY-MM-DD), `title`, `category`, `summary`
+
+**Categorias:** `publicacao`, `projeto`, `defesa`, `evento`, `infraestrutura`
+
+---
+
+### 🔬 Projetos (`_content/projects/`)
+
+**Arquivo:** `nome-do-projeto.md`
 
 ```markdown
 ---
 id: 1
-title: Nome do Projeto
+title: Automação de Testes com IA
 status: ativo
-coordinator: Dr. Coordenador
+category: ia-engsoft
+coordinator: Dr. João Silva
+team: Maria Santos, Juliana Lima
 funding: CNPq
 period: 2024-2026
 ---
 
-# Nome do Projeto
+# Automação de Testes com IA
 
-Descrição detalhada do projeto...
+## Descrição
+
+Desenvolvimento de ferramentas baseadas em ML...
+
+## Objetivos
+
+- Desenvolver modelos de ML
+- Avaliar eficácia
 ```
 
-### Publicações (`_content/publications/`)
+**Campos obrigatórios:** `id`, `title`, `status`, `coordinator`, `funding`, `period`
+
+**Status:**
+- `ativo` → "Projetos Ativos"
+- `concluído` → "Projetos Concluídos"
+
+---
+
+### 📚 Publicações (`_content/publications/`)
+
+**Arquivo:** `YYYY-venue-titulo.md`
 
 ```markdown
 ---
 id: 1
 type: Conferência
-title: Título da Publicação
-authors: Autor 1; Autor 2; Autor 3
-venue: Nome da Conferência/Revista
+title: Deep Learning for Automated Testing
+authors: Silva, J.; Santos, M.
+venue: International Conference on Software Engineering (ICSE)
 year: 2025
-doi: 10.1109/exemplo
+doi: 10.1109/ICSE.2025.00001
+pdf: https://exemplo.com/paper.pdf
+code: https://github.com/lab/projeto
+dataset: https://zenodo.org/record/123
 ---
 
-# Título da Publicação
+# Deep Learning for Automated Testing
 
-Informações adicionais sobre a publicação...
+**Tipo:** Conferência  
+**Ano:** 2025
 ```
 
-## Como Adicionar Novo Conteúdo
+**Campos obrigatórios:** `id`, `type`, `title`, `authors`, `venue`, `year`  
+**Campos opcionais:** `doi`, `pdf`, `code`, `dataset`
 
-### 1. Novo Membro
+**Tipos:** `Conferência`, `Periódico`, `Workshop`
 
-Crie um arquivo em `_content/members/nome-sobrenome.md`:
+---
+
+## ✏️ Como Adicionar/Editar Conteúdo
+
+### Adicionar Novo Membro
 
 ```bash
-cp _content/members/joao-silva.md _content/members/novo-membro.md
-# Edite o arquivo com os dados do novo membro
+# 1. Criar arquivo
+nano _content/members/maria-oliveira.md
+
+# 2. Preencher com template acima
+
+# 3. (Opcional) Adicionar foto
+cp foto.jpg assets/images/members/maria-oliveira.jpg
+# OU usar URL: https://randomuser.me/api/portraits/women/10.jpg
+
+# 4. Commit
+git add _content/members/maria-oliveira.md
+git commit -m "Adicionar Maria Oliveira"
+
+# 5. Push
+git push origin main
 ```
 
-### 2. Nova Notícia
+### Editar Membro Existente
 
 ```bash
-# Nome do arquivo: YYYY-MM-DD-titulo-resumido.md
-nano _content/news/2026-01-15-nova-noticia.md
+nano _content/members/joao-silva.md
+# Faça as alterações
+git add _content/members/joao-silva.md
+git commit -m "Atualizar bio João Silva"
+git push
 ```
 
-### 3. Novo Projeto
+### Remover Membro
 
 ```bash
-nano _content/projects/nome-do-projeto.md
+git rm _content/members/nome.md
+git commit -m "Remover membro Nome"
+git push
 ```
 
-### 4. Nova Publicação
+---
+
+## 🔧 Sistema de Build
+
+### O que faz o `build-content.py`?
+
+1. Escaneia todos os `.md` em `_content/`
+2. Parseia Front Matter (YAML) + Markdown
+3. Gera `assets/js/content-data.js`:
+   ```javascript
+   const MEMBERS_DATA = [...];
+   const NEWS_DATA = [...];
+   const PROJECTS_DATA = [...];
+   const PUBLICATIONS_DATA = [...];
+   ```
+
+### Quando roda automaticamente?
+
+- ✅ **Git commit** → pre-commit hook
+- ✅ **Git push** → GitHub Actions
+- ⚙️ **Manual:** `python3 build-content.py`
+
+### Desabilitar automação
 
 ```bash
-# Nome do arquivo: YYYY-venue-palavra-chave.md
-nano _content/publications/2025-icse-novo-artigo.md
+# Pular hook em um commit
+git commit --no-verify -m "Mensagem"
+
+# Desabilitar permanentemente
+git config --unset core.hooksPath
+
+# Reabilitar
+git config core.hooksPath .githooks
 ```
 
-## Migração dos Dados JSON
+---
 
-Os arquivos JSON originais foram mantidos em `_data/` como backup:
-- `_data/members.json` → `_content/members/*.md`
-- `_data/news.json` → `_content/news/*.md`
-- `_data/projects.json` → `_content/projects/*.md`
-- `_data/publications.json` → `_content/publications/*.md`
+## 🎨 Como as Páginas Funcionam
 
-## Próximos Passos
+### Carregamento Dinâmico
 
-Para utilizar os arquivos Markdown no site, você pode:
+1. **HTML** tem containers vazios:
+   ```html
+   <div id="membros-container"></div>
+   ```
 
-1. **Opção 1 - Jekyll (GitHub Pages nativo)**
-   - Ative Jekyll nas configurações do repositório
-   - Os arquivos .md serão processados automaticamente
+2. **content-loader.js** detecta a página e renderiza:
+   - `index.html` → `updateHomeStats()` (contadores)
+   - `membros.html` → `renderMembersPage()`
+   - `noticias.html` → `renderNewsPage()`
+   - `projetos.html` → `renderProjectsPage()`
+   - `publicacoes.html` → `renderPublicationsPage()`
 
-2. **Opção 2 - Script Python de conversão**
-   - Crie um script que lê os .md e gera HTML
-   - Execute antes do deploy
+### Páginas Dinâmicas
 
-3. **Opção 3 - JavaScript no navegador**
-   - Use uma biblioteca como `marked.js` para renderizar Markdown
-   - Carregue os arquivos .md via fetch API
+- ✅ **index.html** - Estatísticas (8+ Pesquisadores, 6+ Publicações)
+- ✅ **membros.html** - Lista de membros
+- ✅ **noticias.html** - Notícias ordenadas por data
+- ✅ **projetos.html** - Projetos ativos/concluídos
+- ✅ **publicacoes.html** - Publicações ordenadas por ano
 
-## Vantagens do Formato Markdown
+### Páginas Estáticas
 
-- **Legibilidade**: Arquivos texto puro, fáceis de ler e editar
-- **Controle de Versão**: Diffs mais claros no Git
-- **Portabilidade**: Formato universal suportado por todas as plataformas
-- **SEO**: Conteúdo estruturado e semântico
-- **Colaboração**: Facilita contribuições via Pull Requests
+- `sobre.html`, `linhas-de-pesquisa.html`, `contato.html`
+
+---
+
+## 🐛 Troubleshooting
+
+### ❌ Conteúdo não aparece
+
+**Verifique:**
+```bash
+# 1. content-data.js existe?
+ls -lh assets/js/content-data.js
+
+# 2. Scripts carregados no HTML?
+grep "content-data.js" membros.html
+
+# 3. Console do navegador (F12)
+# Procure por erros
+
+# 4. Regenere manualmente
+python3 build-content.py
+```
+
+### ❌ Erro de sintaxe no YAML
+
+**Front Matter inválido:**
+```yaml
+# ❌ ERRADO
+---
+title: Análise: Teste
+---
+
+# ✅ CORRETO
+---
+title: "Análise: Teste"
+---
+```
+
+### ❌ Fotos não carregam
+
+**Verifique caminho:**
+```yaml
+# ✅ Caminho correto
+photo: assets/images/members/nome.jpg
+
+# ✅ URL externa
+photo: https://randomuser.me/api/portraits/men/1.jpg
+
+# ❌ Caminho errado
+photo: images/nome.jpg
+```
+
+### ❌ Hook não roda
+
+```bash
+# Verificar configuração
+git config --get core.hooksPath
+# Deve retornar: .githooks
+
+# Dar permissão
+chmod +x .githooks/pre-commit
+
+# Reconfigurar
+git config core.hooksPath .githooks
+```
+
+### ❌ Estatísticas mostram "0+"
+
+```bash
+# Verificar scripts no index.html
+grep -E "content-data|content-loader" index.html
+
+# Deve mostrar:
+# <script src="assets/js/content-data.js"></script>
+# <script src="assets/js/content-loader.js"></script>
+
+# Se não estiver, adicione antes de </body>
+```
+
+---
+
+## 📊 Dados Importantes
+
+### Estatísticas Atuais
+
+- **8+ Pesquisadores** (total de membros)
+- **6+ Publicações** (total de publicações)
+- **4+ Projetos Ativos** (status='ativo')
+- **5+ Parcerias** (fixo, pode ser alterado em index.html)
+
+### Arquivos Atuais
+
+```bash
+find _content -name "*.md" | wc -l
+# Total: 24 arquivos
+
+tree _content -L 2
+# ├── members (8)
+# ├── news (5)
+# ├── projects (5)
+# └── publications (6)
+```
+
+---
+
+## 🚀 Deploy
+
+### GitHub Pages
+
+```bash
+# 1. Habilitar GitHub Pages
+# Settings → Pages → Source: main branch
+
+# 2. Push
+git push origin main
+
+# 3. Aguardar 1-2 minutos
+
+# 4. Acessar
+# https://AI-Horizon-Labs.github.io
+```
+
+### Teste Local
+
+```bash
+# Python
+python3 -m http.server 8000
+
+# OU Node.js
+npx serve
+
+# Abrir: http://localhost:8000
+```
+
+---
+
+## 📞 Suporte
+
+- **Documentação completa:** [AUTOMATION.md](AUTOMATION.md)
+- **Build script:** [build-content.py](build-content.py)
+- **Exemplos:** Veja arquivos em `_content/`
+
+**Dicas:**
+- Use `git log` para ver histórico
+- Consulte `AUTOMATION.md` para detalhes da automação
+- Abra console do navegador (F12) para debug

@@ -3,7 +3,7 @@ id: 2
 name: Dra. Ana Costa
 role: Pesquisadora
 category: pesquisadores
-photo: assets/images/members/ana-costa.jpg
+photo: https://randomuser.me/api/portraits/women/2.jpg
 lattes: http://lattes.cnpq.br/2345678901
 orcid: 0000-0000-0000-0002
 scholar: https://scholar.google.com/citations?user=example2

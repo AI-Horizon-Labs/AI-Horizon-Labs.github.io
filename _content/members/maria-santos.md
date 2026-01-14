@@ -3,7 +3,7 @@ id: 4
 name: Maria Santos
 role: Mestranda
 category: discentes
-photo: assets/images/members/maria-santos.jpg
+photo: https://randomuser.me/api/portraits/women/4.jpg
 lattes: http://lattes.cnpq.br/4567890123
 email: maria.santos@aluno.unipampa.edu.br
 ---

@@ -3,7 +3,7 @@ id: 7
 name: Rafael Souza
 role: Mestrando
 category: discentes
-photo: assets/images/members/rafael-souza.jpg
+photo: https://randomuser.me/api/portraits/men/7.jpg
 lattes: http://lattes.cnpq.br/7890123456
 email: rafael.souza@aluno.unipampa.edu.br
 ---

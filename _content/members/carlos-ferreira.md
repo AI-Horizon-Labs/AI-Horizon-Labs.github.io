@@ -3,7 +3,7 @@ id: 5
 name: Carlos Ferreira
 role: Mestrando
 category: discentes
-photo: assets/images/members/carlos-ferreira.jpg
+photo: https://randomuser.me/api/portraits/men/5.jpg
 lattes: http://lattes.cnpq.br/5678901234
 email: carlos.ferreira@aluno.unipampa.edu.br
 ---

@@ -1,0 +1,28 @@
+#!/bin/bash
+# Pre-commit hook para gerar content-data.js automaticamente
+# Este script roda antes de cada commit
+
+echo "🔄 Verificando mudanças em _content/..."
+
+# Verifica se há arquivos modificados em _content/
+if git diff --cached --name-only | grep -q "^_content/"; then
+    echo "📝 Arquivos em _content/ foram modificados"
+    echo "🔨 Gerando content-data.js..."
+    
+    python3 build-content.py
+    
+    if [ $? -eq 0 ]; then
+        echo "✅ content-data.js gerado com sucesso"
+        
+        # Adiciona o arquivo gerado ao commit
+        git add assets/js/content-data.js
+        echo "📦 content-data.js adicionado ao commit"
+    else
+        echo "❌ Erro ao gerar content-data.js"
+        exit 1
+    fi
+else
+    echo "ℹ️  Nenhuma mudança em _content/ detectada"
+fi
+
+echo "✨ Pre-commit hook concluído"

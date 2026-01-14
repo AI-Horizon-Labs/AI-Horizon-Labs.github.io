@@ -1,0 +1,85 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Automação de Testes com IA",
+      "status": "ativo",
+      "category": "ia-engsoft",
+      "description": "Desenvolvimento de ferramentas baseadas em Machine Learning para geração automática de casos de teste e detecção de bugs em sistemas de software.",
+      "coordinator": "Dr. João Silva",
+      "team": ["Maria Santos", "Juliana Lima", "Carlos Ferreira"],
+      "funding": "CNPq",
+      "period": "2024-2026",
+      "objectives": [
+        "Desenvolver modelos de ML para geração de casos de teste",
+        "Avaliar eficácia em projetos open-source",
+        "Criar ferramenta de código aberto"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Análise de Sentimentos em Reviews de Aplicativos",
+      "status": "ativo",
+      "category": "nlp",
+      "description": "Aplicação de técnicas de NLP para análise de sentimentos em reviews de aplicativos móveis, auxiliando desenvolvedores na melhoria contínua.",
+      "coordinator": "Dra. Ana Costa",
+      "team": ["Maria Santos", "Rafael Souza"],
+      "funding": "FAPERGS",
+      "period": "2023-2025",
+      "objectives": [
+        "Coletar e processar reviews de apps",
+        "Desenvolver modelo baseado em transformers",
+        "Validar com desenvolvedores reais"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Predição de Defeitos em Código",
+      "status": "ativo",
+      "category": "ml",
+      "description": "Modelo de Deep Learning para predição de defeitos em código-fonte, identificando módulos propensos a falhas antes do deployment.",
+      "coordinator": "Dr. Pedro Oliveira",
+      "team": ["Carlos Ferreira", "João Silva"],
+      "funding": "CAPES",
+      "period": "2024-2026",
+      "objectives": [
+        "Coletar datasets de projetos open-source",
+        "Desenvolver arquitetura de rede neural",
+        "Avaliar precisão em cenários cross-project"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Chatbot para Documentação Técnica",
+      "status": "ativo",
+      "category": "nlp",
+      "description": "Sistema inteligente baseado em LLMs para responder dúvidas sobre documentação técnica de projetos de software de forma natural e precisa.",
+      "coordinator": "Dra. Ana Costa",
+      "team": ["Rafael Souza", "Maria Santos"],
+      "funding": "Interno",
+      "period": "2024-2025",
+      "objectives": [
+        "Integrar LLMs com documentação técnica",
+        "Desenvolver interface de conversação",
+        "Avaliar qualidade das respostas"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Refatoração Automática com IA",
+      "status": "concluído",
+      "category": "ia-engsoft",
+      "description": "Pesquisa sobre uso de IA para sugerir refatorações em código, melhorando qualidade e manutenibilidade.",
+      "coordinator": "Dr. Pedro Oliveira",
+      "team": ["Lucas Almeida"],
+      "funding": "CNPq",
+      "period": "2022-2024",
+      "objectives": [
+        "Identificar code smells automaticamente",
+        "Sugerir refatorações contextualizadas",
+        "Publicar resultados"
+      ],
+      "publications": ["DOI: 10.1109/ICSE.2024.00050"]
+    }
+  ]
+}

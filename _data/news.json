@@ -1,0 +1,44 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "date": "2026-01-10",
+      "title": "Artigo aceito na ICSE 2025",
+      "category": "publicacao",
+      "summary": "Nosso trabalho sobre geração automática de casos de teste com Deep Learning foi aceito na International Conference on Software Engineering (ICSE), uma das principais conferências da área.",
+      "content": "É com grande satisfação que anunciamos a aceitação do artigo 'Deep Learning for Automated Test Case Generation: A Systematic Review' na International Conference on Software Engineering (ICSE) 2025. Este é um marco importante para o laboratório, pois a ICSE é considerada a conferência mais prestigiada em Engenharia de Software. O trabalho apresenta uma revisão sistemática abrangente sobre o uso de técnicas de Deep Learning para geração automática de casos de teste, identificando tendências, lacunas e oportunidades de pesquisa. A publicação é resultado da colaboração entre três pesquisadores do laboratório e consolida nossa expertise na área de testes automatizados."
+    },
+    {
+      "id": 2,
+      "date": "2026-01-05",
+      "title": "Novo projeto aprovado pela FAPERGS",
+      "category": "projeto",
+      "summary": "Projeto 'IA para Qualidade de Software' recebeu financiamento da FAPERGS para desenvolvimento nos próximos 24 meses, com foco em ferramentas de análise estática inteligente.",
+      "content": "O AI Horizon Labs conquistou financiamento da Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul (FAPERGS) para o projeto 'IA para Qualidade de Software'. O projeto, com duração de 24 meses e coordenado pelo Dr. Pedro Oliveira, tem como objetivo desenvolver ferramentas de análise estática de código baseadas em técnicas de Inteligência Artificial. A proposta prevê o desenvolvimento de modelos de Machine Learning capazes de identificar vulnerabilidades de segurança, code smells e oportunidades de refatoração de forma automatizada. O financiamento permitirá a aquisição de equipamentos, bolsas de pesquisa e custeio de publicações em eventos científicos."
+    },
+    {
+      "id": 3,
+      "date": "2025-12-20",
+      "title": "Defesa de Dissertação de Mestrado - Maria Santos",
+      "category": "defesa",
+      "summary": "Maria Santos defendeu com sucesso sua dissertação 'Análise de Sentimentos em Reviews de Aplicativos usando Transformers', recebendo aprovação com distinção da banca.",
+      "content": "No dia 20 de dezembro de 2025, Maria Santos, mestranda do PPGES/UNIPAMPA e membro do AI Horizon Labs, defendeu com sucesso sua dissertação intitulada 'Análise de Sentimentos em Reviews de Aplicativos Móveis usando Transformers'. O trabalho, orientado pela Dra. Ana Costa, propôs um modelo baseado em arquiteturas transformer para classificação automática de sentimentos em reviews de aplicativos da Google Play Store. Os resultados demonstraram ganhos significativos em comparação com abordagens tradicionais, alcançando 92% de acurácia. A banca examinadora, composta por pesquisadores de instituições nacionais e internacionais, elogiou a qualidade do trabalho e aprovou a dissertação com distinção. Parabenizamos Maria pelo excelente trabalho e desejamos sucesso em sua trajetória profissional!"
+    },
+    {
+      "id": 4,
+      "date": "2025-11-15",
+      "title": "Palestra com pesquisador internacional",
+      "category": "evento",
+      "summary": "Prof. Dr. Michael Johnson (University of Waterloo) ministrou palestra sobre 'AI for Software Testing: State of the Art and Future Directions'.",
+      "content": "O AI Horizon Labs teve a honra de receber o Prof. Dr. Michael Johnson, da University of Waterloo (Canadá), para uma palestra sobre 'AI for Software Testing: State of the Art and Future Directions'. O evento, realizado em formato híbrido, contou com a participação de mais de 80 pessoas entre alunos, professores e profissionais da indústria. O Prof. Johnson compartilhou insights sobre as tendências mais recentes na aplicação de IA para testes de software, apresentou cases de sucesso e discutiu desafios futuros. A palestra foi seguida de uma sessão de perguntas e respostas bastante produtiva. A visita do Prof. Johnson também resultou na formalização de uma colaboração acadêmica entre o AI Horizon Labs e seu grupo de pesquisa no Canadá."
+    },
+    {
+      "id": 5,
+      "date": "2025-10-10",
+      "title": "Laboratório recebe novos equipamentos",
+      "category": "infraestrutura",
+      "summary": "Chegada de cluster de GPUs NVIDIA A100 e servidores de alta performance, ampliando capacidade computacional do laboratório.",
+      "content": "O AI Horizon Labs recebeu uma significativa ampliação em sua infraestrutura computacional com a chegada de um cluster de GPUs NVIDIA A100 e dois servidores de alta performance com 256GB de RAM cada. Os equipamentos foram adquiridos com recursos de projetos de pesquisa financiados pelo CNPq e FAPERGS. Esta infraestrutura permitirá o treinamento de modelos de Deep Learning mais complexos, acelerando significativamente nossas pesquisas. Os novos equipamentos beneficiarão todos os projetos do laboratório, especialmente aqueles que envolvem processamento de grandes volumes de dados e treinamento de redes neurais profundas. A instalação foi realizada em parceria com a equipe de TI da UNIPAMPA."
+    }
+  ]
+}

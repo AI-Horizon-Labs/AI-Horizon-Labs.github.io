@@ -1,0 +1,73 @@
+{
+  "publications": [
+    {
+      "id": 1,
+      "type": "Conferência",
+      "title": "Deep Learning for Automated Test Case Generation: A Systematic Review",
+      "authors": ["Silva, J.", "Santos, M.", "Oliveira, R."],
+      "venue": "International Conference on Software Engineering (ICSE)",
+      "year": 2025,
+      "doi": "10.1109/ICSE.2025.00001",
+      "pdf": "#",
+      "code": "https://github.com/aihorizonlabs/test-generation-review",
+      "category": "conference"
+    },
+    {
+      "id": 2,
+      "type": "Periódico",
+      "title": "Sentiment Analysis in Software Engineering: Applications and Challenges",
+      "authors": ["Costa, A.", "Lima, P.", "Silva, J."],
+      "venue": "Journal of Software: Evolution and Process",
+      "year": 2025,
+      "doi": "10.1002/smr.2025.001",
+      "pdf": "#",
+      "category": "journal"
+    },
+    {
+      "id": 3,
+      "type": "Workshop",
+      "title": "Transfer Learning for Defect Prediction in Cross-Project Scenarios",
+      "authors": ["Ferreira, C.", "Souza, K."],
+      "venue": "International Workshop on Machine Learning Techniques for Software Quality (MaLTeSQuE)",
+      "year": 2025,
+      "doi": "10.1145/maltesque.2025.001",
+      "pdf": "#",
+      "dataset": "https://zenodo.org/record/example",
+      "category": "workshop"
+    },
+    {
+      "id": 4,
+      "type": "Conferência",
+      "title": "A Comparative Study of LLMs for Technical Documentation Understanding",
+      "authors": ["Souza, R.", "Costa, A.", "Silva, J."],
+      "venue": "International Conference on Software Analysis, Evolution and Reengineering (SANER)",
+      "year": 2024,
+      "doi": "10.1109/SANER.2024.00010",
+      "pdf": "#",
+      "category": "conference"
+    },
+    {
+      "id": 5,
+      "type": "Periódico",
+      "title": "Machine Learning for Software Maintenance: A Systematic Mapping Study",
+      "authors": ["Oliveira, P.", "Silva, J."],
+      "venue": "Information and Software Technology",
+      "year": 2024,
+      "doi": "10.1016/j.infsof.2024.107001",
+      "pdf": "#",
+      "category": "journal"
+    },
+    {
+      "id": 6,
+      "type": "Conferência",
+      "title": "Feature Engineering for Software Defect Prediction: An Empirical Study",
+      "authors": ["Ferreira, C.", "Oliveira, P.", "Silva, J."],
+      "venue": "Brazilian Symposium on Software Engineering (SBES)",
+      "year": 2024,
+      "doi": "10.1145/sbes.2024.001",
+      "pdf": "#",
+      "code": "https://github.com/aihorizonlabs/feature-engineering",
+      "category": "conference"
+    }
+  ]
+}

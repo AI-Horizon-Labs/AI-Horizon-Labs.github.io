@@ -71,6 +71,20 @@ const MEMBERS_DATA = [
   },
   {
     "data": {
+      "id": "8",
+      "name": "Mestre Yoda",
+      "role": "Pesquisador Sênior",
+      "category": "pesquisadores",
+      "photo": "assets/images/members/yoda.jpeg",
+      "lattes": "http://lattes.cnpq.br/9999999999",
+      "orcid": "0000-0002-1138-0900",
+      "scholar": "https://scholar.google.com/citations?user=yoda",
+      "email": "mestre.yoda@unipampa.edu.br"
+    },
+    "content": "# Mestre Yoda\n\n**Função:** Pesquisador Sênior\n\n## Biografia\n\nMestre Jedi com mais de 900 anos de experiência em Inteligência Artificial e aprendizado profundo. Especialista em algoritmos de predição e análise de padrões complexos. Reconhecido pela comunidade galáctica por suas contribuições revolucionárias em redes neurais e sistemas de tomada de decisão baseados em IA.\n\n## Áreas de Interesse\n\n- Machine Learning Avançado\n- Processamento de Linguagem Natural\n- Sistemas de Predição e Análise de Séries Temporais\n- Ética em Inteligência Artificial\n- Aprendizado por Reforço\n\n## Citação Favorita\n\n*\"Fazer ou não fazer. Não há tentativa.\"* - Aplicado ao treinamento de modelos de IA."
+  },
+  {
+    "data": {
       "id": "3",
       "name": "Dr. Pedro Oliveira",
       "role": "Pesquisador",

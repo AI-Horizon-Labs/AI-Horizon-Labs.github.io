@@ -278,3 +278,14 @@
     scroll-behavior: auto !important;
   }
 }
+
+
+/* Mobile */
+@media (max-width: 768px) {
+  .hero::before {
+    background-image: url("../images/capa_site_mobile.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+}

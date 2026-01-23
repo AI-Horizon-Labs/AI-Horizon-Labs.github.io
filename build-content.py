@@ -67,6 +67,7 @@ def generate_js_content():
     news = load_content_files('news')
     projects = load_content_files('projects')
     publications = load_content_files('publications')
+    awards = load_content_files('award')
     
     js_code = """/**
  * AI Horizon Labs - Content Data
@@ -87,6 +88,9 @@ def generate_js_content():
     
     # Publications
     js_code += "const PUBLICATIONS_DATA = " + json.dumps(publications, ensure_ascii=False, indent=2) + ";\n\n"
+    
+    # Awards
+    js_code += "const AWARDS_DATA = " + json.dumps(awards, ensure_ascii=False, indent=2) + ";\n\n"
     
     return js_code
 

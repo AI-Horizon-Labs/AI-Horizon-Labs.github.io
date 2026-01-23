@@ -318,3 +318,78 @@ const PUBLICATIONS_DATA = [
   }
 ];
 
+const AWARDS_DATA = [
+  {
+    "data": {
+      "date": "2024-11-20",
+      "title": "Melhor Artigo - SBES 2024",
+      "category": "publication",
+      "scope": "national",
+      "recipient": "Carlos Ferreira, Dr. João Silva",
+      "institution": "Sociedade Brasileira de Computação"
+    },
+    "content": "# Melhor Artigo - SBES 2024\n\n**Data:** 20 de Novembro de 2024  \n**Premiados:** Carlos Ferreira, Dr. João Silva  \n**Instituição:** Sociedade Brasileira de Computação\n\n## Descrição\n\nO artigo \"Feature Engineering Automatizada para Predição de Defeitos em Software\" recebeu o prêmio de Melhor Artigo na categoria Tools Track do XXXVIII Simpósio Brasileiro de Engenharia de Software (SBES 2024).\n\nA pesquisa apresenta uma abordagem inovadora utilizando técnicas de aprendizado de máquina para automatizar o processo de engenharia de features na predição de defeitos, resultando em melhorias significativas na acurácia dos modelos preditivos.\n\nEste reconhecimento destaca a qualidade e relevância das pesquisas desenvolvidas no AI Horizon Labs para a comunidade brasileira de Engenharia de Software."
+  },
+  {
+    "data": {
+      "date": "2025-01-15",
+      "title": "Distinguished Reviewer Award - ICSE 2025",
+      "category": "research",
+      "scope": "international",
+      "recipient": "Dr. João Silva",
+      "institution": "IEEE Computer Society / ACM",
+      "link": "https://conf.researchr.org/home/icse-2025"
+    },
+    "content": "# Distinguished Reviewer Award - ICSE 2025\n\n**Data:** 15 de Janeiro de 2025  \n**Premiado:** Dr. João Silva  \n**Instituição:** IEEE Computer Society / ACM\n\n## Descrição\n\nO coordenador do AI Horizon Labs, Dr. João Silva, foi reconhecido com o Distinguished Reviewer Award na 47th International Conference on Software Engineering (ICSE 2025), uma das mais prestigiadas conferências internacionais da área.\n\nO prêmio é concedido a revisores que demonstraram excepcional qualidade, profundidade e construtividade em suas revisões, contribuindo significativamente para elevar o padrão científico da conferência.\n\nEste reconhecimento internacional reforça a posição do laboratório no cenário mundial de pesquisa em Engenharia de Software e Inteligência Artificial."
+  },
+  {
+    "data": {
+      "date": "2025-03-10",
+      "title": "Melhor Dissertação de Mestrado - PPGES 2024",
+      "category": "student",
+      "scope": "national",
+      "recipient": "Maria Santos",
+      "institution": "PPGES/UNIPAMPA"
+    },
+    "content": "# Melhor Dissertação de Mestrado - PPGES 2024\n\n**Data:** 10 de Março de 2025  \n**Premiada:** Maria Santos  \n**Instituição:** PPGES/UNIPAMPA\n\n## Descrição\n\nA dissertação \"Análise de Sentimentos em Reviews de Aplicativos Móveis usando Transfer Learning\" de Maria Santos foi premiada como Melhor Dissertação de Mestrado de 2024 pelo Programa de Pós-Graduação em Engenharia de Software da UNIPAMPA.\n\nO trabalho, orientado pelo Dr. João Silva e coorientado pela Dra. Ana Costa, apresentou contribuições significativas na área de Processamento de Linguagem Natural aplicado à Engenharia de Software, propondo técnicas inovadoras para análise automática de feedback de usuários.\n\nA dissertação foi defendida com conceito máximo e gerou duas publicações em periódicos internacionais de alto impacto."
+  },
+  {
+    "data": {
+      "date": "2025-06-18",
+      "title": "Prêmio Inovação em Pesquisa - FAPERGS",
+      "category": "laboratory",
+      "scope": "national",
+      "recipient": "AI Horizon Labs",
+      "institution": "FAPERGS - Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul"
+    },
+    "content": "# Prêmio Inovação em Pesquisa - FAPERGS\n\n**Data:** 18 de Junho de 2025  \n**Premiado:** AI Horizon Labs (Laboratório)  \n**Instituição:** FAPERGS - Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul\n\n## Descrição\n\nO AI Horizon Labs foi reconhecido com o Prêmio Inovação em Pesquisa 2025 da FAPERGS na categoria \"Ciências Exatas e da Terra\" pelo conjunto de suas contribuições científicas e impacto na região.\n\nO prêmio destaca a excelência do laboratório em desenvolver pesquisas de ponta em Inteligência Artificial aplicada à Engenharia de Software, sua capacidade de formar recursos humanos qualificados e o estabelecimento de parcerias estratégicas com instituições nacionais e internacionais.\n\nEste reconhecimento reforça o compromisso do laboratório com a produção de conhecimento de qualidade e seu papel fundamental no fortalecimento do ecossistema de pesquisa do Rio Grande do Sul."
+  },
+  {
+    "data": {
+      "date": "2025-08-25",
+      "title": "Outstanding Student Paper - CBSoft 2025",
+      "category": "student",
+      "scope": "national",
+      "recipient": "Rafael Souza",
+      "institution": "Sociedade Brasileira de Computação"
+    },
+    "content": "# Outstanding Student Paper - CBSoft 2025\n\n**Data:** 25 de Agosto de 2025  \n**Premiado:** Rafael Souza  \n**Instituição:** Sociedade Brasileira de Computação\n\n## Descrição\n\nO mestrando Rafael Souza recebeu o prêmio de Outstanding Student Paper no IX Congresso Brasileiro de Software: Teoria e Prática (CBSoft 2025) pelo artigo \"Chatbot Inteligente para Documentação de Software usando Large Language Models\".\n\nO trabalho apresenta uma solução inovadora para automatizar a geração e manutenção de documentação técnica, utilizando modelos de linguagem de grande escala (LLMs) e técnicas de Retrieval-Augmented Generation (RAG).\n\nA pesquisa, orientada pela Dra. Ana Costa, demonstra resultados promissores em experimentos com projetos open-source e tem potencial de aplicação prática na indústria de software."
+  },
+  {
+    "data": {
+      "date": "2025-12-05",
+      "title": "Best Tool Demo Award - MALTESQUE 2025",
+      "category": "innovation",
+      "scope": "international",
+      "recipient": "Juliana Lima, Dr. Pedro Oliveira",
+      "institution": "IEEE",
+      "link": "https://maltesque-workshop.github.io"
+    },
+    "content": "# Best Tool Demo Award - MALTESQUE 2025\n\n**Data:** 05 de Dezembro de 2025  \n**Premiados:** Juliana Lima, Dr. Pedro Oliveira  \n**Instituição:** IEEE\n\n## Descrição\n\nA ferramenta \"AutoRefactor: Refatoração Automática Guiada por IA\" desenvolvida por Juliana Lima sob orientação do Dr. Pedro Oliveira recebeu o Best Tool Demo Award no workshop MALTESQUE 2025 (Machine Learning Techniques for Software Quality Evaluation).\n\nA ferramenta utiliza técnicas de aprendizado profundo para identificar oportunidades de refatoração em código-fonte e sugerir automaticamente transformações que melhoram a qualidade e manutenibilidade do software.\n\nO sistema demonstrado integra-se a ambientes de desenvolvimento populares (IDEs) e já está sendo testado em projetos reais de empresas parceiras do laboratório, mostrando redução significativa no tempo de refatoração manual."
+  },
+  {
+    "data": {},
+    "content": "# Como adicionar novos prêmios\n\nPara adicionar novos prêmios ao site, siga estas etapas:\n\n## 1. Criar arquivo Markdown\n\nCrie um novo arquivo na pasta `_content/award/` com o seguinte formato de nome:\n```\nYYYY-MM-nome-do-premio.md\n```\n\nExemplo: `2025-06-melhor-artigo-sbes.md`\n\n## 2. Estrutura do arquivo\n\nO arquivo deve seguir este template:\n\n```markdown\n---\ndate: YYYY-MM-DD\ntitle: Título do Prêmio\ncategory: categoria\nscope: nacional|international\nrecipient: Nome do(s) Premiado(s)\ninstitution: Instituição que concedeu o prêmio\nlink: URL (opcional)\n---\n\n# Título do Prêmio\n\n**Data:** DD de Mês de YYYY  \n**Premiado(s):** Nome completo  \n**Instituição:** Nome da instituição\n\n## Descrição\n\nDescrição completa do prêmio, contexto, importância e impacto.\nPode incluir múltiplos parágrafos.\n```\n\n## 3. Campos obrigatórios\n\n- **date**: Data do prêmio no formato YYYY-MM-DD\n- **title**: Título curto do prêmio\n- **category**: Uma das opções:\n  - `laboratory`: Prêmio para o laboratório\n  - `student`: Prêmio para aluno(s)\n  - `research`: Prêmio de pesquisa\n  - `publication`: Prêmio de publicação\n  - `innovation`: Prêmio de inovação\n- **scope**: `national` ou `international`\n\n## 4. Campos opcionais\n\n- **recipient**: Nome do(s) premiado(s)\n- **institution**: Instituição que concedeu\n- **link**: URL para mais informações\n\n## 5. Gerar dados\n\nApós criar/editar arquivos, execute:\n\n```bash\npython3 build-content.py\n```\n\nIsso irá atualizar o arquivo `assets/js/content-data.js` com os novos dados.\n\n## 6. Visualizar\n\nAbra `premios.html` no navegador para ver as alterações.\n\n## Exemplos de arquivos\n\nVeja os arquivos existentes em `_content/award/` para exemplos práticos:\n- `2024-11-best-paper-sbes.md`\n- `2025-01-distinguished-reviewer-icse.md`\n- `2025-03-melhor-dissertacao-ppges.md`\n"
+  }
+];
+

@@ -7,107 +7,17 @@
 const MEMBERS_DATA = [
   {
     "data": {
-      "id": "2",
-      "name": "Dra. Ana Costa",
-      "role": "Pesquisadora",
-      "category": "pesquisadores",
-      "photo": "https://randomuser.me/api/portraits/women/2.jpg",
-      "lattes": "http://lattes.cnpq.br/2345678901",
-      "orcid": "0000-0000-0000-0002",
-      "scholar": "https://scholar.google.com/citations?user=example2",
-      "email": "ana.costa@unipampa.edu.br"
-    },
-    "content": "# Dra. Ana Costa\n\n**Função:** Pesquisadora\n\n## Biografia\n\nDoutora em Engenharia de Software, especialista em Processamento de Linguagem Natural aplicado à análise de requisitos.\n\n## Interesses de Pesquisa\n\n- NLP\n- Requirements Engineering\n- Text Mining\n- Sentiment Analysis"
-  },
-  {
-    "data": {
-      "id": "5",
-      "name": "Carlos Ferreira",
-      "role": "Mestrando",
-      "category": "discentes",
-      "photo": "https://randomuser.me/api/portraits/men/5.jpg",
-      "lattes": "http://lattes.cnpq.br/5678901234",
-      "email": "carlos.ferreira@aluno.unipampa.edu.br"
-    },
-    "content": "# Carlos Ferreira\n\n**Função:** Mestrando\n\n## Biografia\n\nMestrando em Engenharia de Software, desenvolvendo modelo de predição de defeitos usando deep learning.\n\n## Interesses de Pesquisa\n\n- Defect Prediction\n- Deep Learning\n- Software Quality\n- CNN"
-  },
-  {
-    "data": {
       "id": "1",
-      "name": "Dr. João Silva",
-      "role": "Coordenador",
-      "category": "coordenacao",
-      "photo": "https://randomuser.me/api/portraits/men/1.jpg",
-      "lattes": "http://lattes.cnpq.br/1234567890",
-      "orcid": "0000-0000-0000-0001",
-      "scholar": "https://scholar.google.com/citations?user=example1",
-      "email": "joao.silva@unipampa.edu.br"
-    },
-    "content": "# Dr. João Silva\n\n**Função:** Coordenador\n\n## Biografia\n\nDoutor em Ciência da Computação com foco em Aprendizado de Máquina e Engenharia de Software. Professor permanente do PPGES/UNIPAMPA.\n\n## Interesses de Pesquisa\n\n- Machine Learning\n- Software Quality\n- Deep Learning\n- Test Automation"
-  },
-  {
-    "data": {
-      "id": "6",
-      "name": "Juliana Lima",
-      "role": "Mestranda",
-      "category": "discentes",
-      "photo": "https://randomuser.me/api/portraits/women/6.jpg",
-      "lattes": "http://lattes.cnpq.br/6789012345",
-      "email": "juliana.lima@aluno.unipampa.edu.br"
-    },
-    "content": "# Juliana Lima\n\n**Função:** Mestranda\n\n## Biografia\n\nMestranda em Engenharia de Software, pesquisando geração automática de casos de teste com IA.\n\n## Interesses de Pesquisa\n\n- Test Automation\n- Test Generation\n- AI for SE\n- Software Testing"
-  },
-  {
-    "data": {
-      "id": "4",
-      "name": "Maria Santos",
-      "role": "Mestranda",
-      "category": "discentes",
-      "photo": "https://randomuser.me/api/portraits/women/4.jpg",
-      "lattes": "http://lattes.cnpq.br/4567890123",
-      "email": "maria.santos@aluno.unipampa.edu.br"
-    },
-    "content": "# Maria Santos\n\n**Função:** Mestranda\n\n## Biografia\n\nMestranda em Engenharia de Software, pesquisando análise de sentimentos em reviews de aplicativos usando transformers.\n\n## Interesses de Pesquisa\n\n- NLP\n- Sentiment Analysis\n- Transformers\n- Mobile Apps"
-  },
-  {
-    "data": {
-      "id": "8",
-      "name": "Mestre Yoda",
-      "role": "Pesquisador Sênior",
+      "name": "Dr. Rodrigo Mansilha",
+      "role": "Professor Pesquisador",
       "category": "pesquisadores",
-      "photo": "assets/images/members/yoda.jpeg",
-      "lattes": "http://lattes.cnpq.br/9999999999",
-      "orcid": "0000-0002-1138-0900",
-      "scholar": "https://scholar.google.com/citations?user=yoda",
-      "email": "mestre.yoda@unipampa.edu.br"
+      "photo": "assets/images/members/rodrigo-mansilha.jpeg",
+      "lattes": "http://lattes.cnpq.br/3118442101667444",
+      "orcid": "0000-0002-2083-653X",
+      "scholar": "https://scholar.google.fr/citations?user=grhQHAQAAAAJ&hl=en",
+      "email": "mansilha@unipampa.edu.br"
     },
-    "content": "# Mestre Yoda\n\n**Função:** Pesquisador Sênior\n\n## Biografia\n\nMestre Jedi com mais de 900 anos de experiência em Inteligência Artificial e aprendizado profundo. Especialista em algoritmos de predição e análise de padrões complexos. Reconhecido pela comunidade galáctica por suas contribuições revolucionárias em redes neurais e sistemas de tomada de decisão baseados em IA.\n\n## Áreas de Interesse\n\n- Machine Learning Avançado\n- Processamento de Linguagem Natural\n- Sistemas de Predição e Análise de Séries Temporais\n- Ética em Inteligência Artificial\n- Aprendizado por Reforço\n\n## Citação Favorita\n\n*\"Fazer ou não fazer. Não há tentativa.\"* - Aplicado ao treinamento de modelos de IA."
-  },
-  {
-    "data": {
-      "id": "3",
-      "name": "Dr. Pedro Oliveira",
-      "role": "Pesquisador",
-      "category": "pesquisadores",
-      "photo": "https://randomuser.me/api/portraits/men/3.jpg",
-      "lattes": "http://lattes.cnpq.br/3456789012",
-      "orcid": "0000-0000-0000-0003",
-      "scholar": "https://scholar.google.com/citations?user=example3",
-      "email": "pedro.oliveira@unipampa.edu.br"
-    },
-    "content": "# Dr. Pedro Oliveira\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Engenharia de Software, com foco em qualidade de código e manutenção de software.\n\n## Interesses de Pesquisa\n\n- Software Maintenance\n- Code Quality\n- Technical Debt\n- Refactoring"
-  },
-  {
-    "data": {
-      "id": "7",
-      "name": "Rafael Souza",
-      "role": "Mestrando",
-      "category": "discentes",
-      "photo": "https://randomuser.me/api/portraits/men/7.jpg",
-      "lattes": "http://lattes.cnpq.br/7890123456",
-      "email": "rafael.souza@aluno.unipampa.edu.br"
-    },
-    "content": "# Rafael Souza\n\n**Função:** Mestrando\n\n## Biografia\n\nMestrando em Engenharia de Software, desenvolvendo chatbot para documentação técnica usando LLMs.\n\n## Interesses de Pesquisa\n\n- LLMs\n- Chatbots\n- NLP\n- Technical Documentation"
+    "content": "# Dr. Rodrigo Mansilha\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Ciência da Computação, especialista em Redes de Computadores, Sistemas Distribuídos e Cibersegurança.\n\n## Interesses de Pesquisa\n\n- IA para gerenciamento de redes e sistemas\n- IA aplicada em cibersegurança\n- Aplicações e Segurança de LLMs"
   }
 ];
 
@@ -231,90 +141,107 @@ const PROJECTS_DATA = [
 const PUBLICATIONS_DATA = [
   {
     "data": {
-      "id": "5",
-      "type": "Periódico",
-      "title": "Machine Learning for Software Maintenance: A Systematic Mapping Study",
-      "authors": "Oliveira, P.; Silva, J.",
-      "venue": "Information and Software Technology",
-      "year": "2024",
-      "doi": "10.1016/j.infsof.2024.107001",
-      "pdf": "#",
-      "category": "journal"
-    },
-    "content": "# Machine Learning for Software Maintenance: A Systematic Mapping Study\n\n**Tipo:** Periódico  \n**Autores:** Oliveira, P.; Silva, J.  \n**Publicado em:** Information and Software Technology  \n**Ano:** 2024\n\n## Links\n\n- [DOI](https://doi.org/10.1016/j.infsof.2024.107001)\n- [PDF](#)"
-  },
-  {
-    "data": {
-      "id": "4",
+      "id": "1",
       "type": "Conferência",
-      "title": "A Comparative Study of LLMs for Technical Documentation Understanding",
-      "authors": "Souza, R.; Costa, A.; Silva, J.",
-      "venue": "International Conference on Software Analysis, Evolution and Reengineering (SANER)",
-      "year": "2024",
-      "doi": "10.1109/SANER.2024.00010",
-      "pdf": "#",
-      "category": "conference"
+      "title": "Além da Similaridade: Uma super-métrica Generalizável para Avaliação de Fidelidade em Dados Sintéticos de Malware",
+      "authors": "Anna Luiza Gomes da Silva; Angelo Gaspar Diniz Nogueira; Diego Kreutz; Kayuã Oleques Paim; Rodrigo Brandão Mansilha; Celso Nobre da Fonseca",
+      "venue": "",
+      "year": "2025",
+      "doi": "10.5753/sbseg.2025.11451",
+      "pdf": "https://doi.org/10.5753/sbseg.2025.11451"
     },
-    "content": "# A Comparative Study of LLMs for Technical Documentation Understanding\n\n**Tipo:** Conferência  \n**Autores:** Souza, R.; Costa, A.; Silva, J.  \n**Publicado em:** International Conference on Software Analysis, Evolution and Reengineering (SANER)  \n**Ano:** 2024\n\n## Links\n\n- [DOI](https://doi.org/10.1109/SANER.2024.00010)\n- [PDF](#)"
+    "content": ""
   },
   {
     "data": {
       "id": "6",
       "type": "Conferência",
-      "title": "Feature Engineering for Software Defect Prediction: An Empirical Study",
-      "authors": "Ferreira, C.; Oliveira, P.; Silva, J.",
-      "venue": "Brazilian Symposium on Software Engineering (SBES)",
-      "year": "2024",
-      "doi": "10.1145/sbes.2024.001",
-      "pdf": "#",
-      "code": "https://github.com/aihorizonlabs/feature-engineering",
-      "category": "conference"
-    },
-    "content": "# Feature Engineering for Software Defect Prediction: An Empirical Study\n\n**Tipo:** Conferência  \n**Autores:** Ferreira, C.; Oliveira, P.; Silva, J.  \n**Publicado em:** Brazilian Symposium on Software Engineering (SBES)  \n**Ano:** 2024\n\n## Links\n\n- [DOI](https://doi.org/10.1145/sbes.2024.001)\n- [PDF](#)\n- [Código](https://github.com/aihorizonlabs/feature-engineering)"
-  },
-  {
-    "data": {
-      "id": "1",
-      "type": "Conferência",
-      "title": "Deep Learning for Automated Test Case Generation: A Systematic Review",
-      "authors": "Silva, J.; Santos, M.; Oliveira, R.",
-      "venue": "International Conference on Software Engineering (ICSE)",
+      "title": "Cloud AutoDroid: Um Sistema Distribuído Escalável para Execução de Ferramentas de IA Generativa",
+      "authors": "Luiz Felipe Laviola; Diego Kreutz; Rodrigo Brandão Mansilha",
+      "venue": "",
       "year": "2025",
-      "doi": "10.1109/ICSE.2025.00001",
-      "pdf": "#",
-      "code": "https://github.com/aihorizonlabs/test-generation-review",
-      "category": "conference"
+      "doi": "10.5753/sbrc_estendido.2025.7856",
+      "pdf": "https://doi.org/10.5753/sbrc_estendido.2025.7856"
     },
-    "content": "# Deep Learning for Automated Test Case Generation: A Systematic Review\n\n**Tipo:** Conferência  \n**Autores:** Silva, J.; Santos, M.; Oliveira, R.  \n**Publicado em:** International Conference on Software Engineering (ICSE)  \n**Ano:** 2025\n\n## Links\n\n- [DOI](https://doi.org/10.1109/ICSE.2025.00001)\n- [PDF](#)\n- [Código](https://github.com/aihorizonlabs/test-generation-review)"
+    "content": ""
   },
   {
     "data": {
       "id": "2",
-      "type": "Periódico",
-      "title": "Sentiment Analysis in Software Engineering: Applications and Challenges",
-      "authors": "Costa, A.; Lima, P.; Silva, J.",
-      "venue": "Journal of Software: Evolution and Process",
+      "type": "Conferência",
+      "title": "Exploiting Latent Space Discontinuities for Building Universal LLM Jailbreaks and Data Extraction Attacks",
+      "authors": "Kayuã Oleques Paim; Rodrigo Brandão Mansilha; Diego Kreutz; Muriel Figueredo Franco; Weverton Cordeiro",
+      "venue": "",
       "year": "2025",
-      "doi": "10.1002/smr.2025.001",
-      "pdf": "#",
-      "category": "journal"
+      "doi": "10.5753/sbseg.2025.11448",
+      "pdf": "https://doi.org/10.5753/sbseg.2025.11448"
     },
-    "content": "# Sentiment Analysis in Software Engineering: Applications and Challenges\n\n**Tipo:** Periódico  \n**Autores:** Costa, A.; Lima, P.; Silva, J.  \n**Publicado em:** Journal of Software: Evolution and Process  \n**Ano:** 2025\n\n## Links\n\n- [DOI](https://doi.org/10.1002/smr.2025.001)\n- [PDF](#)"
+    "content": ""
   },
   {
     "data": {
       "id": "3",
-      "type": "Workshop",
-      "title": "Transfer Learning for Defect Prediction in Cross-Project Scenarios",
-      "authors": "Ferreira, C.; Souza, K.",
-      "venue": "International Workshop on Machine Learning Techniques for Software Quality (MaLTeSQuE)",
+      "type": "Conferência",
+      "title": "Gerenciamento Integrado e Adaptativo de Firewalls baseado na Fonte Única de Verdade (SSoT) da Rede",
+      "authors": "Jerônimo Menezes; Leonardo Bitzki; Diego Kreutz; Rodrigo Brandão Mansilha",
+      "venue": "",
       "year": "2025",
-      "doi": "10.1145/maltesque.2025.001",
-      "pdf": "#",
-      "dataset": "https://zenodo.org/record/example",
-      "category": "workshop"
+      "doi": "10.5753/sbseg.2025.11422",
+      "pdf": "https://doi.org/10.5753/sbseg.2025.11422"
     },
-    "content": "# Transfer Learning for Defect Prediction in Cross-Project Scenarios\n\n**Tipo:** Workshop  \n**Autores:** Ferreira, C.; Souza, K.  \n**Publicado em:** International Workshop on Machine Learning Techniques for Software Quality (MaLTeSQuE)  \n**Ano:** 2025\n\n## Links\n\n- [DOI](https://doi.org/10.1145/maltesque.2025.001)\n- [PDF](#)\n- [Dataset](https://zenodo.org/record/example)"
+    "content": ""
+  },
+  {
+    "data": {
+      "id": "4",
+      "type": "Conferência",
+      "title": "MalDataGen: A Modular Framework for Synthetic Tabular Data Generation in Malware Detection",
+      "authors": "Kayuã Oleques Paim; Angelo Gaspar Diniz Nogueira; Diego Kreutz; Weverton Cordeiro; Rodrigo Brandão Mansilha",
+      "venue": "",
+      "year": "2025",
+      "doi": "10.5753/sbseg_estendido.2025.12113",
+      "pdf": "https://doi.org/10.5753/sbseg_estendido.2025.12113"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "id": "7",
+      "type": "Conferência",
+      "title": "Smart Contracts para Rastreamento da Agricultura Familiar",
+      "authors": "Fábio R. Silva; Bruno B. Neves; Henrique Fan; Roben C. Lunardi; Diego Kreutz; Rodrigo B. Mansilha",
+      "venue": "",
+      "year": "2025",
+      "doi": "10.5753/wblockchain.2025.8853",
+      "pdf": "https://doi.org/10.5753/wblockchain.2025.8853"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "id": "5",
+      "type": "Conferência",
+      "title": "Sob a Lupa Corporativa Brasileira: Avaliação da Cobertura de Scanners de Vulnerabilidades em Aplicações Atuais",
+      "authors": "Thiago Paim Escarrone; Ricardo Lazzari da Rosa; Diego Kreutz; Rodrigo Brandão Mansilha; Douglas Poerschke Rocha",
+      "venue": "",
+      "year": "2025",
+      "doi": "10.5753/sbseg_estendido.2025.12511",
+      "pdf": "https://doi.org/10.5753/sbseg_estendido.2025.12511"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "id": "8",
+      "type": "Conferência",
+      "title": "TrueState-SNA: Uma Solução Baseada em SSoT para Automação de Redes Heterogêneas",
+      "authors": "Jerônimo Menezes; Diego Kreutz; Rodrigo Brandão Mansilha",
+      "venue": "",
+      "year": "2025",
+      "doi": "10.5753/sbrc_estendido.2025.7903",
+      "pdf": "https://doi.org/10.5753/sbrc_estendido.2025.7903"
+    },
+    "content": ""
   }
 ];
 

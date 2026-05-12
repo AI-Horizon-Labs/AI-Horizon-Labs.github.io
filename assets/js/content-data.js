@@ -66,6 +66,15 @@ const NEWS_DATA = [
       "summary": "Nosso trabalho sobre geração automática de casos de teste com Deep Learning foi aceito na International Conference on Software Engineering (ICSE), uma das principais conferências da área."
     },
     "content": "# Artigo aceito na ICSE 2025\n\n**Data:** 10 de Janeiro de 2026  \n**Categoria:** Publicação\n\n## Resumo\n\nNosso trabalho sobre geração automática de casos de teste com Deep Learning foi aceito na International Conference on Software Engineering (ICSE), uma das principais conferências da área.\n\n## Conteúdo Completo\n\nÉ com grande satisfação que anunciamos a aceitação do artigo 'Deep Learning for Automated Test Case Generation: A Systematic Review' na International Conference on Software Engineering (ICSE) 2025. Este é um marco importante para o laboratório, pois a ICSE é considerada a conferência mais prestigiada em Engenharia de Software. \n\nO trabalho apresenta uma revisão sistemática abrangente sobre o uso de técnicas de Deep Learning para geração automática de casos de teste, identificando tendências, lacunas e oportunidades de pesquisa. A publicação é resultado da colaboração entre três pesquisadores do laboratório e consolida nossa expertise na área de testes automatizados."
+  },
+  {
+    "data": {
+      "date": "2026-05-12",
+      "title": "Pesquisador da UNIPAMPA acumula mais de 30 premiações",
+      "category": "noticias",
+      "summary": "Atuação do professor Diego Kreutz e de seus grupos de pesquisa rendeu 36 prêmios e reconhecimentos em eventos científicos nacionais entre 2022 e 2025, com crescimento expressivo a cada ano. O número, raro na história recente da Computação brasileira, evidencia compromisso sistemático com qualidade, rigor metodológico e ciência aberta."
+    },
+    "content": "# Pesquisador da UNIPAMPA acumula mais de 30 premiações\n\n**Data:** 12 de Maio de 2026  \n**Categoria:** Notícias\n\n## Resumo\n\n[Notícia na íntegra](phttps://ai-horizon-labs.github.io/noticias/remiacoes-excelencia-20260512.html)"
   }
 ];
 

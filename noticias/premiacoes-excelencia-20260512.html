@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pesquisador da UNIPAMPA acumula mais de 30 premiações em quatro anos</title>
+  <meta name="description" content="Atuação do professor Diego Kreutz e de seus grupos de pesquisa rendeu 36 prêmios e reconhecimentos em eventos científicos nacionais entre 2022 e 2025.">
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --azul:    #1a5fa8;
+      --azul-lt: #2e7dd1;
+      --ouro:    #c8952a;
+      --cinza:   #444;
+      --claro:   #f7f9fc;
+      --borda:   #dde4ed;
+      --max:     780px;
+    }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      font-size: 1.05rem;
+      line-height: 1.75;
+      color: #222;
+      background: #fff;
+    }
+
+    /* ── Cabeçalho da página ── */
+    header {
+      background: linear-gradient(135deg, #0d3f72 0%, #1a5fa8 60%, #2e7dd1 100%);
+      color: #fff;
+      padding: 2.5rem 1.5rem 2rem;
+      text-align: center;
+    }
+
+    .tag {
+      display: inline-block;
+      background: var(--ouro);
+      color: #fff;
+      font-family: Arial, sans-serif;
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .12em;
+      text-transform: uppercase;
+      padding: .25rem .8rem;
+      border-radius: 2px;
+      margin-bottom: 1rem;
+    }
+
+    header h1 {
+      font-size: clamp(1.45rem, 4vw, 2.15rem);
+      font-weight: 700;
+      line-height: 1.3;
+      max-width: var(--max);
+      margin: 0 auto .9rem;
+    }
+
+    header p.subtitulo {
+      font-style: italic;
+      font-size: clamp(.9rem, 2vw, 1.05rem);
+      max-width: 700px;
+      margin: 0 auto;
+      opacity: .92;
+      line-height: 1.6;
+    }
+
+    .data-publicacao {
+      font-family: Arial, sans-serif;
+      font-size: .8rem;
+      margin-top: 1.2rem;
+      opacity: .75;
+      letter-spacing: .04em;
+    }
+
+    /* ── Corpo ── */
+    main {
+      max-width: var(--max);
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 4rem;
+    }
+
+    /* ── Figuras ── */
+    figure {
+      margin: 2.2rem 0;
+    }
+
+    figure img {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 6px;
+      border: 1px solid var(--borda);
+    }
+
+    figcaption {
+      font-family: Arial, sans-serif;
+      font-size: .8rem;
+      color: #666;
+      font-style: italic;
+      text-align: center;
+      margin-top: .5rem;
+    }
+
+    /* ── Seções ── */
+    section { margin-top: 2.4rem; }
+
+    section h2 {
+      font-family: Arial, sans-serif;
+      font-size: 1.15rem;
+      color: var(--azul);
+      border-left: 4px solid var(--ouro);
+      padding-left: .75rem;
+      margin-bottom: 1rem;
+      line-height: 1.35;
+    }
+
+    p { margin-bottom: 1rem; }
+    p:last-child { margin-bottom: 0; }
+
+    strong { color: #111; }
+
+    em { font-style: italic; }
+
+    /* ── Painel de prêmios por ano ── */
+    .awards-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+      margin: 2rem 0;
+    }
+
+    .award-card {
+      background: var(--claro);
+      border: 1px solid var(--borda);
+      border-top: 3px solid var(--azul);
+      border-radius: 6px;
+      padding: 1rem .9rem;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    .award-card .ano {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--azul);
+    }
+
+    .award-card .total {
+      font-size: 2rem;
+      font-weight: 900;
+      color: var(--ouro);
+      line-height: 1.1;
+      margin: .2rem 0;
+    }
+
+    .award-card .label {
+      font-size: .72rem;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+
+    .award-card ul {
+      list-style: none;
+      margin-top: .6rem;
+      text-align: left;
+      font-size: .78rem;
+      color: var(--cinza);
+      line-height: 1.6;
+    }
+
+    .award-card ul li::before {
+      content: "▸ ";
+      color: var(--azul-lt);
+    }
+
+    /* ── Destaque / citação ── */
+    blockquote {
+      background: var(--claro);
+      border-left: 4px solid var(--azul);
+      padding: 1.1rem 1.4rem;
+      margin: 2rem 0;
+      font-style: italic;
+      color: #333;
+      border-radius: 0 6px 6px 0;
+    }
+
+    /* ── Rodapé ── */
+    footer {
+      background: #0d3f72;
+      color: rgba(255,255,255,.75);
+      font-family: Arial, sans-serif;
+      font-size: .82rem;
+      text-align: center;
+      padding: 1.8rem 1rem;
+    }
+
+    footer strong { color: #fff; }
+
+    @media (max-width: 520px) {
+      .awards-grid { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="tag">UNIPAMPA &nbsp;·&nbsp; Ciência &amp; Inovação</div>
+  <h1>Pesquisador da UNIPAMPA acumula mais de 30 premiações em quatro anos e consolida excelência em Computação</h1>
+  <p class="subtitulo">Atuação do professor Diego Kreutz e de seus grupos de pesquisa rendeu 36 prêmios e reconhecimentos em eventos científicos nacionais entre 2022 e 2025, com crescimento expressivo a cada ano. O número, raro na história recente da Computação brasileira, evidencia compromisso sistemático com qualidade, rigor metodológico e ciência aberta.</p>
+  <p class="data-publicacao">Maio de 2025 &nbsp;·&nbsp; Campus Alegrete &nbsp;·&nbsp; Curso de Ciência da Computação</p>
+</header>
+
+<main>
+
+  <figure>
+    <img src="imgs/img-000.png" alt="Infográfico: Excelência e Vanguarda do Prof. Diego Kreutz — premiações de 2022 a 2025">
+    <figcaption>Professor Diego Kreutz, da UNIPAMPA, em busca contínua pela excelência</figcaption>
+  </figure>
+
+  <p>Em um cenário em que a maioria dos pesquisadores celebra um ou dois prêmios ao longo de uma década, o professor <strong>Diego Kreutz</strong>, da Universidade Federal do Pampa (UNIPAMPA), acumula um histórico que chama a atenção mesmo para os padrões da área. Apenas no quadriênio 2022 a 2025, o pesquisador e suas equipes receberam mais de <strong>30 premiações e reconhecimentos</strong> em eventos científicos da Sociedade Brasileira de Computação (SBC) e parceiros, abrangendo desde melhor artigo e melhor ferramenta até menções honrosas, prêmios de artefatos destaque e distinções como Melhor Revisor.</p>
+
+  <p>Trata-se de um volume incomum, que dificilmente é alcançado mesmo por grupos consolidados em grandes centros de pesquisa. A consistência ao longo de quatro anos, com curva ascendente, indica não apenas mérito individual, mas a maturação de um ecossistema de pesquisa e desenvolvimento de excelência sediado na UNIPAMPA.</p>
+
+  <!-- Painel de prêmios por ano -->
+  <div class="awards-grid">
+    <div class="award-card">
+      <div class="ano">2025</div>
+      <div class="total">12</div>
+      <div class="label">prêmios</div>
+      <ul>
+        <li>3 primeiros lugares</li>
+        <li>5 artefatos destaque</li>
+        <li>1 Google Award</li>
+        <li>SBRC, SBSeg e WRSeg</li>
+      </ul>
+    </div>
+    <div class="award-card">
+      <div class="ano">2024</div>
+      <div class="total">14</div>
+      <div class="label">reconhecimentos</div>
+      <ul>
+        <li>5 artefatos destaque</li>
+        <li>2 revisor destaque</li>
+        <li>1 best paper</li>
+        <li>SBSeg, ERES, WRSeg e mais</li>
+      </ul>
+    </div>
+    <div class="award-card">
+      <div class="ano">2023</div>
+      <div class="total">7</div>
+      <div class="label">reconhecimentos</div>
+      <ul>
+        <li>1 melhor trabalho longo</li>
+        <li>1 melhor revisor</li>
+        <li>1 trabalho destaque</li>
+        <li>SBSeg, WRSeg e ERES</li>
+      </ul>
+    </div>
+    <div class="award-card">
+      <div class="ano">2022</div>
+      <div class="total">3</div>
+      <div class="label">reconhecimentos</div>
+      <ul>
+        <li>1 menção honrosa</li>
+        <li>1 2º melhor trabalho</li>
+        <li>SBSI e SBSeg</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Seção 1 -->
+  <section>
+    <h2>Prêmios que medem qualidade, não apenas quantidade</h2>
+    <p>Mais do que o número absoluto, o que chama a atenção é a <strong>diversidade qualitativa</strong> dos reconhecimentos. A lista inclui prêmios de melhor artigo em trilhas principais, melhores ferramentas em salões de ferramentas, artefatos destaque, melhor revisor e menções honrosas, distribuídos por diferentes eventos da SBC, como SBSeg, SBRC, SBSI, WRSeg e ERES. Em 2024, um artigo de Kreutz e colaboradores chegou a ser considerado para o <strong>Test of Time Award da ACM SIGCOMM</strong>, uma das honrarias mais prestigiadas no cenário internacional em redes de computadores, concedida a trabalhos cujo impacto se manteve relevante ao longo de uma década.</p>
+    <p>Esse tipo de portfólio reflete duas características que costumam estar em tensão na pesquisa acadêmica: <strong>produtividade e qualidade</strong>. Não se trata de produção volumosa em troca de profundidade, nem de poucas contribuições isoladas. O conjunto sugere consistência, planejamento de longo prazo e atenção contínua a critérios elevados de rigor técnico e metodológico.</p>
+  </section>
+
+  <!-- Seção 2 -->
+  <section>
+    <h2>Ciência aberta no centro da estratégia</h2>
+    <p>Parte expressiva das premiações recentes está diretamente associada a <strong>artefatos científicos</strong>, ou seja, aos códigos, dados e ferramentas que sustentam os experimentos e resultados publicados em artigos. Somente no SBSeg 2024, equipes ligadas ao pesquisador receberam cinco prêmios de Artefato Destaque, com ferramentas como IWSHAP, MH-AutoML, MH-FSF, MalSynGen e SigAPI AutoCraft. Em 2025, somam-se VulnSyncAI, Cloud AutoDroid, MalDataGen e o conjunto da Anonimização.</p>
+    <p>Esse perfil de premiações conversa diretamente com a atuação de Kreutz como um dos articuladores nacionais do <strong>novo modelo brasileiro de avaliação de artefatos científicos</strong>, recentemente reportado em artigo na <em>ACM SIGCOMM Computer Communication Review</em>. Os mesmos princípios defendidos no plano da política científica — disponibilidade, funcionalidade, sustentabilidade e reprodutibilidade — são aplicados, na prática, aos projetos desenvolvidos por seus grupos de pesquisa. O resultado é um ciclo virtuoso: pesquisa de qualidade gera artefatos de qualidade, que são reconhecidos pela comunidade e que, por sua vez, alimentam novas pesquisas e formação de estudantes.</p>
+  </section>
+
+  <!-- Foto da equipe -->
+  <figure>
+    <img src="imgs/img-001.png" alt="Equipe de pesquisa, desenvolvimento e inovação da UNIPAMPA, Campus Alegrete">
+    <figcaption>Pesquisa, desenvolvimento e inovação de excelência nas atividades do dia-a-dia da Computação</figcaption>
+  </figure>
+
+  <!-- Seção 3 -->
+  <section>
+    <h2>Reconhecimento também na sala de aula</h2>
+    <p>A excelência não se manifesta apenas em laboratórios e conferências. No mesmo período, o professor recebeu reconhecimentos vindos diretamente dos estudantes: foi <strong>paraninfo</strong> da turma de Ciência da Computação da UNIPAMPA em 2022 e em 2023, e <strong>Professor Homenageado</strong> da turma em 2024. São distinções concedidas pelos próprios formandos, que escolhem quem consideram referência em sua trajetória acadêmica. Esse tipo de reconhecimento, somado aos prêmios científicos, desenha um perfil raro: o de um pesquisador que é, simultaneamente, referência em pesquisa, formador respeitado pelos alunos e articulador nacional na sua área.</p>
+  </section>
+
+  <!-- Seção 4 -->
+  <section>
+    <h2>Um polo de pesquisa em consolidação</h2>
+    <p>É importante destacar que muitos dos prêmios recebidos envolvem trabalhos conjuntos com estudantes de graduação e de pós-graduação, colaboradores de outras instituições brasileiras e parceiros internacionais. Cada Artefato Destaque, cada melhor ferramenta, cada melhor artigo representa horas de orientação, depuração de código, escrita técnica cuidadosa e revisão por pares. Em outras palavras, o número de mais de 30 premiações expressa também o trabalho coletivo de equipes formadas e qualificadas dentro da UNIPAMPA.</p>
+    <p>Essa trajetória reforça o papel da UNIPAMPA como um <strong>polo emergente em Computação no Sul do país</strong>, em sintonia com outras iniciativas inovadoras da Universidade, como o Bacharelado em Inteligência Artificial (BIA), primeiro curso de IA <em>clean slate</em> do Brasil, e a recém-criada disciplina de Laboratório de Engenharia de Artefatos de Software. Pesquisa premiada, ensino de fronteira e formação de qualidade convergem para um mesmo projeto institucional.</p>
+  </section>
+
+  <!-- Seção 5 -->
+  <section>
+    <h2>O que essa marca representa</h2>
+    <blockquote>
+      "Em pesquisa científica, prêmios não são fim, mas indicador. Sinalizam que a comunidade especializada, formada por pares anônimos que avaliam trabalhos com rigor, reconhece valor, originalidade e qualidade no que está sendo produzido."
+    </blockquote>
+    <p>Acumular mais de 30 reconhecimentos em quatro anos, em uma área tão competitiva quanto a Computação, é <strong>inédito</strong> para o histórico recente da UNIPAMPA e raro no cenário nacional. Mais do que celebrar um número, a Universidade tem motivos concretos para enxergar nesse desempenho uma demonstração de que pesquisa de excelência é possível, sustentável e replicável no interior do Rio Grande do Sul, quando há foco, método e compromisso com qualidade.</p>
+  </section>
+
+</main>
+
+<footer>
+  <strong>Universidade Federal do Pampa — UNIPAMPA</strong><br>
+  Campus Alegrete &nbsp;·&nbsp; Curso de Ciência da Computação<br>
+  <span style="margin-top:.4rem;display:inline-block;">Pesquisa · Desenvolvimento · Inovação</span>
+</footer>
+
+</body>
+</html>

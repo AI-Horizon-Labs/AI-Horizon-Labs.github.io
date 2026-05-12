@@ -24,33 +24,6 @@ const MEMBERS_DATA = [
 const NEWS_DATA = [
   {
     "data": {
-      "date": "2025-10-10",
-      "title": "Laboratório recebe novos equipamentos",
-      "category": "infraestrutura",
-      "summary": "Chegada de cluster de GPUs NVIDIA A100 e servidores de alta performance, ampliando capacidade computacional do laboratório."
-    },
-    "content": "# Laboratório recebe novos equipamentos\n\n**Data:** 10 de Outubro de 2025  \n**Categoria:** Infraestrutura\n\n## Resumo\n\nChegada de cluster de GPUs NVIDIA A100 e servidores de alta performance, ampliando capacidade computacional do laboratório.\n\n## Conteúdo Completo\n\nO AI Horizon Labs recebeu uma significativa ampliação em sua infraestrutura computacional com a chegada de um cluster de GPUs NVIDIA A100 e dois servidores de alta performance com 256GB de RAM cada. \n\nOs equipamentos foram adquiridos com recursos de projetos de pesquisa financiados pelo CNPq e FAPERGS. Esta infraestrutura permitirá o treinamento de modelos de Deep Learning mais complexos, acelerando significativamente nossas pesquisas. \n\nOs novos equipamentos beneficiarão todos os projetos do laboratório, especialmente aqueles que envolvem processamento de grandes volumes de dados e treinamento de redes neurais profundas. A instalação foi realizada em parceria com a equipe de TI da UNIPAMPA."
-  },
-  {
-    "data": {
-      "date": "2025-11-15",
-      "title": "Palestra com pesquisador internacional",
-      "category": "evento",
-      "summary": "Prof. Dr. Michael Johnson (University of Waterloo) ministrou palestra sobre 'AI for Software Testing: State of the Art and Future Directions'."
-    },
-    "content": "# Palestra com pesquisador internacional\n\n**Data:** 15 de Novembro de 2025  \n**Categoria:** Evento\n\n## Resumo\n\nProf. Dr. Michael Johnson (University of Waterloo) ministrou palestra sobre 'AI for Software Testing: State of the Art and Future Directions'.\n\n## Conteúdo Completo\n\nO AI Horizon Labs teve a honra de receber o Prof. Dr. Michael Johnson, da University of Waterloo (Canadá), para uma palestra sobre 'AI for Software Testing: State of the Art and Future Directions'. \n\nO evento, realizado em formato híbrido, contou com a participação de mais de 80 pessoas entre alunos, professores e profissionais da indústria. O Prof. Johnson compartilhou insights sobre as tendências mais recentes na aplicação de IA para testes de software, apresentou cases de sucesso e discutiu desafios futuros. \n\nA palestra foi seguida de uma sessão de perguntas e respostas bastante produtiva. A visita do Prof. Johnson também resultou na formalização de uma colaboração acadêmica entre o AI Horizon Labs e seu grupo de pesquisa no Canadá."
-  },
-  {
-    "data": {
-      "date": "2025-12-20",
-      "title": "Defesa de Dissertação de Mestrado - Maria Santos",
-      "category": "defesa",
-      "summary": "Maria Santos defendeu com sucesso sua dissertação 'Análise de Sentimentos em Reviews de Aplicativos usando Transformers', recebendo aprovação com distinção da banca."
-    },
-    "content": "# Defesa de Dissertação de Mestrado - Maria Santos\n\n**Data:** 20 de Dezembro de 2025  \n**Categoria:** Defesa\n\n## Resumo\n\nMaria Santos defendeu com sucesso sua dissertação 'Análise de Sentimentos em Reviews de Aplicativos usando Transformers', recebendo aprovação com distinção da banca.\n\n## Conteúdo Completo\n\nNo dia 20 de dezembro de 2025, Maria Santos, mestranda do PPGES/UNIPAMPA e membro do AI Horizon Labs, defendeu com sucesso sua dissertação intitulada 'Análise de Sentimentos em Reviews de Aplicativos Móveis usando Transformers'. \n\nO trabalho, orientado pela Dra. Ana Costa, propôs um modelo baseado em arquiteturas transformer para classificação automática de sentimentos em reviews de aplicativos da Google Play Store. Os resultados demonstraram ganhos significativos em comparação com abordagens tradicionais, alcançando 92% de acurácia. \n\nA banca examinadora, composta por pesquisadores de instituições nacionais e internacionais, elogiou a qualidade do trabalho e aprovou a dissertação com distinção. Parabenizamos Maria pelo excelente trabalho e desejamos sucesso em sua trajetória profissional!"
-  },
-  {
-    "data": {
       "date": "2026-01-05",
       "title": "Novo projeto aprovado pela FAPERGS",
       "category": "projeto",
@@ -70,11 +43,12 @@ const NEWS_DATA = [
   {
     "data": {
       "date": "2026-05-12",
-      "title": "Pesquisador da UNIPAMPA acumula mais de 30 premiações",
-      "category": "noticias",
-      "summary": "Atuação do professor Diego Kreutz e de seus grupos de pesquisa rendeu 36 prêmios e reconhecimentos em eventos científicos nacionais entre 2022 e 2025, com crescimento expressivo a cada ano. O número, raro na história recente da Computação brasileira, evidencia compromisso sistemático com qualidade, rigor metodológico e ciência aberta."
+      "title": "Pesquisador da UNIPAMPA acumula mais de 30 premiações em quatro anos",
+      "category": "premio",
+      "summary": "Atuação do professor Diego Kreutz e de seus grupos de pesquisa rendeu 36 prêmios e reconhecimentos em eventos científicos nacionais entre 2022 e 2025, com crescimento expressivo a cada ano. O número, raro na história recente da Computação brasileira, evidencia compromisso sistemático com qualidade, rigor metodológico e ciência aberta.",
+      "link": "noticias/premiacoes-excelencia-20260512.html"
     },
-    "content": "# Pesquisador da UNIPAMPA acumula mais de 30 premiações\n\n**Data:** 12 de Maio de 2026  \n**Categoria:** Notícias\n\n## Resumo\n\n[Notícia na íntegra](phttps://ai-horizon-labs.github.io/noticias/remiacoes-excelencia-20260512.html)"
+    "content": "# Pesquisador da UNIPAMPA acumula mais de 30 premiações em quatro anos\n\n**Data:** 12 de Maio de 2026  \n**Categoria:** Prêmio\n\n## Resumo\n\nAtuação do professor Diego Kreutz e de seus grupos de pesquisa rendeu 36 prêmios e reconhecimentos em eventos científicos nacionais entre 2022 e 2025, com crescimento expressivo a cada ano.\n\n## Conteúdo Completo\n\nEm um cenário em que a maioria dos pesquisadores celebra um ou dois prêmios ao longo de uma década, o professor Diego Kreutz, da Universidade Federal do Pampa (UNIPAMPA), acumula um histórico que chama a atenção mesmo para os padrões da área. Apenas no quadriênio 2022 a 2025, o pesquisador e suas equipes receberam mais de 30 premiações e reconhecimentos em eventos científicos da Sociedade Brasileira de Computação (SBC) e parceiros, abrangendo desde melhor artigo e melhor ferramenta até menções honrosas, prêmios de artefatos destaque e distinções como Melhor Revisor."
   }
 ];
 

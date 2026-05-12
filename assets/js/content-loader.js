@@ -123,7 +123,10 @@ function renderNewsItem(newsItem) {
   const date = new Date(newsItem.data.date);
   const day = date.getDate().toString().padStart(2, '0');
   const month = date.toLocaleDateString('pt-BR', { month: 'short' }).replace('.', '');
-  
+  const readMoreLink = newsItem.data.link
+    ? `<a href="${newsItem.data.link}" style="display:inline-block;margin-top:.6rem;font-size:.85rem;font-weight:600;color:var(--color-primary);">Leia mais &rarr;</a>`
+    : '';
+
   return `
     <div class="news-item">
       <div class="news-date">
@@ -133,6 +136,7 @@ function renderNewsItem(newsItem) {
       <div class="news-content">
         <h3>${newsItem.data.title}</h3>
         <p>${newsItem.data.summary}</p>
+        ${readMoreLink}
       </div>
     </div>
   `;

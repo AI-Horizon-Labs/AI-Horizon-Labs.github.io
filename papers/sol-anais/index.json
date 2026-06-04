@@ -1,0 +1,1122 @@
+[
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "principal",
+    "title": "Apresentação e Organização",
+    "authors": "Diego Kreutz, Michelle Silva Wangham",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/41943",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/41943/41714",
+    "file": "SBSeg/2025/principal/41943_Apresentacao-e-Organizacao.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "principal",
+    "title": "Anonimização de Incidentes de Segurança com Reidentificação Controlada",
+    "authors": "Carolina Tompsen Bandel, João Pedro Ramires Esteves, Kalian Pereira Guerra, Leandro M. Bertholdo, Diego Kreutz, Rodrigo S. Miani",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36614",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/36614/36401",
+    "file": "SBSeg/2025/principal/36614_Anonimizacao-de-Incidentes-de-Seguranca-com-Reidentificacao-Controlada.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "principal",
+    "title": "Categorização de Incidentes de Segurança utilizando Engenharia de Prompts em LLMs",
+    "authors": "Alex Sandre Pinheiro Severo, Douglas Paim Lautert, Diego Kreutz, Leandro Márcio Bertholdo, Marcio Pohlmann, Silvio Ereno Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36624",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/36624/36411",
+    "file": "SBSeg/2025/principal/36624_Categorizacao-de-Incidentes-de-Seguranca-utilizando-Engenharia-de-Prompts-em-LLMs.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "principal",
+    "title": "Exploiting Latent Space Discontinuities for Building Universal LLM Jailbreaks and Data Extraction Attacks",
+    "authors": "Kayuã Oleques Paim, Rodrigo Brandão Mansilha, Diego Kreutz, Muriel Figueredo Franco, Weverton Cordeiro",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36635",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/36635/36422",
+    "file": "SBSeg/2025/principal/36635_Exploiting-Latent-Space-Discontinuities-for-Building-Universal-LLM-Jailbreaks-and-Data-Ext.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "principal",
+    "title": "Minimal but Lethal: A XAI-Driven Approach for Feature-Level Adversarial Attacks on Healthcare 5.0",
+    "authors": "Lucas P. Siqueira, Pedro H. Lui, Juliano F. Kazienko, Silvio E. Quincozes, Vagner E. Quincozes, Daniel Welfer",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36647",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/36647/36434",
+    "file": "SBSeg/2025/principal/36647_Minimal-but-Lethal-A-XAI-Driven-Approach-for-Feature-Level-Adversarial-Attacks-on-Healthca.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "principal",
+    "title": "Recovering Medical Images from Adversarial Attacks: Genetic Algorithm-based Adaptive Compression (GA-AC)",
+    "authors": "Paulo Vitor C. Lima, Silvio E. Quincozes, Marcelo Z. do Nascimento, Juliano F. Kazienko, Daniel Welfer, Shigueo Nomura",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36654",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/36654/36441",
+    "file": "SBSeg/2025/principal/36654_Recovering-Medical-Images-from-Adversarial-Attacks-Genetic-Algorithm-based-Adaptive-Compre.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "principal",
+    "title": "Uma Avaliação Estendida do Impacto da Seleção e Enriquecimento de Features em Sistemas de Detecção de Intrusão para Smart Grids",
+    "authors": "Vagner E. Quincozes, Silvio E. Quincozes, Célio Albuquerque, Diego Passos, Daniel Mossé",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36665",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/36665/36452",
+    "file": "SBSeg/2025/principal/36665_Uma-Avaliacao-Estendida-do-Impacto-da-Selecao-e-Enriquecimento-de-Features-em-Sistemas-de.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "principal",
+    "title": "Além da Similaridade: Uma super-métrica Generalizável para Avaliação de Fidelidade em Dados Sintéticos de Malware",
+    "authors": "Anna Luiza Gomes da Silva, Angelo Gaspar Diniz Nogueira, Diego Kreutz, Kayuã Oleques Paim, Rodrigo Brandão Mansilha, Celso Nobre da Fonseca",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36668",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/36668/36455",
+    "file": "SBSeg/2025/principal/36668_Alem-da-Similaridade-Uma-super-metrica-Generalizavel-para-Avaliacao-de-Fidelidade-em-Dados.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "principal",
+    "title": "Análise Exploratória de Criação de Regras do WAF ModSecurity Utilizando Cinco LLMs Distintos",
+    "authors": "Tiago W. Morais, Silvio E. Quincozes, Diego Kreutz, Juliano F. Kazienko, Vagner E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36669",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/36669/36456",
+    "file": "SBSeg/2025/principal/36669_Analise-Exploratoria-de-Criacao-de-Regras-do-WAF-ModSecurity-Utilizando-Cinco-LLMs-Distint.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "principal",
+    "title": "Gerenciamento Integrado e Adaptativo de Firewalls baseado na Fonte Única de Verdade (SSoT) da Rede",
+    "authors": "Jerônimo Menezes, Leonardo Bitzki, Diego Kreutz, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36682",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/36682/36469",
+    "file": "SBSeg/2025/principal/36682_Gerenciamento-Integrado-e-Adaptativo-de-Firewalls-baseado-na-Fonte-Unica-de-Verdade-SSoT-d.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "principal",
+    "title": "Indicadores Semânticos na Engenharia de Prompts: Uma Abordagem Explicável para Detecção de Fake News",
+    "authors": "Camilla B. Quincozes, Diego Molinos, Rafael D. Araújo, Silvio E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36685",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/36685/36472",
+    "file": "SBSeg/2025/principal/36685_Indicadores-Semanticos-na-Engenharia-de-Prompts-Uma-Abordagem-Explicavel-para-Deteccao-de.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "estendido",
+    "title": "Apresentação e Organização",
+    "authors": "Diego Kreutz, Michelle Silva Wangham",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/41950",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/41950/41721",
+    "file": "SBSeg/2025/estendido/41950_Apresentacao-e-Organizacao.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "estendido",
+    "title": "MalDataGen: A Modular Framework for Synthetic Tabular Data Generation in Malware Detection",
+    "authors": "Kayuã Oleques Paim, Angelo Gaspar Diniz Nogueira, Diego Kreutz, Weverton Cordeiro, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36739",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/36739/36525",
+    "file": "SBSeg/2025/estendido/36739_MalDataGen-A-Modular-Framework-for-Synthetic-Tabular-Data-Generation-in-Malware-Detection.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "estendido",
+    "title": "Uma Ferramenta de Seleção de Features Baseada na Metaheurística GRASP com Fila de Prioridades para Sistemas de Detecção de Intrusão",
+    "authors": "Vagner E. Quincozes, Silvio E. Quincozes, Célio Albuquerque, Diego Passos, Daniel Mossé",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36746",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/36746/36532",
+    "file": "SBSeg/2025/estendido/36746_Uma-Ferramenta-de-Selecao-de-Features-Baseada-na-Metaheuristica-GRASP-com-Fila-de-Priorida.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "estendido",
+    "title": "Caracterização de Phishing com Grandes Modelos de Linguagem (LLMs): Uma Avaliação Comparativa entre Gemini, DeepSeek e ChatGPT",
+    "authors": "Evelyn E. B. Bustamante, Adriano M. Rocha, Silvio E. Quincozes, Juliano F. Kazienko, Vagner E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36759",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/36759/36545",
+    "file": "SBSeg/2025/estendido/36759_Caracterizacao-de-Phishing-com-Grandes-Modelos-de-Linguagem-LLMs-Uma-Avaliacao-Comparativa.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "estendido",
+    "title": "LLMs e Engenharia de Prompt para Classificação Automatizada de Incidentes em SOCs",
+    "authors": "Alex Sandre Pinheiro Severo, Douglas Paim Lautert, Gefté Alcantara de Almeida, Diego Kreutz, Godinho Rodrigo, Lourenco A. Pereira Jr, Leandro M. Bertholdo",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36789",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/36789/36575",
+    "file": "SBSeg/2025/estendido/36789_LLMs-e-Engenharia-de-Prompt-para-Classificacao-Automatizada-de-Incidentes-em-SOCs.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2025",
+    "track": "estendido",
+    "title": "Sob a Lupa Corporativa Brasileira: Avaliação da Cobertura de Scanners de Vulnerabilidades em Aplicações Atuais",
+    "authors": "Thiago Paim Escarrone, Ricardo Lazzari da Rosa, Diego Kreutz, Rodrigo Brandão Mansilha, Douglas Poerschke Rocha",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36791",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/36791/36577",
+    "file": "SBSeg/2025/estendido/36791_Sob-a-Lupa-Corporativa-Brasileira-Avaliacao-da-Cobertura-de-Scanners-de-Vulnerabilidades-e.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "principal",
+    "title": "Apresentação e Organização",
+    "authors": "Lourenço Alves Pereira Junior, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30208",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/30208/30016",
+    "file": "SBSeg/2024/principal/30208_Apresentacao-e-Organizacao.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "principal",
+    "title": "IWSHAP: Um Método de Seleção Incremental de Características para Redes CAN baseado em Inteligência Artificial Explicável (XAI)",
+    "authors": "Felipe H. Scherer, Felipe N. Dresch, Silvio E. Quincozes, Diego Kreutz, Vagner E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30036",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/30036/29843",
+    "file": "SBSeg/2024/principal/30036_IWSHAP-Um-Metodo-de-Selecao-Incremental-de-Caracteristicas-para-Redes-CAN-baseado-em-Intel.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "principal",
+    "title": "Modelos Interpretáveis com Inteligência Artificial Explicável (XAI) na Detecção de Intrusões em Redes Intra-Veiculares Controller Area Network (CAN)",
+    "authors": "Felipe N. Dresch, Felipe H. Scherer, Silvio E. Quincozes, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30042",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/30042/29849",
+    "file": "SBSeg/2024/principal/30042_Modelos-Interpretaveis-com-Inteligencia-Artificial-Explicavel-XAI-na-Deteccao-de-Intrusoes.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "principal",
+    "title": "Uma Análise Compreensiva e Exaustiva de Métodos de Seleção de Características para Detecção de Malware Android",
+    "authors": "Vanderson Rocha, Diego Kreutz, Hendrio Bragança, Joner Assolin, Nicolas Pinto, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30055",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/30055/29862",
+    "file": "SBSeg/2024/principal/30055_Uma-Analise-Compreensiva-e-Exaustiva-de-Metodos-de-Selecao-de-Caracteristicas-para-Detecca.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "principal",
+    "title": "Uma Arquitetura baseada em Inteligência Artificial Explicável (XAI) para Sistemas de Detecção de Intrusões em Smart Grids",
+    "authors": "Camilla Borchhardt Quincozes, Henrique C. Oliveira, Silvio E. Quincozes, Rodrigo S. Miani, Vagner E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30056",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/30056/29863",
+    "file": "SBSeg/2024/principal/30056_Uma-Arquitetura-baseada-em-Inteligencia-Artificial-Explicavel-XAI-para-Sistemas-de-Detecca.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "principal",
+    "title": "Análise de Vulnerabilidades da Plataforma Moodle com base no Top 10 da OWASP",
+    "authors": "Silvio E. Quincozes, Leonardo Frangello Franzese, Juliano F. Kazienko, Vagner E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30062",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/30062/29869",
+    "file": "SBSeg/2024/principal/30062_Analise-de-Vulnerabilidades-da-Plataforma-Moodle-com-base-no-Top-10-da-OWASP.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "principal",
+    "title": "Firewalls de Próxima Geração (NGFW): Funcionalidades, Aplicações e Vulnerabilidades",
+    "authors": "Tiago W. Morais, Nícolas N. Faria, Silvio E. Quincozes, Diego Kreutz, Juliano F. Kazienko, Vagner E. Quincozes, Mário C. Peixoto",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30071",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/30071/29878",
+    "file": "SBSeg/2024/principal/30071_Firewalls-de-Proxima-Geracao-NGFW-Funcionalidades-Aplicacoes-e-Vulnerabilidades.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "principal",
+    "title": "Geração de dados sintéticos tabulares para detecção de malware Android: um estudo de caso",
+    "authors": "Angelo Gaspar Diniz Nogueira, Kayua Oleques Paim, Hendrio Bragança, Rodrigo Mansilha, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30072",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/30072/29879",
+    "file": "SBSeg/2024/principal/30072_Geracao-de-dados-sinteticos-tabulares-para-deteccao-de-malware-Android-um-estudo-de-caso.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "principal",
+    "title": "MH-1M: One of The Most Comprehensive and Up-to-Date Dataset for Advanced Android Malware Detection",
+    "authors": "Hendrio Bragança, Vanderson Rocha, Joner Assolin, Diego Kreutz, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30077",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/30077/29884",
+    "file": "SBSeg/2024/principal/30077_MH-1M-One-of-The-Most-Comprehensive-and-Up-to-Date-Dataset-for-Advanced-Android-Malware-De.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "principal",
+    "title": "Um Framework Gerador de Tráfego para Detecção de Intrusões em Redes CAN",
+    "authors": "Luiz F. Junior, Paulo Sérgio M. Vargas, Paulo Vitor C. Lima, Silvio E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30081",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/30081/29888",
+    "file": "SBSeg/2024/principal/30081_Um-Framework-Gerador-de-Trafego-para-Deteccao-de-Intrusoes-em-Redes-CAN.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "estendido",
+    "title": "Apresentação e Organização",
+    "authors": "Lourenço Alves Pereira Junior, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30204",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30204/30013",
+    "file": "SBSeg/2024/estendido/30204_Apresentacao-e-Organizacao.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "estendido",
+    "title": "IWSHAP: Uma Ferramenta para Seleção Incremental de Características utilizando IWSS e SHAP",
+    "authors": "Felipe H. Scherer, Felipe N. Dresch, Silvio E. Quincozes, Diego Kreutz, Vagner E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30123",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30123/29931",
+    "file": "SBSeg/2024/estendido/30123_IWSHAP-Uma-Ferramenta-para-Selecao-Incremental-de-Caracteristicas-utilizando-IWSS-e-SHAP.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "estendido",
+    "title": "MH-AutoML: Transparência, Interpretabilidade e Desempenho na Detecção de Malware Android",
+    "authors": "Joner Assolin, Gabriel Canto, Diego Kreutz, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30124",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30124/29932",
+    "file": "SBSeg/2024/estendido/30124_MH-AutoML-Transparencia-Interpretabilidade-e-Desempenho-na-Deteccao-de-Malware-Android.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "estendido",
+    "title": "MH-FSF: um Framework para Reprodução, Experimentação e Avaliação de Métodos de Seleção de Características",
+    "authors": "Vanderson Rocha, Hendrio Bragança, Diego Kreutz, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30125",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30125/29933",
+    "file": "SBSeg/2024/estendido/30125_MH-FSF-um-Framework-para-Reproducao-Experimentacao-e-Avaliacao-de-Metodos-de-Selecao-de-Ca.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "estendido",
+    "title": "MalSynGen: redes neurais artificiais na geração de dados tabulares sintéticos para detecção de malware",
+    "authors": "Angelo Gaspar Diniz Nogueira, Kayua Oleques Paim, Hendrio Bragança, Rodrigo Mansilha, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30126",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30126/29934",
+    "file": "SBSeg/2024/estendido/30126_MalSynGen-redes-neurais-artificiais-na-geracao-de-dados-tabulares-sinteticos-para-deteccao.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "estendido",
+    "title": "SigAPI AutoCraft: uma ferramenta de seleção de características com capacidade de generalização",
+    "authors": "Laura C. Tschiedel, Vanderson Rocha, Diego Kreutz, Hendrio Bragança, Silvio E. Quincozes, Angelo G. D. Nogueira, Joner Assolin",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30131",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30131/29939",
+    "file": "SBSeg/2024/estendido/30131_SigAPI-AutoCraft-uma-ferramenta-de-selecao-de-caracteristicas-com-capacidade-de-generaliza.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "estendido",
+    "title": "Proteção de Dados e Conformidade Legal: Uma revisão de Ferramentas, Práticas de Segurança e Direções Futuras",
+    "authors": "Camilla C. B. Quincozes, Ketrin Vargas, Silvio E. Quincozes, César Murilo Silva Jr., Rafael D. Araújo, Vagner E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30145",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30145/29953",
+    "file": "SBSeg/2024/estendido/30145_Protecao-de-Dados-e-Conformidade-Legal-Uma-revisao-de-Ferramentas-Praticas-de-Seguranca-e.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2024",
+    "track": "estendido",
+    "title": "Detecção de Intrusões na Internet das Coisas (IoT): Um Ambiente de Experimentação para Obtenção de Dados Reais sobre Protocolos Emergentes",
+    "authors": "Isadora F. Spohr, Douglas R. Fideles, Silvio E. Quincozes, Juliano F. Kazienko, Vagner E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30156",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30156/29964",
+    "file": "SBSeg/2024/estendido/30156_Deteccao-de-Intrusoes-na-Internet-das-Coisas-IoT-Um-Ambiente-de-Experimentacao-para-Obtenc.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2023",
+    "track": "principal",
+    "title": "Microsserviços para Geração de RCLs no GRASP-FS: Uma Abordagem Escalável para Seleção de Features na Detecção de Intrusões em Sistemas Ciber-Físicos",
+    "authors": "Nícolas Naves R. Faria, Silvio E. Quincozes, Juliano F. Kazienko, Vagner E. Quincozes, Gabriel Oliveira, Estevão F. C. Silva",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27197",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/27197/27013",
+    "file": "SBSeg/2023/principal/27197_Microsservicos-para-Geracao-de-RCLs-no-GRASP-FS-Uma-Abordagem-Escalavel-para-Selecao-de-Fe.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2023",
+    "track": "principal",
+    "title": "Explaining the Effectiveness of Machine Learning in Malware Detection: Insights from Explainable AI",
+    "authors": "Hendrio Bragança, Vanderson Rocha, Eduardo Souto, Diego Kreutz, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27206",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/27206/27022",
+    "file": "SBSeg/2023/principal/27206_Explaining-the-Effectiveness-of-Machine-Learning-in-Malware-Detection-Insights-from-Explai.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2023",
+    "track": "principal",
+    "title": "Ataques de Mudança de Rótulo no Contexto da Detecção de Malwares Android: Uma Análise Experimental",
+    "authors": "Jonas Pontes, Eduardo Feitosa, Vanderson Rocha, Eduardo Souto, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27216",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/27216/27032",
+    "file": "SBSeg/2023/principal/27216_Ataques-de-Mudanca-de-Rotulo-no-Contexto-da-Deteccao-de-Malwares-Android-Uma-Analise-Exper.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2023",
+    "track": "principal",
+    "title": "Modelagem e Detecção de Ataques Grayhole ao Protocolo GOOSE usando o Framework ERENO",
+    "authors": "Jerusa C. Gonçalves, Silvio E. Quincozes, Vagner E. Quincozes, Juliano F. Kazienko",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27223",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/27223/27039",
+    "file": "SBSeg/2023/principal/27223_Modelagem-e-Deteccao-de-Ataques-Grayhole-ao-Protocolo-GOOSE-usando-o-Framework-ERENO.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2023",
+    "track": "principal",
+    "title": "Capturing the Behavior of Android Malware with MH-100K: A Novel and Multidimensional Dataset",
+    "authors": "Hendrio Bragança, Vanderson Rocha, Lucas Vilanova Barcellos, Eduardo Souto, Diego Kreutz, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27231",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/27231/27047",
+    "file": "SBSeg/2023/principal/27231_Capturing-the-Behavior-of-Android-Malware-with-MH-100K-A-Novel-and-Multidimensional-Datase.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2023",
+    "track": "principal",
+    "title": "Investigating the Performance of the GPT-3.5 Model in Fake News Detection: An Experimental Analysis",
+    "authors": "Lucas S. Anjos, Silvio E. Quincozes, Juliano F. Kazienko, Vagner E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27238",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/27238/27054",
+    "file": "SBSeg/2023/principal/27238_Investigating-the-Performance-of-the-GPT-35-Model-in-Fake-News-Detection-An-Experimental-A.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2023",
+    "track": "estendido",
+    "title": "AMGenerator e AMExplorer: Geração de Metadados e Construção de Datasets Android",
+    "authors": "Vanderson Rocha, Joner Assolin, Hendrio Bragança, Diego Kreutz, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27271",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/27271/27087",
+    "file": "SBSeg/2023/estendido/27271_AMGenerator-e-AMExplorer-Geracao-de-Metadados-e-Construcao-de-Datasets-Android.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2023",
+    "track": "estendido",
+    "title": "DroidAugmentor: uma ferramenta de treinamento e avaliação de cGANs para geração de dados sintéticos",
+    "authors": "Karina Casola, Kayuã Oleques Paim, Rodrigo Brandão Mansilha, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27273",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/27273/27089",
+    "file": "SBSeg/2023/estendido/27273_DroidAugmentor-uma-ferramenta-de-treinamento-e-avaliacao-de-cGANs-para-geracao-de-dados-si.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2023",
+    "track": "estendido",
+    "title": "BOU-Guard: Uma Abordagem para Detecção de Conteúdo Impróprio na Internet",
+    "authors": "Guilherme Bou, Adriano M. Rocha, Vagner E. Quincozes, Silvio E. Quincozes, Juliano F. Kazienko",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27303",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/27303/27119",
+    "file": "SBSeg/2023/estendido/27303_BOU-Guard-Uma-Abordagem-para-Deteccao-de-Conteudo-Improprio-na-Internet.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2022",
+    "track": "principal",
+    "title": "BG-IDPS: Detecção e Prevenção de Intrusões em Tempo Real em Switches eBPF com o Filtro de Pacotes Berkeley e a Metaheurística GRASP-FS",
+    "authors": "Diego Carvalho, Vagner E. Quincozes, Silvio E. Quincozes, Juliano F. Kazienko, Carlos Raniery Paula dos Santos",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/21664",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/21664/21488",
+    "file": "SBSeg/2022/principal/21664_BG-IDPS-Deteccao-e-Prevencao-de-Intrusoes-em-Tempo-Real-em-Switches-eBPF-com-o-Filtro-de-P.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2022",
+    "track": "principal",
+    "title": "Uma Análise de Métodos de Seleção de Características aplicados à Detecção de Malwares Android",
+    "authors": "Tainá Soares, Diego Kreutz, Vanderson Rocha, Estevão Costa, Luiza Leão, Jonas Pontes, Joner Assolin, Gustavo Rodrigues, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/21675",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/21675/21499",
+    "file": "SBSeg/2022/principal/21675_Uma-Analise-de-Metodos-de-Selecao-de-Caracteristicas-aplicados-a-Deteccao-de-Malwares-Andr.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2022",
+    "track": "principal",
+    "title": "Avaliação de Ferramentas de AutoML em Datasets de Detecção de Malwares Android",
+    "authors": "Guilherme Siqueira, Diego Kreutz, Joner Assolin, Estevão Costa, Charles Miers, Rodrigo Mansilha, Jonas Pontes, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/21676",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/21676/21500",
+    "file": "SBSeg/2022/principal/21676_Avaliacao-de-Ferramentas-de-AutoML-em-Datasets-de-Deteccao-de-Malwares-Android.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2022",
+    "track": "principal",
+    "title": "Avaliação de Métodos de Classificação baseados em Regras de Associação para Detecção de Malwares Android",
+    "authors": "Vanderson da Silva Rocha, Diego Kreutz, Jonas Pontes, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/21677",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/21677/21501",
+    "file": "SBSeg/2022/principal/21677_Avaliacao-de-Metodos-de-Classificacao-baseados-em-Regras-de-Associacao-para-Deteccao-de-Ma.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2022",
+    "track": "estendido",
+    "title": "ERENO: An Extensible Tool For Generating Realistic IEC-61850 Intrusion Detection Datasets",
+    "authors": "Silvio E. Quincozes, Célio Albuquerque, Diego Passos, Daniel Mossé",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21685",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21685/21509",
+    "file": "SBSeg/2022/estendido/21685_ERENO-An-Extensible-Tool-For-Generating-Realistic-IEC-61850-Intrusion-Detection-Datasets.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2022",
+    "track": "estendido",
+    "title": "ERENO-UI: Uma Ferramenta para a Geração de Conjuntos de Dados para a Detecção de Intrusão em Redes IEC-61850",
+    "authors": "Silvio E. Quincozes, Vagner E. Quincozes, Célio Albuquerque, Diego Passos, Daniel Mossé",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21694",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21694/21518",
+    "file": "SBSeg/2022/estendido/21694_ERENO-UI-Uma-Ferramenta-para-a-Geracao-de-Conjuntos-de-Dados-para-a-Deteccao-de-Intrusao-e.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2022",
+    "track": "estendido",
+    "title": "FWNL: Um Sistema de Processamento de Linguagem Natural para Configuração de Múltiplos Firewalls",
+    "authors": "José A. S. Goulart, Washington L. M. F. Junior, Kayuã O. Paim, Gabriel M. Lunardi, Diego L. Kreutz, Rodrigo B. Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21700",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21700/21524",
+    "file": "SBSeg/2022/estendido/21700_FWNL-Um-Sistema-de-Processamento-de-Linguagem-Natural-para-Configuracao-de-Multiplos-Firew.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2022",
+    "track": "estendido",
+    "title": "AutoCAR: Automação e Reprodutibilidade de Testes de Métodos de Classificação Baseados em Regras de Associação",
+    "authors": "Vanderson da Silva Rocha, Diego Kreutz, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21701",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21701/21525",
+    "file": "SBSeg/2022/estendido/21701_AutoCAR-Automacao-e-Reprodutibilidade-de-Testes-de-Metodos-de-Classificacao-Baseados-em-Re.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2022",
+    "track": "estendido",
+    "title": "DroidAutoML: uma Ferramenta de AutoML para o Domínio de Detecção de Malwares Android",
+    "authors": "Joner Assolin, Diego Kreutz, Guilherme Siqueira, Vanderson Rocha, Charles Miers, Rodrigo Mansilha, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21702",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21702/21526",
+    "file": "SBSeg/2022/estendido/21702_DroidAutoML-uma-Ferramenta-de-AutoML-para-o-Dominio-de-Deteccao-de-Malwares-Android.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2022",
+    "track": "estendido",
+    "title": "ADBuilder: uma Ferramenta de Construção de Datasets para Detecção de Malwares Android",
+    "authors": "Lucas Vilanova, Diego Kreutz, Joner Assolin, Vagner Quincozes, Charles Miers, Rodrigo Mansilha, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21703",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21703/21527",
+    "file": "SBSeg/2022/estendido/21703_ADBuilder-uma-Ferramenta-de-Construcao-de-Datasets-para-Deteccao-de-Malwares-Android.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2022",
+    "track": "estendido",
+    "title": "FS3E: uma Ferramenta para Execução e Avaliação de Métodos de Seleção de Características para Detecção de Malwares Android",
+    "authors": "Estevão Costa, Diego Kreutz, Vanderson Rocha, Luíza Leão, Sávio Sabóia, Nicolas Neves, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21704",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21704/21528",
+    "file": "SBSeg/2022/estendido/21704_FS3E-uma-Ferramenta-para-Execucao-e-Avaliacao-de-Metodos-de-Selecao-de-Caracteristicas-par.pdf"
+  },
+  {
+    "event": "SBRC",
+    "year": "2026",
+    "track": "principal",
+    "title": "Ataques de Envenenamento de Rótulos contra a Detecção de Zero-Day em Sistemas de Detecção de Intrusão Colaborativos",
+    "authors": "Giovanni H. M. de L. Siervo, Maria Eduarda S. Chessio, Silvio E. Quincozes, Daniel Mossé, Vagner E. Quincozes, Célio Albuquerque, Diego Passos",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbrc/article/view/42294",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbrc/article/download/42294/42061",
+    "file": "SBRC/2026/principal/42294_Ataques-de-Envenenamento-de-Rotulos-contra-a-Deteccao-de-Zero-Day-em-Sistemas-de-Deteccao.pdf"
+  },
+  {
+    "event": "SBRC",
+    "year": "2026",
+    "track": "estendido",
+    "title": "AnonShield: Scalable On-Premise Pseudonymization for CSIRT Network Vulnerability Data",
+    "authors": "Cristhian Kapelinski, Douglas Lautert, Beatriz Machado, Diego Kreutz, Isadora Garcia Ferrão",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42580",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42580/42347",
+    "file": "SBRC/2026/estendido/42580_AnonShield-Scalable-On-Premise-Pseudonymization-for-CSIRT-Network-Vulnerability-Data.pdf"
+  },
+  {
+    "event": "SBRC",
+    "year": "2026",
+    "track": "estendido",
+    "title": "dsm2cli: An Observable Pipeline for Translating Network Intents into Multivendor CLI with Independent Semantic Assessment",
+    "authors": "Jerônimo Menezes, Leonardo Bitzki, Diego Kreutz, Gefte Almeida, Marcio Pohlmann, Rodrigo Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42581",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42581/42348",
+    "file": "SBRC/2026/estendido/42581_dsm2cli-An-Observable-Pipeline-for-Translating-Network-Intents-into-Multivendor-CLI-with-I.pdf"
+  },
+  {
+    "event": "SBRC",
+    "year": "2026",
+    "track": "estendido",
+    "title": "From Red Flags to Detection Rules: An LLM-driven Pipeline for Real-Time GOOSE Intrusion Detection and Prevention",
+    "authors": "Lucas A. Martins, Camilla B. Quincozes, Giovanni Siervo, Silvio E. Quincozes, Marcelo Caggiani Luizelli",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42585",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42585/42352",
+    "file": "SBRC/2026/estendido/42585_From-Red-Flags-to-Detection-Rules-An-LLM-driven-Pipeline-for-Real-Time-GOOSE-Intrusion-Det.pdf"
+  },
+  {
+    "event": "SBRC",
+    "year": "2026",
+    "track": "estendido",
+    "title": "IoT-ID: Deterministic Device Identity from Hybrid Network Fingerprinting",
+    "authors": "Anna Letycia, Joner Assolin, Diego Kreutz, Rodrigo Miani",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42588",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42588/42355",
+    "file": "SBRC/2026/estendido/42588_IoT-ID-Deterministic-Device-Identity-from-Hybrid-Network-Fingerprinting.pdf"
+  },
+  {
+    "event": "SBRC",
+    "year": "2026",
+    "track": "estendido",
+    "title": "IoT-Zoo: A Container-Based Framework for Heterogeneous IoT Device Profiles and Reproducible Traffic Capture",
+    "authors": "Vagner E. Quincozes, Diego Kreutz, Silvio E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42589",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42589/42356",
+    "file": "SBRC/2026/estendido/42589_IoT-Zoo-A-Container-Based-Framework-for-Heterogeneous-IoT-Device-Profiles-and-Reproducible.pdf"
+  },
+  {
+    "event": "SBRC",
+    "year": "2025",
+    "track": "estendido",
+    "title": "Cloud AutoDroid: Um Sistema Distribuído Escalável para Execução de Ferramentas de IA Generativa",
+    "authors": "Luiz Felipe Laviola, Diego Kreutz, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/35867",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/35867/35654",
+    "file": "SBRC/2025/estendido/35867_Cloud-AutoDroid-Um-Sistema-Distribuido-Escalavel-para-Execucao-de-Ferramentas-de-IA-Genera.pdf"
+  },
+  {
+    "event": "SBRC",
+    "year": "2025",
+    "track": "estendido",
+    "title": "VulnSyncAI: PLN e LLMs para Construção e Atualização Contínua de Datasets de Vulnerabilidades",
+    "authors": "Douglas Rodrigues Fideles, Douglas Paim Lautert, Diego Kreutz, Silvio Ereno Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/35868",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/35868/35655",
+    "file": "SBRC/2025/estendido/35868_VulnSyncAI-PLN-e-LLMs-para-Construcao-e-Atualizacao-Continua-de-Datasets-de-Vulnerabilidad.pdf"
+  },
+  {
+    "event": "SBRC",
+    "year": "2025",
+    "track": "estendido",
+    "title": "TrueState-SNA: Uma Solução Baseada em SSoT para Automação de Redes Heterogêneas",
+    "authors": "Jerônimo Menezes, Diego Kreutz, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/35869",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/35869/35656",
+    "file": "SBRC/2025/estendido/35869_TrueState-SNA-Uma-Solucao-Baseada-em-SSoT-para-Automacao-de-Redes-Heterogeneas.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "Prefácio e Organização",
+    "authors": "Eder John Scheid, Muriel Figueredo Franco, Luís Augusto Dias Knob, Rodrigo Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/40435",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/40435/40204",
+    "file": "ERRC/2025/principal/40435_Prefacio-e-Organizacao.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "Análise de Desempenho e Eficácia da Sonda Zeek: Um Estudo Comparativo de Perfis de Execução sob Restrições de Recursos",
+    "authors": "Rafael B. Torres, Rodrigo Brandão Mansilha, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39173",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39173/38945",
+    "file": "ERRC/2025/principal/39173_Analise-de-Desempenho-e-Eficacia-da-Sonda-Zeek-Um-Estudo-Comparativo-de-Perfis-de-Execucao.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "Avaliação de uma Arquitetura Híbrida Borda-Nuvem para Monitoramento de Motores Elétricos em Tempo Real",
+    "authors": "Guilherme Siqueira, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39175",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39175/38947",
+    "file": "ERRC/2025/principal/39175_Avaliacao-de-uma-Arquitetura-Hibrida-Borda-Nuvem-para-Monitoramento-de-Motores-Eletricos-e.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "IoTEdu: Access Control, Detection, and Automatic Incident Response in Academic IoT Networks",
+    "authors": "Joner Assolin, Diego Kreutz, Leandro Bertholdo",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39179",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39179/38951",
+    "file": "ERRC/2025/principal/39179_IoTEdu-Access-Control-Detection-and-Automatic-Incident-Response-in-Academic-IoT-Networks.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "IoTEdu: Network Services for the Automated Management of Campus Internet-of-Things Networks",
+    "authors": "Leonardo Bitzki, Diego Kreutz, Leandro Bertholdo",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39180",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39180/38952",
+    "file": "ERRC/2025/principal/39180_IoTEdu-Network-Services-for-the-Automated-Management-of-Campus-Internet-of-Things-Networks.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "Net2d-LLM: Translating Structured Network Intents into CLI using LLMs with Execution in a Network Digital Twin",
+    "authors": "Jerônimo Menezes, Leonardo Bitzki, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39181",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39181/38953",
+    "file": "ERRC/2025/principal/39181_Net2d-LLM-Translating-Structured-Network-Intents-into-CLI-using-LLMs-with-Execution-in-a-N.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "AnonLFI 2.0: Extensible Architecture for PII Pseudonymization in CSIRTs with OCR and Technical Recognizers",
+    "authors": "Cristhian Kapelinski, Douglas Lautert, Beatriz Machado, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39186",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39186/38958",
+    "file": "ERRC/2025/principal/39186_AnonLFI-20-Extensible-Architecture-for-PII-Pseudonymization-in-CSIRTs-with-OCR-and-Technic.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "Assessing the Security Coverage of the Google Play Integrity API on Android",
+    "authors": "Francis Vargas, Angelo Gaspar, Diego Kreutz, Rodrigo Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39189",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39189/38961",
+    "file": "ERRC/2025/principal/39189_Assessing-the-Security-Coverage-of-the-Google-Play-Integrity-API-on-Android.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "On-Premise SLMs vs. Commercial LLMs: Prompt Engineering and Incident Classification in SOCs and CSIRTs",
+    "authors": "Gefté Almeida, Marcio Pohlmann, Alex Severo, Diego Kreutz, Tiago Heinrich, Lourenço Pereira",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39193",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39193/38965",
+    "file": "ERRC/2025/principal/39193_On-Premise-SLMs-vs-Commercial-LLMs-Prompt-Engineering-and-Incident-Classification-in-SOCs.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "Reducing Instability in Synthetic Data Evaluation with a Super-Metric in MalDataGen",
+    "authors": "Anna Luiza Gomes da Silva, Diego Kreutz, Angelo Diniz, Rodrigo Mansilha, Celso Nobre da Fonseca",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39194",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39194/38966",
+    "file": "ERRC/2025/principal/39194_Reducing-Instability-in-Synthetic-Data-Evaluation-with-a-Super-Metric-in-MalDataGen.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "Structured Extraction of Vulnerabilities in OpenVAS and Tenable WAS Reports Using LLMs",
+    "authors": "Beatriz Machado, Douglas Lautert, Cristhian Kapelinski, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39195",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39195/38967",
+    "file": "ERRC/2025/principal/39195_Structured-Extraction-of-Vulnerabilities-in-OpenVAS-and-Tenable-WAS-Reports-Using-LLMs.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "Temperature in SLMs: Impact on Incident Categorization in On-Premises Environments",
+    "authors": "Marcio Pohlmann, Alex Severo, Gefte Almeida, Diego Kreutz, Tiago Heinrich, Lourenço Pereira",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39196",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39196/38968",
+    "file": "ERRC/2025/principal/39196_Temperature-in-SLMs-Impact-on-Incident-Categorization-in-On-Premises-Environments.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "Tune3: Otimização Multiestágio de Hiperparâmetros com Redução de Custo e Maior Estabilidade em Modelos de Detecção de Malware Android",
+    "authors": "Lucas Ferreira Areias de Oliveira, Angelo Gaspar Diniz, Diego Kreutz, Dionatan Schmidt, Rodrigo Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39198",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39198/38970",
+    "file": "ERRC/2025/principal/39198_Tune3-Otimizacao-Multiestagio-de-Hiperparametros-com-Reducao-de-Custo-e-Maior-Estabilidade.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2025",
+    "track": "principal",
+    "title": "Mapeamento e Análise de Metodologias de Fraude Aplicadas ao Pix no Brasil",
+    "authors": "Glener Lanes Pizzolato, Brenda Medeiros Lopes, Claudio Schepke, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/39199",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/39199/38971",
+    "file": "ERRC/2025/principal/39199_Mapeamento-e-Analise-de-Metodologias-de-Fraude-Aplicadas-ao-Pix-no-Brasil.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2024",
+    "track": "principal",
+    "title": "RouteBastion: Architecting a Broker for VRP APIs",
+    "authors": "Pietro Vieira, Bruno Dalmazo, Diego Kreutz, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/35427",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/35427/35214",
+    "file": "ERRC/2024/principal/35427_RouteBastion-Architecting-a-Broker-for-VRP-APIs.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2024",
+    "track": "principal",
+    "title": "Gerenciamento de serviços e dispositivos de rede à partir da fonte de verdade da rede (SoT)",
+    "authors": "Jerônimo Menezes, Diego Kreutz, Rodrigo Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/35439",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/35439/35226",
+    "file": "ERRC/2024/principal/35439_Gerenciamento-de-servicos-e-dispositivos-de-rede-a-partir-da-fonte-de-verdade-da-rede-SoT.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2024",
+    "track": "principal",
+    "title": "MosqMon: um sistema distribuído para captura de faixas de áudio para treinamento de RNAs detectoras de mosquito Ae. aegypti",
+    "authors": "Yang da Fontoura Rodrigues, Rafael Nogueira Rodrigues, Kayuã Oleques Paim, Diego Kreutz, Weverton Cordeiro, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/35440",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/35440/35227",
+    "file": "ERRC/2024/principal/35440_MosqMon-um-sistema-distribuido-para-captura-de-faixas-de-audio-para-treinamento-de-RNAs-de.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2024",
+    "track": "principal",
+    "title": "Otimização de hiperparâmetros da DroidAugmentor para geração de dados sintéticos de malware Android",
+    "authors": "Angelo Gaspar Diniz Nogueira, Lucas Ferreira Areais de Oliveira, Anna Luiza Gomes da Silva, Diego Kreutz, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/35451",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/35451/35238",
+    "file": "ERRC/2024/principal/35451_Otimizacao-de-hiperparametros-da-DroidAugmentor-para-geracao-de-dados-sinteticos-de-malwar.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2024",
+    "track": "principal",
+    "title": "DDS-Builder: construção e disponibilização de um dataset público para sistemas ciberfísicos baseados em Data Distribution Service (DDS)",
+    "authors": "Douglas Fideles, Diego Kreutz, Silvio Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/35452",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/35452/35239",
+    "file": "ERRC/2024/principal/35452_DDS-Builder-construcao-e-disponibilizacao-de-um-dataset-publico-para-sistemas-ciberfisicos.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2024",
+    "track": "principal",
+    "title": "MH-API: Uma Solução Escalável Para Detecção de Malwares em Android",
+    "authors": "Joner de Mello Assolin, Hendrio Bragança, Diego Kreutz, Eduardo Feitosa, Sávio Saboia, Luiza Leão, Vanderson Rocha",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/35453",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/35453/35240",
+    "file": "ERRC/2024/principal/35453_MH-API-Uma-Solucao-Escalavel-Para-Deteccao-de-Malwares-em-Android.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2024",
+    "track": "principal",
+    "title": "Viés Avaliativo e Generalização Comprometida: O Impacto de Amostras Idênticas em Datasets de Malware Android",
+    "authors": "Gabriel Sousa Canto, Vanderson Rocha, Diego Kreutz, Hendrio Bragança, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/35457",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/35457/35244",
+    "file": "ERRC/2024/principal/35457_Vies-Avaliativo-e-Generalizacao-Comprometida-O-Impacto-de-Amostras-Identicas-em-Datasets-d.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2024",
+    "track": "principal",
+    "title": "Análise empírica e comparativa de ferramentas de varredura de vulnerabilidades em aplicações Web usando OWASP BWA e Juice Shop",
+    "authors": "Ricardo Rosa, Diego Kreutz, Marcelino Garcia, Santiago Pereira, Rodrigo Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/35458",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/35458/35245",
+    "file": "ERRC/2024/principal/35458_Analise-empirica-e-comparativa-de-ferramentas-de-varredura-de-vulnerabilidades-em-aplicaco.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2023",
+    "track": "principal",
+    "title": "eWebAPI: uma API para assinar digitalmente lotes de certificados eletrônicos utilizando o e-certsDS",
+    "authors": "Alan Miguel Dorr Schulze, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/26018",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/26018/25841",
+    "file": "ERRC/2023/principal/26018_eWebAPI-uma-API-para-assinar-digitalmente-lotes-de-certificados-eletronicos-utilizando-o-e.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2023",
+    "track": "principal",
+    "title": "Avaliação de Métodos de Seleção de Características de Amostras Android com a Ferramenta FS3E (v2)",
+    "authors": "Nicolas Neves, Vanderson Rocha, Diego Kreutz, Hendrio Bragança, Eduardo Feitosa",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/26019",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/26019/25842",
+    "file": "ERRC/2023/principal/26019_Avaliacao-de-Metodos-de-Selecao-de-Caracteristicas-de-Amostras-Android-com-a-Ferramenta-FS.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2023",
+    "track": "principal",
+    "title": "AutoDroid: disponibilizando a ferramenta DroidAugmentor como serviço",
+    "authors": "Luiz Felipe Laviola, Kayuã Oleques Paim, Diego Kreutz, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/26020",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/26020/25843",
+    "file": "ERRC/2023/principal/26020_AutoDroid-disponibilizando-a-ferramenta-DroidAugmentor-como-servico.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2023",
+    "track": "principal",
+    "title": "PDFWebSigner: posicionamento de estampas de assinaturas digitais em documentos PDF",
+    "authors": "Maurício El Uri, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/26021",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/26021/25844",
+    "file": "ERRC/2023/principal/26021_PDFWebSigner-posicionamento-de-estampas-de-assinaturas-digitais-em-documentos-PDF.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2021",
+    "track": "principal",
+    "title": "Ferramentas de extração de características para análise estática de aplicativos Android",
+    "authors": "Jonas Pontes, Estevão Costa, Vanderson Rocha, Nicolas Neves, Eduardo Feitosa, Joner Assolin, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/18539",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/18539/18372",
+    "file": "ERRC/2021/principal/18539_Ferramentas-de-extracao-de-caracteristicas-para-analise-estatica-de-aplicativos-Android.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2021",
+    "track": "principal",
+    "title": "Detecção de Malwares Android: datasets e reprodutibilidade",
+    "authors": "Taina Soares, Guilherme Siqueira, Lucas Barcellos, Renato Sayyed, Luciano Vargas, Gustavo Rodrigues, Joner Assolin, Jonas Pontes, Eduardo Feitosa, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/18540",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/18540/18373",
+    "file": "ERRC/2021/principal/18540_Deteccao-de-Malwares-Android-datasets-e-reprodutibilidade.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2021",
+    "track": "principal",
+    "title": "Detecção de Malwares Android: Levantamento Empírico da Disponibilidade e da Atualização das Fontes de Dados",
+    "authors": "Tainá Soares, Joner Mello, Lucas Barcellos, Renato Sayyed, Guilherme Siqueira, Karina Casola, Estevão Costa, Nicolas Gustavo, Eduardo Feitosa, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/18541",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/18541/18374",
+    "file": "ERRC/2021/principal/18541_Deteccao-de-Malwares-Android-Levantamento-Empirico-da-Disponibilidade-e-da-Atualizacao-das.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2021",
+    "track": "principal",
+    "title": "Detecção de Malwares Android: reprodução da seleção de características do SigPID",
+    "authors": "Joner Assolin, Vanderson Rocha, Guilherme Silveira, Gustavo Rodrigues, Eduardo Feitosa, Karina Casola, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/18542",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/18542/18375",
+    "file": "ERRC/2021/principal/18542_Deteccao-de-Malwares-Android-reproducao-da-selecao-de-caracteristicas-do-SigPID.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2021",
+    "track": "principal",
+    "title": "Análise do impacto de viés nos conjuntos de dados para detecção de Malwares Android",
+    "authors": "Lucas Vilanova, Renato Sayyed, Taina Soares, Guilherme Siqueira, Gustavo Rodrigues, Eduardo Feitosa, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/18543",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/18543/18376",
+    "file": "ERRC/2021/principal/18543_Analise-do-impacto-de-vies-nos-conjuntos-de-dados-para-deteccao-de-Malwares-Android.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2021",
+    "track": "principal",
+    "title": "Usabilidade de Ferramentas para Assinatura Digital de Documentos PDF",
+    "authors": "Sandro Oliveira, Luciano Vargas, Rodrigo Mansilha, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/18546",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/18546/18379",
+    "file": "ERRC/2021/principal/18546_Usabilidade-de-Ferramentas-para-Assinatura-Digital-de-Documentos-PDF.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2021",
+    "track": "principal",
+    "title": "QuickAutoML: Uma ferramenta para treinamento automatizado de modelos de aprendizado de máquina",
+    "authors": "Guilherme Siqueira, Gustavo Rodrigues, Eduardo Feitosa, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/18547",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/18547/18380",
+    "file": "ERRC/2021/principal/18547_QuickAutoML-Uma-ferramenta-para-treinamento-automatizado-de-modelos-de-aprendizado-de-maqu.pdf"
+  },
+  {
+    "event": "ERRC",
+    "year": "2021",
+    "track": "principal",
+    "title": "Estatísticas de 40k+ sites do Ecossistema HTTPS no Brasil",
+    "authors": "Débora Patrícia Ströher, Rodrigo Brandão Mansilha, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/errc/article/view/18553",
+    "pdf_url": "https://sol.sbc.org.br/index.php/errc/article/download/18553/18386",
+    "file": "ERRC/2021/principal/18553_Estatisticas-de-40k-sites-do-Ecossistema-HTTPS-no-Brasil.pdf"
+  },
+  {
+    "event": "ERAMIA-RS",
+    "year": "2025",
+    "track": "principal",
+    "title": "Vision Transformers para a Classificação de Cianobactérias a partir de Imagens",
+    "authors": "Rafael Prates Quevedo, Bruno Boessio Vizzotto, Elder de Macedo Rodrigues, Rodrigo Brandão Mansilha, Eliezer Soares Flores",
+    "sol_link": "https://sol.sbc.org.br/index.php/eramiars/article/view/39380",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eramiars/article/download/39380/39152",
+    "file": "ERAMIA-RS/2025/principal/39380_Vision-Transformers-para-a-Classificacao-de-Cianobacterias-a-partir-de-Imagens.pdf"
+  },
+  {
+    "event": "ERAMIA-RS",
+    "year": "2025",
+    "track": "principal",
+    "title": "Combate à Falsificação Digital: Um Modelo de Detecção de Imagens DeepFake com Aprendizado Profundo",
+    "authors": "Vinicius N. Lopes, Tadeu Januario, Vitor G. Balsanello, Diego Kreutz, Dionatan R. Schmidt, Eliezer Flores, Elder Rodrigues",
+    "sol_link": "https://sol.sbc.org.br/index.php/eramiars/article/view/39392",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eramiars/article/download/39392/39164",
+    "file": "ERAMIA-RS/2025/principal/39392_Combate-a-Falsificacao-Digital-Um-Modelo-de-Deteccao-de-Imagens-DeepFake-com-Aprendizado-P.pdf"
+  },
+  {
+    "event": "ERAMIA-RS",
+    "year": "2025",
+    "track": "principal",
+    "title": "Tornando Inteligentes Secadores de Grãos de Baixo Custo",
+    "authors": "Andressa Assae Perri Tamara Rodrigues, Lanes Beatriz Acosta Jaques, Débora Taís Neves Barros, Fábio Righi da Silva, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/eramiars/article/view/39463",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eramiars/article/download/39463/39235",
+    "file": "ERAMIA-RS/2025/principal/39463_Tornando-Inteligentes-Secadores-de-Graos-de-Baixo-Custo.pdf"
+  },
+  {
+    "event": "SBSI",
+    "year": "2024",
+    "track": "estendido",
+    "title": "PRORAF: Rastreamento da Agricultura Familiar",
+    "authors": "Nykolas F. Santos, Augusto Goulart, Diogo S. Kersten, Jhon P. L. Cornelio, Fábio Basso, Rodrigo B. Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/view/28617",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/download/28617/28421",
+    "file": "SBSI/2024/estendido/28617_PRORAF-Rastreamento-da-Agricultura-Familiar.pdf"
+  },
+  {
+    "event": "SBSI",
+    "year": "2024",
+    "track": "estendido",
+    "title": "Evangelização Tecnológica da Agricultura Familiar",
+    "authors": "Nykolas F. Santos, Augusto Goulart, Diogo S. Kersten, Jhon P. L. Cornelio, Fábio Basso, Rodrigo B. Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/view/28629",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/download/28629/28433",
+    "file": "SBSI/2024/estendido/28629_Evangelizacao-Tecnologica-da-Agricultura-Familiar.pdf"
+  },
+  {
+    "event": "ERES",
+    "year": "2025",
+    "track": "principal",
+    "title": "Uma Interface Web 3.0 Amigável para Rastreabilidade de Produtos da Agricultura Familiar Usando Contratos Inteligentes",
+    "authors": "Rafael Nogueira, Nykolas Fornaziero dos Santos, Henrique Fan, Bruno B. Neves, Roben C. Lunardi, Diego Kreutz, Rodrigo B. Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/eres/article/view/40390",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eres/article/download/40390/40159",
+    "file": "ERES/2025/principal/40390_Uma-Interface-Web-30-Amigavel-para-Rastreabilidade-de-Produtos-da-Agricultura-Familiar-Usa.pdf"
+  },
+  {
+    "event": "ERES",
+    "year": "2025",
+    "track": "principal",
+    "title": "Smart Agro RAF API",
+    "authors": "Henrique Fan, Rafael Nogueira, Bruno B. Neves, Fábio R. da Silva, Roben C. Lunardi, Diego Kreutz, Rodrigo B. Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/eres/article/view/40395",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eres/article/download/40395/40164",
+    "file": "ERES/2025/principal/40395_Smart-Agro-RAF-API.pdf"
+  },
+  {
+    "event": "ERES",
+    "year": "2024",
+    "track": "principal",
+    "title": "CANEDA-IDS: Uma Arquitetura Orientada a Eventos para Detecção de Intrusão em Redes CAN",
+    "authors": "Felipe N. Dresch, Felipe H. Scherer, Silvio E. Quincozes, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/eres/article/view/31834",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eres/article/download/31834/31636",
+    "file": "ERES/2024/principal/31834_CANEDA-IDS-Uma-Arquitetura-Orientada-a-Eventos-para-Deteccao-de-Intrusao-em-Redes-CAN.pdf"
+  },
+  {
+    "event": "ERES",
+    "year": "2024",
+    "track": "principal",
+    "title": "Jarvas: um Chatbot Assistente via Aplicativos de Mensagens Instantâneas para Aplicações Científicas",
+    "authors": "Rafael Nogueira Rodrigues, Lucas Ferreira Soares, Yang da Fontoura Rodrigues, Luiz Felipe Laviola, Diego Kreutz, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/eres/article/view/31838",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eres/article/download/31838/31640",
+    "file": "ERES/2024/principal/31838_Jarvas-um-Chatbot-Assistente-via-Aplicativos-de-Mensagens-Instantaneas-para-Aplicacoes-Cie.pdf"
+  },
+  {
+    "event": "ERES",
+    "year": "2024",
+    "track": "principal",
+    "title": "X-Ray Covid19: Um Aplicativo Móvel para Diagnóstico através de Radiografias do Tórax",
+    "authors": "Michael Martins, Diego Kreutz, Fábio Basso, Silvio E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/eres/article/view/31841",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eres/article/download/31841/31643",
+    "file": "ERES/2024/principal/31841_X-Ray-Covid19-Um-Aplicativo-Movel-para-Diagnostico-atraves-de-Radiografias-do-Torax.pdf"
+  },
+  {
+    "event": "ERES",
+    "year": "2024",
+    "track": "principal",
+    "title": "Uma GUI para hackers do bem aprenderem sobre malwares sintéticos",
+    "authors": "Leonardo Karling Sonco, Angelo Nogueira, Diego Kreutz, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/eres/article/view/31844",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eres/article/download/31844/31646",
+    "file": "ERES/2024/principal/31844_Uma-GUI-para-hackers-do-bem-aprenderem-sobre-malwares-sinteticos.pdf"
+  },
+  {
+    "event": "ERES",
+    "year": "2024",
+    "track": "principal",
+    "title": "Especificação de Requisitos de Segurança em Firewalls de Próxima Geração: Abordagens e Desafios",
+    "authors": "Tiago W. Morais, Felipe H. Scherer, Felipe N. Dresch, Silvio E. Quincozes, Diego Kreutz, Vagner E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/eres/article/view/31851",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eres/article/download/31851/31653",
+    "file": "ERES/2024/principal/31851_Especificacao-de-Requisitos-de-Seguranca-em-Firewalls-de-Proxima-Geracao-Abordagens-e-Desa.pdf"
+  },
+  {
+    "event": "ERES",
+    "year": "2024",
+    "track": "principal",
+    "title": "Cloud AutoDroid: uma Arquitetura de Backend para Executar Serviços de IA Generativa na Nuvem",
+    "authors": "Luiz Felipe Laviola, Angelo Gaspar Diniz Nogueira, Diego Kreutz, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/eres/article/view/31859",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eres/article/download/31859/31661",
+    "file": "ERES/2024/principal/31859_Cloud-AutoDroid-uma-Arquitetura-de-Backend-para-Executar-Servicos-de-IA-Generativa-na-Nuve.pdf"
+  },
+  {
+    "event": "ERES",
+    "year": "2023",
+    "track": "principal",
+    "title": "Técnicas predatórias na monetização de jogos digitais: um estudo de caso utilizando semiótica",
+    "authors": "Vinicius Kreutz Recktenwaldt, Carla D. M. Berkenbrock",
+    "sol_link": "https://sol.sbc.org.br/index.php/eres/article/view/27031",
+    "pdf_url": "https://sol.sbc.org.br/index.php/eres/article/download/27031/26849",
+    "file": "ERES/2023/principal/27031_Tecnicas-predatorias-na-monetizacao-de-jogos-digitais-um-estudo-de-caso-utilizando-semioti.pdf"
+  }
+]

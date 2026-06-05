@@ -43,6 +43,9 @@ def load_content_files(directory):
         return items
     
     for md_file in sorted(content_dir.glob('*.md')):
+        # README.md documenta o formato; não é um item de conteúdo
+        if md_file.name.lower() == 'readme.md':
+            continue
         with open(md_file, 'r', encoding='utf-8') as f:
             content = f.read()
         

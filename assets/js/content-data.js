@@ -2154,75 +2154,295 @@ const AUTHORS_DATA = [
 const AWARDS_DATA = [
   {
     "data": {
-      "date": "2024-11-20",
-      "title": "Melhor Artigo - SBES 2024",
+      "date": "2024-08-04",
+      "title": "Paper considerado para o Test of Time Award 2024 — ACM SIGCOMM",
+      "category": "publication",
+      "scope": "international",
+      "recipient": "Diego Luis Kreutz e coautores",
+      "institution": "ACM SIGCOMM"
+    },
+    "content": "# Paper considerado para o Test of Time Award 2024 — ACM SIGCOMM\n\n**Data:** 4 de Agosto de 2024\n**Premiado(s):** Diego Luis Kreutz e coautores\n**Instituição:** ACM SIGCOMM\n\n## Descrição\n\nArtigo de coautoria de Diego Luis Kreutz foi considerado para o Test of Time Award 2024 dos ACM SIGCOMM Awards, reconhecimento internacional concedido a trabalhos cujo impacto se mantém relevante ao longo do tempo na área de redes de computadores."
+  },
+  {
+    "data": {
+      "date": "2024-09-18",
+      "title": "Artefato Destaque (IWSHAP) — VIII Salão de Ferramentas do SBSeg 2024",
+      "category": "innovation",
+      "scope": "national",
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
+      "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
+    },
+    "content": "# Artefato Destaque (IWSHAP) — VIII Salão de Ferramentas do SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nA ferramenta IWSHAP foi reconhecida como Artefato Destaque do VIII Salão de Ferramentas do SBSeg 2024, pela qualidade e reprodutibilidade do artefato."
+  },
+  {
+    "data": {
+      "date": "2024-09-18",
+      "title": "Artefato Destaque (MalSynGen) — VIII Salão de Ferramentas do SBSeg 2024",
+      "category": "innovation",
+      "scope": "national",
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
+      "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
+    },
+    "content": "# Artefato Destaque (MalSynGen) — VIII Salão de Ferramentas do SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nA ferramenta MalSynGen foi reconhecida como Artefato Destaque do VIII Salão de Ferramentas do SBSeg 2024."
+  },
+  {
+    "data": {
+      "date": "2024-09-18",
+      "title": "Artefato Destaque (MH-AutoML) — VIII Salão de Ferramentas do SBSeg 2024",
+      "category": "innovation",
+      "scope": "national",
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
+      "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
+    },
+    "content": "# Artefato Destaque (MH-AutoML) — VIII Salão de Ferramentas do SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nA ferramenta MH-AutoML foi reconhecida como Artefato Destaque do VIII Salão de Ferramentas do SBSeg 2024."
+  },
+  {
+    "data": {
+      "date": "2024-09-18",
+      "title": "Artefato Destaque (MH-FSF) — VIII Salão de Ferramentas do SBSeg 2024",
+      "category": "innovation",
+      "scope": "national",
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
+      "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
+    },
+    "content": "# Artefato Destaque (MH-FSF) — VIII Salão de Ferramentas do SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nA ferramenta MH-FSF foi reconhecida como Artefato Destaque do VIII Salão de Ferramentas do SBSeg 2024."
+  },
+  {
+    "data": {
+      "date": "2024-09-18",
+      "title": "Artefato Destaque (SigAPI AutoCraft) — VIII Salão de Ferramentas do SBSeg 2024",
+      "category": "innovation",
+      "scope": "national",
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
+      "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
+    },
+    "content": "# Artefato Destaque (SigAPI AutoCraft) — VIII Salão de Ferramentas do SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nA ferramenta SigAPI AutoCraft foi reconhecida como Artefato Destaque do VIII Salão de Ferramentas do SBSeg 2024."
+  },
+  {
+    "data": {
+      "date": "2024-09-18",
+      "title": "Melhor Artigo do VIII Salão de Ferramentas — SBSeg 2024",
       "category": "publication",
       "scope": "national",
-      "recipient": "Carlos Ferreira, Dr. João Silva",
-      "institution": "Sociedade Brasileira de Computação"
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
+      "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
     },
-    "content": "# Melhor Artigo - SBES 2024\n\n**Data:** 20 de Novembro de 2024  \n**Premiados:** Carlos Ferreira, Dr. João Silva  \n**Instituição:** Sociedade Brasileira de Computação\n\n## Descrição\n\nO artigo \"Feature Engineering Automatizada para Predição de Defeitos em Software\" recebeu o prêmio de Melhor Artigo na categoria Tools Track do XXXVIII Simpósio Brasileiro de Engenharia de Software (SBES 2024).\n\nA pesquisa apresenta uma abordagem inovadora utilizando técnicas de aprendizado de máquina para automatizar o processo de engenharia de features na predição de defeitos, resultando em melhorias significativas na acurácia dos modelos preditivos.\n\nEste reconhecimento destaca a qualidade e relevância das pesquisas desenvolvidas no AI Horizon Labs para a comunidade brasileira de Engenharia de Software."
+    "content": "# Melhor Artigo do VIII Salão de Ferramentas — SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nReconhecimento como Melhor Artigo do VIII Salão de Ferramentas do SBSeg 2024, destacando a qualidade técnica da ferramenta apresentada pela equipe."
   },
   {
     "data": {
-      "date": "2025-01-15",
-      "title": "Distinguished Reviewer Award - ICSE 2025",
+      "date": "2024-09-18",
+      "title": "Menção Honrosa na Trilha Principal — SBSeg 2024",
+      "category": "publication",
+      "scope": "national",
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
+      "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
+    },
+    "content": "# Menção Honrosa na Trilha Principal — SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nTrabalho da equipe recebeu menção honrosa na Trilha Principal do Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais (SBSeg 2024), realizado em São José dos Campos (SP)."
+  },
+  {
+    "data": {
+      "date": "2024-09-18",
+      "title": "Revisor Destaque do Comitê Técnico de Artefatos (CTA) — SBSeg 2024",
       "category": "research",
-      "scope": "international",
-      "recipient": "Dr. João Silva",
-      "institution": "IEEE Computer Society / ACM",
-      "link": "https://conf.researchr.org/home/icse-2025"
-    },
-    "content": "# Distinguished Reviewer Award - ICSE 2025\n\n**Data:** 15 de Janeiro de 2025  \n**Premiado:** Dr. João Silva  \n**Instituição:** IEEE Computer Society / ACM\n\n## Descrição\n\nO coordenador do AI Horizon Labs, Dr. João Silva, foi reconhecido com o Distinguished Reviewer Award na 47th International Conference on Software Engineering (ICSE 2025), uma das mais prestigiadas conferências internacionais da área.\n\nO prêmio é concedido a revisores que demonstraram excepcional qualidade, profundidade e construtividade em suas revisões, contribuindo significativamente para elevar o padrão científico da conferência.\n\nEste reconhecimento internacional reforça a posição do laboratório no cenário mundial de pesquisa em Engenharia de Software e Inteligência Artificial."
-  },
-  {
-    "data": {
-      "date": "2025-03-10",
-      "title": "Melhor Dissertação de Mestrado - PPGES 2024",
-      "category": "student",
       "scope": "national",
-      "recipient": "Maria Santos",
-      "institution": "PPGES/UNIPAMPA"
+      "recipient": "Prof. Diego Luis Kreutz",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
+      "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
     },
-    "content": "# Melhor Dissertação de Mestrado - PPGES 2024\n\n**Data:** 10 de Março de 2025  \n**Premiada:** Maria Santos  \n**Instituição:** PPGES/UNIPAMPA\n\n## Descrição\n\nA dissertação \"Análise de Sentimentos em Reviews de Aplicativos Móveis usando Transfer Learning\" de Maria Santos foi premiada como Melhor Dissertação de Mestrado de 2024 pelo Programa de Pós-Graduação em Engenharia de Software da UNIPAMPA.\n\nO trabalho, orientado pelo Dr. João Silva e coorientado pela Dra. Ana Costa, apresentou contribuições significativas na área de Processamento de Linguagem Natural aplicado à Engenharia de Software, propondo técnicas inovadoras para análise automática de feedback de usuários.\n\nA dissertação foi defendida com conceito máximo e gerou duas publicações em periódicos internacionais de alto impacto."
+    "content": "# Revisor Destaque do Comitê Técnico de Artefatos (CTA) — SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** Prof. Diego Luis Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nReconhecimento como Revisor Destaque do Comitê Técnico de Artefatos (CTA) do SBSeg 2024, pela qualidade das avaliações de artefatos científicos."
   },
   {
     "data": {
-      "date": "2025-06-18",
-      "title": "Prêmio Inovação em Pesquisa - FAPERGS",
-      "category": "laboratory",
+      "date": "2024-09-18",
+      "title": "Revisor Destaque do VIII Salão de Ferramentas — SBSeg 2024",
+      "category": "research",
       "scope": "national",
-      "recipient": "AI Horizon Labs",
-      "institution": "FAPERGS - Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul"
+      "recipient": "Prof. Diego Luis Kreutz",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
+      "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
     },
-    "content": "# Prêmio Inovação em Pesquisa - FAPERGS\n\n**Data:** 18 de Junho de 2025  \n**Premiado:** AI Horizon Labs (Laboratório)  \n**Instituição:** FAPERGS - Fundação de Amparo à Pesquisa do Estado do Rio Grande do Sul\n\n## Descrição\n\nO AI Horizon Labs foi reconhecido com o Prêmio Inovação em Pesquisa 2025 da FAPERGS na categoria \"Ciências Exatas e da Terra\" pelo conjunto de suas contribuições científicas e impacto na região.\n\nO prêmio destaca a excelência do laboratório em desenvolver pesquisas de ponta em Inteligência Artificial aplicada à Engenharia de Software, sua capacidade de formar recursos humanos qualificados e o estabelecimento de parcerias estratégicas com instituições nacionais e internacionais.\n\nEste reconhecimento reforça o compromisso do laboratório com a produção de conhecimento de qualidade e seu papel fundamental no fortalecimento do ecossistema de pesquisa do Rio Grande do Sul."
+    "content": "# Revisor Destaque do VIII Salão de Ferramentas — SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** Prof. Diego Luis Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nReconhecimento como Revisor Destaque do VIII Salão de Ferramentas do SBSeg 2024, pela qualidade das avaliações realizadas no processo de revisão de ferramentas."
   },
   {
     "data": {
-      "date": "2025-08-25",
-      "title": "Outstanding Student Paper - CBSoft 2025",
-      "category": "student",
+      "date": "2024-09-18",
+      "title": "Revisor Destaque do XVIII WTICG — SBSeg 2024",
+      "category": "research",
       "scope": "national",
-      "recipient": "Rafael Souza",
-      "institution": "Sociedade Brasileira de Computação"
+      "recipient": "Prof. Diego Luis Kreutz",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
+      "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
     },
-    "content": "# Outstanding Student Paper - CBSoft 2025\n\n**Data:** 25 de Agosto de 2025  \n**Premiado:** Rafael Souza  \n**Instituição:** Sociedade Brasileira de Computação\n\n## Descrição\n\nO mestrando Rafael Souza recebeu o prêmio de Outstanding Student Paper no IX Congresso Brasileiro de Software: Teoria e Prática (CBSoft 2025) pelo artigo \"Chatbot Inteligente para Documentação de Software usando Large Language Models\".\n\nO trabalho apresenta uma solução inovadora para automatizar a geração e manutenção de documentação técnica, utilizando modelos de linguagem de grande escala (LLMs) e técnicas de Retrieval-Augmented Generation (RAG).\n\nA pesquisa, orientada pela Dra. Ana Costa, demonstra resultados promissores em experimentos com projetos open-source e tem potencial de aplicação prática na indústria de software."
+    "content": "# Revisor Destaque do XVIII WTICG — SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** Prof. Diego Luis Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nReconhecimento como Revisor Destaque do XVIII Workshop de Trabalhos de Iniciação Científica e de Graduação (WTICG) do SBSeg 2024."
   },
   {
     "data": {
-      "date": "2025-12-05",
-      "title": "Best Tool Demo Award - MALTESQUE 2025",
+      "date": "2024-11-21",
+      "title": "Best Paper — WRSeg 2024",
+      "category": "publication",
+      "scope": "national",
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "FURG / SBC — VIII WRSeg 2024"
+    },
+    "content": "# Best Paper — WRSeg 2024\n\n**Data:** 21 de Novembro de 2024\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** FURG / SBC — VIII WRSeg 2024\n\n## Descrição\n\nTrabalho da equipe recebeu o prêmio de Best Paper do VIII Workshop Regional de Segurança da Informação e de Sistemas Computacionais (WRSeg 2024)."
+  },
+  {
+    "data": {
+      "date": "2024-11-13",
+      "title": "Melhor Trabalho de Pós-Graduação — ERES 2024",
+      "category": "publication",
+      "scope": "national",
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "Sociedade Brasileira de Computação (SBC) — VIII ERES 2024"
+    },
+    "content": "# Melhor Trabalho de Pós-Graduação — ERES 2024\n\n**Data:** 13 de Novembro de 2024\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** Sociedade Brasileira de Computação (SBC) — VIII ERES 2024\n\n## Descrição\n\nTrabalho da equipe foi reconhecido como Melhor Trabalho de Pós-Graduação da VIII Escola Regional de Engenharia de Software (ERES 2024)."
+  },
+  {
+    "data": {
+      "date": "2024-12-13",
+      "title": "Professor Homenageado — Turma de Ciência da Computação (UNIPAMPA)",
+      "category": "honor",
+      "scope": "national",
+      "recipient": "Prof. Diego Luis Kreutz",
+      "institution": "Universidade Federal do Pampa (UNIPAMPA)"
+    },
+    "content": "# Professor Homenageado — Turma de Ciência da Computação (UNIPAMPA)\n\n**Data:** 13 de Dezembro de 2024\n**Premiado(s):** Prof. Diego Luis Kreutz\n**Instituição:** Universidade Federal do Pampa (UNIPAMPA)\n\n## Descrição\n\nHomenagem concedida pela turma formanda de Ciência da Computação da Universidade Federal do Pampa (UNIPAMPA), em reconhecimento à dedicação docente e à contribuição para a formação dos estudantes."
+  },
+  {
+    "data": {
+      "date": "2025-05-26",
+      "title": "Artefato Destaque (Cloud AutoDroid) — Salão de Ferramentas do SBRC 2025",
       "category": "innovation",
-      "scope": "international",
-      "recipient": "Juliana Lima, Dr. Pedro Oliveira",
-      "institution": "IEEE",
-      "link": "https://maltesque-workshop.github.io"
+      "scope": "national",
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBRC 2025"
     },
-    "content": "# Best Tool Demo Award - MALTESQUE 2025\n\n**Data:** 05 de Dezembro de 2025  \n**Premiados:** Juliana Lima, Dr. Pedro Oliveira  \n**Instituição:** IEEE\n\n## Descrição\n\nA ferramenta \"AutoRefactor: Refatoração Automática Guiada por IA\" desenvolvida por Juliana Lima sob orientação do Dr. Pedro Oliveira recebeu o Best Tool Demo Award no workshop MALTESQUE 2025 (Machine Learning Techniques for Software Quality Evaluation).\n\nA ferramenta utiliza técnicas de aprendizado profundo para identificar oportunidades de refatoração em código-fonte e sugerir automaticamente transformações que melhoram a qualidade e manutenibilidade do software.\n\nO sistema demonstrado integra-se a ambientes de desenvolvimento populares (IDEs) e já está sendo testado em projetos reais de empresas parceiras do laboratório, mostrando redução significativa no tempo de refatoração manual."
+    "content": "# Artefato Destaque (Cloud AutoDroid) — Salão de Ferramentas do SBRC 2025\n\n**Data:** 26 de Maio de 2025\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBRC 2025\n\n## Descrição\n\nA ferramenta Cloud AutoDroid foi reconhecida como Artefato Destaque no Salão de Ferramentas do 43º SBRC 2025, pela robustez e reprodutibilidade do artefato avaliado pelo comitê técnico."
   },
   {
-    "data": {},
-    "content": "# Como adicionar novos prêmios\n\nPara adicionar novos prêmios ao site, siga estas etapas:\n\n## 1. Criar arquivo Markdown\n\nCrie um novo arquivo na pasta `_content/award/` com o seguinte formato de nome:\n```\nYYYY-MM-nome-do-premio.md\n```\n\nExemplo: `2025-06-melhor-artigo-sbes.md`\n\n## 2. Estrutura do arquivo\n\nO arquivo deve seguir este template:\n\n```markdown\n---\ndate: YYYY-MM-DD\ntitle: Título do Prêmio\ncategory: categoria\nscope: nacional|international\nrecipient: Nome do(s) Premiado(s)\ninstitution: Instituição que concedeu o prêmio\nlink: URL (opcional)\n---\n\n# Título do Prêmio\n\n**Data:** DD de Mês de YYYY  \n**Premiado(s):** Nome completo  \n**Instituição:** Nome da instituição\n\n## Descrição\n\nDescrição completa do prêmio, contexto, importância e impacto.\nPode incluir múltiplos parágrafos.\n```\n\n## 3. Campos obrigatórios\n\n- **date**: Data do prêmio no formato YYYY-MM-DD\n- **title**: Título curto do prêmio\n- **category**: Uma das opções:\n  - `laboratory`: Prêmio para o laboratório\n  - `student`: Prêmio para aluno(s)\n  - `research`: Prêmio de pesquisa\n  - `publication`: Prêmio de publicação\n  - `innovation`: Prêmio de inovação\n- **scope**: `national` ou `international`\n\n## 4. Campos opcionais\n\n- **recipient**: Nome do(s) premiado(s)\n- **institution**: Instituição que concedeu\n- **link**: URL para mais informações\n\n## 5. Gerar dados\n\nApós criar/editar arquivos, execute:\n\n```bash\npython3 build-content.py\n```\n\nIsso irá atualizar o arquivo `assets/js/content-data.js` com os novos dados.\n\n## 6. Visualizar\n\nAbra `premios.html` no navegador para ver as alterações.\n\n## Exemplos de arquivos\n\nVeja os arquivos existentes em `_content/award/` para exemplos práticos:\n- `2024-11-best-paper-sbes.md`\n- `2025-01-distinguished-reviewer-icse.md`\n- `2025-03-melhor-dissertacao-ppges.md`\n"
+    "data": {
+      "date": "2025-05-26",
+      "title": "Artefato Destaque (VulnSyncAI) — Salão de Ferramentas do SBRC 2025",
+      "category": "innovation",
+      "scope": "national",
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBRC 2025"
+    },
+    "content": "# Artefato Destaque (VulnSyncAI) — Salão de Ferramentas do SBRC 2025\n\n**Data:** 26 de Maio de 2025\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBRC 2025\n\n## Descrição\n\nO VulnSyncAI recebeu o selo de Artefato Destaque no Salão de Ferramentas do 43º SBRC 2025, atestando a qualidade, a reprodutibilidade e a disponibilidade do artefato submetido junto ao trabalho."
+  },
+  {
+    "data": {
+      "date": "2025-05-26",
+      "title": "Melhor Artigo/Ferramenta (VulnSyncAI) — Salão de Ferramentas do SBRC 2025",
+      "category": "innovation",
+      "scope": "national",
+      "recipient": "AI Horizon Labs — UNIPAMPA",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBRC 2025"
+    },
+    "content": "# Melhor Artigo/Ferramenta (VulnSyncAI) — Salão de Ferramentas do SBRC 2025\n\n**Data:** 26 de Maio de 2025\n**Premiado(s):** AI Horizon Labs — UNIPAMPA\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBRC 2025\n\n## Descrição\n\nA ferramenta VulnSyncAI foi reconhecida como melhor artigo/trabalho/ferramenta do Salão de Ferramentas do 43º Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos (SBRC 2025). O reconhecimento destaca a maturidade técnica e o impacto da solução desenvolvida no laboratório para a comunidade de redes e segurança."
+  },
+  {
+    "data": {
+      "date": "2025-05-26",
+      "title": "Melhor Revisor de Artefatos — Salão de Ferramentas do SBRC 2025",
+      "category": "research",
+      "scope": "national",
+      "recipient": "Prof. Diego Luis Kreutz",
+      "institution": "Sociedade Brasileira de Computação (SBC) — SBRC 2025"
+    },
+    "content": "# Melhor Revisor de Artefatos — Salão de Ferramentas do SBRC 2025\n\n**Data:** 26 de Maio de 2025\n**Premiado(s):** Prof. Diego Luis Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBRC 2025\n\n## Descrição\n\nReconhecimento como Melhor Revisor de Artefatos do Salão de Ferramentas do 43º SBRC 2025, pela qualidade e pelo rigor das avaliações conduzidas no processo de revisão de artefatos do evento."
+  },
+  {
+    "data": {
+      "date": "2025-09-15",
+      "title": "Prêmio Artefatos Destaque (Anonimização) — SBSeg 2025",
+      "category": "innovation",
+      "scope": "national",
+      "recipient": "Carolina Bandel, João Pedro Ramires Esteves, Kalian Pereira Guerra, Leandro Márcio Bertholdo, Diego Kreutz e Rodrigo Miani",
+      "institution": "SBSeg/SBC — XXV SBSeg 2025",
+      "link": "https://sites.unipampa.edu.br/lea/2026/05/22/unipampa-conquista-3-premiacoes-e-publica-15-trabalhos-no-sbseg25/"
+    },
+    "content": "# Prêmio Artefatos Destaque (Anonimização) — SBSeg 2025\n\n**Data:** 15 de Setembro de 2025\n**Premiado(s):** Carolina Bandel, João Pedro Ramires Esteves, Kalian Pereira Guerra, Leandro Márcio Bertholdo, Diego Kreutz e Rodrigo Miani\n**Instituição:** SBSeg/SBC — XXV SBSeg 2025\n\n## Descrição\n\nO artefato \"Anonimização de Incidentes de Segurança com Reidentificação Controlada\" foi premiado como Artefato Destaque no XXV SBSeg 2025, reconhecendo a qualidade e o impacto da solução para a privacidade no tratamento de incidentes de segurança."
+  },
+  {
+    "data": {
+      "date": "2025-09-15",
+      "title": "Prêmio Artefatos Destaque (MalDataGen) — SBSeg 2025",
+      "category": "innovation",
+      "scope": "national",
+      "recipient": "Kayuã Oleques Paim, Angelo Gaspar Diniz Nogueira, Diego Kreutz, Weverton Luis da Costa Cordeiro e Rodrigo Brandão Mansilha",
+      "institution": "SBSeg/SBC — XXV SBSeg 2025",
+      "link": "https://sites.unipampa.edu.br/lea/2026/05/22/unipampa-conquista-3-premiacoes-e-publica-15-trabalhos-no-sbseg25/"
+    },
+    "content": "# Prêmio Artefatos Destaque (MalDataGen) — SBSeg 2025\n\n**Data:** 15 de Setembro de 2025\n**Premiado(s):** Kayuã Oleques Paim, Angelo Gaspar Diniz Nogueira, Diego Kreutz, Weverton Luis da Costa Cordeiro e Rodrigo Brandão Mansilha\n**Instituição:** SBSeg/SBC — XXV SBSeg 2025\n\n## Descrição\n\nAlém de Melhor Ferramenta, o MalDataGen também recebeu o selo de Artefato Destaque no XXV SBSeg 2025, atestando a qualidade, a documentação e a reprodutibilidade do artefato disponibilizado."
+  },
+  {
+    "data": {
+      "date": "2025-09-15",
+      "title": "Prêmio Google Award — SBSeg 2025",
+      "category": "publication",
+      "scope": "national",
+      "recipient": "Kayuã Oleques Paim, Diego Kreutz, Rodrigo Brandão Mansilha, Muriel Figueredo Franco e Weverton L. Costa Cordeiro",
+      "institution": "SBSeg/SBC/Google — XXV SBSeg 2025",
+      "link": "https://sites.unipampa.edu.br/lea/2026/05/22/unipampa-conquista-3-premiacoes-e-publica-15-trabalhos-no-sbseg25/"
+    },
+    "content": "# Prêmio Google Award — SBSeg 2025\n\n**Data:** 15 de Setembro de 2025\n**Premiado(s):** Kayuã Oleques Paim, Diego Kreutz, Rodrigo Brandão Mansilha, Muriel Figueredo Franco e Weverton L. Costa Cordeiro\n**Instituição:** SBSeg/SBC/Google — XXV SBSeg 2025\n\n## Descrição\n\nO trabalho \"Exploiting Latent Space Discontinuities for Building Universal LLM Jailbreaks and Data Extraction\" recebeu o Google Award no XXV Simpósio Brasileiro de Cibersegurança (SBSeg 2025), realizado em Foz do Iguaçu (PR). O prêmio reconhece a relevância da pesquisa sobre segurança de modelos de linguagem de grande porte."
+  },
+  {
+    "data": {
+      "date": "2025-09-15",
+      "title": "Melhor Ferramenta (MalDataGen) — Salão de Ferramentas do SBSeg 2025",
+      "category": "innovation",
+      "scope": "national",
+      "recipient": "Kayuã Oleques Paim, Angelo Gaspar Diniz Nogueira, Diego Kreutz, Weverton Luis da Costa Cordeiro e Rodrigo Brandão Mansilha",
+      "institution": "SBSeg/SBC — XXV SBSeg 2025",
+      "link": "https://sites.unipampa.edu.br/lea/2026/05/22/unipampa-conquista-3-premiacoes-e-publica-15-trabalhos-no-sbseg25/"
+    },
+    "content": "# Melhor Ferramenta (MalDataGen) — Salão de Ferramentas do SBSeg 2025\n\n**Data:** 15 de Setembro de 2025\n**Premiado(s):** Kayuã Oleques Paim, Angelo Gaspar Diniz Nogueira, Diego Kreutz, Weverton Luis da Costa Cordeiro e Rodrigo Brandão Mansilha\n**Instituição:** SBSeg/SBC — XXV SBSeg 2025\n\n## Descrição\n\nA ferramenta \"MalDataGen: A Modular Framework for Synthetic Tabular Data Generation\" foi eleita Melhor Ferramenta do Salão de Ferramentas do XXV SBSeg 2025, destacando-se pela arquitetura modular para geração de dados tabulares sintéticos."
+  },
+  {
+    "data": {
+      "date": "2025-12-09",
+      "title": "Melhor Artigo (1º lugar) — WRSeg 2025",
+      "category": "publication",
+      "scope": "national",
+      "recipient": "Marcio Pohlmann, Alex Sandre Severo, Gefté de Almeida, Diego Kreutz, Tiago Heinrich e Lourenço Alves Jr.",
+      "institution": "SBC — IX WRSeg 2025 (ERRC/WRSeg)",
+      "link": "https://sites.unipampa.edu.br/lea/2026/05/22/unipampa-e-destaque-nas-premiacoes-na-errc-wrseg-2025-e-consolida-lideranca-regional-em-pesquisa-em-ciberseguranca/"
+    },
+    "content": "# Melhor Artigo (1º lugar) — WRSeg 2025\n\n**Data:** 9 de Dezembro de 2025\n**Premiado(s):** Marcio Pohlmann, Alex Sandre Severo, Gefté de Almeida, Diego Kreutz, Tiago Heinrich e Lourenço Alves Jr.\n**Instituição:** SBC — IX WRSeg 2025 (ERRC/WRSeg)\n\n## Descrição\n\nO artigo \"Temperature in SLMs: Impact on Incident Categorization\" conquistou o 1º lugar de Melhor Artigo do IX Workshop Regional de Segurança da Informação e de Sistemas Computacionais (WRSeg 2025), realizado em Porto Alegre (RS)."
+  },
+  {
+    "data": {
+      "date": "2025-12-09",
+      "title": "Melhor Artigo (2º lugar) — WRSeg 2025",
+      "category": "publication",
+      "scope": "national",
+      "recipient": "Beatriz Roland Machado, Douglas Lautert, Cristhian de Avila e Diego Kreutz",
+      "institution": "SBC — IX WRSeg 2025 (ERRC/WRSeg)",
+      "link": "https://sites.unipampa.edu.br/lea/2026/05/22/unipampa-e-destaque-nas-premiacoes-na-errc-wrseg-2025-e-consolida-lideranca-regional-em-pesquisa-em-ciberseguranca/"
+    },
+    "content": "# Melhor Artigo (2º lugar) — WRSeg 2025\n\n**Data:** 9 de Dezembro de 2025\n**Premiado(s):** Beatriz Roland Machado, Douglas Lautert, Cristhian de Avila e Diego Kreutz\n**Instituição:** SBC — IX WRSeg 2025 (ERRC/WRSeg)\n\n## Descrição\n\nO artigo \"Extração Estruturada de Vulnerabilidades\" recebeu o 2º lugar de Melhor Artigo do IX WRSeg 2025, integrando o pódio completo conquistado pela UNIPAMPA no evento."
+  },
+  {
+    "data": {
+      "date": "2025-12-09",
+      "title": "Menção Honrosa (3º lugar) — WRSeg 2025",
+      "category": "publication",
+      "scope": "national",
+      "recipient": "Lucas Ferreira, Angelo Nogueira, Diego Kreutz, Dionatan Schmidt e Rodrigo Mansilha",
+      "institution": "SBC — IX WRSeg 2025 (ERRC/WRSeg)",
+      "link": "https://sites.unipampa.edu.br/lea/2026/05/22/unipampa-e-destaque-nas-premiacoes-na-errc-wrseg-2025-e-consolida-lideranca-regional-em-pesquisa-em-ciberseguranca/"
+    },
+    "content": "# Menção Honrosa (3º lugar) — WRSeg 2025\n\n**Data:** 9 de Dezembro de 2025\n**Premiado(s):** Lucas Ferreira, Angelo Nogueira, Diego Kreutz, Dionatan Schmidt e Rodrigo Mansilha\n**Instituição:** SBC — IX WRSeg 2025 (ERRC/WRSeg)\n\n## Descrição\n\nO artigo \"Tune3: Otimização Multiestágio\" recebeu menção honrosa (3º lugar) no IX WRSeg 2025, completando o pódio de premiações da UNIPAMPA no workshop."
   }
 ];
 

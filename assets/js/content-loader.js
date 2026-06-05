@@ -160,116 +160,208 @@ function renderNewsPage() {
 // PROJETOS
 // ============================================
 function loadProjects() {
-  // Separar por status
-  return {
-    ativos: PROJECTS_DATA.filter(p => p.data.status === 'ativo'),
-    concluidos: PROJECTS_DATA.filter(p => p.data.status === 'concluído')
-  };
+  // Agrupar por categoria temática, preservando a ordem de impacto do array
+  const groups = {};
+  PROJECTS_DATA.forEach(p => {
+    const theme = p.data.theme || 'outros';
+    (groups[theme] = groups[theme] || []).push(p);
+  });
+  return groups;
 }
 
 function renderProject(project) {
-  const isActive = project.data.status === 'ativo';
-  const badgeColor = isActive ? 'var(--color-accent)' : '';
-  
-  const objectives = project.content.match(/## Objetivos\s*\n([\s\S]*?)(?=\n##|\n---|$)/);
-  let objList = '';
-  if (objectives && objectives[1]) {
-    const items = objectives[1].match(/- (.+)/g);
-    if (items) {
-      objList = items.map(i => `<li>${i.replace('- ', '')}</li>`).join('');
-    }
-  }
-  
+  const d = project.data;
+  const isActive = d.status === 'ativo';
+
   const description = project.content.match(/## Descrição\s*\n([\s\S]*?)(?=\n##|\n---|$)/);
   const descText = description ? description[1].trim() : '';
-  
+
+  const statusLabel = isActive ? 'Ativo' : 'Concluído';
+  const statusColor = isActive ? 'var(--color-accent)' : '#94a3b8';
+
+  // Selos de impacto
+  const badges = [];
+  if (d.international) badges.push('<span class="proj-badge"><i class="fas fa-globe"></i> Cooperação internacional</span>');
+  if (d.sector) badges.push('<span class="proj-badge"><i class="fas fa-industry"></i> Interação com setor produtivo</span>');
+  const badgesHtml = badges.length
+    ? `<div style="display:flex;flex-wrap:wrap;gap:6px;margin:var(--spacing-sm) 0;">${badges.join('')}</div>`
+    : '';
+
+  // Tags de palavras-chave
+  const tagsHtml = d.keywords
+    ? `<div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:var(--spacing-sm);">${
+        d.keywords.split('/').map(k => `<span class="proj-tag">${k.trim()}</span>`).join('')
+      }</div>`
+    : '';
+
   return `
-    <div class="card">
-      <span class="publication-type" style="${isActive ? `background-color:${badgeColor};` : ''}">${project.data.status.charAt(0).toUpperCase() + project.data.status.slice(1)}</span>
-      <h3 class="card-title">${project.data.title}</h3>
+    <div class="card" style="display:flex;flex-direction:column;">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
+        <span class="publication-type" style="background-color:${statusColor};">${statusLabel}</span>
+        <span style="font-size:.75rem;color:var(--color-text-medium);font-family:monospace;">${d.registro || ''}</span>
+      </div>
+      <h3 class="card-title" style="margin-top:var(--spacing-sm);">${d.title}</h3>
       <p class="card-text">${descText}</p>
-      <p style="margin-top:var(--spacing-sm);">
-        <strong>Coordenador:</strong> ${project.data.coordinator}<br>
-        <strong>Financiamento:</strong> ${project.data.funding}<br>
-        <strong>Período:</strong> ${project.data.period}
+      ${badgesHtml}
+      <p style="margin-top:auto;padding-top:var(--spacing-sm);font-size:.95rem;">
+        <strong>Coordenação:</strong> ${d.coordinator}<br>
+        ${d.lab ? `<strong>Grupo:</strong> ${d.lab}<br>` : ''}
+        <strong>Modalidade:</strong> ${d.funding}<br>
+        <strong>Período:</strong> ${d.period}
       </p>
+      ${tagsHtml}
     </div>
   `;
 }
 
 function renderProjectsPage() {
-  const activosContainer = document.getElementById('projetos-ativos-container');
-  const concluidosContainer = document.getElementById('projetos-concluidos-container');
-  
-  const projects = loadProjects();
-  
-  // Projetos Ativos
-  if (activosContainer && projects.ativos.length > 0) {
-    activosContainer.innerHTML = `
-      <div class="section-title"><h2>Projetos Ativos</h2></div>
+  const container = document.getElementById('projetos-container');
+  if (!container) return;
+
+  const groups = loadProjects();
+  const total = PROJECTS_DATA.length;
+  const ativos = PROJECTS_DATA.filter(p => p.data.status === 'ativo').length;
+
+  let html = `
+    <p style="font-size:1.125rem;color:var(--color-text-medium);max-width:60ch;margin-bottom:var(--spacing-lg);">
+      ${total} projetos institucionais de pesquisa, inovação, extensão, ensino e empreendedorismo
+      (${ativos} em andamento), organizados por área temática e ordenados por relevância e impacto.
+    </p>
+  `;
+
+  PROJECT_THEMES.forEach(theme => {
+    const projs = groups[theme.key];
+    if (!projs || projs.length === 0) return;
+    html += `
+      <div class="section-title" style="margin-top:var(--spacing-xl);">
+        <h2><i class="fas ${theme.icon}" style="color:var(--color-primary);margin-right:.5rem;"></i>${theme.title}</h2>
+        <p style="color:var(--color-text-medium);max-width:70ch;margin-top:.5rem;">${theme.description}</p>
+      </div>
       <div class="grid grid-2">
-        ${projects.ativos.map(p => renderProject(p)).join('')}
+        ${projs.map(p => renderProject(p)).join('')}
       </div>
     `;
-  }
-  
-  // Projetos Concluídos
-  if (concluidosContainer && projects.concluidos.length > 0) {
-    concluidosContainer.innerHTML = `
-      <div class="section-title"><h2>Projetos Concluídos</h2></div>
-      ${projects.concluidos.map(p => renderProject(p)).join('')}
-    `;
-  }
+  });
+
+  container.innerHTML = html;
 }
 
 // ============================================
 // PUBLICAÇÕES
 // ============================================
-function loadPublications() {
-  // Ordenar por ano (mais recente primeiro)
-  return PUBLICATIONS_DATA.sort((a, b) => b.data.year - a.data.year);
-}
-
 function renderPublication(pub) {
-  const authors = pub.data.authors || '';
-  
+  const d = pub.data;
   const links = `
-    ${pub.data.pdf ? `<a href="${pub.data.pdf}"><i class="fas fa-file-pdf"></i> PDF</a>` : ''}
-    ${pub.data.doi ? `<a href="https://doi.org/${pub.data.doi}"><i class="fas fa-link"></i> DOI</a>` : ''}
-    ${pub.data.github ? `<a href="${pub.data.github}"><i class="fab fa-github"></i> Código</a>` : ''}
-    ${pub.data.dataset ? `<a href="${pub.data.dataset}"><i class="fas fa-database"></i> Dataset</a>` : ''}
+    ${d.link ? `<a href="${d.link}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Publicação (SOL/SBC)</a>` : ''}
+    ${d.pdf ? `<a href="${d.pdf}" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>` : ''}
+    ${d.doi ? `<a href="https://doi.org/${d.doi}" target="_blank" rel="noopener"><i class="fas fa-link"></i> DOI</a>` : ''}
+    ${d.github ? `<a href="${d.github}" target="_blank" rel="noopener"><i class="fab fa-github"></i> Código</a>` : ''}
+    ${d.dataset ? `<a href="${d.dataset}" target="_blank" rel="noopener"><i class="fas fa-database"></i> Dataset</a>` : ''}
   `;
-  
+
   return `
     <div class="publication-item">
-      <span class="publication-type">${pub.data.type}</span>
-      <h3 class="publication-title">${pub.data.title}</h3>
-      <p class="publication-authors">${authors}</p>
-      <p class="publication-venue">${pub.data.venue}, ${pub.data.year}</p>
+      <span class="publication-type">${d.venue || d.type}</span>
+      <h3 class="publication-title">${d.title}</h3>
+      <p class="publication-authors">${d.authors || ''}</p>
       <div class="publication-links">${links}</div>
     </div>
   `;
 }
 
+// Agrupa as publicações por evento e ordena cronologicamente dentro de cada evento
+function groupPublicationsByEvent() {
+  const groups = {};
+  PUBLICATIONS_DATA.forEach(pub => {
+    const key = pub.data.event || 'Outros';
+    (groups[key] = groups[key] || []).push(pub);
+  });
+
+  const trackRank = { principal: 0, estendido: 1 };
+  return Object.keys(groups)
+    .map(event => {
+      const pubs = groups[event].sort((a, b) => {
+        if (b.data.year !== a.data.year) return b.data.year - a.data.year;
+        const tr = (trackRank[a.data.track] ?? 9) - (trackRank[b.data.track] ?? 9);
+        if (tr !== 0) return tr;
+        return a.data.title.localeCompare(b.data.title, 'pt-BR');
+      });
+      return {
+        event,
+        nome: pubs[0].data.event_nome || event,
+        ordem: pubs[0].data.event_ordem ?? 99,
+        pubs
+      };
+    })
+    .sort((a, b) => a.ordem - b.ordem);
+}
+
 function renderPublicationsPage() {
-  console.log('renderPublicationsPage chamada');
   const container = document.getElementById('publicacoes-container');
-  console.log('Container encontrado:', container);
-  if (!container) {
-    console.error('Container publicacoes-container não encontrado!');
-    return;
-  }
-  
-  const publications = loadPublications();
-  console.log('Publicações carregadas:', publications.length, publications);
-  
-  if (publications.length === 0) {
+  if (!container) return;
+
+  if (typeof PUBLICATIONS_DATA === 'undefined' || PUBLICATIONS_DATA.length === 0) {
     container.innerHTML = '<p>Nenhuma publicação disponível no momento.</p>';
     return;
   }
-  
-  container.innerHTML = publications.map(p => renderPublication(p)).join('');
-  console.log('Publicações renderizadas com sucesso');
+
+  const eventGroups = groupPublicationsByEvent();
+
+  let html = `
+    <p style="font-size:1.125rem;color:var(--color-text-medium);max-width:65ch;margin-bottom:var(--spacing-lg);">
+      ${PUBLICATIONS_DATA.length} publicações em anais de eventos científicos, organizadas por evento.
+      Cada trabalho traz o link direto para a publicação na Biblioteca Digital da SBC (SOL) e o PDF.
+    </p>
+  `;
+
+  eventGroups.forEach(g => {
+    html += `
+      <div class="section-title" style="margin-top:var(--spacing-xl);">
+        <h2><i class="fas fa-book" style="color:var(--color-primary);margin-right:.5rem;"></i>${g.event}
+          <span style="font-weight:400;color:var(--color-text-medium);font-size:1rem;">(${g.pubs.length})</span>
+        </h2>
+        <p style="color:var(--color-text-medium);max-width:75ch;margin-top:.25rem;">${g.nome}</p>
+      </div>
+      ${g.pubs.map(p => renderPublication(p)).join('')}
+    `;
+  });
+
+  container.innerHTML = html;
+
+  renderAuthorsSection();
+}
+
+// ============================================
+// AUTORES / COAUTORES
+// ============================================
+function renderAuthorsSection() {
+  const container = document.getElementById('autores-container');
+  if (!container || typeof AUTHORS_DATA === 'undefined' || AUTHORS_DATA.length === 0) return;
+
+  const cards = AUTHORS_DATA.map(a => {
+    const d = a.data;
+    const inner = `
+      <img src="${d.foto}" alt="${d.nome}" class="author-photo" loading="lazy"
+           onerror="this.style.display='none'">
+      <div class="author-info">
+        <h3 class="author-name">${d.nome}</h3>
+        <p class="author-meta">${d.publicacoes} publicações no acervo</p>
+      </div>
+    `;
+    return d.perfil
+      ? `<a class="author-card" href="${d.perfil}" target="_blank" rel="noopener" title="Google Scholar de ${d.nome}">${inner}</a>`
+      : `<div class="author-card">${inner}</div>`;
+  }).join('');
+
+  container.innerHTML = `
+    <div class="section-title">
+      <h2><i class="fas fa-users" style="color:var(--color-primary);margin-right:.5rem;"></i>Principais Autores e Coautores</h2>
+      <p style="color:var(--color-text-medium);max-width:75ch;margin-top:.25rem;">
+        Pesquisadores com três ou mais trabalhos no acervo. Clique para acessar o perfil no Google Scholar.
+      </p>
+    </div>
+    <div class="authors-grid">${cards}</div>
+  `;
 }
 
 // ============================================

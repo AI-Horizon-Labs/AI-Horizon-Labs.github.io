@@ -54,6 +54,116 @@ def load_content_files(directory):
     
     return items
 
+# Nomes completos dos eventos (para exibição agrupada)
+EVENT_INFO = {
+    "SBSeg":     {"nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais", "ordem": 1},
+    "SBRC":      {"nome": "Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos", "ordem": 2},
+    "SBSI":      {"nome": "Simpósio Brasileiro de Sistemas de Informação", "ordem": 3},
+    "ERRC":      {"nome": "Escola Regional de Redes de Computadores", "ordem": 4},
+    "ERES":      {"nome": "Escola Regional de Engenharia de Software", "ordem": 5},
+    "ERAMIA-RS": {"nome": "Escola Regional de Aprendizado de Máquina e Inteligência Artificial do RS", "ordem": 6},
+}
+
+TRACK_LABEL = {
+    "principal": "Trilha Principal",
+    "estendido": "Anais Estendidos",
+}
+
+# Títulos que são front-matter dos anais (prefácio/organização), não publicações
+NAO_PUBLICACAO = ("Apresentação e Organização", "Prefácio e Organização")
+
+
+def strip_accents(text):
+    """Remove acentos para comparação de nomes"""
+    import unicodedata
+    return ''.join(c for c in unicodedata.normalize('NFD', text)
+                   if unicodedata.category(c) != 'Mn').lower()
+
+
+def load_publications_from_sol():
+    """Carrega publicações do acervo papers/sol-anais/index.json"""
+    index_path = Path('papers/sol-anais/index.json')
+    if not index_path.exists():
+        print(f"⚠️  {index_path} não encontrado; pulando publicações.")
+        return []
+
+    with open(index_path, 'r', encoding='utf-8') as f:
+        raw = json.load(f)
+
+    items = []
+    for p in raw:
+        if p.get('title', '').strip() in NAO_PUBLICACAO:
+            continue
+        event = p.get('event', '')
+        track = p.get('track', '')
+        info = EVENT_INFO.get(event, {"nome": event, "ordem": 99})
+        track_label = TRACK_LABEL.get(track, track.capitalize())
+        venue = f"{event} {p.get('year', '')} — {track_label}".strip()
+        authors = '; '.join(a.strip() for a in p.get('authors', '').split(',') if a.strip())
+        items.append({
+            'data': {
+                'event': event,
+                'event_nome': info['nome'],
+                'event_ordem': info['ordem'],
+                'track': track,
+                'track_label': track_label,
+                'type': 'Conferência',
+                'title': p.get('title', ''),
+                'authors': authors,
+                'venue': venue,
+                'year': p.get('year', ''),
+                'link': p.get('sol_link', ''),
+                'pdf': p.get('pdf_url', ''),
+            },
+            'content': ''
+        })
+    return items
+
+
+def load_authors_from_manifest(publications):
+    """Carrega autores/coautores de papers/autores-fotos/fotos-manifest.json,
+    contando o número de publicações de cada um no acervo."""
+    manifest_path = Path('papers/autores-fotos/fotos-manifest.json')
+    if not manifest_path.exists():
+        print(f"⚠️  {manifest_path} não encontrado; pulando autores.")
+        return []
+
+    with open(manifest_path, 'r', encoding='utf-8') as f:
+        manifest = json.load(f)
+
+    # Listas de autores por publicação, normalizadas
+    pub_author_lists = []
+    for pub in publications:
+        names = [strip_accents(a.strip()) for a in pub['data']['authors'].split(';')]
+        pub_author_lists.append(names)
+
+    items = []
+    for foto in manifest.get('fotos', []):
+        nome = foto['autor']
+        norm = strip_accents(nome)
+        SUFIXOS = {'junior', 'jr', 'filho', 'neto', 'sobrinho', 'segundo'}
+        tokens = [t for t in norm.replace('.', ' ').split() if len(t) > 1 and t not in SUFIXOS]
+        primeiro, ultimo = (tokens[0], tokens[-1]) if tokens else ('', '')
+        # Conta publicações em que primeiro e último nome aparecem no mesmo autor
+        count = 0
+        for names in pub_author_lists:
+            if any(primeiro in n and ultimo in n for n in names):
+                count += 1
+        items.append({
+            'data': {
+                'nome': nome,
+                'foto': f"papers/autores-fotos/{foto['arquivo']}",
+                'perfil': foto.get('perfil', ''),
+                'publicacoes': count,
+            },
+            'content': ''
+        })
+
+    # Ordena por número de publicações (desc) e depois nome
+    items.sort(key=lambda x: (-x['data']['publicacoes'], x['data']['nome']))
+    return items
+
+
 def escape_js_string(text):
     """Escapa strings para JavaScript"""
     text = text.replace('\\', '\\\\')
@@ -66,7 +176,9 @@ def generate_js_content():
     members = load_content_files('members')
     news = load_content_files('news')
     projects = load_content_files('projects')
-    publications = load_content_files('publications')
+    # Publicações e autores vêm do acervo em papers/ (fonte única de verdade)
+    publications = load_publications_from_sol()
+    authors = load_authors_from_manifest(publications)
     awards = load_content_files('award')
     
     js_code = """/**
@@ -88,7 +200,10 @@ def generate_js_content():
     
     # Publications
     js_code += "const PUBLICATIONS_DATA = " + json.dumps(publications, ensure_ascii=False, indent=2) + ";\n\n"
-    
+
+    # Authors / Coautores
+    js_code += "const AUTHORS_DATA = " + json.dumps(authors, ensure_ascii=False, indent=2) + ";\n\n"
+
     # Awards
     js_code += "const AWARDS_DATA = " + json.dumps(awards, ensure_ascii=False, indent=2) + ";\n\n"
     

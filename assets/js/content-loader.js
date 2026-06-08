@@ -163,6 +163,35 @@ function renderNewsPage() {
 // ============================================
 // PROJETOS
 // ============================================
+// Áreas temáticas dos projetos, ordenadas por relevância/impacto.
+// A ordem deste array define a ordem das seções na página.
+const PROJECT_THEMES = [
+  {
+    key: 'ia-ciberseguranca',
+    title: 'Inteligência Artificial e Cibersegurança',
+    icon: 'fa-shield-halved',
+    description: 'Aprendizado de máquina, IA explicável e modelos de linguagem aplicados à detecção de ameaças, malwares e intrusões em sistemas e dispositivos conectados.'
+  },
+  {
+    key: 'aprendizado-distribuidos',
+    title: 'Aprendizado Profundo, Redes e Sistemas Distribuídos',
+    icon: 'fa-network-wired',
+    description: 'Técnicas de aprendizado profundo, blockchain e consenso distribuído como mecanismos de inteligência para redes de computadores e sistemas distribuídos de larga escala.'
+  },
+  {
+    key: 'ia-aplicada',
+    title: 'IA Aplicada à Saúde e ao Agronegócio',
+    icon: 'fa-seedling',
+    description: 'Soluções de software e inteligência artificial transferidas para domínios concretos — saúde, agricultura de precisão, pecuária e agricultura familiar.'
+  },
+  {
+    key: 'educacao-empreendedorismo',
+    title: 'Educação, Engenharia de Software e Empreendedorismo',
+    icon: 'fa-graduation-cap',
+    description: 'Formação de recursos humanos, boas práticas de Engenharia de Software, conscientização em segurança e fomento à cultura empreendedora e à inovação.'
+  }
+];
+
 function loadProjects() {
   // Agrupar por categoria temática, preservando a ordem de impacto do array
   const groups = {};
@@ -247,7 +276,51 @@ function renderProjectsPage() {
     `;
   });
 
+  html += renderContributors();
+
   container.innerHTML = html;
+}
+
+// Lista consolidada de colaboradores de todos os projetos
+function renderContributors() {
+  if (typeof CONTRIBUTORS_DATA === 'undefined' || CONTRIBUTORS_DATA.length === 0) return '';
+
+  const tipoColor = {
+    'Docente':  'rgba(37,99,235,.12)',
+    'Técnico':  'rgba(16,185,129,.14)',
+    'Discente': 'rgba(245,158,11,.14)',
+    'Externo':  'rgba(100,116,139,.14)'
+  };
+
+  const cards = CONTRIBUTORS_DATA.map(c => {
+    const d = c.data;
+    const bg = tipoColor[d.tipo] || 'rgba(100,116,139,.14)';
+    const coordTag = d.coordena > 0
+      ? '<i class="fas fa-star" title="Coordena projeto(s)" style="color:var(--color-accent);font-size:.7rem;margin-left:4px;"></i>'
+      : '';
+    const plural = d.projetos > 1 ? 'projetos' : 'projeto';
+    return `
+      <div style="display:flex;align-items:center;justify-content:space-between;gap:10px;padding:10px 12px;border:1px solid #e2e8f0;border-radius:10px;background:${bg};">
+        <div style="min-width:0;">
+          <div style="font-weight:600;font-size:.9rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${d.nome}${coordTag}</div>
+          <div style="font-size:.72rem;color:var(--color-text-medium);">${d.tipo || ''}</div>
+        </div>
+        <span class="proj-badge" style="flex-shrink:0;">${d.projetos} ${plural}</span>
+      </div>`;
+  }).join('');
+
+  return `
+    <div class="section-title" style="margin-top:var(--spacing-xl);">
+      <h2><i class="fas fa-users" style="color:var(--color-primary);margin-right:.5rem;"></i>Colaboradores dos Projetos</h2>
+      <p style="color:var(--color-text-medium);max-width:70ch;margin-top:.5rem;">
+        ${CONTRIBUTORS_DATA.length} pessoas — docentes, discentes, técnicos e colaboradores externos —
+        que integram as equipes executoras dos projetos. <i class="fas fa-star" style="color:var(--color-accent);font-size:.7rem;"></i> indica coordenação.
+      </p>
+    </div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:10px;">
+      ${cards}
+    </div>
+  `;
 }
 
 // ============================================

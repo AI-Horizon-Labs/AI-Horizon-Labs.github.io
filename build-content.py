@@ -167,6 +167,59 @@ def load_authors_from_manifest(publications):
     return items
 
 
+def build_contributors(projects):
+    """Agrega os colaboradores únicos a partir da seção '## Equipe' de cada
+    projeto. Cada linha tem o formato '- Nome | Tipo | Função'. Conta em
+    quantos projetos cada pessoa atua e em quais coordena."""
+    # Prioridade de vínculo para exibição (do mais sênior/interno ao externo)
+    TIPO_ORDEM = {'Docente': 0, 'Técnico': 1, 'Discente': 2, 'Externo': 3}
+    pessoas = {}  # chave normalizada -> dados
+
+    for proj in projects:
+        section = re.search(r'##\s*Equipe\s*\n(.*?)(?=\n##|\Z)',
+                            proj['content'], re.DOTALL)
+        if not section:
+            continue
+        for line in section.group(1).strip().split('\n'):
+            line = line.strip().lstrip('-').strip()
+            if not line or '|' not in line:
+                continue
+            partes = [x.strip() for x in line.split('|')]
+            nome = partes[0]
+            tipo = partes[1] if len(partes) > 1 else ''
+            funcao = partes[2] if len(partes) > 2 else ''
+            chave = strip_accents(nome)
+            if chave not in pessoas:
+                pessoas[chave] = {
+                    'nome': nome, 'tipo': tipo,
+                    'projetos': 0, 'coordena': 0, 'funcoes': set(),
+                }
+            d = pessoas[chave]
+            d['projetos'] += 1
+            d['funcoes'].add(funcao)
+            if funcao in ('Coordenador', 'Co-coordenador'):
+                d['coordena'] += 1
+            # Mantém o vínculo mais sênior/interno observado
+            if TIPO_ORDEM.get(tipo, 9) < TIPO_ORDEM.get(d['tipo'], 9):
+                d['tipo'] = tipo
+                d['nome'] = nome
+
+    items = []
+    for d in pessoas.values():
+        items.append({
+            'data': {
+                'nome': d['nome'],
+                'tipo': d['tipo'],
+                'projetos': d['projetos'],
+                'coordena': d['coordena'],
+            },
+            'content': ''
+        })
+    # Ordena por nº de projetos (desc), depois por nome
+    items.sort(key=lambda x: (-x['data']['projetos'], strip_accents(x['data']['nome'])))
+    return items
+
+
 def escape_js_string(text):
     """Escapa strings para JavaScript"""
     text = text.replace('\\', '\\\\')
@@ -179,6 +232,9 @@ def generate_js_content():
     members = load_content_files('members')
     news = load_content_files('news')
     projects = load_content_files('projects')
+    # Ordena projetos pelo campo 'order' do front matter (impacto/relevância)
+    projects.sort(key=lambda p: int(p['data'].get('order', 999)))
+    contributors = build_contributors(projects)
     # Publicações e autores vêm do acervo em papers/ (fonte única de verdade)
     publications = load_publications_from_sol()
     authors = load_authors_from_manifest(publications)
@@ -200,6 +256,9 @@ def generate_js_content():
     
     # Projects
     js_code += "const PROJECTS_DATA = " + json.dumps(projects, ensure_ascii=False, indent=2) + ";\n\n"
+
+    # Contributors / Colaboradores dos projetos (lista consolidada)
+    js_code += "const CONTRIBUTORS_DATA = " + json.dumps(contributors, ensure_ascii=False, indent=2) + ";\n\n"
     
     # Publications
     js_code += "const PUBLICATIONS_DATA = " + json.dumps(publications, ensure_ascii=False, indent=2) + ";\n\n"

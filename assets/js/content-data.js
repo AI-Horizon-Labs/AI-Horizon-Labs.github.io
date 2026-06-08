@@ -175,2049 +175,1235 @@ const NEWS_DATA = [
 const PROJECTS_DATA = [
   {
     "data": {
-      "id": "2",
-      "title": "Análise de Sentimentos em Reviews de Aplicativos",
-      "status": "ativo",
-      "category": "nlp",
-      "coordinator": "Dra. Ana Costa",
-      "team": "Maria Santos, Rafael Souza",
-      "funding": "FAPERGS",
-      "period": "2023-2025"
-    },
-    "content": "# Análise de Sentimentos em Reviews de Aplicativos\n\n**Status:** Ativo  \n**Período:** 2023-2025  \n**Coordenadora:** Dra. Ana Costa  \n**Financiamento:** FAPERGS\n\n## Descrição\n\nAplicação de técnicas de NLP para análise de sentimentos em reviews de aplicativos móveis, auxiliando desenvolvedores na melhoria contínua.\n\n## Equipe\n\n- Maria Santos\n- Rafael Souza\n\n## Objetivos\n\n- Coletar e processar reviews de apps\n- Desenvolver modelo baseado em transformers\n- Validar com desenvolvedores reais"
-  },
-  {
-    "data": {
-      "id": "1",
-      "title": "Automação de Testes com IA",
-      "status": "ativo",
-      "category": "ia-engsoft",
-      "coordinator": "Dr. João Silva",
-      "team": "Maria Santos, Juliana Lima, Carlos Ferreira",
-      "funding": "CNPq",
-      "period": "2024-2026"
-    },
-    "content": "# Automação de Testes com IA\n\n**Status:** Ativo  \n**Período:** 2024-2026  \n**Coordenador:** Dr. João Silva  \n**Financiamento:** CNPq\n\n## Descrição\n\nDesenvolvimento de ferramentas baseadas em Machine Learning para geração automática de casos de teste e detecção de bugs em sistemas de software.\n\n## Equipe\n\n- Maria Santos\n- Juliana Lima\n- Carlos Ferreira\n\n## Objetivos\n\n- Desenvolver modelos de ML para geração de casos de teste\n- Avaliar eficácia em projetos open-source\n- Criar ferramenta de código aberto"
-  },
-  {
-    "data": {
-      "id": "4",
-      "title": "Chatbot para Documentação Técnica",
-      "status": "ativo",
-      "category": "nlp",
-      "coordinator": "Dra. Ana Costa",
-      "team": "Rafael Souza, Maria Santos",
-      "funding": "Interno",
-      "period": "2024-2025"
-    },
-    "content": "# Chatbot para Documentação Técnica\n\n**Status:** Ativo  \n**Período:** 2024-2025  \n**Coordenadora:** Dra. Ana Costa  \n**Financiamento:** Interno\n\n## Descrição\n\nSistema inteligente baseado em LLMs para responder dúvidas sobre documentação técnica de projetos de software de forma natural e precisa.\n\n## Equipe\n\n- Rafael Souza\n- Maria Santos\n\n## Objetivos\n\n- Integrar LLMs com documentação técnica\n- Desenvolver interface de conversação\n- Avaliar qualidade das respostas"
-  },
-  {
-    "data": {
-      "id": "3",
-      "title": "Predição de Defeitos em Código",
-      "status": "ativo",
-      "category": "ml",
-      "coordinator": "Dr. Pedro Oliveira",
-      "team": "Carlos Ferreira, João Silva",
-      "funding": "CAPES",
-      "period": "2024-2026"
-    },
-    "content": "# Predição de Defeitos em Código\n\n**Status:** Ativo  \n**Período:** 2024-2026  \n**Coordenador:** Dr. Pedro Oliveira  \n**Financiamento:** CAPES\n\n## Descrição\n\nModelo de Deep Learning para predição de defeitos em código-fonte, identificando módulos propensos a falhas antes do deployment.\n\n## Equipe\n\n- Carlos Ferreira\n- João Silva\n\n## Objetivos\n\n- Coletar datasets de projetos open-source\n- Desenvolver arquitetura de rede neural\n- Avaliar precisão em cenários cross-project"
-  },
-  {
-    "data": {
-      "id": "5",
-      "title": "Refatoração Automática com IA",
+      "order": "1",
+      "registro": "2022.PE.AL.359",
+      "title": "Modelos Preditivos para Detecção de Malwares Android",
       "status": "concluído",
-      "category": "ia-engsoft",
-      "coordinator": "Dr. Pedro Oliveira",
-      "team": "Lucas Almeida",
-      "funding": "CNPq",
-      "period": "2022-2024",
-      "publications": "DOI 10.1109/ICSE.2024.00050"
+      "theme": "ia-ciberseguranca",
+      "coordinator": "Diego Luis Kreutz",
+      "lab": "LEA — Laboratório de Estudos Avançados em Computação",
+      "funding": "Projeto de Pesquisa",
+      "period": "2022–2025",
+      "keywords": "Modelos Preditivos / Detecção de Malwares / Android / Aprendizado de Máquina",
+      "sector": "true"
     },
-    "content": "# Refatoração Automática com IA\n\n**Status:** Concluído  \n**Período:** 2022-2024  \n**Coordenador:** Dr. Pedro Oliveira  \n**Financiamento:** CNPq\n\n## Descrição\n\nPesquisa sobre uso de IA para sugerir refatorações em código, melhorando qualidade e manutenibilidade.\n\n## Equipe\n\n- Lucas Almeida\n\n## Objetivos\n\n- Identificar code smells automaticamente\n- Sugerir refatorações contextualizadas\n- Publicar resultados\n\n## Publicações\n\n- DOI: 10.1109/ICSE.2024.00050"
+    "content": "# Modelos Preditivos para Detecção de Malwares Android\n\n## Descrição\n\nConstrução de datasets atualizados e de um arcabouço de software com seleção de características e ajuste de hiperparâmetros para a criação de modelos de aprendizado de máquina voltados à detecção e classificação de malwares Android recentes e sofisticados.\n\n## Equipe\n\n- Claudio Schepke | Docente | Colaborador\n- Diego Luis Kreutz | Docente | Coordenador\n- Eduardo Luzeiro Feitosa | Externo | Pesquisador\n- Guilherme Samuel Siqueira da Silva | Discente | Voluntário\n- Gustavo Rodrigues | Externo | Colaborador\n- Joner de Mello Assolin | Discente | Voluntário\n- Karina Casola Fernandes | Discente | Voluntário\n- Lucas Vilanova Barcellos | Discente | Voluntário\n- Luciano Pereira de Vargas | Técnico | Colaborador\n- Renato Sayyed de Souza | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Colaborador\n- Tainá Oliveira Soares | Discente | Voluntário\n- Vanderson da Silva Rocha | Externo | Colaborador"
+  },
+  {
+    "data": {
+      "order": "2",
+      "registro": "2024.PE.AL.3943",
+      "title": "LLMs e SLMs Aplicados à Cibersegurança",
+      "status": "ativo",
+      "theme": "ia-ciberseguranca",
+      "coordinator": "Diego Luis Kreutz",
+      "lab": "LEA — Laboratório de Estudos Avançados em Computação",
+      "funding": "Projeto de Pesquisa",
+      "period": "2024–2028",
+      "keywords": "LLMs / SLMs / Cibersegurança / Inteligência Artificial",
+      "international": "true",
+      "sector": "true"
+    },
+    "content": "# LLMs e SLMs Aplicados à Cibersegurança\n\n## Descrição\n\nExploração do potencial de Modelos de Linguagem em Larga (LLMs) e em Pequena Escala (SLMs) na cibersegurança — detecção de padrões maliciosos, sumarização de eventos, análise preditiva de incidentes e geração automatizada de diretrizes de mitigação.\n\n## Equipe\n\n- Angelo Gaspar Diniz Nogueira | Discente | Voluntário\n- Anna Luiza Gomes da Silva | Discente | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Claudio Schepke | Docente | Colaborador\n- Diego Luis Kreutz | Docente | Coordenador\n- Felipe Homrich Scherer | Discente | Voluntário\n- Felipe Nestor Dresch | Discente | Voluntário\n- Gefte Alcântara de Almeida | Discente | Voluntário\n- Glener Lanes Pizzolato | Discente | Voluntário\n- Hendrio Luis de Souza Bragança | Externo | Colaborador\n- Kayuã Oleques Paim | Externo | Colaborador\n- Kelvin Machado Camargo | Discente | Voluntário\n- Leandro Bertholdo | Externo | Colaborador\n- Lucas Ferreira Areias de Oliveira | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Colaborador"
+  },
+  {
+    "data": {
+      "order": "3",
+      "registro": "2023.PE.AL.2578",
+      "title": "XAIID — Estratégias Inteligentes e Explicáveis para Detecção de Intrusões em Sistemas Ciber-Físicos",
+      "status": "ativo",
+      "theme": "ia-ciberseguranca",
+      "coordinator": "Silvio Ereno Quincozes",
+      "funding": "Projeto de Pesquisa",
+      "period": "2023–2027",
+      "keywords": "Detecção de Intrusões / Inteligência Artificial Explicável / Seleção de Features / Otimização de Hiperparâmetros",
+      "international": "true"
+    },
+    "content": "# XAIID — Estratégias Inteligentes e Explicáveis para Detecção de Intrusões em Sistemas Ciber-Físicos\n\n## Descrição\n\nDesenvolvimento de estratégias inteligentes e explicáveis (XAI) para detecção de intrusões em sistemas ciber-físicos, com ênfase em seleção de características e otimização de hiperparâmetros para identificar e mitigar ameaças em tempo real.\n\n## Equipe\n\n- Antonio Carlos Campos da Silva Junior | Externo | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Célio Vinicius Neves de Albuquerque | Externo | Pesquisador\n- Daniel Mossé | Externo | Pesquisador\n- Diego Gimenez Passos | Externo | Pesquisador\n- Diego Luis Kreutz | Docente | Pesquisador\n- Douglas Rodrigues Fidelis | Externo | Colaborador\n- Felipe Homrich Scherer | Discente | Bolsista\n- Felipe Nestor Dresch | Discente | Voluntário\n- Gabriel José Bueno Otsuka | Externo | Voluntário\n- Guilherme Chagas Mundt | Discente | Voluntário\n- Henrique Corrêa de Oliveira | Externo | Voluntário\n- Ines Jemal | Externo | Voluntário\n- Isadora Fenner Spohr | Externo | Voluntário\n- Juliano Fontoura Kazienko | Externo | Pesquisador\n- Maria Eduarda Sanchez Chessio | Discente | Voluntário\n- Matheus Martins Ciocca | Discente | Voluntário\n- Nicolas Naves Rezende Faria | Discente | Voluntário\n- Omar Cheikhrouhou | Externo | Pesquisador\n- Renan Gonçalves Cattelan | Externo | Pesquisador\n- Rodnney Costa Machado | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Pesquisador\n- Rodrigo Sanches Miani | Externo | Pesquisador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Tiago William de Morais | Externo | Voluntário\n- Vagner Ereno Quincozes | Externo | Voluntário\n- Vinícius Figueiredo dos Santos | Externo | Pesquisador"
+  },
+  {
+    "data": {
+      "order": "4",
+      "registro": "2024.PE.AL.3683",
+      "title": "TRAP-IoT — Tecnologia Resiliente para Aplicações em Protocolos IoT",
+      "status": "ativo",
+      "theme": "ia-ciberseguranca",
+      "coordinator": "Silvio Ereno Quincozes",
+      "lab": "LEA — Laboratório de Estudos Avançados em Computação",
+      "funding": "Projeto de Pesquisa",
+      "period": "2024–2028",
+      "keywords": "Cibersegurança / Internet das Coisas / Smart Homes"
+    },
+    "content": "# TRAP-IoT — Tecnologia Resiliente para Aplicações em Protocolos IoT\n\n## Descrição\n\nSoluções de segurança para Internet das Coisas em dispositivos de baixo custo (ESP32, Arduino, Raspberry Pi), com foco em comunicação segura e detecção de intrusões em protocolos emergentes (Zenoh) e tradicionais (DDS, Wi-Fi, Bluetooth) aplicados à saúde, smart homes e vestíveis.\n\n## Equipe\n\n- Diego Luis Kreutz | Docente | Co-coordenador\n- Diego Nunes Brandão | Externo | Colaborador\n- Douglas Rodrigues Fideles | Externo | Voluntário\n- Isadora Fenner Spohr | Externo | Voluntário\n- José Gabriel Ribeiro Fagundes | Externo | Voluntário\n- Juliano Fontoura Kazienko | Externo | Co-coordenador\n- Raphael Pereira de Oliveira Guerra | Externo | Colaborador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Vagner Ereno Quincozes | Externo | Co-coordenador"
+  },
+  {
+    "data": {
+      "order": "5",
+      "registro": "2022.IN.AL.673",
+      "title": "Sistemas de Sensoriamento Distribuídos Baseados em Aprendizado Profundo",
+      "status": "concluído",
+      "theme": "aprendizado-distribuidos",
+      "coordinator": "Rodrigo Brandão Mansilha",
+      "lab": "LEA — Laboratório de Estudos Avançados em Computação",
+      "funding": "Projeto de Inovação Tecnológica",
+      "period": "2022–2026",
+      "keywords": "Inteligência Artificial / Aprendizado Profundo / Redes de Computadores / Sistemas Distribuídos / Aedes aegypti / Pragas Agrícolas",
+      "sector": "true"
+    },
+    "content": "# Sistemas de Sensoriamento Distribuídos Baseados em Aprendizado Profundo\n\n## Descrição\n\nAnálise, projeto e implementação de soluções de sensoriamento distribuído baseadas em aprendizado de máquina e, em especial, aprendizado profundo — incluindo redes de sensores de mosquitos e pragas e monitoramento ativo de redes e sistemas distribuídos.\n\n## Equipe\n\n- Rodrigo Brandão Mansilha | Docente | Coordenador"
+  },
+  {
+    "data": {
+      "order": "6",
+      "registro": "2022.PE.AL.431",
+      "title": "Investigação de Técnicas de Aprendizado Profundo para Redes e Sistemas Distribuídos",
+      "status": "concluído",
+      "theme": "aprendizado-distribuidos",
+      "coordinator": "Rodrigo Brandão Mansilha",
+      "lab": "LEA — Laboratório de Estudos Avançados em Computação",
+      "funding": "Projeto de Pesquisa",
+      "period": "2022–2026",
+      "keywords": "Inteligência Artificial / Aprendizado Profundo / Redes de Computadores / Sistemas Distribuídos"
+    },
+    "content": "# Investigação de Técnicas de Aprendizado Profundo para Redes e Sistemas Distribuídos\n\n## Descrição\n\nInvestigação e proposição de técnicas de aprendizado de máquina, com ênfase em aprendizado profundo, como mecanismo de provimento de inteligência para redes de computadores e sistemas distribuídos de larga escala.\n\n## Equipe\n\n- Diego Luis Kreutz | Docente | Colaborador\n- Rodrigo Brandão Mansilha | Docente | Coordenador"
+  },
+  {
+    "data": {
+      "order": "7",
+      "registro": "2022.PE.AL.1388",
+      "title": "Blockchain: Tecnologia, Aplicações, Consenso Distribuído e Aprendizado de Máquina",
+      "status": "ativo",
+      "theme": "aprendizado-distribuidos",
+      "coordinator": "Diego Luis Kreutz",
+      "lab": "LEA — Laboratório de Estudos Avançados em Computação",
+      "funding": "Projeto de Pesquisa",
+      "period": "2022–2026",
+      "keywords": "Blockchain / Consenso Distribuído / Aprendizado de Máquina / Segurança / Sistemas Distribuídos / Desempenho",
+      "international": "true"
+    },
+    "content": "# Blockchain: Tecnologia, Aplicações, Consenso Distribuído e Aprendizado de Máquina\n\n## Descrição\n\nInvestigação da tecnologia Blockchain, dos mecanismos de consenso distribuído e de suas limitações de desempenho e segurança, incluindo o uso de aprendizado de máquina para resolver desafios específicos e a proposição de mecanismos de consenso para cenários de aplicação.\n\n## Equipe\n\n- Charles Christian Miers | Externo | Colaborador\n- Claudio Schepke | Docente | Colaborador\n- Diego Luis Kreutz | Docente | Coordenador\n- Douglas Dyllon Jerônimo de Macedo | Externo | Colaborador\n- Érico Marcelo Hoff do Amaral | Docente | Colaborador\n- Ewerton Andrade | Externo | Colaborador\n- Igor Ferrazza Capeletti | Discente | Voluntário\n- João Massari Chervinski | Externo | Colaborador\n- Kayuã Oleques Paim | Discente | Voluntário\n- Laura Caroline Tschiedel | Discente | Voluntário\n- Lucas Vilanova Barcellos | Discente | Voluntário\n- Luciano Pereira de Vargas | Técnico | Colaborador\n- Roben Lunardi | Externo | Colaborador\n- Rodrigo Brandão Mansilha | Docente | Colaborador\n- Rodrigo da Rosa Righi | Externo | Colaborador\n- Roger Immich | Externo | Colaborador\n- Vinícius Nunez Lopes | Discente | Voluntário"
+  },
+  {
+    "data": {
+      "order": "8",
+      "registro": "2022.PE.AL.323",
+      "title": "Plataforma Online Segura para Acesso ao PredictCovid",
+      "status": "concluído",
+      "theme": "ia-aplicada",
+      "coordinator": "Diego Luis Kreutz",
+      "lab": "LEA — Laboratório de Estudos Avançados em Computação",
+      "funding": "Projeto de Pesquisa",
+      "period": "2022–2023",
+      "keywords": "Coronavírus / Desenvolvimento de Software / Segurança da Informação / Inteligência Computacional Aplicada / Aprendizado de Máquina / Escalabilidade",
+      "sector": "true"
+    },
+    "content": "# Plataforma Online Segura para Acesso ao PredictCovid\n\n## Descrição\n\nDesenvolvimento de uma plataforma online segura, distribuída e escalável (SaaS) para disponibilizar o PredictCovid — software baseado em IA para auxílio à triagem e ao diagnóstico da COVID-19 a partir de radiografias torácicas.\n\n## Equipe\n\n- Alex Camargo | Externo | Colaborador\n- Diego Luis Kreutz | Docente | Coordenador\n- Érico Marcelo Hoff do Amaral | Docente | Co-coordenador\n- Fabio Paulo Basso | Docente | Colaborador\n- Giulliano Paz de Lyra | Externo | Colaborador\n- Gustavo Cardozo Rodrigues | Discente | Voluntário\n- Josiano Santos Costa | Discente | Voluntário\n- Luciano Pereira de Vargas | Técnico | Colaborador\n- Michael Luis de Nazaré Martins | Discente | Voluntário"
+  },
+  {
+    "data": {
+      "order": "9",
+      "registro": "2022.PE.AL.310",
+      "title": "Engenharia de Software para Tecnologia Embarcada Inteligente no Setor Rural",
+      "status": "concluído",
+      "theme": "ia-aplicada",
+      "coordinator": "Fabio Paulo Basso",
+      "lab": "LESSE — Laboratory of Empirical Studies in Software Engineering",
+      "funding": "Projeto de Pesquisa",
+      "period": "2022–2024",
+      "keywords": "Pattern Recognition / Deep Learning / Smart Farming / UAV / Smart Animal Husbandry / Embedded Systems",
+      "sector": "true"
+    },
+    "content": "# Engenharia de Software para Tecnologia Embarcada Inteligente no Setor Rural\n\n## Descrição\n\nFundamentação da Engenharia de Software para o desenvolvimento e a transferência de tecnologia embarcada inteligente ao setor rural, integrando IA, sensoriamento remoto, processamento de imagens e redes de sensores sem fio para agricultura de precisão e pecuária.\n\n## Equipe\n\n- Antonio de Freitas Valle Neto | Discente | Pesquisador\n- Diego Luis Kreutz | Docente | Colaborador\n- Fabio Paulo Basso | Docente | Coordenador"
+  },
+  {
+    "data": {
+      "order": "10",
+      "registro": "2023.EX.AL.1819",
+      "title": "PRORAF — Programa de Rastreamento da Agricultura Familiar",
+      "status": "concluído",
+      "theme": "ia-aplicada",
+      "coordinator": "Rodrigo Brandão Mansilha",
+      "funding": "Programa de Extensão",
+      "period": "2023–2026",
+      "keywords": "Agricultura Familiar / Rastreabilidade / Sistemas de Informação"
+    },
+    "content": "# PRORAF — Programa de Rastreamento da Agricultura Familiar\n\n## Descrição\n\nPrograma de extensão para rastreabilidade e geração de selos de qualidade de produtos da agricultura familiar, qualificando dados (imagens aéreas por drones e dados meteorológicos), promovendo a etiquetagem comunitária e evoluindo os sistemas de informação subjacentes.\n\n## Equipe\n\n- Diego Luis Kreutz | Docente | Pesquisador\n- Diogo Silveira Kersten | Técnico | Co-coordenador\n- Jhon Pablo Lima Cornelio | Técnico | Colaborador\n- José Augusto dos Santos Goulart | Discente | Voluntário\n- Rafael Nogueira Rodrigues | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Coordenador"
+  },
+  {
+    "data": {
+      "order": "11",
+      "registro": "2022.PE.AL.309",
+      "title": "Fundamentação para o Empreendedorismo Social na Unipampa",
+      "status": "concluído",
+      "theme": "educacao-empreendedorismo",
+      "coordinator": "Fabio Paulo Basso",
+      "lab": "LESSE — Laboratory of Empirical Studies in Software Engineering",
+      "funding": "Projeto de Pesquisa",
+      "period": "2022–2026",
+      "keywords": "Empreendedorismo / Sustentabilidade / Social / Caracterização / Guideline"
+    },
+    "content": "# Fundamentação para o Empreendedorismo Social na Unipampa\n\n## Descrição\n\nPesquisa para identificar atributos de qualidade de ações empreendedoras — em especial de empreendedorismo social — direcionando inovações acadêmicas para spin-offs sustentáveis incubáveis em empresas de base tecnológica.\n\n## Equipe\n\n- Débora da Cruz Payão Pellegrini | Externo | Colaborador\n- Diego Luis Kreutz | Docente | Colaborador\n- Elder de Macedo Rodrigues | Docente | Colaborador\n- Fabio Paulo Basso | Docente | Coordenador\n- Gabriel Machado Lunardi | Docente | Colaborador\n- Gilleanes Thorwald Araujo Guedes | Docente | Co-coordenador\n- Ildevana Poltronieri Rodrigues | Docente | Colaborador\n- Maicon Bernardino da Silveira | Docente | Colaborador\n- Raquel Mainardi Pillat Basso | Docente | Colaborador\n- Williamson Alison Freitas Silva | Docente | Colaborador"
+  },
+  {
+    "data": {
+      "order": "12",
+      "registro": "2022.EP.AL.1230",
+      "title": "Startup Igniter — Transformando o Aluno Empreendedor",
+      "status": "concluído",
+      "theme": "educacao-empreendedorismo",
+      "coordinator": "Fabio Paulo Basso",
+      "lab": "LESSE — Laboratory of Empirical Studies in Software Engineering",
+      "funding": "Projeto de Empreendedorismo",
+      "period": "2022–2026",
+      "keywords": "Empreendedorismo / Pré-incubação / Inovação / Ensino / Pesquisa / Extensão"
+    },
+    "content": "# Startup Igniter — Transformando o Aluno Empreendedor\n\n## Descrição\n\nProjeto de empreendedorismo que cria um espaço nos moldes de uma aceleradora para transformar a cultura empreendedora dos alunos de Engenharia de Software e Ciência da Computação, apoiando a pré-incubação e a transferência de tecnologia para a sociedade.\n\n## Equipe\n\n- Cassio Ceolin Junior | Discente | Voluntário\n- Daniel Oliveira de Freitas | Discente | Pesquisador\n- Débora da Cruz Payão Pellegrini | Docente | Colaborador\n- Diego Luis Kreutz | Docente | Colaborador\n- Elder de Macedo Rodrigues | Docente | Colaborador\n- Emerson Oliveira Rizzatti | Técnico | Colaborador\n- Fabio Paulo Basso | Docente | Coordenador\n- Igor Admeilson de Oliveira | Externo | Palestrante\n- Ildevana Poltronieri Rodrigues | Docente | Colaborador\n- Maicon Bernardino da Silveira | Docente | Colaborador\n- Mauricio Paz Franca | Docente | Colaborador\n- Mauro Fonseca Rodrigues | Docente | Co-coordenador\n- Pedro Sebastian Zanella Nunez | Externo | Palestrante\n- Rodrigo Brandão Mansilha | Docente | Colaborador\n- Yury Alencar Lima | Discente | Voluntário"
+  },
+  {
+    "data": {
+      "order": "13",
+      "registro": "2024.EX.AL.3204",
+      "title": "Codefolio — Construindo Portfólios de Código e Boas Práticas de Engenharia de Software",
+      "status": "concluído",
+      "theme": "educacao-empreendedorismo",
+      "coordinator": "Silvio Ereno Quincozes",
+      "funding": "Projeto de Extensão",
+      "period": "2024–2026",
+      "keywords": "Boas Práticas / Engenharia de Software / Portfólio / Tutoriais"
+    },
+    "content": "# Codefolio — Construindo Portfólios de Código e Boas Práticas de Engenharia de Software\n\n## Descrição\n\nProjeto de extensão em que estudantes aplicam boas práticas de Engenharia de Software em desafios reais, documentam suas jornadas em tutoriais/minicursos em vídeo e constroem portfólios digitais como diferencial para o mercado de trabalho.\n\n## Equipe\n\n- Antonni da Silva Moraes | Discente | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Diego Luis Kreutz | Docente | Co-coordenador\n- Eduardo Bulling Couto | Discente | Voluntário\n- Eduardo Cabezudo Vilhalba | Discente | Voluntário\n- Emanuel Carricio Ferreira | Discente | Bolsista\n- Emerson Oliveira Rizzatti | Técnico | Colaborador\n- Estefano Stroher Soares | Discente | Voluntário\n- Felipe Homrich Scherer | Discente | Voluntário\n- Felipe Nestor Dresch | Discente | Bolsista\n- Gabriel Souza Rodrigues de Amorim | Discente | Voluntário\n- Ivana Fontoura Carvalho | Externo | Voluntário\n- João Pablo Silva da Silva | Docente | Co-coordenador\n- Ketrin Diovana Alves Rodrigues Vargas | Discente | Voluntário\n- Lucas Santos Oliveira | Discente | Voluntário\n- Luiz Fogliato Junior | Externo | Colaborador\n- Matheus Martins Ciocca | Discente | Bolsista\n- Rafael Mardegan | Externo | Colaborador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Vagner Ereno Quincozes | Externo | Colaborador\n- Vinicius Diehl Rodrigues | Discente | Voluntário\n- Wagner Oliveira de Quadros | Discente | Voluntário\n- Williamson Alison Freitas Silva | Docente | Co-coordenador"
+  },
+  {
+    "data": {
+      "order": "14",
+      "registro": "2025.EX.AL.3974",
+      "title": "Programa Codefólio — Construir, Documentar e Disseminar Conhecimento",
+      "status": "ativo",
+      "theme": "educacao-empreendedorismo",
+      "coordinator": "Silvio Ereno Quincozes",
+      "funding": "Programa de Extensão",
+      "period": "2025–2028",
+      "keywords": "Construção de Saberes / Documentação de Saberes / Compartilhamento de Saberes / Aprendizado / Transmissão de Conhecimento"
+    },
+    "content": "# Programa Codefólio — Construir, Documentar e Disseminar Conhecimento\n\n## Descrição\n\nPrograma de extensão voltado à construção, documentação e disseminação de conhecimento em Engenharia de Software e áreas correlatas, integrando teoria e prática, aprendizado colaborativo e incentivo ao empreendedorismo.\n\n## Equipe\n\n- Antonni da Silva Moraes | Discente | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Diego Luis Kreutz | Docente | Co-coordenador\n- Emanuel Carricio Ferreira | Discente | Voluntário\n- Emerson Oliveira Rizzatti | Técnico | Co-coordenador\n- Felipe Homrich Scherer | Discente | Voluntário\n- Felipe Nestor Dresch | Discente | Voluntário\n- Gabriel Botelho da Silva | Discente | Voluntário\n- Ivana Fontoura Carvalho | Externo | Voluntário\n- João Pablo Silva da Silva | Docente | Co-coordenador\n- João Pedro Mello da Silva | Discente | Voluntário\n- Ketrin Diovana Alves Rodrigues Vargas | Discente | Voluntário\n- Luiz Fogliato Junior | Externo | Colaborador\n- Matheus Martins Ciocca | Discente | Voluntário\n- Paulo Silas Severo de Souza | Docente | Co-coordenador\n- Rafael Mardegan | Externo | Colaborador\n- Rodrigo Brandão Mansilha | Docente | Co-coordenador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Vagner Ereno Quincozes | Externo | Co-coordenador\n- Vinicius Diehl Rodrigues | Discente | Voluntário\n- Williamson Alison Freitas Silva | Docente | Co-coordenador"
+  },
+  {
+    "data": {
+      "order": "15",
+      "registro": "2022.EN.AL.463",
+      "title": "Estudos para a Maratona de Programação Paralela",
+      "status": "concluído",
+      "theme": "educacao-empreendedorismo",
+      "coordinator": "Claudio Schepke",
+      "funding": "Projeto de Ensino",
+      "period": "2022–2024",
+      "keywords": "Programação Paralela / Maratona de Programação / Processamento de Alto Desempenho / Algoritmos e Programação / Estruturas de Dados"
+    },
+    "content": "# Estudos para a Maratona de Programação Paralela\n\n## Descrição\n\nProjeto de ensino para estimular o uso de ferramentas de Processamento de Alto Desempenho (PAD) e preparar estudantes para maratonas de programação paralela (SBAC-PAD/WSCAD/ERAD-RS), reduzindo dificuldades de programação por meio do estudo colaborativo.\n\n## Equipe\n\n- Aline Vieira de Mello | Docente | Colaborador\n- Claudio Schepke | Docente | Coordenador\n- Diego Luis Kreutz | Docente | Colaborador"
+  },
+  {
+    "data": {
+      "order": "16",
+      "registro": "2024.EX.AL.3277",
+      "title": "Riscos de Segurança: PIX e Outras Transações Financeiras",
+      "status": "concluído",
+      "theme": "educacao-empreendedorismo",
+      "coordinator": "Claudio Schepke",
+      "funding": "Projeto de Extensão",
+      "period": "2024–2026",
+      "keywords": "Segurança / PIX / Operações Financeiras"
+    },
+    "content": "# Riscos de Segurança: PIX e Outras Transações Financeiras\n\n## Descrição\n\nProjeto de extensão para difundir os riscos de segurança em transações financeiras, especialmente do tipo PIX, levantando as principais falhas e tipos de ataque e disseminando boas práticas de proteção à comunidade.\n\n## Equipe\n\n- Brenda Medeiros Lopes | Discente | Voluntário\n- Claudio Schepke | Docente | Coordenador\n- Diego Luis Kreutz | Docente | Pesquisador\n- Fabio Righi da Silva | Técnico | Colaborador\n- Glener Lanes Pizzolato | Discente | Voluntário"
   }
 ];
 
-const PUBLICATIONS_DATA = [
+const CONTRIBUTORS_DATA = [
   {
     "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Anonimização de Incidentes de Segurança com Reidentificação Controlada",
-      "authors": "Carolina Tompsen Bandel; João Pedro Ramires Esteves; Kalian Pereira Guerra; Leandro M. Bertholdo; Diego Kreutz; Rodrigo S. Miani",
-      "venue": "SBSeg 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36614",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/36614/36401"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Categorização de Incidentes de Segurança utilizando Engenharia de Prompts em LLMs",
-      "authors": "Alex Sandre Pinheiro Severo; Douglas Paim Lautert; Diego Kreutz; Leandro Márcio Bertholdo; Marcio Pohlmann; Silvio Ereno Quincozes",
-      "venue": "SBSeg 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36624",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/36624/36411"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Exploiting Latent Space Discontinuities for Building Universal LLM Jailbreaks and Data Extraction Attacks",
-      "authors": "Kayuã Oleques Paim; Rodrigo Brandão Mansilha; Diego Kreutz; Muriel Figueredo Franco; Weverton Cordeiro",
-      "venue": "SBSeg 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36635",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/36635/36422"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Minimal but Lethal: A XAI-Driven Approach for Feature-Level Adversarial Attacks on Healthcare 5.0",
-      "authors": "Lucas P. Siqueira; Pedro H. Lui; Juliano F. Kazienko; Silvio E. Quincozes; Vagner E. Quincozes; Daniel Welfer",
-      "venue": "SBSeg 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36647",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/36647/36434"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Recovering Medical Images from Adversarial Attacks: Genetic Algorithm-based Adaptive Compression (GA-AC)",
-      "authors": "Paulo Vitor C. Lima; Silvio E. Quincozes; Marcelo Z. do Nascimento; Juliano F. Kazienko; Daniel Welfer; Shigueo Nomura",
-      "venue": "SBSeg 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36654",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/36654/36441"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Uma Avaliação Estendida do Impacto da Seleção e Enriquecimento de Features em Sistemas de Detecção de Intrusão para Smart Grids",
-      "authors": "Vagner E. Quincozes; Silvio E. Quincozes; Célio Albuquerque; Diego Passos; Daniel Mossé",
-      "venue": "SBSeg 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36665",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/36665/36452"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Além da Similaridade: Uma super-métrica Generalizável para Avaliação de Fidelidade em Dados Sintéticos de Malware",
-      "authors": "Anna Luiza Gomes da Silva; Angelo Gaspar Diniz Nogueira; Diego Kreutz; Kayuã Oleques Paim; Rodrigo Brandão Mansilha; Celso Nobre da Fonseca",
-      "venue": "SBSeg 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36668",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/36668/36455"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Análise Exploratória de Criação de Regras do WAF ModSecurity Utilizando Cinco LLMs Distintos",
-      "authors": "Tiago W. Morais; Silvio E. Quincozes; Diego Kreutz; Juliano F. Kazienko; Vagner E. Quincozes",
-      "venue": "SBSeg 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36669",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/36669/36456"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Gerenciamento Integrado e Adaptativo de Firewalls baseado na Fonte Única de Verdade (SSoT) da Rede",
-      "authors": "Jerônimo Menezes; Leonardo Bitzki; Diego Kreutz; Rodrigo Brandão Mansilha",
-      "venue": "SBSeg 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36682",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/36682/36469"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Indicadores Semânticos na Engenharia de Prompts: Uma Abordagem Explicável para Detecção de Fake News",
-      "authors": "Camilla B. Quincozes; Diego Molinos; Rafael D. Araújo; Silvio E. Quincozes",
-      "venue": "SBSeg 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/36685",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/36685/36472"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "MalDataGen: A Modular Framework for Synthetic Tabular Data Generation in Malware Detection",
-      "authors": "Kayuã Oleques Paim; Angelo Gaspar Diniz Nogueira; Diego Kreutz; Weverton Cordeiro; Rodrigo Brandão Mansilha",
-      "venue": "SBSeg 2025 — Anais Estendidos",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36739",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/36739/36525"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "Uma Ferramenta de Seleção de Features Baseada na Metaheurística GRASP com Fila de Prioridades para Sistemas de Detecção de Intrusão",
-      "authors": "Vagner E. Quincozes; Silvio E. Quincozes; Célio Albuquerque; Diego Passos; Daniel Mossé",
-      "venue": "SBSeg 2025 — Anais Estendidos",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36746",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/36746/36532"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "Caracterização de Phishing com Grandes Modelos de Linguagem (LLMs): Uma Avaliação Comparativa entre Gemini, DeepSeek e ChatGPT",
-      "authors": "Evelyn E. B. Bustamante; Adriano M. Rocha; Silvio E. Quincozes; Juliano F. Kazienko; Vagner E. Quincozes",
-      "venue": "SBSeg 2025 — Anais Estendidos",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36759",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/36759/36545"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "LLMs e Engenharia de Prompt para Classificação Automatizada de Incidentes em SOCs",
-      "authors": "Alex Sandre Pinheiro Severo; Douglas Paim Lautert; Gefté Alcantara de Almeida; Diego Kreutz; Godinho Rodrigo; Lourenco A. Pereira Jr; Leandro M. Bertholdo",
-      "venue": "SBSeg 2025 — Anais Estendidos",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36789",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/36789/36575"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "Sob a Lupa Corporativa Brasileira: Avaliação da Cobertura de Scanners de Vulnerabilidades em Aplicações Atuais",
-      "authors": "Thiago Paim Escarrone; Ricardo Lazzari da Rosa; Diego Kreutz; Rodrigo Brandão Mansilha; Douglas Poerschke Rocha",
-      "venue": "SBSeg 2025 — Anais Estendidos",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36791",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/36791/36577"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "IWSHAP: Um Método de Seleção Incremental de Características para Redes CAN baseado em Inteligência Artificial Explicável (XAI)",
-      "authors": "Felipe H. Scherer; Felipe N. Dresch; Silvio E. Quincozes; Diego Kreutz; Vagner E. Quincozes",
-      "venue": "SBSeg 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30036",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/30036/29843"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Modelos Interpretáveis com Inteligência Artificial Explicável (XAI) na Detecção de Intrusões em Redes Intra-Veiculares Controller Area Network (CAN)",
-      "authors": "Felipe N. Dresch; Felipe H. Scherer; Silvio E. Quincozes; Diego Kreutz",
-      "venue": "SBSeg 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30042",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/30042/29849"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Uma Análise Compreensiva e Exaustiva de Métodos de Seleção de Características para Detecção de Malware Android",
-      "authors": "Vanderson Rocha; Diego Kreutz; Hendrio Bragança; Joner Assolin; Nicolas Pinto; Eduardo Feitosa",
-      "venue": "SBSeg 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30055",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/30055/29862"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Uma Arquitetura baseada em Inteligência Artificial Explicável (XAI) para Sistemas de Detecção de Intrusões em Smart Grids",
-      "authors": "Camilla Borchhardt Quincozes; Henrique C. Oliveira; Silvio E. Quincozes; Rodrigo S. Miani; Vagner E. Quincozes",
-      "venue": "SBSeg 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30056",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/30056/29863"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Análise de Vulnerabilidades da Plataforma Moodle com base no Top 10 da OWASP",
-      "authors": "Silvio E. Quincozes; Leonardo Frangello Franzese; Juliano F. Kazienko; Vagner E. Quincozes",
-      "venue": "SBSeg 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30062",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/30062/29869"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Firewalls de Próxima Geração (NGFW): Funcionalidades, Aplicações e Vulnerabilidades",
-      "authors": "Tiago W. Morais; Nícolas N. Faria; Silvio E. Quincozes; Diego Kreutz; Juliano F. Kazienko; Vagner E. Quincozes; Mário C. Peixoto",
-      "venue": "SBSeg 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30071",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/30071/29878"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Geração de dados sintéticos tabulares para detecção de malware Android: um estudo de caso",
-      "authors": "Angelo Gaspar Diniz Nogueira; Kayua Oleques Paim; Hendrio Bragança; Rodrigo Mansilha; Diego Kreutz",
-      "venue": "SBSeg 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30072",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/30072/29879"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "MH-1M: One of The Most Comprehensive and Up-to-Date Dataset for Advanced Android Malware Detection",
-      "authors": "Hendrio Bragança; Vanderson Rocha; Joner Assolin; Diego Kreutz; Eduardo Feitosa",
-      "venue": "SBSeg 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30077",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/30077/29884"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Um Framework Gerador de Tráfego para Detecção de Intrusões em Redes CAN",
-      "authors": "Luiz F. Junior; Paulo Sérgio M. Vargas; Paulo Vitor C. Lima; Silvio E. Quincozes",
-      "venue": "SBSeg 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/30081",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/30081/29888"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "IWSHAP: Uma Ferramenta para Seleção Incremental de Características utilizando IWSS e SHAP",
-      "authors": "Felipe H. Scherer; Felipe N. Dresch; Silvio E. Quincozes; Diego Kreutz; Vagner E. Quincozes",
-      "venue": "SBSeg 2024 — Anais Estendidos",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30123",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30123/29931"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "MH-AutoML: Transparência, Interpretabilidade e Desempenho na Detecção de Malware Android",
-      "authors": "Joner Assolin; Gabriel Canto; Diego Kreutz; Eduardo Feitosa",
-      "venue": "SBSeg 2024 — Anais Estendidos",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30124",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30124/29932"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "MH-FSF: um Framework para Reprodução, Experimentação e Avaliação de Métodos de Seleção de Características",
-      "authors": "Vanderson Rocha; Hendrio Bragança; Diego Kreutz; Eduardo Feitosa",
-      "venue": "SBSeg 2024 — Anais Estendidos",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30125",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30125/29933"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "MalSynGen: redes neurais artificiais na geração de dados tabulares sintéticos para detecção de malware",
-      "authors": "Angelo Gaspar Diniz Nogueira; Kayua Oleques Paim; Hendrio Bragança; Rodrigo Mansilha; Diego Kreutz",
-      "venue": "SBSeg 2024 — Anais Estendidos",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30126",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30126/29934"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "SigAPI AutoCraft: uma ferramenta de seleção de características com capacidade de generalização",
-      "authors": "Laura C. Tschiedel; Vanderson Rocha; Diego Kreutz; Hendrio Bragança; Silvio E. Quincozes; Angelo G. D. Nogueira; Joner Assolin",
-      "venue": "SBSeg 2024 — Anais Estendidos",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30131",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30131/29939"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "Proteção de Dados e Conformidade Legal: Uma revisão de Ferramentas, Práticas de Segurança e Direções Futuras",
-      "authors": "Camilla C. B. Quincozes; Ketrin Vargas; Silvio E. Quincozes; César Murilo Silva Jr.; Rafael D. Araújo; Vagner E. Quincozes",
-      "venue": "SBSeg 2024 — Anais Estendidos",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30145",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30145/29953"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "Detecção de Intrusões na Internet das Coisas (IoT): Um Ambiente de Experimentação para Obtenção de Dados Reais sobre Protocolos Emergentes",
-      "authors": "Isadora F. Spohr; Douglas R. Fideles; Silvio E. Quincozes; Juliano F. Kazienko; Vagner E. Quincozes",
-      "venue": "SBSeg 2024 — Anais Estendidos",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30156",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30156/29964"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Microsserviços para Geração de RCLs no GRASP-FS: Uma Abordagem Escalável para Seleção de Features na Detecção de Intrusões em Sistemas Ciber-Físicos",
-      "authors": "Nícolas Naves R. Faria; Silvio E. Quincozes; Juliano F. Kazienko; Vagner E. Quincozes; Gabriel Oliveira; Estevão F. C. Silva",
-      "venue": "SBSeg 2023 — Trilha Principal",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27197",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/27197/27013"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Explaining the Effectiveness of Machine Learning in Malware Detection: Insights from Explainable AI",
-      "authors": "Hendrio Bragança; Vanderson Rocha; Eduardo Souto; Diego Kreutz; Eduardo Feitosa",
-      "venue": "SBSeg 2023 — Trilha Principal",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27206",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/27206/27022"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Ataques de Mudança de Rótulo no Contexto da Detecção de Malwares Android: Uma Análise Experimental",
-      "authors": "Jonas Pontes; Eduardo Feitosa; Vanderson Rocha; Eduardo Souto; Diego Kreutz",
-      "venue": "SBSeg 2023 — Trilha Principal",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27216",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/27216/27032"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Modelagem e Detecção de Ataques Grayhole ao Protocolo GOOSE usando o Framework ERENO",
-      "authors": "Jerusa C. Gonçalves; Silvio E. Quincozes; Vagner E. Quincozes; Juliano F. Kazienko",
-      "venue": "SBSeg 2023 — Trilha Principal",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27223",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/27223/27039"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Capturing the Behavior of Android Malware with MH-100K: A Novel and Multidimensional Dataset",
-      "authors": "Hendrio Bragança; Vanderson Rocha; Lucas Vilanova Barcellos; Eduardo Souto; Diego Kreutz; Eduardo Feitosa",
-      "venue": "SBSeg 2023 — Trilha Principal",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27231",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/27231/27047"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Investigating the Performance of the GPT-3.5 Model in Fake News Detection: An Experimental Analysis",
-      "authors": "Lucas S. Anjos; Silvio E. Quincozes; Juliano F. Kazienko; Vagner E. Quincozes",
-      "venue": "SBSeg 2023 — Trilha Principal",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/27238",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/27238/27054"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "AMGenerator e AMExplorer: Geração de Metadados e Construção de Datasets Android",
-      "authors": "Vanderson Rocha; Joner Assolin; Hendrio Bragança; Diego Kreutz; Eduardo Feitosa",
-      "venue": "SBSeg 2023 — Anais Estendidos",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27271",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/27271/27087"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "DroidAugmentor: uma ferramenta de treinamento e avaliação de cGANs para geração de dados sintéticos",
-      "authors": "Karina Casola; Kayuã Oleques Paim; Rodrigo Brandão Mansilha; Diego Kreutz",
-      "venue": "SBSeg 2023 — Anais Estendidos",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27273",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/27273/27089"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "BOU-Guard: Uma Abordagem para Detecção de Conteúdo Impróprio na Internet",
-      "authors": "Guilherme Bou; Adriano M. Rocha; Vagner E. Quincozes; Silvio E. Quincozes; Juliano F. Kazienko",
-      "venue": "SBSeg 2023 — Anais Estendidos",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27303",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/27303/27119"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "BG-IDPS: Detecção e Prevenção de Intrusões em Tempo Real em Switches eBPF com o Filtro de Pacotes Berkeley e a Metaheurística GRASP-FS",
-      "authors": "Diego Carvalho; Vagner E. Quincozes; Silvio E. Quincozes; Juliano F. Kazienko; Carlos Raniery Paula dos Santos",
-      "venue": "SBSeg 2022 — Trilha Principal",
-      "year": "2022",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/21664",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/21664/21488"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Uma Análise de Métodos de Seleção de Características aplicados à Detecção de Malwares Android",
-      "authors": "Tainá Soares; Diego Kreutz; Vanderson Rocha; Estevão Costa; Luiza Leão; Jonas Pontes; Joner Assolin; Gustavo Rodrigues; Eduardo Feitosa",
-      "venue": "SBSeg 2022 — Trilha Principal",
-      "year": "2022",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/21675",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/21675/21499"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Avaliação de Ferramentas de AutoML em Datasets de Detecção de Malwares Android",
-      "authors": "Guilherme Siqueira; Diego Kreutz; Joner Assolin; Estevão Costa; Charles Miers; Rodrigo Mansilha; Jonas Pontes; Eduardo Feitosa",
-      "venue": "SBSeg 2022 — Trilha Principal",
-      "year": "2022",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/21676",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/21676/21500"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Avaliação de Métodos de Classificação baseados em Regras de Associação para Detecção de Malwares Android",
-      "authors": "Vanderson da Silva Rocha; Diego Kreutz; Jonas Pontes; Eduardo Feitosa",
-      "venue": "SBSeg 2022 — Trilha Principal",
-      "year": "2022",
-      "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/21677",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/21677/21501"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "ERENO: An Extensible Tool For Generating Realistic IEC-61850 Intrusion Detection Datasets",
-      "authors": "Silvio E. Quincozes; Célio Albuquerque; Diego Passos; Daniel Mossé",
-      "venue": "SBSeg 2022 — Anais Estendidos",
-      "year": "2022",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21685",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21685/21509"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "ERENO-UI: Uma Ferramenta para a Geração de Conjuntos de Dados para a Detecção de Intrusão em Redes IEC-61850",
-      "authors": "Silvio E. Quincozes; Vagner E. Quincozes; Célio Albuquerque; Diego Passos; Daniel Mossé",
-      "venue": "SBSeg 2022 — Anais Estendidos",
-      "year": "2022",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21694",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21694/21518"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "FWNL: Um Sistema de Processamento de Linguagem Natural para Configuração de Múltiplos Firewalls",
-      "authors": "José A. S. Goulart; Washington L. M. F. Junior; Kayuã O. Paim; Gabriel M. Lunardi; Diego L. Kreutz; Rodrigo B. Mansilha",
-      "venue": "SBSeg 2022 — Anais Estendidos",
-      "year": "2022",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21700",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21700/21524"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "AutoCAR: Automação e Reprodutibilidade de Testes de Métodos de Classificação Baseados em Regras de Associação",
-      "authors": "Vanderson da Silva Rocha; Diego Kreutz; Eduardo Feitosa",
-      "venue": "SBSeg 2022 — Anais Estendidos",
-      "year": "2022",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21701",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21701/21525"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "DroidAutoML: uma Ferramenta de AutoML para o Domínio de Detecção de Malwares Android",
-      "authors": "Joner Assolin; Diego Kreutz; Guilherme Siqueira; Vanderson Rocha; Charles Miers; Rodrigo Mansilha; Eduardo Feitosa",
-      "venue": "SBSeg 2022 — Anais Estendidos",
-      "year": "2022",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21702",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21702/21526"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "ADBuilder: uma Ferramenta de Construção de Datasets para Detecção de Malwares Android",
-      "authors": "Lucas Vilanova; Diego Kreutz; Joner Assolin; Vagner Quincozes; Charles Miers; Rodrigo Mansilha; Eduardo Feitosa",
-      "venue": "SBSeg 2022 — Anais Estendidos",
-      "year": "2022",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21703",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21703/21527"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSeg",
-      "event_nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais",
-      "event_ordem": 1,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "FS3E: uma Ferramenta para Execução e Avaliação de Métodos de Seleção de Características para Detecção de Malwares Android",
-      "authors": "Estevão Costa; Diego Kreutz; Vanderson Rocha; Luíza Leão; Sávio Sabóia; Nicolas Neves; Eduardo Feitosa",
-      "venue": "SBSeg 2022 — Anais Estendidos",
-      "year": "2022",
-      "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21704",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21704/21528"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBRC",
-      "event_nome": "Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
-      "event_ordem": 2,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Ataques de Envenenamento de Rótulos contra a Detecção de Zero-Day em Sistemas de Detecção de Intrusão Colaborativos",
-      "authors": "Giovanni H. M. de L. Siervo; Maria Eduarda S. Chessio; Silvio E. Quincozes; Daniel Mossé; Vagner E. Quincozes; Célio Albuquerque; Diego Passos",
-      "venue": "SBRC 2026 — Trilha Principal",
-      "year": "2026",
-      "link": "https://sol.sbc.org.br/index.php/sbrc/article/view/42294",
-      "pdf": "https://sol.sbc.org.br/index.php/sbrc/article/download/42294/42061"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBRC",
-      "event_nome": "Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
-      "event_ordem": 2,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "AnonShield: Scalable On-Premise Pseudonymization for CSIRT Network Vulnerability Data",
-      "authors": "Cristhian Kapelinski; Douglas Lautert; Beatriz Machado; Diego Kreutz; Isadora Garcia Ferrão",
-      "venue": "SBRC 2026 — Anais Estendidos",
-      "year": "2026",
-      "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42580",
-      "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42580/42347"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBRC",
-      "event_nome": "Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
-      "event_ordem": 2,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "dsm2cli: An Observable Pipeline for Translating Network Intents into Multivendor CLI with Independent Semantic Assessment",
-      "authors": "Jerônimo Menezes; Leonardo Bitzki; Diego Kreutz; Gefte Almeida; Marcio Pohlmann; Rodrigo Mansilha",
-      "venue": "SBRC 2026 — Anais Estendidos",
-      "year": "2026",
-      "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42581",
-      "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42581/42348"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBRC",
-      "event_nome": "Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
-      "event_ordem": 2,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "From Red Flags to Detection Rules: An LLM-driven Pipeline for Real-Time GOOSE Intrusion Detection and Prevention",
-      "authors": "Lucas A. Martins; Camilla B. Quincozes; Giovanni Siervo; Silvio E. Quincozes; Marcelo Caggiani Luizelli",
-      "venue": "SBRC 2026 — Anais Estendidos",
-      "year": "2026",
-      "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42585",
-      "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42585/42352"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBRC",
-      "event_nome": "Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
-      "event_ordem": 2,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "IoT-ID: Deterministic Device Identity from Hybrid Network Fingerprinting",
-      "authors": "Anna Letycia; Joner Assolin; Diego Kreutz; Rodrigo Miani",
-      "venue": "SBRC 2026 — Anais Estendidos",
-      "year": "2026",
-      "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42588",
-      "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42588/42355"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBRC",
-      "event_nome": "Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
-      "event_ordem": 2,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "IoT-Zoo: A Container-Based Framework for Heterogeneous IoT Device Profiles and Reproducible Traffic Capture",
-      "authors": "Vagner E. Quincozes; Diego Kreutz; Silvio E. Quincozes",
-      "venue": "SBRC 2026 — Anais Estendidos",
-      "year": "2026",
-      "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42589",
-      "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42589/42356"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBRC",
-      "event_nome": "Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
-      "event_ordem": 2,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "Cloud AutoDroid: Um Sistema Distribuído Escalável para Execução de Ferramentas de IA Generativa",
-      "authors": "Luiz Felipe Laviola; Diego Kreutz; Rodrigo Brandão Mansilha",
-      "venue": "SBRC 2025 — Anais Estendidos",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/35867",
-      "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/35867/35654"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBRC",
-      "event_nome": "Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
-      "event_ordem": 2,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "VulnSyncAI: PLN e LLMs para Construção e Atualização Contínua de Datasets de Vulnerabilidades",
-      "authors": "Douglas Rodrigues Fideles; Douglas Paim Lautert; Diego Kreutz; Silvio Ereno Quincozes",
-      "venue": "SBRC 2025 — Anais Estendidos",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/35868",
-      "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/35868/35655"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBRC",
-      "event_nome": "Simpósio Brasileiro de Redes de Computadores e Sistemas Distribuídos",
-      "event_ordem": 2,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "TrueState-SNA: Uma Solução Baseada em SSoT para Automação de Redes Heterogêneas",
-      "authors": "Jerônimo Menezes; Diego Kreutz; Rodrigo Brandão Mansilha",
-      "venue": "SBRC 2025 — Anais Estendidos",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/35869",
-      "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/35869/35656"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Análise de Desempenho e Eficácia da Sonda Zeek: Um Estudo Comparativo de Perfis de Execução sob Restrições de Recursos",
-      "authors": "Rafael B. Torres; Rodrigo Brandão Mansilha; Diego Kreutz",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39173",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39173/38945"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Avaliação de uma Arquitetura Híbrida Borda-Nuvem para Monitoramento de Motores Elétricos em Tempo Real",
-      "authors": "Guilherme Siqueira; Diego Kreutz",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39175",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39175/38947"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "IoTEdu: Access Control, Detection, and Automatic Incident Response in Academic IoT Networks",
-      "authors": "Joner Assolin; Diego Kreutz; Leandro Bertholdo",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39179",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39179/38951"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "IoTEdu: Network Services for the Automated Management of Campus Internet-of-Things Networks",
-      "authors": "Leonardo Bitzki; Diego Kreutz; Leandro Bertholdo",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39180",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39180/38952"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Net2d-LLM: Translating Structured Network Intents into CLI using LLMs with Execution in a Network Digital Twin",
-      "authors": "Jerônimo Menezes; Leonardo Bitzki; Diego Kreutz",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39181",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39181/38953"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "AnonLFI 2.0: Extensible Architecture for PII Pseudonymization in CSIRTs with OCR and Technical Recognizers",
-      "authors": "Cristhian Kapelinski; Douglas Lautert; Beatriz Machado; Diego Kreutz",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39186",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39186/38958"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Assessing the Security Coverage of the Google Play Integrity API on Android",
-      "authors": "Francis Vargas; Angelo Gaspar; Diego Kreutz; Rodrigo Mansilha",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39189",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39189/38961"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "On-Premise SLMs vs. Commercial LLMs: Prompt Engineering and Incident Classification in SOCs and CSIRTs",
-      "authors": "Gefté Almeida; Marcio Pohlmann; Alex Severo; Diego Kreutz; Tiago Heinrich; Lourenço Pereira",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39193",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39193/38965"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Reducing Instability in Synthetic Data Evaluation with a Super-Metric in MalDataGen",
-      "authors": "Anna Luiza Gomes da Silva; Diego Kreutz; Angelo Diniz; Rodrigo Mansilha; Celso Nobre da Fonseca",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39194",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39194/38966"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Structured Extraction of Vulnerabilities in OpenVAS and Tenable WAS Reports Using LLMs",
-      "authors": "Beatriz Machado; Douglas Lautert; Cristhian Kapelinski; Diego Kreutz",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39195",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39195/38967"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Temperature in SLMs: Impact on Incident Categorization in On-Premises Environments",
-      "authors": "Marcio Pohlmann; Alex Severo; Gefte Almeida; Diego Kreutz; Tiago Heinrich; Lourenço Pereira",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39196",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39196/38968"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Tune3: Otimização Multiestágio de Hiperparâmetros com Redução de Custo e Maior Estabilidade em Modelos de Detecção de Malware Android",
-      "authors": "Lucas Ferreira Areias de Oliveira; Angelo Gaspar Diniz; Diego Kreutz; Dionatan Schmidt; Rodrigo Mansilha",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39198",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39198/38970"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Mapeamento e Análise de Metodologias de Fraude Aplicadas ao Pix no Brasil",
-      "authors": "Glener Lanes Pizzolato; Brenda Medeiros Lopes; Claudio Schepke; Diego Kreutz",
-      "venue": "ERRC 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/39199",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39199/38971"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "RouteBastion: Architecting a Broker for VRP APIs",
-      "authors": "Pietro Vieira; Bruno Dalmazo; Diego Kreutz; Rodrigo Brandão Mansilha",
-      "venue": "ERRC 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/35427",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35427/35214"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Gerenciamento de serviços e dispositivos de rede à partir da fonte de verdade da rede (SoT)",
-      "authors": "Jerônimo Menezes; Diego Kreutz; Rodrigo Mansilha",
-      "venue": "ERRC 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/35439",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35439/35226"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "MosqMon: um sistema distribuído para captura de faixas de áudio para treinamento de RNAs detectoras de mosquito Ae. aegypti",
-      "authors": "Yang da Fontoura Rodrigues; Rafael Nogueira Rodrigues; Kayuã Oleques Paim; Diego Kreutz; Weverton Cordeiro; Rodrigo Brandão Mansilha",
-      "venue": "ERRC 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/35440",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35440/35227"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Otimização de hiperparâmetros da DroidAugmentor para geração de dados sintéticos de malware Android",
-      "authors": "Angelo Gaspar Diniz Nogueira; Lucas Ferreira Areais de Oliveira; Anna Luiza Gomes da Silva; Diego Kreutz; Rodrigo Brandão Mansilha",
-      "venue": "ERRC 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/35451",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35451/35238"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "DDS-Builder: construção e disponibilização de um dataset público para sistemas ciberfísicos baseados em Data Distribution Service (DDS)",
-      "authors": "Douglas Fideles; Diego Kreutz; Silvio Quincozes",
-      "venue": "ERRC 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/35452",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35452/35239"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "MH-API: Uma Solução Escalável Para Detecção de Malwares em Android",
-      "authors": "Joner de Mello Assolin; Hendrio Bragança; Diego Kreutz; Eduardo Feitosa; Sávio Saboia; Luiza Leão; Vanderson Rocha",
-      "venue": "ERRC 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/35453",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35453/35240"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Viés Avaliativo e Generalização Comprometida: O Impacto de Amostras Idênticas em Datasets de Malware Android",
-      "authors": "Gabriel Sousa Canto; Vanderson Rocha; Diego Kreutz; Hendrio Bragança; Eduardo Feitosa",
-      "venue": "ERRC 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/35457",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35457/35244"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Análise empírica e comparativa de ferramentas de varredura de vulnerabilidades em aplicações Web usando OWASP BWA e Juice Shop",
-      "authors": "Ricardo Rosa; Diego Kreutz; Marcelino Garcia; Santiago Pereira; Rodrigo Mansilha",
-      "venue": "ERRC 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/35458",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35458/35245"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "eWebAPI: uma API para assinar digitalmente lotes de certificados eletrônicos utilizando o e-certsDS",
-      "authors": "Alan Miguel Dorr Schulze; Diego Kreutz",
-      "venue": "ERRC 2023 — Trilha Principal",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/26018",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/26018/25841"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Avaliação de Métodos de Seleção de Características de Amostras Android com a Ferramenta FS3E (v2)",
-      "authors": "Nicolas Neves; Vanderson Rocha; Diego Kreutz; Hendrio Bragança; Eduardo Feitosa",
-      "venue": "ERRC 2023 — Trilha Principal",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/26019",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/26019/25842"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "AutoDroid: disponibilizando a ferramenta DroidAugmentor como serviço",
-      "authors": "Luiz Felipe Laviola; Kayuã Oleques Paim; Diego Kreutz; Rodrigo Brandão Mansilha",
-      "venue": "ERRC 2023 — Trilha Principal",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/26020",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/26020/25843"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "PDFWebSigner: posicionamento de estampas de assinaturas digitais em documentos PDF",
-      "authors": "Maurício El Uri; Diego Kreutz",
-      "venue": "ERRC 2023 — Trilha Principal",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/26021",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/26021/25844"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Ferramentas de extração de características para análise estática de aplicativos Android",
-      "authors": "Jonas Pontes; Estevão Costa; Vanderson Rocha; Nicolas Neves; Eduardo Feitosa; Joner Assolin; Diego Kreutz",
-      "venue": "ERRC 2021 — Trilha Principal",
-      "year": "2021",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/18539",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/18539/18372"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Detecção de Malwares Android: datasets e reprodutibilidade",
-      "authors": "Taina Soares; Guilherme Siqueira; Lucas Barcellos; Renato Sayyed; Luciano Vargas; Gustavo Rodrigues; Joner Assolin; Jonas Pontes; Eduardo Feitosa; Diego Kreutz",
-      "venue": "ERRC 2021 — Trilha Principal",
-      "year": "2021",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/18540",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/18540/18373"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Detecção de Malwares Android: Levantamento Empírico da Disponibilidade e da Atualização das Fontes de Dados",
-      "authors": "Tainá Soares; Joner Mello; Lucas Barcellos; Renato Sayyed; Guilherme Siqueira; Karina Casola; Estevão Costa; Nicolas Gustavo; Eduardo Feitosa; Diego Kreutz",
-      "venue": "ERRC 2021 — Trilha Principal",
-      "year": "2021",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/18541",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/18541/18374"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Detecção de Malwares Android: reprodução da seleção de características do SigPID",
-      "authors": "Joner Assolin; Vanderson Rocha; Guilherme Silveira; Gustavo Rodrigues; Eduardo Feitosa; Karina Casola; Diego Kreutz",
-      "venue": "ERRC 2021 — Trilha Principal",
-      "year": "2021",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/18542",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/18542/18375"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Análise do impacto de viés nos conjuntos de dados para detecção de Malwares Android",
-      "authors": "Lucas Vilanova; Renato Sayyed; Taina Soares; Guilherme Siqueira; Gustavo Rodrigues; Eduardo Feitosa; Diego Kreutz",
-      "venue": "ERRC 2021 — Trilha Principal",
-      "year": "2021",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/18543",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/18543/18376"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Usabilidade de Ferramentas para Assinatura Digital de Documentos PDF",
-      "authors": "Sandro Oliveira; Luciano Vargas; Rodrigo Mansilha; Diego Kreutz",
-      "venue": "ERRC 2021 — Trilha Principal",
-      "year": "2021",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/18546",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/18546/18379"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "QuickAutoML: Uma ferramenta para treinamento automatizado de modelos de aprendizado de máquina",
-      "authors": "Guilherme Siqueira; Gustavo Rodrigues; Eduardo Feitosa; Diego Kreutz",
-      "venue": "ERRC 2021 — Trilha Principal",
-      "year": "2021",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/18547",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/18547/18380"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERRC",
-      "event_nome": "Escola Regional de Redes de Computadores",
-      "event_ordem": 4,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Estatísticas de 40k+ sites do Ecossistema HTTPS no Brasil",
-      "authors": "Débora Patrícia Ströher; Rodrigo Brandão Mansilha; Diego Kreutz",
-      "venue": "ERRC 2021 — Trilha Principal",
-      "year": "2021",
-      "link": "https://sol.sbc.org.br/index.php/errc/article/view/18553",
-      "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/18553/18386"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERAMIA-RS",
-      "event_nome": "Escola Regional de Aprendizado de Máquina e Inteligência Artificial do RS",
-      "event_ordem": 6,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Vision Transformers para a Classificação de Cianobactérias a partir de Imagens",
-      "authors": "Rafael Prates Quevedo; Bruno Boessio Vizzotto; Elder de Macedo Rodrigues; Rodrigo Brandão Mansilha; Eliezer Soares Flores",
-      "venue": "ERAMIA-RS 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/eramiars/article/view/39380",
-      "pdf": "https://sol.sbc.org.br/index.php/eramiars/article/download/39380/39152"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERAMIA-RS",
-      "event_nome": "Escola Regional de Aprendizado de Máquina e Inteligência Artificial do RS",
-      "event_ordem": 6,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Combate à Falsificação Digital: Um Modelo de Detecção de Imagens DeepFake com Aprendizado Profundo",
-      "authors": "Vinicius N. Lopes; Tadeu Januario; Vitor G. Balsanello; Diego Kreutz; Dionatan R. Schmidt; Eliezer Flores; Elder Rodrigues",
-      "venue": "ERAMIA-RS 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/eramiars/article/view/39392",
-      "pdf": "https://sol.sbc.org.br/index.php/eramiars/article/download/39392/39164"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERAMIA-RS",
-      "event_nome": "Escola Regional de Aprendizado de Máquina e Inteligência Artificial do RS",
-      "event_ordem": 6,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Tornando Inteligentes Secadores de Grãos de Baixo Custo",
-      "authors": "Andressa Assae Perri Tamara Rodrigues; Lanes Beatriz Acosta Jaques; Débora Taís Neves Barros; Fábio Righi da Silva; Rodrigo Brandão Mansilha",
-      "venue": "ERAMIA-RS 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/eramiars/article/view/39463",
-      "pdf": "https://sol.sbc.org.br/index.php/eramiars/article/download/39463/39235"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSI",
-      "event_nome": "Simpósio Brasileiro de Sistemas de Informação",
-      "event_ordem": 3,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "PRORAF: Rastreamento da Agricultura Familiar",
-      "authors": "Nykolas F. Santos; Augusto Goulart; Diogo S. Kersten; Jhon P. L. Cornelio; Fábio Basso; Rodrigo B. Mansilha",
-      "venue": "SBSI 2024 — Anais Estendidos",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/view/28617",
-      "pdf": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/download/28617/28421"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "SBSI",
-      "event_nome": "Simpósio Brasileiro de Sistemas de Informação",
-      "event_ordem": 3,
-      "track": "estendido",
-      "track_label": "Anais Estendidos",
-      "type": "Conferência",
-      "title": "Evangelização Tecnológica da Agricultura Familiar",
-      "authors": "Nykolas F. Santos; Augusto Goulart; Diogo S. Kersten; Jhon P. L. Cornelio; Fábio Basso; Rodrigo B. Mansilha",
-      "venue": "SBSI 2024 — Anais Estendidos",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/view/28629",
-      "pdf": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/download/28629/28433"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERES",
-      "event_nome": "Escola Regional de Engenharia de Software",
-      "event_ordem": 5,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Uma Interface Web 3.0 Amigável para Rastreabilidade de Produtos da Agricultura Familiar Usando Contratos Inteligentes",
-      "authors": "Rafael Nogueira; Nykolas Fornaziero dos Santos; Henrique Fan; Bruno B. Neves; Roben C. Lunardi; Diego Kreutz; Rodrigo B. Mansilha",
-      "venue": "ERES 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/eres/article/view/40390",
-      "pdf": "https://sol.sbc.org.br/index.php/eres/article/download/40390/40159"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERES",
-      "event_nome": "Escola Regional de Engenharia de Software",
-      "event_ordem": 5,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Smart Agro RAF API",
-      "authors": "Henrique Fan; Rafael Nogueira; Bruno B. Neves; Fábio R. da Silva; Roben C. Lunardi; Diego Kreutz; Rodrigo B. Mansilha",
-      "venue": "ERES 2025 — Trilha Principal",
-      "year": "2025",
-      "link": "https://sol.sbc.org.br/index.php/eres/article/view/40395",
-      "pdf": "https://sol.sbc.org.br/index.php/eres/article/download/40395/40164"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERES",
-      "event_nome": "Escola Regional de Engenharia de Software",
-      "event_ordem": 5,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "CANEDA-IDS: Uma Arquitetura Orientada a Eventos para Detecção de Intrusão em Redes CAN",
-      "authors": "Felipe N. Dresch; Felipe H. Scherer; Silvio E. Quincozes; Diego Kreutz",
-      "venue": "ERES 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/eres/article/view/31834",
-      "pdf": "https://sol.sbc.org.br/index.php/eres/article/download/31834/31636"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERES",
-      "event_nome": "Escola Regional de Engenharia de Software",
-      "event_ordem": 5,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Jarvas: um Chatbot Assistente via Aplicativos de Mensagens Instantâneas para Aplicações Científicas",
-      "authors": "Rafael Nogueira Rodrigues; Lucas Ferreira Soares; Yang da Fontoura Rodrigues; Luiz Felipe Laviola; Diego Kreutz; Rodrigo Brandão Mansilha",
-      "venue": "ERES 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/eres/article/view/31838",
-      "pdf": "https://sol.sbc.org.br/index.php/eres/article/download/31838/31640"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERES",
-      "event_nome": "Escola Regional de Engenharia de Software",
-      "event_ordem": 5,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "X-Ray Covid19: Um Aplicativo Móvel para Diagnóstico através de Radiografias do Tórax",
-      "authors": "Michael Martins; Diego Kreutz; Fábio Basso; Silvio E. Quincozes",
-      "venue": "ERES 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/eres/article/view/31841",
-      "pdf": "https://sol.sbc.org.br/index.php/eres/article/download/31841/31643"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERES",
-      "event_nome": "Escola Regional de Engenharia de Software",
-      "event_ordem": 5,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Uma GUI para hackers do bem aprenderem sobre malwares sintéticos",
-      "authors": "Leonardo Karling Sonco; Angelo Nogueira; Diego Kreutz; Rodrigo Brandão Mansilha",
-      "venue": "ERES 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/eres/article/view/31844",
-      "pdf": "https://sol.sbc.org.br/index.php/eres/article/download/31844/31646"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERES",
-      "event_nome": "Escola Regional de Engenharia de Software",
-      "event_ordem": 5,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Especificação de Requisitos de Segurança em Firewalls de Próxima Geração: Abordagens e Desafios",
-      "authors": "Tiago W. Morais; Felipe H. Scherer; Felipe N. Dresch; Silvio E. Quincozes; Diego Kreutz; Vagner E. Quincozes",
-      "venue": "ERES 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/eres/article/view/31851",
-      "pdf": "https://sol.sbc.org.br/index.php/eres/article/download/31851/31653"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERES",
-      "event_nome": "Escola Regional de Engenharia de Software",
-      "event_ordem": 5,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Cloud AutoDroid: uma Arquitetura de Backend para Executar Serviços de IA Generativa na Nuvem",
-      "authors": "Luiz Felipe Laviola; Angelo Gaspar Diniz Nogueira; Diego Kreutz; Rodrigo Brandão Mansilha",
-      "venue": "ERES 2024 — Trilha Principal",
-      "year": "2024",
-      "link": "https://sol.sbc.org.br/index.php/eres/article/view/31859",
-      "pdf": "https://sol.sbc.org.br/index.php/eres/article/download/31859/31661"
-    },
-    "content": ""
-  },
-  {
-    "data": {
-      "event": "ERES",
-      "event_nome": "Escola Regional de Engenharia de Software",
-      "event_ordem": 5,
-      "track": "principal",
-      "track_label": "Trilha Principal",
-      "type": "Conferência",
-      "title": "Técnicas predatórias na monetização de jogos digitais: um estudo de caso utilizando semiótica",
-      "authors": "Vinicius Kreutz Recktenwaldt; Carla D. M. Berkenbrock",
-      "venue": "ERES 2023 — Trilha Principal",
-      "year": "2023",
-      "link": "https://sol.sbc.org.br/index.php/eres/article/view/27031",
-      "pdf": "https://sol.sbc.org.br/index.php/eres/article/download/27031/26849"
-    },
-    "content": ""
-  }
-];
-
-const AUTHORS_DATA = [
-  {
-    "data": {
-      "nome": "Diego Kreutz",
-      "foto": "papers/autores-fotos/diego_kreutz_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=JcL8biEAAAAJ",
-      "publicacoes": 82
+      "nome": "Diego Luis Kreutz",
+      "tipo": "Docente",
+      "projetos": 15,
+      "coordena": 7
     },
     "content": ""
   },
   {
     "data": {
       "nome": "Rodrigo Brandão Mansilha",
-      "foto": "papers/autores-fotos/rodrigo_mansilha_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=grhQHAQAAAAJ",
-      "publicacoes": 36
+      "tipo": "Docente",
+      "projetos": 9,
+      "coordena": 4
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Claudio Schepke",
+      "tipo": "Docente",
+      "projetos": 5,
+      "coordena": 2
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Camilla Charão Borchhardt",
+      "tipo": "Discente",
+      "projetos": 4,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Fabio Paulo Basso",
+      "tipo": "Docente",
+      "projetos": 4,
+      "coordena": 3
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Felipe Homrich Scherer",
+      "tipo": "Discente",
+      "projetos": 4,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Felipe Nestor Dresch",
+      "tipo": "Discente",
+      "projetos": 4,
+      "coordena": 0
     },
     "content": ""
   },
   {
     "data": {
       "nome": "Silvio Ereno Quincozes",
-      "foto": "papers/autores-fotos/silvio_quincozes_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
-      "publicacoes": 33
+      "tipo": "Docente",
+      "projetos": 4,
+      "coordena": 4
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Eduardo Feitosa",
-      "foto": "papers/autores-fotos/eduardo_feitosa_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=hyFVsvQAAAAJ",
-      "publicacoes": 24
+      "nome": "Vagner Ereno Quincozes",
+      "tipo": "Externo",
+      "projetos": 4,
+      "coordena": 2
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Vagner E. Quincozes",
-      "foto": "papers/autores-fotos/vagner_quincozes_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=t3K2zCQAAAAJ",
-      "publicacoes": 22
+      "nome": "Emerson Oliveira Rizzatti",
+      "tipo": "Técnico",
+      "projetos": 3,
+      "coordena": 1
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Vanderson da Silva Rocha",
-      "foto": "papers/autores-fotos/vanderson_rocha_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=gzSSOQgAAAAJ",
-      "publicacoes": 18
+      "nome": "Luciano Pereira de Vargas",
+      "tipo": "Técnico",
+      "projetos": 3,
+      "coordena": 0
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Joner de Mello Assolin",
-      "foto": "papers/autores-fotos/joner_assolin_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=LB0qogIAAAAJ",
-      "publicacoes": 15
+      "nome": "Matheus Martins Ciocca",
+      "tipo": "Discente",
+      "projetos": 3,
+      "coordena": 0
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Hendrio Bragança",
-      "foto": "papers/autores-fotos/hendrio_braganca_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=5Hh9jXoAAAAJ",
-      "publicacoes": 12
+      "nome": "Williamson Alison Freitas Silva",
+      "tipo": "Docente",
+      "projetos": 3,
+      "coordena": 2
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Célio Albuquerque",
-      "foto": "papers/autores-fotos/celio_albuquerque_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=cB78oMQAAAAJ",
-      "publicacoes": 5
+      "nome": "Antonni da Silva Moraes",
+      "tipo": "Discente",
+      "projetos": 2,
+      "coordena": 0
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Daniel Mossé",
-      "foto": "papers/autores-fotos/daniel_mosse_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=O1FZe5EAAAAJ",
-      "publicacoes": 5
+      "nome": "Débora da Cruz Payão Pellegrini",
+      "tipo": "Docente",
+      "projetos": 2,
+      "coordena": 0
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Felipe H. Scherer",
-      "foto": "papers/autores-fotos/felipe_scherer_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=fcYyjEcAAAAJ",
-      "publicacoes": 5
+      "nome": "Elder de Macedo Rodrigues",
+      "tipo": "Docente",
+      "projetos": 2,
+      "coordena": 0
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Jerônimo Menezes",
-      "foto": "papers/autores-fotos/jeronimo_menezes_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=1NomY1QAAAAJ",
-      "publicacoes": 5
+      "nome": "Emanuel Carricio Ferreira",
+      "tipo": "Discente",
+      "projetos": 2,
+      "coordena": 0
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Leandro Márcio Bertholdo",
-      "foto": "papers/autores-fotos/leandro_bertholdo_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=X1DwimUAAAAJ",
-      "publicacoes": 5
+      "nome": "Érico Marcelo Hoff do Amaral",
+      "tipo": "Docente",
+      "projetos": 2,
+      "coordena": 1
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Glener Lanes Pizzolato",
+      "tipo": "Discente",
+      "projetos": 2,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Ildevana Poltronieri Rodrigues",
+      "tipo": "Docente",
+      "projetos": 2,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Isadora Fenner Spohr",
+      "tipo": "Externo",
+      "projetos": 2,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Ivana Fontoura Carvalho",
+      "tipo": "Externo",
+      "projetos": 2,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "João Pablo Silva da Silva",
+      "tipo": "Docente",
+      "projetos": 2,
+      "coordena": 2
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Juliano Fontoura Kazienko",
+      "tipo": "Externo",
+      "projetos": 2,
+      "coordena": 1
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Kayuã Oleques Paim",
+      "tipo": "Discente",
+      "projetos": 2,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Ketrin Diovana Alves Rodrigues Vargas",
+      "tipo": "Discente",
+      "projetos": 2,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Lucas Vilanova Barcellos",
+      "tipo": "Discente",
+      "projetos": 2,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Luiz Fogliato Junior",
+      "tipo": "Externo",
+      "projetos": 2,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Maicon Bernardino da Silveira",
+      "tipo": "Docente",
+      "projetos": 2,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Rafael Mardegan",
+      "tipo": "Externo",
+      "projetos": 2,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Vinicius Diehl Rodrigues",
+      "tipo": "Discente",
+      "projetos": 2,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Alex Camargo",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Aline Vieira de Mello",
+      "tipo": "Docente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Angelo Gaspar Diniz Nogueira",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Anna Luiza Gomes da Silva",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Antonio Carlos Campos da Silva Junior",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Antonio de Freitas Valle Neto",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Brenda Medeiros Lopes",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Cassio Ceolin Junior",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Célio Vinicius Neves de Albuquerque",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
     },
     "content": ""
   },
   {
     "data": {
       "nome": "Charles Christian Miers",
-      "foto": "papers/autores-fotos/charles_miers_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=fZTSXW0AAAAJ",
-      "publicacoes": 3
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Fábio Paulo Basso",
-      "foto": "papers/autores-fotos/fabio_basso_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=UC6f1KMAAAAJ",
-      "publicacoes": 3
+      "nome": "Daniel Mossé",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
     },
     "content": ""
   },
   {
     "data": {
-      "nome": "Lourenço Alves Pereira Junior",
-      "foto": "papers/autores-fotos/lourenco_pereira_junior_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=paVNXpIAAAAJ",
-      "publicacoes": 3
+      "nome": "Daniel Oliveira de Freitas",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Diego Gimenez Passos",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Diego Nunes Brandão",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Diogo Silveira Kersten",
+      "tipo": "Técnico",
+      "projetos": 1,
+      "coordena": 1
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Douglas Dyllon Jerônimo de Macedo",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Douglas Rodrigues Fideles",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Douglas Rodrigues Fidelis",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Eduardo Bulling Couto",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Eduardo Cabezudo Vilhalba",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Eduardo Luzeiro Feitosa",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Estefano Stroher Soares",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Ewerton Andrade",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Fabio Righi da Silva",
+      "tipo": "Técnico",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Gabriel Botelho da Silva",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Gabriel José Bueno Otsuka",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Gabriel Machado Lunardi",
+      "tipo": "Docente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Gabriel Souza Rodrigues de Amorim",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Gefte Alcântara de Almeida",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Gilleanes Thorwald Araujo Guedes",
+      "tipo": "Docente",
+      "projetos": 1,
+      "coordena": 1
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Giulliano Paz de Lyra",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Guilherme Chagas Mundt",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Guilherme Samuel Siqueira da Silva",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Gustavo Cardozo Rodrigues",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Gustavo Rodrigues",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Hendrio Luis de Souza Bragança",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Henrique Corrêa de Oliveira",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Igor Admeilson de Oliveira",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Igor Ferrazza Capeletti",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Ines Jemal",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Jhon Pablo Lima Cornelio",
+      "tipo": "Técnico",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "João Massari Chervinski",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "João Pedro Mello da Silva",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Joner de Mello Assolin",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "José Augusto dos Santos Goulart",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "José Gabriel Ribeiro Fagundes",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Josiano Santos Costa",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Karina Casola Fernandes",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Kelvin Machado Camargo",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Laura Caroline Tschiedel",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Leandro Bertholdo",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Lucas Ferreira Areias de Oliveira",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Lucas Santos Oliveira",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Maria Eduarda Sanchez Chessio",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Mauricio Paz Franca",
+      "tipo": "Docente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Mauro Fonseca Rodrigues",
+      "tipo": "Docente",
+      "projetos": 1,
+      "coordena": 1
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Michael Luis de Nazaré Martins",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Nicolas Naves Rezende Faria",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Omar Cheikhrouhou",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Paulo Silas Severo de Souza",
+      "tipo": "Docente",
+      "projetos": 1,
+      "coordena": 1
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Pedro Sebastian Zanella Nunez",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Rafael Nogueira Rodrigues",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Raphael Pereira de Oliveira Guerra",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Raquel Mainardi Pillat Basso",
+      "tipo": "Docente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Renan Gonçalves Cattelan",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Renato Sayyed de Souza",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Roben Lunardi",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Rodnney Costa Machado",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Rodrigo da Rosa Righi",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
     },
     "content": ""
   },
   {
     "data": {
       "nome": "Rodrigo Sanches Miani",
-      "foto": "papers/autores-fotos/rodrigo_miani_1.jpg",
-      "perfil": "https://scholar.google.com/citations?user=nQF_Pk8AAAAJ",
-      "publicacoes": 3
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Roger Immich",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Tainá Oliveira Soares",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Tiago William de Morais",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Vanderson da Silva Rocha",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Vinícius Figueiredo dos Santos",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Vinícius Nunez Lopes",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Wagner Oliveira de Quadros",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Yury Alencar Lima",
+      "tipo": "Discente",
+      "projetos": 1,
+      "coordena": 0
     },
     "content": ""
   }
 ];
+
+const PUBLICATIONS_DATA = [];
+
+const AUTHORS_DATA = [];
 
 const AWARDS_DATA = [
   {

@@ -7,6 +7,8 @@ photo: assets/images/members/rodrigo-mansilha.jpg
 lattes: http://lattes.cnpq.br/3118442101667444
 orcid: 0000-0002-2083-653X
 scholar: https://scholar.google.fr/citations?user=grhQHAQAAAAJ&hl=en
+linkedin: https://www.linkedin.com/in/rodrigomansilha/
+website: https://sites.unipampa.edu.br/rodrigomansilha/
 email: mansilha@unipampa.edu.br
 ---
 

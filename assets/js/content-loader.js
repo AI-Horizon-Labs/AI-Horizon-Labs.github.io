@@ -40,19 +40,23 @@ function renderMember(member, isCoordinator = false) {
   const bioText = bio ? bio[1].trim() : '';
   
   const links = `
-    ${member.data.lattes ? `<a href="${member.data.lattes}" target="_blank"><i class="fas fa-graduation-cap" title="Lattes"></i></a>` : ''}
-    ${member.data.orcid ? `<a href="https://orcid.org/${member.data.orcid}" target="_blank"><i class="fab fa-orcid" title="ORCID"></i></a>` : ''}
+    ${member.data.lattes ? `<a href="${member.data.lattes}" target="_blank" rel="noopener"><i class="fas fa-graduation-cap" title="Lattes"></i></a>` : ''}
+    ${member.data.scholar ? `<a href="${member.data.scholar}" target="_blank" rel="noopener"><i class="fas fa-book" title="Google Scholar"></i></a>` : ''}
+    ${member.data.orcid ? `<a href="https://orcid.org/${member.data.orcid}" target="_blank" rel="noopener"><i class="fab fa-orcid" title="ORCID"></i></a>` : ''}
+    ${member.data.linkedin ? `<a href="${member.data.linkedin}" target="_blank" rel="noopener"><i class="fab fa-linkedin" title="LinkedIn"></i></a>` : ''}
+    ${member.data.website ? `<a href="${member.data.website}" target="_blank" rel="noopener"><i class="fas fa-globe" title="Site pessoal"></i></a>` : ''}
     ${member.data.email ? `<a href="mailto:${member.data.email}"><i class="fas fa-envelope" title="Email"></i></a>` : ''}
   `;
   
   // Renderizar foto ou placeholder
   const photoHeight = isCoordinator ? '200px' : '180px';
   const photoWidth = isCoordinator ? '200px' : '100%';
-  const photoHtml = member.data.photo 
-    ? `<img src="${member.data.photo}" alt="${member.data.name}" style="width:100%;height:100%;object-fit:cover;border-radius:8px;">`
-    : `<div style="width:100%;height:100%;background:linear-gradient(135deg,#f0f4f8,#e2e8f0);display:flex;align-items:center;justify-content:center;border-radius:8px;border:2px dashed #cbd5e0;">
+  const placeholderHtml = `<div style="width:100%;height:100%;background:linear-gradient(135deg,#f0f4f8,#e2e8f0);display:flex;align-items:center;justify-content:center;border-radius:8px;border:2px dashed #cbd5e0;">
          <i class="fas ${icon}" style="font-size:${iconSize};color:#a0aec0;"></i>
        </div>`;
+  const photoHtml = member.data.photo
+    ? `<img src="${member.data.photo}" alt="${member.data.name}" style="width:100%;height:100%;object-fit:cover;border-radius:8px;" onerror="this.parentElement.innerHTML='${placeholderHtml.replace(/\n\s*/g, '').replace(/'/g, "\\'").replace(/"/g, '&quot;')}'">`
+    : placeholderHtml;
   
   return `
     <div class="card member-card" style="padding:0;overflow:hidden;">

@@ -7,6 +7,45 @@
 const MEMBERS_DATA = [
   {
     "data": {
+      "id": "2",
+      "name": "Dr. Diego Luis Kreutz",
+      "role": "Professor Pesquisador",
+      "category": "pesquisadores",
+      "photo": "assets/images/members/diego-kreutz.jpg",
+      "lattes": "http://lattes.cnpq.br/2781747995973774",
+      "scholar": "https://scholar.google.com.br/citations?user=JcL8biEAAAAJ",
+      "linkedin": "https://www.linkedin.com/in/diegokreutz/",
+      "website": "http://info.kreutz.xyz"
+    },
+    "content": "# Dr. Diego Luis Kreutz\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Informática, com atuação em redes definidas por software (SDN), segurança computacional e computação em nuvem.\n\n## Interesses de Pesquisa\n\n- IA aplicada à segurança de redes e sistemas\n- Redes definidas por software (SDN)\n- Computação em nuvem e sistemas distribuídos"
+  },
+  {
+    "data": {
+      "id": "4",
+      "name": "Dr. Gilleanes Thorwald Araujo Guedes",
+      "role": "Professor Pesquisador",
+      "category": "pesquisadores",
+      "photo": "assets/images/members/gilleanes-guedes.jpg",
+      "lattes": "http://lattes.cnpq.br/6804701791614680",
+      "scholar": "https://scholar.google.com.br/citations?user=1vAb8cYAAAAJ",
+      "linkedin": "https://www.linkedin.com/in/gilleanesguedes/"
+    },
+    "content": "# Dr. Gilleanes Thorwald Araujo Guedes\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Computação, com atuação em engenharia de requisitos, projeto de software, modelagem UML e engenharia de sistemas orientada a agentes.\n\n## Interesses de Pesquisa\n\n- Engenharia de requisitos e projeto de software\n- Modelagem UML\n- Engenharia de software orientada a agentes"
+  },
+  {
+    "data": {
+      "id": "5",
+      "name": "Dr. Paulo Silas Severo de Souza",
+      "role": "Professor Pesquisador",
+      "category": "pesquisadores",
+      "photo": "assets/images/members/paulo-severo.jpg",
+      "lattes": "http://lattes.cnpq.br/2653484244901352",
+      "linkedin": "https://www.linkedin.com/in/paulosevero/"
+    },
+    "content": "# Dr. Paulo Silas Severo de Souza\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Ciência da Computação, com atuação em gerenciamento de recursos em computação em nuvem e computação na borda (edge computing).\n\n## Interesses de Pesquisa\n\n- Gerenciamento de recursos em nuvem\n- Computação na borda (edge computing)\n- Sistemas distribuídos"
+  },
+  {
+    "data": {
       "id": "1",
       "name": "Dr. Rodrigo Mansilha",
       "role": "Professor Pesquisador",
@@ -15,9 +54,38 @@ const MEMBERS_DATA = [
       "lattes": "http://lattes.cnpq.br/3118442101667444",
       "orcid": "0000-0002-2083-653X",
       "scholar": "https://scholar.google.fr/citations?user=grhQHAQAAAAJ&hl=en",
+      "linkedin": "https://www.linkedin.com/in/rodrigomansilha/",
+      "website": "https://sites.unipampa.edu.br/rodrigomansilha/",
       "email": "mansilha@unipampa.edu.br"
     },
     "content": "# Dr. Rodrigo Mansilha\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Ciência da Computação, especialista em Redes de Computadores, Sistemas Distribuídos e Cibersegurança.\n\n## Interesses de Pesquisa\n\n- IA para gerenciamento de redes e sistemas\n- IA aplicada em cibersegurança\n- Aplicações e Segurança de LLMs"
+  },
+  {
+    "data": {
+      "id": "3",
+      "name": "Dr. Silvio Ereno Quincozes",
+      "role": "Professor Pesquisador",
+      "category": "pesquisadores",
+      "photo": "assets/images/members/silvio-quincozes.jpg",
+      "lattes": "http://lattes.cnpq.br/9401130360785458",
+      "orcid": "0000-0001-6793-4033",
+      "scholar": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
+      "linkedin": "https://br.linkedin.com/in/sequincozes",
+      "website": "https://sites.unipampa.edu.br/silvioquincozes/"
+    },
+    "content": "# Dr. Silvio Ereno Quincozes\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Computação, com atuação em cibersegurança, inteligência artificial e LLMs aplicados à segurança e engenharia de software.\n\n## Interesses de Pesquisa\n\n- IA e LLMs aplicados à cibersegurança\n- Detecção de intrusões e segurança de redes\n- Engenharia de software"
+  },
+  {
+    "data": {
+      "id": "6",
+      "name": "Dr. Williamson Alison Freitas Silva",
+      "role": "Professor Pesquisador",
+      "category": "pesquisadores",
+      "photo": "assets/images/members/williamson-silva.jpg",
+      "lattes": "http://lattes.cnpq.br/7511013446343990",
+      "linkedin": "https://www.linkedin.com/in/williamson-silva/"
+    },
+    "content": "# Dr. Williamson Alison Freitas Silva\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Informática, com atuação em engenharia de requisitos, qualidade de software e engenharia de software experimental.\n\n## Interesses de Pesquisa\n\n- Engenharia de requisitos\n- Qualidade de software\n- Engenharia de software experimental"
   }
 ];
 

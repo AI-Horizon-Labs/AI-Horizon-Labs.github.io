@@ -4,7 +4,7 @@ registro: 2022.PE.AL.323
 title: Plataforma Online Segura para Acesso ao PredictCovid
 status: concluído
 theme: ia-aplicada
-coordinator: Diego Luis Kreutz
+coordinator: Diego Kreutz
 lab: LEA — Laboratório de Estudos Avançados em Computação
 funding: Projeto de Pesquisa
 period: 2022–2023
@@ -21,7 +21,7 @@ Desenvolvimento de uma plataforma online segura, distribuída e escalável (SaaS
 ## Equipe
 
 - Alex Camargo | Externo | Colaborador
-- Diego Luis Kreutz | Docente | Coordenador
+- Diego Kreutz | Docente | Coordenador
 - Érico Marcelo Hoff do Amaral | Docente | Co-coordenador
 - Fabio Paulo Basso | Docente | Colaborador
 - Giulliano Paz de Lyra | Externo | Colaborador

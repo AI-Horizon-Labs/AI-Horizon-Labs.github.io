@@ -8,16 +8,16 @@ const MEMBERS_DATA = [
   {
     "data": {
       "id": "2",
-      "name": "Dr. Diego Luis Kreutz",
+      "name": "Diego Kreutz",
       "role": "Professor Pesquisador",
       "category": "pesquisadores",
-      "photo": "assets/images/members/diego-kreutz.jpg",
+      "photo": "assets/images/members/diego-kreutz.png",
       "lattes": "http://lattes.cnpq.br/2781747995973774",
       "scholar": "https://scholar.google.com.br/citations?user=JcL8biEAAAAJ",
       "linkedin": "https://www.linkedin.com/in/diegokreutz/",
       "website": "http://info.kreutz.xyz"
     },
-    "content": "# Dr. Diego Luis Kreutz\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Informática, com atuação em redes definidas por software (SDN), segurança computacional e computação em nuvem.\n\n## Interesses de Pesquisa\n\n- IA aplicada à segurança de redes e sistemas\n- Redes definidas por software (SDN)\n- Computação em nuvem e sistemas distribuídos"
+    "content": "# Diego Kreutz\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Informática, com atuação em redes definidas por software (SDN), segurança computacional e computação em nuvem.\n\n## Interesses de Pesquisa\n\n- IA aplicada à segurança de redes e sistemas\n- Redes definidas por software (SDN)\n- Computação em nuvem e sistemas distribuídos"
   },
   {
     "data": {
@@ -176,18 +176,48 @@ const PROJECTS_DATA = [
   {
     "data": {
       "order": "1",
+      "title": "GT IoTEdu — Plataforma de Internet das Coisas para a Educação",
+      "status": "ativo",
+      "theme": "ia-ciberseguranca",
+      "coordinator": "Diego Kreutz",
+      "funding": "Grupo de Trabalho RNP",
+      "period": "2025–2026",
+      "keywords": "Internet das Coisas / Cibersegurança / Gestão de Dispositivos / Educação",
+      "website": "https://gt-iotedu.github.io/",
+      "rnp": "true"
+    },
+    "content": "# GT IoTEdu — Plataforma de Internet das Coisas para a Educação\n\n## Descrição\n\nPlataforma pioneira para facilitar e tornar segura a adoção de dispositivos IoT em instituições de ensino, com registro autônomo de dispositivos, segmentação e monitoramento automáticos de rede, detecção consolidada de ameaças por múltiplas sondas e resposta automatizada via firewall — reduzindo a complexidade de configuração e a dependência das equipes de TI. Grupo de Trabalho desenvolvido em parceria estratégica com a RNP, com colaboração da UFRGS e da UFU.\n\n## Equipe\n\n- Diego Kreutz | Docente | Coordenador\n- Leandro Márcio Bertholdo | Externo | Líder de Inovação"
+  },
+  {
+    "data": {
+      "order": "1",
       "registro": "2022.PE.AL.359",
       "title": "Modelos Preditivos para Detecção de Malwares Android",
       "status": "concluído",
       "theme": "ia-ciberseguranca",
-      "coordinator": "Diego Luis Kreutz",
+      "coordinator": "Diego Kreutz",
       "lab": "LEA — Laboratório de Estudos Avançados em Computação",
       "funding": "Projeto de Pesquisa",
       "period": "2022–2025",
       "keywords": "Modelos Preditivos / Detecção de Malwares / Android / Aprendizado de Máquina",
       "sector": "true"
     },
-    "content": "# Modelos Preditivos para Detecção de Malwares Android\n\n## Descrição\n\nConstrução de datasets atualizados e de um arcabouço de software com seleção de características e ajuste de hiperparâmetros para a criação de modelos de aprendizado de máquina voltados à detecção e classificação de malwares Android recentes e sofisticados.\n\n## Equipe\n\n- Claudio Schepke | Docente | Colaborador\n- Diego Luis Kreutz | Docente | Coordenador\n- Eduardo Luzeiro Feitosa | Externo | Pesquisador\n- Guilherme Samuel Siqueira da Silva | Discente | Voluntário\n- Gustavo Rodrigues | Externo | Colaborador\n- Joner de Mello Assolin | Discente | Voluntário\n- Karina Casola Fernandes | Discente | Voluntário\n- Lucas Vilanova Barcellos | Discente | Voluntário\n- Luciano Pereira de Vargas | Técnico | Colaborador\n- Renato Sayyed de Souza | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Colaborador\n- Tainá Oliveira Soares | Discente | Voluntário\n- Vanderson da Silva Rocha | Externo | Colaborador"
+    "content": "# Modelos Preditivos para Detecção de Malwares Android\n\n## Descrição\n\nConstrução de datasets atualizados e de um arcabouço de software com seleção de características e ajuste de hiperparâmetros para a criação de modelos de aprendizado de máquina voltados à detecção e classificação de malwares Android recentes e sofisticados.\n\n## Equipe\n\n- Claudio Schepke | Docente | Colaborador\n- Diego Kreutz | Docente | Coordenador\n- Eduardo Luzeiro Feitosa | Externo | Pesquisador\n- Guilherme Samuel Siqueira da Silva | Discente | Voluntário\n- Gustavo Rodrigues | Externo | Colaborador\n- Joner de Mello Assolin | Discente | Voluntário\n- Karina Casola Fernandes | Discente | Voluntário\n- Lucas Vilanova Barcellos | Discente | Voluntário\n- Luciano Pereira de Vargas | Técnico | Colaborador\n- Renato Sayyed de Souza | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Colaborador\n- Tainá Oliveira Soares | Discente | Voluntário\n- Vanderson da Silva Rocha | Externo | Colaborador"
+  },
+  {
+    "data": {
+      "order": "2",
+      "title": "GT Malware DataLab — Experimentação e Ensino em Detecção de Malwares Android com IA",
+      "status": "ativo",
+      "theme": "ia-ciberseguranca",
+      "coordinator": "Diego Kreutz",
+      "funding": "Grupo de Trabalho RNP",
+      "period": "2024–2026",
+      "keywords": "Malwares Android / Dados Sintéticos / IA Generativa / Aprendizado Profundo",
+      "website": "https://malwaredatalab.github.io",
+      "rnp": "true"
+    },
+    "content": "# GT Malware DataLab — Experimentação e Ensino em Detecção de Malwares Android com IA\n\n## Descrição\n\nPlataforma educacional e de experimentação voltada aos desafios de segurança que afetam os bilhões de usuários do Android, capacitando profissionais de cibersegurança em técnicas de geração de dados sintéticos e detecção de ameaças com inteligência artificial e aprendizado profundo. Grupo de Trabalho que reúne estudantes e docentes de diversas universidades brasileiras.\n\n## Equipe\n\n- Diego Kreutz | Docente | Coordenador"
   },
   {
     "data": {
@@ -196,7 +226,7 @@ const PROJECTS_DATA = [
       "title": "LLMs e SLMs Aplicados à Cibersegurança",
       "status": "ativo",
       "theme": "ia-ciberseguranca",
-      "coordinator": "Diego Luis Kreutz",
+      "coordinator": "Diego Kreutz",
       "lab": "LEA — Laboratório de Estudos Avançados em Computação",
       "funding": "Projeto de Pesquisa",
       "period": "2024–2028",
@@ -204,7 +234,22 @@ const PROJECTS_DATA = [
       "international": "true",
       "sector": "true"
     },
-    "content": "# LLMs e SLMs Aplicados à Cibersegurança\n\n## Descrição\n\nExploração do potencial de Modelos de Linguagem em Larga (LLMs) e em Pequena Escala (SLMs) na cibersegurança — detecção de padrões maliciosos, sumarização de eventos, análise preditiva de incidentes e geração automatizada de diretrizes de mitigação.\n\n## Equipe\n\n- Angelo Gaspar Diniz Nogueira | Discente | Voluntário\n- Anna Luiza Gomes da Silva | Discente | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Claudio Schepke | Docente | Colaborador\n- Diego Luis Kreutz | Docente | Coordenador\n- Felipe Homrich Scherer | Discente | Voluntário\n- Felipe Nestor Dresch | Discente | Voluntário\n- Gefte Alcântara de Almeida | Discente | Voluntário\n- Glener Lanes Pizzolato | Discente | Voluntário\n- Hendrio Luis de Souza Bragança | Externo | Colaborador\n- Kayuã Oleques Paim | Externo | Colaborador\n- Kelvin Machado Camargo | Discente | Voluntário\n- Leandro Bertholdo | Externo | Colaborador\n- Lucas Ferreira Areias de Oliveira | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Colaborador"
+    "content": "# LLMs e SLMs Aplicados à Cibersegurança\n\n## Descrição\n\nExploração do potencial de Modelos de Linguagem em Larga (LLMs) e em Pequena Escala (SLMs) na cibersegurança — detecção de padrões maliciosos, sumarização de eventos, análise preditiva de incidentes e geração automatizada de diretrizes de mitigação.\n\n## Equipe\n\n- Angelo Gaspar Diniz Nogueira | Discente | Voluntário\n- Anna Luiza Gomes da Silva | Discente | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Claudio Schepke | Docente | Colaborador\n- Diego Kreutz | Docente | Coordenador\n- Felipe Homrich Scherer | Discente | Voluntário\n- Felipe Nestor Dresch | Discente | Voluntário\n- Gefte Alcântara de Almeida | Discente | Voluntário\n- Glener Lanes Pizzolato | Discente | Voluntário\n- Hendrio Luis de Souza Bragança | Externo | Colaborador\n- Kayuã Oleques Paim | Externo | Colaborador\n- Kelvin Machado Camargo | Discente | Voluntário\n- Leandro Bertholdo | Externo | Colaborador\n- Lucas Ferreira Areias de Oliveira | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Colaborador"
+  },
+  {
+    "data": {
+      "order": "3",
+      "title": "GT LFI — Learn From Incidents",
+      "status": "ativo",
+      "theme": "educacao-empreendedorismo",
+      "coordinator": "Rodrigo Sanches Miani",
+      "funding": "Grupo de Trabalho RNP",
+      "period": "2024–2026",
+      "keywords": "Educação em Cibersegurança / Resposta a Incidentes / Gamificação / IA",
+      "website": "https://gt-rnp-lfi.github.io",
+      "rnp": "true"
+    },
+    "content": "# GT LFI — Learn From Incidents\n\n## Descrição\n\nPlataforma gamificada que utiliza inteligência artificial para transformar o treinamento em resposta a incidentes de cibersegurança em uma experiência de aprendizado prática e envolvente, combinando desafios interativos, cenários reais oriundos de CSIRTs parceiros e conteúdo adaptativo para formar a próxima geração de profissionais de segurança. Grupo de Trabalho financiado pela RNP no âmbito do programa Hackers do Bem.\n\n## Equipe\n\n- Rodrigo Sanches Miani | Externo | Coordenador\n- Diego Kreutz | Docente | Colaborador"
   },
   {
     "data": {
@@ -219,7 +264,22 @@ const PROJECTS_DATA = [
       "keywords": "Detecção de Intrusões / Inteligência Artificial Explicável / Seleção de Features / Otimização de Hiperparâmetros",
       "international": "true"
     },
-    "content": "# XAIID — Estratégias Inteligentes e Explicáveis para Detecção de Intrusões em Sistemas Ciber-Físicos\n\n## Descrição\n\nDesenvolvimento de estratégias inteligentes e explicáveis (XAI) para detecção de intrusões em sistemas ciber-físicos, com ênfase em seleção de características e otimização de hiperparâmetros para identificar e mitigar ameaças em tempo real.\n\n## Equipe\n\n- Antonio Carlos Campos da Silva Junior | Externo | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Célio Vinicius Neves de Albuquerque | Externo | Pesquisador\n- Daniel Mossé | Externo | Pesquisador\n- Diego Gimenez Passos | Externo | Pesquisador\n- Diego Luis Kreutz | Docente | Pesquisador\n- Douglas Rodrigues Fidelis | Externo | Colaborador\n- Felipe Homrich Scherer | Discente | Bolsista\n- Felipe Nestor Dresch | Discente | Voluntário\n- Gabriel José Bueno Otsuka | Externo | Voluntário\n- Guilherme Chagas Mundt | Discente | Voluntário\n- Henrique Corrêa de Oliveira | Externo | Voluntário\n- Ines Jemal | Externo | Voluntário\n- Isadora Fenner Spohr | Externo | Voluntário\n- Juliano Fontoura Kazienko | Externo | Pesquisador\n- Maria Eduarda Sanchez Chessio | Discente | Voluntário\n- Matheus Martins Ciocca | Discente | Voluntário\n- Nicolas Naves Rezende Faria | Discente | Voluntário\n- Omar Cheikhrouhou | Externo | Pesquisador\n- Renan Gonçalves Cattelan | Externo | Pesquisador\n- Rodnney Costa Machado | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Pesquisador\n- Rodrigo Sanches Miani | Externo | Pesquisador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Tiago William de Morais | Externo | Voluntário\n- Vagner Ereno Quincozes | Externo | Voluntário\n- Vinícius Figueiredo dos Santos | Externo | Pesquisador"
+    "content": "# XAIID — Estratégias Inteligentes e Explicáveis para Detecção de Intrusões em Sistemas Ciber-Físicos\n\n## Descrição\n\nDesenvolvimento de estratégias inteligentes e explicáveis (XAI) para detecção de intrusões em sistemas ciber-físicos, com ênfase em seleção de características e otimização de hiperparâmetros para identificar e mitigar ameaças em tempo real.\n\n## Equipe\n\n- Antonio Carlos Campos da Silva Junior | Externo | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Célio Vinicius Neves de Albuquerque | Externo | Pesquisador\n- Daniel Mossé | Externo | Pesquisador\n- Diego Gimenez Passos | Externo | Pesquisador\n- Diego Kreutz | Docente | Pesquisador\n- Douglas Rodrigues Fidelis | Externo | Colaborador\n- Felipe Homrich Scherer | Discente | Bolsista\n- Felipe Nestor Dresch | Discente | Voluntário\n- Gabriel José Bueno Otsuka | Externo | Voluntário\n- Guilherme Chagas Mundt | Discente | Voluntário\n- Henrique Corrêa de Oliveira | Externo | Voluntário\n- Ines Jemal | Externo | Voluntário\n- Isadora Fenner Spohr | Externo | Voluntário\n- Juliano Fontoura Kazienko | Externo | Pesquisador\n- Maria Eduarda Sanchez Chessio | Discente | Voluntário\n- Matheus Martins Ciocca | Discente | Voluntário\n- Nicolas Naves Rezende Faria | Discente | Voluntário\n- Omar Cheikhrouhou | Externo | Pesquisador\n- Renan Gonçalves Cattelan | Externo | Pesquisador\n- Rodnney Costa Machado | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Pesquisador\n- Rodrigo Sanches Miani | Externo | Pesquisador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Tiago William de Morais | Externo | Voluntário\n- Vagner Ereno Quincozes | Externo | Voluntário\n- Vinícius Figueiredo dos Santos | Externo | Pesquisador"
+  },
+  {
+    "data": {
+      "order": "4",
+      "title": "GT Smart AgroRAF — Contratos Inteligentes para Rastreabilidade da Agricultura Familiar",
+      "status": "ativo",
+      "theme": "ia-aplicada",
+      "coordinator": "Diego Kreutz",
+      "funding": "Grupo de Trabalho RNP",
+      "period": "2025–2026",
+      "keywords": "Blockchain / Contratos Inteligentes / Rastreabilidade / Agricultura Familiar",
+      "website": "https://smart-agroraf.github.io",
+      "rnp": "true"
+    },
+    "content": "# GT Smart AgroRAF — Contratos Inteligentes para Rastreabilidade da Agricultura Familiar\n\n## Descrição\n\nSolução de rastreabilidade de produtos baseada em blockchain projetada para a agricultura familiar e aderente à regulação brasileira (INC 02/2018), contemplando o projeto e a implementação de contratos inteligentes, sua integração ao sistema de informação Proraf e a avaliação de alternativas de blockchain (Hyperledger Besu e Ethereum) quanto a custo, velocidade de transação e usabilidade. Grupo de Trabalho fomentado pela RNP no âmbito do projeto Ilíada.\n\n## Equipe\n\n- Diego Kreutz | Docente | Coordenador\n- Rodrigo Brandão Mansilha | Docente | Co-coordenador"
   },
   {
     "data": {
@@ -234,7 +294,7 @@ const PROJECTS_DATA = [
       "period": "2024–2028",
       "keywords": "Cibersegurança / Internet das Coisas / Smart Homes"
     },
-    "content": "# TRAP-IoT — Tecnologia Resiliente para Aplicações em Protocolos IoT\n\n## Descrição\n\nSoluções de segurança para Internet das Coisas em dispositivos de baixo custo (ESP32, Arduino, Raspberry Pi), com foco em comunicação segura e detecção de intrusões em protocolos emergentes (Zenoh) e tradicionais (DDS, Wi-Fi, Bluetooth) aplicados à saúde, smart homes e vestíveis.\n\n## Equipe\n\n- Diego Luis Kreutz | Docente | Co-coordenador\n- Diego Nunes Brandão | Externo | Colaborador\n- Douglas Rodrigues Fideles | Externo | Voluntário\n- Isadora Fenner Spohr | Externo | Voluntário\n- José Gabriel Ribeiro Fagundes | Externo | Voluntário\n- Juliano Fontoura Kazienko | Externo | Co-coordenador\n- Raphael Pereira de Oliveira Guerra | Externo | Colaborador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Vagner Ereno Quincozes | Externo | Co-coordenador"
+    "content": "# TRAP-IoT — Tecnologia Resiliente para Aplicações em Protocolos IoT\n\n## Descrição\n\nSoluções de segurança para Internet das Coisas em dispositivos de baixo custo (ESP32, Arduino, Raspberry Pi), com foco em comunicação segura e detecção de intrusões em protocolos emergentes (Zenoh) e tradicionais (DDS, Wi-Fi, Bluetooth) aplicados à saúde, smart homes e vestíveis.\n\n## Equipe\n\n- Diego Kreutz | Docente | Co-coordenador\n- Diego Nunes Brandão | Externo | Colaborador\n- Douglas Rodrigues Fideles | Externo | Voluntário\n- Isadora Fenner Spohr | Externo | Voluntário\n- José Gabriel Ribeiro Fagundes | Externo | Voluntário\n- Juliano Fontoura Kazienko | Externo | Co-coordenador\n- Raphael Pereira de Oliveira Guerra | Externo | Colaborador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Vagner Ereno Quincozes | Externo | Co-coordenador"
   },
   {
     "data": {
@@ -265,7 +325,7 @@ const PROJECTS_DATA = [
       "period": "2022–2026",
       "keywords": "Inteligência Artificial / Aprendizado Profundo / Redes de Computadores / Sistemas Distribuídos"
     },
-    "content": "# Investigação de Técnicas de Aprendizado Profundo para Redes e Sistemas Distribuídos\n\n## Descrição\n\nInvestigação e proposição de técnicas de aprendizado de máquina, com ênfase em aprendizado profundo, como mecanismo de provimento de inteligência para redes de computadores e sistemas distribuídos de larga escala.\n\n## Equipe\n\n- Diego Luis Kreutz | Docente | Colaborador\n- Rodrigo Brandão Mansilha | Docente | Coordenador"
+    "content": "# Investigação de Técnicas de Aprendizado Profundo para Redes e Sistemas Distribuídos\n\n## Descrição\n\nInvestigação e proposição de técnicas de aprendizado de máquina, com ênfase em aprendizado profundo, como mecanismo de provimento de inteligência para redes de computadores e sistemas distribuídos de larga escala.\n\n## Equipe\n\n- Diego Kreutz | Docente | Colaborador\n- Rodrigo Brandão Mansilha | Docente | Coordenador"
   },
   {
     "data": {
@@ -274,14 +334,14 @@ const PROJECTS_DATA = [
       "title": "Blockchain: Tecnologia, Aplicações, Consenso Distribuído e Aprendizado de Máquina",
       "status": "ativo",
       "theme": "aprendizado-distribuidos",
-      "coordinator": "Diego Luis Kreutz",
+      "coordinator": "Diego Kreutz",
       "lab": "LEA — Laboratório de Estudos Avançados em Computação",
       "funding": "Projeto de Pesquisa",
       "period": "2022–2026",
       "keywords": "Blockchain / Consenso Distribuído / Aprendizado de Máquina / Segurança / Sistemas Distribuídos / Desempenho",
       "international": "true"
     },
-    "content": "# Blockchain: Tecnologia, Aplicações, Consenso Distribuído e Aprendizado de Máquina\n\n## Descrição\n\nInvestigação da tecnologia Blockchain, dos mecanismos de consenso distribuído e de suas limitações de desempenho e segurança, incluindo o uso de aprendizado de máquina para resolver desafios específicos e a proposição de mecanismos de consenso para cenários de aplicação.\n\n## Equipe\n\n- Charles Christian Miers | Externo | Colaborador\n- Claudio Schepke | Docente | Colaborador\n- Diego Luis Kreutz | Docente | Coordenador\n- Douglas Dyllon Jerônimo de Macedo | Externo | Colaborador\n- Érico Marcelo Hoff do Amaral | Docente | Colaborador\n- Ewerton Andrade | Externo | Colaborador\n- Igor Ferrazza Capeletti | Discente | Voluntário\n- João Massari Chervinski | Externo | Colaborador\n- Kayuã Oleques Paim | Discente | Voluntário\n- Laura Caroline Tschiedel | Discente | Voluntário\n- Lucas Vilanova Barcellos | Discente | Voluntário\n- Luciano Pereira de Vargas | Técnico | Colaborador\n- Roben Lunardi | Externo | Colaborador\n- Rodrigo Brandão Mansilha | Docente | Colaborador\n- Rodrigo da Rosa Righi | Externo | Colaborador\n- Roger Immich | Externo | Colaborador\n- Vinícius Nunez Lopes | Discente | Voluntário"
+    "content": "# Blockchain: Tecnologia, Aplicações, Consenso Distribuído e Aprendizado de Máquina\n\n## Descrição\n\nInvestigação da tecnologia Blockchain, dos mecanismos de consenso distribuído e de suas limitações de desempenho e segurança, incluindo o uso de aprendizado de máquina para resolver desafios específicos e a proposição de mecanismos de consenso para cenários de aplicação.\n\n## Equipe\n\n- Charles Christian Miers | Externo | Colaborador\n- Claudio Schepke | Docente | Colaborador\n- Diego Kreutz | Docente | Coordenador\n- Douglas Dyllon Jerônimo de Macedo | Externo | Colaborador\n- Érico Marcelo Hoff do Amaral | Docente | Colaborador\n- Ewerton Andrade | Externo | Colaborador\n- Igor Ferrazza Capeletti | Discente | Voluntário\n- João Massari Chervinski | Externo | Colaborador\n- Kayuã Oleques Paim | Discente | Voluntário\n- Laura Caroline Tschiedel | Discente | Voluntário\n- Lucas Vilanova Barcellos | Discente | Voluntário\n- Luciano Pereira de Vargas | Técnico | Colaborador\n- Roben Lunardi | Externo | Colaborador\n- Rodrigo Brandão Mansilha | Docente | Colaborador\n- Rodrigo da Rosa Righi | Externo | Colaborador\n- Roger Immich | Externo | Colaborador\n- Vinícius Nunez Lopes | Discente | Voluntário"
   },
   {
     "data": {
@@ -290,14 +350,14 @@ const PROJECTS_DATA = [
       "title": "Plataforma Online Segura para Acesso ao PredictCovid",
       "status": "concluído",
       "theme": "ia-aplicada",
-      "coordinator": "Diego Luis Kreutz",
+      "coordinator": "Diego Kreutz",
       "lab": "LEA — Laboratório de Estudos Avançados em Computação",
       "funding": "Projeto de Pesquisa",
       "period": "2022–2023",
       "keywords": "Coronavírus / Desenvolvimento de Software / Segurança da Informação / Inteligência Computacional Aplicada / Aprendizado de Máquina / Escalabilidade",
       "sector": "true"
     },
-    "content": "# Plataforma Online Segura para Acesso ao PredictCovid\n\n## Descrição\n\nDesenvolvimento de uma plataforma online segura, distribuída e escalável (SaaS) para disponibilizar o PredictCovid — software baseado em IA para auxílio à triagem e ao diagnóstico da COVID-19 a partir de radiografias torácicas.\n\n## Equipe\n\n- Alex Camargo | Externo | Colaborador\n- Diego Luis Kreutz | Docente | Coordenador\n- Érico Marcelo Hoff do Amaral | Docente | Co-coordenador\n- Fabio Paulo Basso | Docente | Colaborador\n- Giulliano Paz de Lyra | Externo | Colaborador\n- Gustavo Cardozo Rodrigues | Discente | Voluntário\n- Josiano Santos Costa | Discente | Voluntário\n- Luciano Pereira de Vargas | Técnico | Colaborador\n- Michael Luis de Nazaré Martins | Discente | Voluntário"
+    "content": "# Plataforma Online Segura para Acesso ao PredictCovid\n\n## Descrição\n\nDesenvolvimento de uma plataforma online segura, distribuída e escalável (SaaS) para disponibilizar o PredictCovid — software baseado em IA para auxílio à triagem e ao diagnóstico da COVID-19 a partir de radiografias torácicas.\n\n## Equipe\n\n- Alex Camargo | Externo | Colaborador\n- Diego Kreutz | Docente | Coordenador\n- Érico Marcelo Hoff do Amaral | Docente | Co-coordenador\n- Fabio Paulo Basso | Docente | Colaborador\n- Giulliano Paz de Lyra | Externo | Colaborador\n- Gustavo Cardozo Rodrigues | Discente | Voluntário\n- Josiano Santos Costa | Discente | Voluntário\n- Luciano Pereira de Vargas | Técnico | Colaborador\n- Michael Luis de Nazaré Martins | Discente | Voluntário"
   },
   {
     "data": {
@@ -313,7 +373,7 @@ const PROJECTS_DATA = [
       "keywords": "Pattern Recognition / Deep Learning / Smart Farming / UAV / Smart Animal Husbandry / Embedded Systems",
       "sector": "true"
     },
-    "content": "# Engenharia de Software para Tecnologia Embarcada Inteligente no Setor Rural\n\n## Descrição\n\nFundamentação da Engenharia de Software para o desenvolvimento e a transferência de tecnologia embarcada inteligente ao setor rural, integrando IA, sensoriamento remoto, processamento de imagens e redes de sensores sem fio para agricultura de precisão e pecuária.\n\n## Equipe\n\n- Antonio de Freitas Valle Neto | Discente | Pesquisador\n- Diego Luis Kreutz | Docente | Colaborador\n- Fabio Paulo Basso | Docente | Coordenador"
+    "content": "# Engenharia de Software para Tecnologia Embarcada Inteligente no Setor Rural\n\n## Descrição\n\nFundamentação da Engenharia de Software para o desenvolvimento e a transferência de tecnologia embarcada inteligente ao setor rural, integrando IA, sensoriamento remoto, processamento de imagens e redes de sensores sem fio para agricultura de precisão e pecuária.\n\n## Equipe\n\n- Antonio de Freitas Valle Neto | Discente | Pesquisador\n- Diego Kreutz | Docente | Colaborador\n- Fabio Paulo Basso | Docente | Coordenador"
   },
   {
     "data": {
@@ -327,7 +387,7 @@ const PROJECTS_DATA = [
       "period": "2023–2026",
       "keywords": "Agricultura Familiar / Rastreabilidade / Sistemas de Informação"
     },
-    "content": "# PRORAF — Programa de Rastreamento da Agricultura Familiar\n\n## Descrição\n\nPrograma de extensão para rastreabilidade e geração de selos de qualidade de produtos da agricultura familiar, qualificando dados (imagens aéreas por drones e dados meteorológicos), promovendo a etiquetagem comunitária e evoluindo os sistemas de informação subjacentes.\n\n## Equipe\n\n- Diego Luis Kreutz | Docente | Pesquisador\n- Diogo Silveira Kersten | Técnico | Co-coordenador\n- Jhon Pablo Lima Cornelio | Técnico | Colaborador\n- José Augusto dos Santos Goulart | Discente | Voluntário\n- Rafael Nogueira Rodrigues | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Coordenador"
+    "content": "# PRORAF — Programa de Rastreamento da Agricultura Familiar\n\n## Descrição\n\nPrograma de extensão para rastreabilidade e geração de selos de qualidade de produtos da agricultura familiar, qualificando dados (imagens aéreas por drones e dados meteorológicos), promovendo a etiquetagem comunitária e evoluindo os sistemas de informação subjacentes.\n\n## Equipe\n\n- Diego Kreutz | Docente | Pesquisador\n- Diogo Silveira Kersten | Técnico | Co-coordenador\n- Jhon Pablo Lima Cornelio | Técnico | Colaborador\n- José Augusto dos Santos Goulart | Discente | Voluntário\n- Rafael Nogueira Rodrigues | Discente | Voluntário\n- Rodrigo Brandão Mansilha | Docente | Coordenador"
   },
   {
     "data": {
@@ -342,7 +402,7 @@ const PROJECTS_DATA = [
       "period": "2022–2026",
       "keywords": "Empreendedorismo / Sustentabilidade / Social / Caracterização / Guideline"
     },
-    "content": "# Fundamentação para o Empreendedorismo Social na Unipampa\n\n## Descrição\n\nPesquisa para identificar atributos de qualidade de ações empreendedoras — em especial de empreendedorismo social — direcionando inovações acadêmicas para spin-offs sustentáveis incubáveis em empresas de base tecnológica.\n\n## Equipe\n\n- Débora da Cruz Payão Pellegrini | Externo | Colaborador\n- Diego Luis Kreutz | Docente | Colaborador\n- Elder de Macedo Rodrigues | Docente | Colaborador\n- Fabio Paulo Basso | Docente | Coordenador\n- Gabriel Machado Lunardi | Docente | Colaborador\n- Gilleanes Thorwald Araujo Guedes | Docente | Co-coordenador\n- Ildevana Poltronieri Rodrigues | Docente | Colaborador\n- Maicon Bernardino da Silveira | Docente | Colaborador\n- Raquel Mainardi Pillat Basso | Docente | Colaborador\n- Williamson Alison Freitas Silva | Docente | Colaborador"
+    "content": "# Fundamentação para o Empreendedorismo Social na Unipampa\n\n## Descrição\n\nPesquisa para identificar atributos de qualidade de ações empreendedoras — em especial de empreendedorismo social — direcionando inovações acadêmicas para spin-offs sustentáveis incubáveis em empresas de base tecnológica.\n\n## Equipe\n\n- Débora da Cruz Payão Pellegrini | Externo | Colaborador\n- Diego Kreutz | Docente | Colaborador\n- Elder de Macedo Rodrigues | Docente | Colaborador\n- Fabio Paulo Basso | Docente | Coordenador\n- Gabriel Machado Lunardi | Docente | Colaborador\n- Gilleanes Thorwald Araujo Guedes | Docente | Co-coordenador\n- Ildevana Poltronieri Rodrigues | Docente | Colaborador\n- Maicon Bernardino da Silveira | Docente | Colaborador\n- Raquel Mainardi Pillat Basso | Docente | Colaborador\n- Williamson Alison Freitas Silva | Docente | Colaborador"
   },
   {
     "data": {
@@ -357,7 +417,7 @@ const PROJECTS_DATA = [
       "period": "2022–2026",
       "keywords": "Empreendedorismo / Pré-incubação / Inovação / Ensino / Pesquisa / Extensão"
     },
-    "content": "# Startup Igniter — Transformando o Aluno Empreendedor\n\n## Descrição\n\nProjeto de empreendedorismo que cria um espaço nos moldes de uma aceleradora para transformar a cultura empreendedora dos alunos de Engenharia de Software e Ciência da Computação, apoiando a pré-incubação e a transferência de tecnologia para a sociedade.\n\n## Equipe\n\n- Cassio Ceolin Junior | Discente | Voluntário\n- Daniel Oliveira de Freitas | Discente | Pesquisador\n- Débora da Cruz Payão Pellegrini | Docente | Colaborador\n- Diego Luis Kreutz | Docente | Colaborador\n- Elder de Macedo Rodrigues | Docente | Colaborador\n- Emerson Oliveira Rizzatti | Técnico | Colaborador\n- Fabio Paulo Basso | Docente | Coordenador\n- Igor Admeilson de Oliveira | Externo | Palestrante\n- Ildevana Poltronieri Rodrigues | Docente | Colaborador\n- Maicon Bernardino da Silveira | Docente | Colaborador\n- Mauricio Paz Franca | Docente | Colaborador\n- Mauro Fonseca Rodrigues | Docente | Co-coordenador\n- Pedro Sebastian Zanella Nunez | Externo | Palestrante\n- Rodrigo Brandão Mansilha | Docente | Colaborador\n- Yury Alencar Lima | Discente | Voluntário"
+    "content": "# Startup Igniter — Transformando o Aluno Empreendedor\n\n## Descrição\n\nProjeto de empreendedorismo que cria um espaço nos moldes de uma aceleradora para transformar a cultura empreendedora dos alunos de Engenharia de Software e Ciência da Computação, apoiando a pré-incubação e a transferência de tecnologia para a sociedade.\n\n## Equipe\n\n- Cassio Ceolin Junior | Discente | Voluntário\n- Daniel Oliveira de Freitas | Discente | Pesquisador\n- Débora da Cruz Payão Pellegrini | Docente | Colaborador\n- Diego Kreutz | Docente | Colaborador\n- Elder de Macedo Rodrigues | Docente | Colaborador\n- Emerson Oliveira Rizzatti | Técnico | Colaborador\n- Fabio Paulo Basso | Docente | Coordenador\n- Igor Admeilson de Oliveira | Externo | Palestrante\n- Ildevana Poltronieri Rodrigues | Docente | Colaborador\n- Maicon Bernardino da Silveira | Docente | Colaborador\n- Mauricio Paz Franca | Docente | Colaborador\n- Mauro Fonseca Rodrigues | Docente | Co-coordenador\n- Pedro Sebastian Zanella Nunez | Externo | Palestrante\n- Rodrigo Brandão Mansilha | Docente | Colaborador\n- Yury Alencar Lima | Discente | Voluntário"
   },
   {
     "data": {
@@ -371,7 +431,7 @@ const PROJECTS_DATA = [
       "period": "2024–2026",
       "keywords": "Boas Práticas / Engenharia de Software / Portfólio / Tutoriais"
     },
-    "content": "# Codefolio — Construindo Portfólios de Código e Boas Práticas de Engenharia de Software\n\n## Descrição\n\nProjeto de extensão em que estudantes aplicam boas práticas de Engenharia de Software em desafios reais, documentam suas jornadas em tutoriais/minicursos em vídeo e constroem portfólios digitais como diferencial para o mercado de trabalho.\n\n## Equipe\n\n- Antonni da Silva Moraes | Discente | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Diego Luis Kreutz | Docente | Co-coordenador\n- Eduardo Bulling Couto | Discente | Voluntário\n- Eduardo Cabezudo Vilhalba | Discente | Voluntário\n- Emanuel Carricio Ferreira | Discente | Bolsista\n- Emerson Oliveira Rizzatti | Técnico | Colaborador\n- Estefano Stroher Soares | Discente | Voluntário\n- Felipe Homrich Scherer | Discente | Voluntário\n- Felipe Nestor Dresch | Discente | Bolsista\n- Gabriel Souza Rodrigues de Amorim | Discente | Voluntário\n- Ivana Fontoura Carvalho | Externo | Voluntário\n- João Pablo Silva da Silva | Docente | Co-coordenador\n- Ketrin Diovana Alves Rodrigues Vargas | Discente | Voluntário\n- Lucas Santos Oliveira | Discente | Voluntário\n- Luiz Fogliato Junior | Externo | Colaborador\n- Matheus Martins Ciocca | Discente | Bolsista\n- Rafael Mardegan | Externo | Colaborador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Vagner Ereno Quincozes | Externo | Colaborador\n- Vinicius Diehl Rodrigues | Discente | Voluntário\n- Wagner Oliveira de Quadros | Discente | Voluntário\n- Williamson Alison Freitas Silva | Docente | Co-coordenador"
+    "content": "# Codefolio — Construindo Portfólios de Código e Boas Práticas de Engenharia de Software\n\n## Descrição\n\nProjeto de extensão em que estudantes aplicam boas práticas de Engenharia de Software em desafios reais, documentam suas jornadas em tutoriais/minicursos em vídeo e constroem portfólios digitais como diferencial para o mercado de trabalho.\n\n## Equipe\n\n- Antonni da Silva Moraes | Discente | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Diego Kreutz | Docente | Co-coordenador\n- Eduardo Bulling Couto | Discente | Voluntário\n- Eduardo Cabezudo Vilhalba | Discente | Voluntário\n- Emanuel Carricio Ferreira | Discente | Bolsista\n- Emerson Oliveira Rizzatti | Técnico | Colaborador\n- Estefano Stroher Soares | Discente | Voluntário\n- Felipe Homrich Scherer | Discente | Voluntário\n- Felipe Nestor Dresch | Discente | Bolsista\n- Gabriel Souza Rodrigues de Amorim | Discente | Voluntário\n- Ivana Fontoura Carvalho | Externo | Voluntário\n- João Pablo Silva da Silva | Docente | Co-coordenador\n- Ketrin Diovana Alves Rodrigues Vargas | Discente | Voluntário\n- Lucas Santos Oliveira | Discente | Voluntário\n- Luiz Fogliato Junior | Externo | Colaborador\n- Matheus Martins Ciocca | Discente | Bolsista\n- Rafael Mardegan | Externo | Colaborador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Vagner Ereno Quincozes | Externo | Colaborador\n- Vinicius Diehl Rodrigues | Discente | Voluntário\n- Wagner Oliveira de Quadros | Discente | Voluntário\n- Williamson Alison Freitas Silva | Docente | Co-coordenador"
   },
   {
     "data": {
@@ -385,7 +445,7 @@ const PROJECTS_DATA = [
       "period": "2025–2028",
       "keywords": "Construção de Saberes / Documentação de Saberes / Compartilhamento de Saberes / Aprendizado / Transmissão de Conhecimento"
     },
-    "content": "# Programa Codefólio — Construir, Documentar e Disseminar Conhecimento\n\n## Descrição\n\nPrograma de extensão voltado à construção, documentação e disseminação de conhecimento em Engenharia de Software e áreas correlatas, integrando teoria e prática, aprendizado colaborativo e incentivo ao empreendedorismo.\n\n## Equipe\n\n- Antonni da Silva Moraes | Discente | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Diego Luis Kreutz | Docente | Co-coordenador\n- Emanuel Carricio Ferreira | Discente | Voluntário\n- Emerson Oliveira Rizzatti | Técnico | Co-coordenador\n- Felipe Homrich Scherer | Discente | Voluntário\n- Felipe Nestor Dresch | Discente | Voluntário\n- Gabriel Botelho da Silva | Discente | Voluntário\n- Ivana Fontoura Carvalho | Externo | Voluntário\n- João Pablo Silva da Silva | Docente | Co-coordenador\n- João Pedro Mello da Silva | Discente | Voluntário\n- Ketrin Diovana Alves Rodrigues Vargas | Discente | Voluntário\n- Luiz Fogliato Junior | Externo | Colaborador\n- Matheus Martins Ciocca | Discente | Voluntário\n- Paulo Silas Severo de Souza | Docente | Co-coordenador\n- Rafael Mardegan | Externo | Colaborador\n- Rodrigo Brandão Mansilha | Docente | Co-coordenador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Vagner Ereno Quincozes | Externo | Co-coordenador\n- Vinicius Diehl Rodrigues | Discente | Voluntário\n- Williamson Alison Freitas Silva | Docente | Co-coordenador"
+    "content": "# Programa Codefólio — Construir, Documentar e Disseminar Conhecimento\n\n## Descrição\n\nPrograma de extensão voltado à construção, documentação e disseminação de conhecimento em Engenharia de Software e áreas correlatas, integrando teoria e prática, aprendizado colaborativo e incentivo ao empreendedorismo.\n\n## Equipe\n\n- Antonni da Silva Moraes | Discente | Voluntário\n- Camilla Charão Borchhardt | Discente | Voluntário\n- Diego Kreutz | Docente | Co-coordenador\n- Emanuel Carricio Ferreira | Discente | Voluntário\n- Emerson Oliveira Rizzatti | Técnico | Co-coordenador\n- Felipe Homrich Scherer | Discente | Voluntário\n- Felipe Nestor Dresch | Discente | Voluntário\n- Gabriel Botelho da Silva | Discente | Voluntário\n- Ivana Fontoura Carvalho | Externo | Voluntário\n- João Pablo Silva da Silva | Docente | Co-coordenador\n- João Pedro Mello da Silva | Discente | Voluntário\n- Ketrin Diovana Alves Rodrigues Vargas | Discente | Voluntário\n- Luiz Fogliato Junior | Externo | Colaborador\n- Matheus Martins Ciocca | Discente | Voluntário\n- Paulo Silas Severo de Souza | Docente | Co-coordenador\n- Rafael Mardegan | Externo | Colaborador\n- Rodrigo Brandão Mansilha | Docente | Co-coordenador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Vagner Ereno Quincozes | Externo | Co-coordenador\n- Vinicius Diehl Rodrigues | Discente | Voluntário\n- Williamson Alison Freitas Silva | Docente | Co-coordenador"
   },
   {
     "data": {
@@ -399,7 +459,7 @@ const PROJECTS_DATA = [
       "period": "2022–2024",
       "keywords": "Programação Paralela / Maratona de Programação / Processamento de Alto Desempenho / Algoritmos e Programação / Estruturas de Dados"
     },
-    "content": "# Estudos para a Maratona de Programação Paralela\n\n## Descrição\n\nProjeto de ensino para estimular o uso de ferramentas de Processamento de Alto Desempenho (PAD) e preparar estudantes para maratonas de programação paralela (SBAC-PAD/WSCAD/ERAD-RS), reduzindo dificuldades de programação por meio do estudo colaborativo.\n\n## Equipe\n\n- Aline Vieira de Mello | Docente | Colaborador\n- Claudio Schepke | Docente | Coordenador\n- Diego Luis Kreutz | Docente | Colaborador"
+    "content": "# Estudos para a Maratona de Programação Paralela\n\n## Descrição\n\nProjeto de ensino para estimular o uso de ferramentas de Processamento de Alto Desempenho (PAD) e preparar estudantes para maratonas de programação paralela (SBAC-PAD/WSCAD/ERAD-RS), reduzindo dificuldades de programação por meio do estudo colaborativo.\n\n## Equipe\n\n- Aline Vieira de Mello | Docente | Colaborador\n- Claudio Schepke | Docente | Coordenador\n- Diego Kreutz | Docente | Colaborador"
   },
   {
     "data": {
@@ -413,17 +473,17 @@ const PROJECTS_DATA = [
       "period": "2024–2026",
       "keywords": "Segurança / PIX / Operações Financeiras"
     },
-    "content": "# Riscos de Segurança: PIX e Outras Transações Financeiras\n\n## Descrição\n\nProjeto de extensão para difundir os riscos de segurança em transações financeiras, especialmente do tipo PIX, levantando as principais falhas e tipos de ataque e disseminando boas práticas de proteção à comunidade.\n\n## Equipe\n\n- Brenda Medeiros Lopes | Discente | Voluntário\n- Claudio Schepke | Docente | Coordenador\n- Diego Luis Kreutz | Docente | Pesquisador\n- Fabio Righi da Silva | Técnico | Colaborador\n- Glener Lanes Pizzolato | Discente | Voluntário"
+    "content": "# Riscos de Segurança: PIX e Outras Transações Financeiras\n\n## Descrição\n\nProjeto de extensão para difundir os riscos de segurança em transações financeiras, especialmente do tipo PIX, levantando as principais falhas e tipos de ataque e disseminando boas práticas de proteção à comunidade.\n\n## Equipe\n\n- Brenda Medeiros Lopes | Discente | Voluntário\n- Claudio Schepke | Docente | Coordenador\n- Diego Kreutz | Docente | Pesquisador\n- Fabio Righi da Silva | Técnico | Colaborador\n- Glener Lanes Pizzolato | Discente | Voluntário"
   }
 ];
 
 const CONTRIBUTORS_DATA = [
   {
     "data": {
-      "nome": "Diego Luis Kreutz",
+      "nome": "Diego Kreutz",
       "tipo": "Docente",
-      "projetos": 15,
-      "coordena": 7
+      "projetos": 19,
+      "coordena": 10
     },
     "content": ""
   },
@@ -431,8 +491,8 @@ const CONTRIBUTORS_DATA = [
     "data": {
       "nome": "Rodrigo Brandão Mansilha",
       "tipo": "Docente",
-      "projetos": 9,
-      "coordena": 4
+      "projetos": 10,
+      "coordena": 5
     },
     "content": ""
   },
@@ -685,6 +745,15 @@ const CONTRIBUTORS_DATA = [
       "tipo": "Externo",
       "projetos": 2,
       "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Rodrigo Sanches Miani",
+      "tipo": "Externo",
+      "projetos": 2,
+      "coordena": 1
     },
     "content": ""
   },
@@ -1158,6 +1227,15 @@ const CONTRIBUTORS_DATA = [
   },
   {
     "data": {
+      "nome": "Leandro Márcio Bertholdo",
+      "tipo": "Externo",
+      "projetos": 1,
+      "coordena": 0
+    },
+    "content": ""
+  },
+  {
+    "data": {
       "nome": "Lucas Ferreira Areias de Oliveira",
       "tipo": "Discente",
       "projetos": 1,
@@ -1320,15 +1398,6 @@ const CONTRIBUTORS_DATA = [
   },
   {
     "data": {
-      "nome": "Rodrigo Sanches Miani",
-      "tipo": "Externo",
-      "projetos": 1,
-      "coordena": 0
-    },
-    "content": ""
-  },
-  {
-    "data": {
       "nome": "Roger Immich",
       "tipo": "Externo",
       "projetos": 1,
@@ -1412,10 +1481,10 @@ const AWARDS_DATA = [
       "title": "Paper considerado para o Test of Time Award 2024 — ACM SIGCOMM",
       "category": "publication",
       "scope": "international",
-      "recipient": "Diego Luis Kreutz e coautores",
+      "recipient": "Diego Kreutz e coautores",
       "institution": "ACM SIGCOMM"
     },
-    "content": "# Paper considerado para o Test of Time Award 2024 — ACM SIGCOMM\n\n**Data:** 4 de Agosto de 2024\n**Premiado(s):** Diego Luis Kreutz e coautores\n**Instituição:** ACM SIGCOMM\n\n## Descrição\n\nArtigo de coautoria de Diego Luis Kreutz foi considerado para o Test of Time Award 2024 dos ACM SIGCOMM Awards, reconhecimento internacional concedido a trabalhos cujo impacto se mantém relevante ao longo do tempo na área de redes de computadores."
+    "content": "# Paper considerado para o Test of Time Award 2024 — ACM SIGCOMM\n\n**Data:** 4 de Agosto de 2024\n**Premiado(s):** Diego Kreutz e coautores\n**Instituição:** ACM SIGCOMM\n\n## Descrição\n\nArtigo de coautoria de Diego Kreutz foi considerado para o Test of Time Award 2024 dos ACM SIGCOMM Awards, reconhecimento internacional concedido a trabalhos cujo impacto se mantém relevante ao longo do tempo na área de redes de computadores."
   },
   {
     "data": {
@@ -1507,11 +1576,11 @@ const AWARDS_DATA = [
       "title": "Revisor Destaque do Comitê Técnico de Artefatos (CTA) — SBSeg 2024",
       "category": "research",
       "scope": "national",
-      "recipient": "Prof. Diego Luis Kreutz",
+      "recipient": "Prof. Diego Kreutz",
       "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
       "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
     },
-    "content": "# Revisor Destaque do Comitê Técnico de Artefatos (CTA) — SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** Prof. Diego Luis Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nReconhecimento como Revisor Destaque do Comitê Técnico de Artefatos (CTA) do SBSeg 2024, pela qualidade das avaliações de artefatos científicos."
+    "content": "# Revisor Destaque do Comitê Técnico de Artefatos (CTA) — SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** Prof. Diego Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nReconhecimento como Revisor Destaque do Comitê Técnico de Artefatos (CTA) do SBSeg 2024, pela qualidade das avaliações de artefatos científicos."
   },
   {
     "data": {
@@ -1519,11 +1588,11 @@ const AWARDS_DATA = [
       "title": "Revisor Destaque do VIII Salão de Ferramentas — SBSeg 2024",
       "category": "research",
       "scope": "national",
-      "recipient": "Prof. Diego Luis Kreutz",
+      "recipient": "Prof. Diego Kreutz",
       "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
       "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
     },
-    "content": "# Revisor Destaque do VIII Salão de Ferramentas — SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** Prof. Diego Luis Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nReconhecimento como Revisor Destaque do VIII Salão de Ferramentas do SBSeg 2024, pela qualidade das avaliações realizadas no processo de revisão de ferramentas."
+    "content": "# Revisor Destaque do VIII Salão de Ferramentas — SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** Prof. Diego Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nReconhecimento como Revisor Destaque do VIII Salão de Ferramentas do SBSeg 2024, pela qualidade das avaliações realizadas no processo de revisão de ferramentas."
   },
   {
     "data": {
@@ -1531,11 +1600,11 @@ const AWARDS_DATA = [
       "title": "Revisor Destaque do XVIII WTICG — SBSeg 2024",
       "category": "research",
       "scope": "national",
-      "recipient": "Prof. Diego Luis Kreutz",
+      "recipient": "Prof. Diego Kreutz",
       "institution": "Sociedade Brasileira de Computação (SBC) — SBSeg 2024",
       "link": "https://sites.unipampa.edu.br/lea/2024/10/04/premiacoes-no-sbseg-2024/"
     },
-    "content": "# Revisor Destaque do XVIII WTICG — SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** Prof. Diego Luis Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nReconhecimento como Revisor Destaque do XVIII Workshop de Trabalhos de Iniciação Científica e de Graduação (WTICG) do SBSeg 2024."
+    "content": "# Revisor Destaque do XVIII WTICG — SBSeg 2024\n\n**Data:** 18 de Setembro de 2024\n**Premiado(s):** Prof. Diego Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBSeg 2024\n\n## Descrição\n\nReconhecimento como Revisor Destaque do XVIII Workshop de Trabalhos de Iniciação Científica e de Graduação (WTICG) do SBSeg 2024."
   },
   {
     "data": {
@@ -1565,10 +1634,10 @@ const AWARDS_DATA = [
       "title": "Professor Homenageado — Turma de Ciência da Computação (UNIPAMPA)",
       "category": "honor",
       "scope": "national",
-      "recipient": "Prof. Diego Luis Kreutz",
+      "recipient": "Prof. Diego Kreutz",
       "institution": "Universidade Federal do Pampa (UNIPAMPA)"
     },
-    "content": "# Professor Homenageado — Turma de Ciência da Computação (UNIPAMPA)\n\n**Data:** 13 de Dezembro de 2024\n**Premiado(s):** Prof. Diego Luis Kreutz\n**Instituição:** Universidade Federal do Pampa (UNIPAMPA)\n\n## Descrição\n\nHomenagem concedida pela turma formanda de Ciência da Computação da Universidade Federal do Pampa (UNIPAMPA), em reconhecimento à dedicação docente e à contribuição para a formação dos estudantes."
+    "content": "# Professor Homenageado — Turma de Ciência da Computação (UNIPAMPA)\n\n**Data:** 13 de Dezembro de 2024\n**Premiado(s):** Prof. Diego Kreutz\n**Instituição:** Universidade Federal do Pampa (UNIPAMPA)\n\n## Descrição\n\nHomenagem concedida pela turma formanda de Ciência da Computação da Universidade Federal do Pampa (UNIPAMPA), em reconhecimento à dedicação docente e à contribuição para a formação dos estudantes."
   },
   {
     "data": {
@@ -1609,10 +1678,10 @@ const AWARDS_DATA = [
       "title": "Melhor Revisor de Artefatos — Salão de Ferramentas do SBRC 2025",
       "category": "research",
       "scope": "national",
-      "recipient": "Prof. Diego Luis Kreutz",
+      "recipient": "Prof. Diego Kreutz",
       "institution": "Sociedade Brasileira de Computação (SBC) — SBRC 2025"
     },
-    "content": "# Melhor Revisor de Artefatos — Salão de Ferramentas do SBRC 2025\n\n**Data:** 26 de Maio de 2025\n**Premiado(s):** Prof. Diego Luis Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBRC 2025\n\n## Descrição\n\nReconhecimento como Melhor Revisor de Artefatos do Salão de Ferramentas do 43º SBRC 2025, pela qualidade e pelo rigor das avaliações conduzidas no processo de revisão de artefatos do evento."
+    "content": "# Melhor Revisor de Artefatos — Salão de Ferramentas do SBRC 2025\n\n**Data:** 26 de Maio de 2025\n**Premiado(s):** Prof. Diego Kreutz\n**Instituição:** Sociedade Brasileira de Computação (SBC) — SBRC 2025\n\n## Descrição\n\nReconhecimento como Melhor Revisor de Artefatos do Salão de Ferramentas do 43º SBRC 2025, pela qualidade e pelo rigor das avaliações conduzidas no processo de revisão de artefatos do evento."
   },
   {
     "data": {

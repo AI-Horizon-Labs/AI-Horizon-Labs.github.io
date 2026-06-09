@@ -19,5 +19,5 @@ Investigação e proposição de técnicas de aprendizado de máquina, com ênfa
 
 ## Equipe
 
-- Diego Luis Kreutz | Docente | Colaborador
+- Diego Kreutz | Docente | Colaborador
 - Rodrigo Brandão Mansilha | Docente | Coordenador

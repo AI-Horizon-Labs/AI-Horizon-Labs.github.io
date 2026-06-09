@@ -20,7 +20,7 @@ Pesquisa para identificar atributos de qualidade de ações empreendedoras — e
 ## Equipe
 
 - Débora da Cruz Payão Pellegrini | Externo | Colaborador
-- Diego Luis Kreutz | Docente | Colaborador
+- Diego Kreutz | Docente | Colaborador
 - Elder de Macedo Rodrigues | Docente | Colaborador
 - Fabio Paulo Basso | Docente | Coordenador
 - Gabriel Machado Lunardi | Docente | Colaborador

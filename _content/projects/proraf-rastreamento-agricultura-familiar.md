@@ -18,7 +18,7 @@ Programa de extensão para rastreabilidade e geração de selos de qualidade de 
 
 ## Equipe
 
-- Diego Luis Kreutz | Docente | Pesquisador
+- Diego Kreutz | Docente | Pesquisador
 - Diogo Silveira Kersten | Técnico | Co-coordenador
 - Jhon Pablo Lima Cornelio | Técnico | Colaborador
 - José Augusto dos Santos Goulart | Discente | Voluntário

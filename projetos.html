@@ -4,7 +4,12 @@
 <body><header class="header"><nav class="navbar"><div class="container"><a href="index.html" class="logo"><span style="font-size:1.5rem;font-weight:700;color:var(--color-primary);">AI Horizon Labs</span></a><ul class="nav-menu"><li><a href="sobre.html">Sobre</a></li><li class="dropdown"><a href="#">Pesquisa <i class="fas fa-chevron-down"></i></a><ul class="dropdown-menu"><li><a href="linhas-de-pesquisa.html">Linhas de Pesquisa</a></li><li><a href="projetos.html">Projetos</a></li></ul></li><li><a href="membros.html">Membros</a></li><li><a href="publicacoes.html">Publicações</a></li><li><a href="premios.html">Prêmios</a></li><li><a href="noticias.html">Notícias</a></li><li><a href="contato.html" class="btn-primary">Contato</a></li></ul><button class="mobile-menu-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button></div></nav></header>
 <style>
 .proj-badge{display:inline-flex;align-items:center;gap:5px;font-size:.72rem;font-weight:600;padding:3px 9px;border-radius:999px;background:rgba(37,99,235,.1);color:var(--color-primary);}
+.proj-badge-rnp{background:var(--color-primary);color:#fff;}
 .proj-tag{font-size:.72rem;padding:2px 8px;border-radius:6px;background:#f1f5f9;color:var(--color-text-medium);}
+.card-rnp{border:1px solid rgba(37,99,235,.35);box-shadow:0 0 0 1px rgba(37,99,235,.08),0 6px 20px rgba(37,99,235,.10);position:relative;}
+.card-rnp::before{content:"";position:absolute;left:0;top:0;bottom:0;width:4px;border-radius:8px 0 0 8px;background:var(--color-primary);}
+.proj-site-link{display:inline-flex;align-items:center;gap:6px;font-size:.85rem;font-weight:600;color:var(--color-primary);}
+.section-title-rnp{border-left:4px solid var(--color-primary);padding-left:var(--spacing-md);}
 </style>
 <main id="main-content"><section class="hero" style="padding:3rem 0;"><div class="container"><h1>Projetos de Pesquisa</h1></div></section>
 <section><div class="container" id="projetos-container"><!-- Conteúdo carregado dinamicamente por content-loader.js --></div></section></main>

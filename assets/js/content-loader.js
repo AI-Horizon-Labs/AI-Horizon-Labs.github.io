@@ -202,9 +202,16 @@ function loadProjects() {
   return groups;
 }
 
+// Projetos financiados pela RNP (Grupos de Trabalho) recebem destaque visual.
+// O front matter é parseado como texto, então 'rnp: true' chega como a string "true".
+function isRnpProject(project) {
+  return project.data.rnp === 'true' || project.data.rnp === true;
+}
+
 function renderProject(project) {
   const d = project.data;
   const isActive = d.status === 'ativo';
+  const isRnp = isRnpProject(project);
 
   const description = project.content.match(/## Descrição\s*\n([\s\S]*?)(?=\n##|\n---|$)/);
   const descText = description ? description[1].trim() : '';
@@ -214,10 +221,19 @@ function renderProject(project) {
 
   // Selos de impacto
   const badges = [];
+  if (isRnp) {
+    badges.push('<span class="proj-badge proj-badge-rnp"><i class="fas fa-award"></i> Projeto RNP</span>');
+    badges.push('<span class="proj-badge proj-badge-rnp"><i class="fas fa-arrow-right-arrow-left"></i> Transferência tecnológica</span>');
+  }
   if (d.international) badges.push('<span class="proj-badge"><i class="fas fa-globe"></i> Cooperação internacional</span>');
   if (d.sector) badges.push('<span class="proj-badge"><i class="fas fa-industry"></i> Interação com setor produtivo</span>');
   const badgesHtml = badges.length
     ? `<div style="display:flex;flex-wrap:wrap;gap:6px;margin:var(--spacing-sm) 0;">${badges.join('')}</div>`
+    : '';
+
+  // Link para o site do projeto (quando disponível)
+  const siteHtml = d.website
+    ? `<p style="margin-top:var(--spacing-sm);"><a href="${d.website}" target="_blank" rel="noopener" class="proj-site-link"><i class="fas fa-up-right-from-square"></i> Site do projeto</a></p>`
     : '';
 
   // Tags de palavras-chave
@@ -228,7 +244,7 @@ function renderProject(project) {
     : '';
 
   return `
-    <div class="card" style="display:flex;flex-direction:column;">
+    <div class="card${isRnp ? ' card-rnp' : ''}" style="display:flex;flex-direction:column;">
       <div style="display:flex;justify-content:space-between;align-items:center;gap:8px;">
         <span class="publication-type" style="background-color:${statusColor};">${statusLabel}</span>
         <span style="font-size:.75rem;color:var(--color-text-medium);font-family:monospace;">${d.registro || ''}</span>
@@ -242,6 +258,7 @@ function renderProject(project) {
         <strong>Modalidade:</strong> ${d.funding}<br>
         <strong>Período:</strong> ${d.period}
       </p>
+      ${siteHtml}
       ${tagsHtml}
     </div>
   `;
@@ -262,8 +279,26 @@ function renderProjectsPage() {
     </p>
   `;
 
+  // Destaque: Grupos de Trabalho financiados pela RNP (PD&I com transferência tecnológica)
+  const rnpProjects = PROJECTS_DATA.filter(p => isRnpProject(p));
+  if (rnpProjects.length > 0) {
+    html += `
+      <div class="section-title section-title-rnp" style="margin-top:var(--spacing-md);">
+        <h2><i class="fas fa-award" style="color:var(--color-primary);margin-right:.5rem;"></i>Grupos de Trabalho RNP</h2>
+        <p style="color:var(--color-text-medium);max-width:75ch;margin-top:.5rem;">
+          Projetos de pesquisa, desenvolvimento e inovação (PD&amp;I) com transferência tecnológica,
+          financiados pela Rede Nacional de Ensino e Pesquisa (RNP) e conduzidos como Grupos de Trabalho.
+        </p>
+      </div>
+      <div class="grid grid-2">
+        ${rnpProjects.map(p => renderProject(p)).join('')}
+      </div>
+    `;
+  }
+
   PROJECT_THEMES.forEach(theme => {
-    const projs = groups[theme.key];
+    // Projetos RNP já aparecem na seção em destaque acima; evita duplicação.
+    const projs = (groups[theme.key] || []).filter(p => !isRnpProject(p));
     if (!projs || projs.length === 0) return;
     html += `
       <div class="section-title" style="margin-top:var(--spacing-xl);">

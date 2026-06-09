@@ -20,7 +20,7 @@ Programa de extensão voltado à construção, documentação e disseminação d
 
 - Antonni da Silva Moraes | Discente | Voluntário
 - Camilla Charão Borchhardt | Discente | Voluntário
-- Diego Luis Kreutz | Docente | Co-coordenador
+- Diego Kreutz | Docente | Co-coordenador
 - Emanuel Carricio Ferreira | Discente | Voluntário
 - Emerson Oliveira Rizzatti | Técnico | Co-coordenador
 - Felipe Homrich Scherer | Discente | Voluntário

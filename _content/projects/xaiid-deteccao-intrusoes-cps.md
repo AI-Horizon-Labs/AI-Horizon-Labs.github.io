@@ -24,7 +24,7 @@ Desenvolvimento de estratégias inteligentes e explicáveis (XAI) para detecçã
 - Célio Vinicius Neves de Albuquerque | Externo | Pesquisador
 - Daniel Mossé | Externo | Pesquisador
 - Diego Gimenez Passos | Externo | Pesquisador
-- Diego Luis Kreutz | Docente | Pesquisador
+- Diego Kreutz | Docente | Pesquisador
 - Douglas Rodrigues Fidelis | Externo | Colaborador
 - Felipe Homrich Scherer | Discente | Bolsista
 - Felipe Nestor Dresch | Discente | Voluntário

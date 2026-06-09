@@ -4,7 +4,7 @@ registro: 2022.PE.AL.1388
 title: Blockchain: Tecnologia, Aplicações, Consenso Distribuído e Aprendizado de Máquina
 status: ativo
 theme: aprendizado-distribuidos
-coordinator: Diego Luis Kreutz
+coordinator: Diego Kreutz
 lab: LEA — Laboratório de Estudos Avançados em Computação
 funding: Projeto de Pesquisa
 period: 2022–2026
@@ -22,7 +22,7 @@ Investigação da tecnologia Blockchain, dos mecanismos de consenso distribuído
 
 - Charles Christian Miers | Externo | Colaborador
 - Claudio Schepke | Docente | Colaborador
-- Diego Luis Kreutz | Docente | Coordenador
+- Diego Kreutz | Docente | Coordenador
 - Douglas Dyllon Jerônimo de Macedo | Externo | Colaborador
 - Érico Marcelo Hoff do Amaral | Docente | Colaborador
 - Ewerton Andrade | Externo | Colaborador

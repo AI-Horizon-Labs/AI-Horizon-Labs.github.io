@@ -20,4 +20,4 @@ Projeto de ensino para estimular o uso de ferramentas de Processamento de Alto D
 
 - Aline Vieira de Mello | Docente | Colaborador
 - Claudio Schepke | Docente | Coordenador
-- Diego Luis Kreutz | Docente | Colaborador
+- Diego Kreutz | Docente | Colaborador

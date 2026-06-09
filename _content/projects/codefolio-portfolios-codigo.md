@@ -20,7 +20,7 @@ Projeto de extensão em que estudantes aplicam boas práticas de Engenharia de S
 
 - Antonni da Silva Moraes | Discente | Voluntário
 - Camilla Charão Borchhardt | Discente | Voluntário
-- Diego Luis Kreutz | Docente | Co-coordenador
+- Diego Kreutz | Docente | Co-coordenador
 - Eduardo Bulling Couto | Discente | Voluntário
 - Eduardo Cabezudo Vilhalba | Discente | Voluntário
 - Emanuel Carricio Ferreira | Discente | Bolsista

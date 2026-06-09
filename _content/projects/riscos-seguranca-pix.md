@@ -20,6 +20,6 @@ Projeto de extensão para difundir os riscos de segurança em transações finan
 
 - Brenda Medeiros Lopes | Discente | Voluntário
 - Claudio Schepke | Docente | Coordenador
-- Diego Luis Kreutz | Docente | Pesquisador
+- Diego Kreutz | Docente | Pesquisador
 - Fabio Righi da Silva | Técnico | Colaborador
 - Glener Lanes Pizzolato | Discente | Voluntário

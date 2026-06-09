@@ -4,7 +4,7 @@ registro: 2024.PE.AL.3943
 title: LLMs e SLMs Aplicados à Cibersegurança
 status: ativo
 theme: ia-ciberseguranca
-coordinator: Diego Luis Kreutz
+coordinator: Diego Kreutz
 lab: LEA — Laboratório de Estudos Avançados em Computação
 funding: Projeto de Pesquisa
 period: 2024–2028
@@ -25,7 +25,7 @@ Exploração do potencial de Modelos de Linguagem em Larga (LLMs) e em Pequena E
 - Anna Luiza Gomes da Silva | Discente | Voluntário
 - Camilla Charão Borchhardt | Discente | Voluntário
 - Claudio Schepke | Docente | Colaborador
-- Diego Luis Kreutz | Docente | Coordenador
+- Diego Kreutz | Docente | Coordenador
 - Felipe Homrich Scherer | Discente | Voluntário
 - Felipe Nestor Dresch | Discente | Voluntário
 - Gefte Alcântara de Almeida | Discente | Voluntário

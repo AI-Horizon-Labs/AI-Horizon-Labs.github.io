@@ -19,7 +19,7 @@ Soluções de segurança para Internet das Coisas em dispositivos de baixo custo
 
 ## Equipe
 
-- Diego Luis Kreutz | Docente | Co-coordenador
+- Diego Kreutz | Docente | Co-coordenador
 - Diego Nunes Brandão | Externo | Colaborador
 - Douglas Rodrigues Fideles | Externo | Voluntário
 - Isadora Fenner Spohr | Externo | Voluntário

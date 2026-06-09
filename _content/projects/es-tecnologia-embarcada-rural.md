@@ -21,5 +21,5 @@ Fundamentação da Engenharia de Software para o desenvolvimento e a transferên
 ## Equipe
 
 - Antonio de Freitas Valle Neto | Discente | Pesquisador
-- Diego Luis Kreutz | Docente | Colaborador
+- Diego Kreutz | Docente | Colaborador
 - Fabio Paulo Basso | Docente | Coordenador

@@ -22,7 +22,7 @@ Projeto de empreendedorismo que cria um espaço nos moldes de uma aceleradora pa
 - Cassio Ceolin Junior | Discente | Voluntário
 - Daniel Oliveira de Freitas | Discente | Pesquisador
 - Débora da Cruz Payão Pellegrini | Docente | Colaborador
-- Diego Luis Kreutz | Docente | Colaborador
+- Diego Kreutz | Docente | Colaborador
 - Elder de Macedo Rodrigues | Docente | Colaborador
 - Emerson Oliveira Rizzatti | Técnico | Colaborador
 - Fabio Paulo Basso | Docente | Coordenador

@@ -631,6 +631,82 @@ section {
   color: var(--color-text-medium);
 }
 
+/* === Banner LinkedIn === */
+.linkedin-banner {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md) var(--spacing-lg);
+  border-radius: 14px;
+  background: linear-gradient(135deg, #0A66C2 0%, #084d92 100%);
+  color: #fff;
+  text-decoration: none;
+  box-shadow: 0 8px 24px rgba(10, 102, 194, 0.25);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.linkedin-banner:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 32px rgba(10, 102, 194, 0.35);
+}
+
+.linkedin-banner-icon {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.15);
+  font-size: 1.9rem;
+  color: #fff;
+}
+
+.linkedin-banner-text {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.linkedin-banner-text strong {
+  font-size: 1.15rem;
+  font-weight: 700;
+}
+
+.linkedin-banner-text span {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.linkedin-banner-cta {
+  margin-left: auto;
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.2rem;
+  border-radius: 999px;
+  background: #fff;
+  color: #0A66C2;
+  font-weight: 600;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+@media (max-width: 640px) {
+  .linkedin-banner {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .linkedin-banner-cta {
+    margin-left: 0;
+    width: 100%;
+    justify-content: center;
+  }
+}
+
 /* === Forms === */
 .form-group {
   margin-bottom: var(--spacing-md);

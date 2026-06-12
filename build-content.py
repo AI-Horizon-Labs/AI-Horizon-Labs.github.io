@@ -75,12 +75,37 @@ TRACK_LABEL = {
 # Títulos que são front-matter dos anais (prefácio/organização), não publicações
 NAO_PUBLICACAO = ("Apresentação e Organização", "Prefácio e Organização")
 
+# Membros do grupo (fonte: _content/members). Cada membro é identificado por um
+# conjunto de tokens (sem acento, minúsculo) que devem TODOS aparecer no nome de
+# um autor para que a autoria seja considerada do membro. Sobrenomes distintivos
+# (Kreutz, Mansilha, Quincozes) bastam sozinhos; nomes/sobrenomes comuns (Silva,
+# Souza, Guedes) exigem tokens adicionais para evitar falsos positivos — ex.:
+# "Rodrigo S. Miani" não casa com "Mansilha"; "Alex ... Severo" não casa com
+# "Paulo ... Severo ... Souza".
+GROUP_MEMBERS = (
+    ('kreutz',),                       # Diego Kreutz
+    ('mansilha',),                     # Rodrigo (Brandão) Mansilha
+    ('quincozes',),                    # Silvio Ereno Quincozes
+    ('gilleanes', 'guedes'),           # Gilleanes Thorwald Araujo Guedes
+    ('williamson', 'silva'),           # Williamson Alison Freitas Silva
+    ('paulo', 'severo', 'souza'),      # Paulo Silas Severo de Souza
+)
+
 
 def strip_accents(text):
     """Remove acentos para comparação de nomes"""
     import unicodedata
     return ''.join(c for c in unicodedata.normalize('NFD', text)
                    if unicodedata.category(c) != 'Mn').lower()
+
+
+def has_group_member(authors):
+    """True se algum autor da publicação é membro do grupo (ver GROUP_MEMBERS)."""
+    for autor in authors.split(';'):
+        norm = strip_accents(autor)
+        if any(all(tok in norm for tok in tokens) for tokens in GROUP_MEMBERS):
+            return True
+    return False
 
 
 def load_publications_from_sol():
@@ -103,6 +128,9 @@ def load_publications_from_sol():
         track_label = TRACK_LABEL.get(track, track.capitalize())
         venue = f"{event} {p.get('year', '')} — {track_label}".strip()
         authors = '; '.join(a.strip() for a in p.get('authors', '').split(',') if a.strip())
+        # Só publicamos trabalhos com ao menos um coautor membro do grupo
+        if not has_group_member(authors):
+            continue
         items.append({
             'data': {
                 'event': event,

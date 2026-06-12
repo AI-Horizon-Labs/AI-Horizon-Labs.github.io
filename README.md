@@ -296,7 +296,7 @@ Após configurar o projeto:
 
 - **Documentação:** [CONTENT_GUIDE.md](CONTENT_GUIDE.md) e [AUTOMATION.md](AUTOMATION.md)
 - **Issues:** [GitHub Issues](https://github.com/AI-Horizon-Labs/AI-Horizon-Labs.github.io/issues)
-- **Contato:** contato@aihorizon.unipampa.edu.br
+- **Contato:** aihorizonlabs@unipampa.edu.br
 
 ---
 

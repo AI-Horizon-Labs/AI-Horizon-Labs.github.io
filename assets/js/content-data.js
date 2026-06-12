@@ -21,6 +21,19 @@ const MEMBERS_DATA = [
   },
   {
     "data": {
+      "id": "7",
+      "name": "Dr. Dionatan Ricardo Schmidt",
+      "role": "Professor Pesquisador",
+      "category": "pesquisadores",
+      "photo": "assets/images/members/dionatan-schmidt.jpg",
+      "lattes": "http://lattes.cnpq.br/7951967592535355",
+      "email": "dionatanschmidt@unipampa.edu.br",
+      "website": "https://unipampa.edu.br/alegrete/docente/19363/dados-gerais"
+    },
+    "content": "# Dr. Dionatan Ricardo Schmidt\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor, docente do Campus Alegrete da Universidade Federal do Pampa (Unipampa)."
+  },
+  {
+    "data": {
       "id": "4",
       "name": "Dr. Gilleanes Thorwald Araujo Guedes",
       "role": "Professor Pesquisador",

@@ -7,7 +7,7 @@ photo: assets/images/members/diego-kreutz.png
 lattes: http://lattes.cnpq.br/2781747995973774
 scholar: https://scholar.google.com.br/citations?user=JcL8biEAAAAJ
 linkedin: https://www.linkedin.com/in/diegokreutz/
-website: http://info.kreutz.xyz
+website: https://diegokreutz.github.io
 ---
 
 # Diego Kreutz

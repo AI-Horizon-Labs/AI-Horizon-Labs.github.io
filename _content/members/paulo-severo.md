@@ -3,7 +3,7 @@ id: 5
 name: Dr. Paulo Silas Severo de Souza
 role: Professor Pesquisador
 category: pesquisadores
-photo: assets/images/members/paulo-severo.jpg
+photo: assets/images/members/paulo-severo.png
 lattes: http://lattes.cnpq.br/2653484244901352
 linkedin: https://www.linkedin.com/in/paulosevero/
 ---

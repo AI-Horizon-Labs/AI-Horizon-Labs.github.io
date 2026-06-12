@@ -3,7 +3,7 @@ id: 6
 name: Dr. Williamson Alison Freitas Silva
 role: Professor Pesquisador
 category: pesquisadores
-photo: assets/images/members/williamson-silva.jpg
+photo: assets/images/members/williamson-silva.jpeg
 lattes: http://lattes.cnpq.br/7511013446343990
 linkedin: https://www.linkedin.com/in/williamson-silva/
 ---

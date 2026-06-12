@@ -15,7 +15,7 @@ const MEMBERS_DATA = [
       "lattes": "http://lattes.cnpq.br/2781747995973774",
       "scholar": "https://scholar.google.com.br/citations?user=JcL8biEAAAAJ",
       "linkedin": "https://www.linkedin.com/in/diegokreutz/",
-      "website": "http://info.kreutz.xyz"
+      "website": "https://diegokreutz.github.io"
     },
     "content": "# Diego Kreutz\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Informática, com atuação em redes definidas por software (SDN), segurança computacional e computação em nuvem.\n\n## Interesses de Pesquisa\n\n- IA aplicada à segurança de redes e sistemas\n- Redes definidas por software (SDN)\n- Computação em nuvem e sistemas distribuídos"
   },
@@ -38,7 +38,7 @@ const MEMBERS_DATA = [
       "name": "Dr. Paulo Silas Severo de Souza",
       "role": "Professor Pesquisador",
       "category": "pesquisadores",
-      "photo": "assets/images/members/paulo-severo.jpg",
+      "photo": "assets/images/members/paulo-severo.png",
       "lattes": "http://lattes.cnpq.br/2653484244901352",
       "linkedin": "https://www.linkedin.com/in/paulosevero/"
     },
@@ -66,7 +66,7 @@ const MEMBERS_DATA = [
       "name": "Dr. Silvio Ereno Quincozes",
       "role": "Professor Pesquisador",
       "category": "pesquisadores",
-      "photo": "assets/images/members/silvio-quincozes.jpg",
+      "photo": "assets/images/members/silvio-quincozes.png",
       "lattes": "http://lattes.cnpq.br/9401130360785458",
       "orcid": "0000-0001-6793-4033",
       "scholar": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
@@ -81,7 +81,7 @@ const MEMBERS_DATA = [
       "name": "Dr. Williamson Alison Freitas Silva",
       "role": "Professor Pesquisador",
       "category": "pesquisadores",
-      "photo": "assets/images/members/williamson-silva.jpg",
+      "photo": "assets/images/members/williamson-silva.jpeg",
       "lattes": "http://lattes.cnpq.br/7511013446343990",
       "linkedin": "https://www.linkedin.com/in/williamson-silva/"
     },

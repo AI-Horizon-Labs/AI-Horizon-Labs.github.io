@@ -82,3 +82,6 @@ dist/
 build/
 *.min.js
 *.min.css
+
+# Arquivos de trabalho/rascunho (nao versionar)
+novos_premios.txt

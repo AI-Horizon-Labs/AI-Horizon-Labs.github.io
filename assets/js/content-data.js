@@ -3753,6 +3753,30 @@ const AWARDS_DATA = [
       "link": "https://sites.unipampa.edu.br/lea/2026/05/22/unipampa-e-destaque-nas-premiacoes-na-errc-wrseg-2025-e-consolida-lideranca-regional-em-pesquisa-em-ciberseguranca/"
     },
     "content": "# Menção Honrosa (3º lugar) — WRSeg 2025\n\n**Data:** 9 de Dezembro de 2025\n**Premiado(s):** Lucas Ferreira, Angelo Nogueira, Diego Kreutz, Dionatan Schmidt e Rodrigo Mansilha\n**Instituição:** SBC — IX WRSeg 2025 (ERRC/WRSeg)\n\n## Descrição\n\nO artigo \"Tune3: Otimização Multiestágio\" recebeu menção honrosa (3º lugar) no IX WRSeg 2025, completando o pódio de premiações da UNIPAMPA no workshop."
+  },
+  {
+    "data": {
+      "date": "2026-06-14",
+      "title": "Melhor Artefato do SBRC 2026 (AnonShield)",
+      "category": "research",
+      "scope": "national",
+      "recipient": "Cristhian Kapelinski; Douglas Paim Lautert; Beatriz Roland Machado; Diego Kreutz; Isadora Ferrão",
+      "institution": "Sociedade Brasileira de Computação (SBC) — Comitê Técnico de Artefatos (CTA), SBRC 2026",
+      "link": "https://doc-artefatos.github.io/sbrc2026/results.html"
+    },
+    "content": "# Melhor Artefato do SBRC 2026 (AnonShield)\n\n**Data:** 14 de Junho de 2026\n**Premiado(s):** Cristhian Kapelinski, Douglas Paim Lautert, Beatriz Roland Machado, Diego Kreutz e Isadora Ferrão, PhD\n**Instituição:** Sociedade Brasileira de Computação (SBC) — Comitê Técnico de Artefatos (CTA), SBRC 2026\n\n## Descrição\n\nO artefato **AnonShield: Scalable On-Premise Pseudonymization for CSIRT Network Vulnerability Data** foi selecionado como o **Melhor Artefato do SBRC 2026** pelo Comitê Técnico de Artefatos (CTA), pela excelência no desenvolvimento, na documentação e na apresentação.\n\nO reconhecimento confirma a vertente pioneira e forte do AI Horizon Labs / UNIPAMPA em artefatos de qualidade no Brasil — reprodutíveis, documentados e avaliados — transformando conhecimento em engenharia, código e ferramentas que rodam no mundo real.\n\n<p><strong>Links:</strong>\n<a href=\"https://github.com/AnonShield/tool\" target=\"_blank\" rel=\"noopener noreferrer\">AnonShield (repositório)</a> ·\n<a href=\"https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42580\" target=\"_blank\" rel=\"noopener noreferrer\">Artigo (SOL/SBC)</a> ·\n<a href=\"https://doc-artefatos.github.io/sbrc2026/results.html\" target=\"_blank\" rel=\"noopener noreferrer\">Resultados oficiais (CTA)</a> ·\n<a href=\"https://sbrc.sbc.org.br/2026/\" target=\"_blank\" rel=\"noopener noreferrer\">SBRC 2026</a></p>"
+  },
+  {
+    "data": {
+      "date": "2026-06-14",
+      "title": "Melhores Revisores de Artefatos do SBRC 2026",
+      "category": "research",
+      "scope": "national",
+      "recipient": "Cristhian Kapelinski; Diego Kreutz; Douglas Paim Lautert; Leonardo Bitzki; Matheus Cabral; Matheus Martins Ciocca",
+      "institution": "Sociedade Brasileira de Computação (SBC) — Comitê Técnico de Artefatos (CTA), SBRC 2026",
+      "link": "https://doc-artefatos.github.io/sbrc2026/results.html"
+    },
+    "content": "# Melhores Revisores de Artefatos do SBRC 2026\n\n**Data:** 14 de Junho de 2026\n**Premiado(s):** Cristhian Kapelinski, Diego Kreutz, Douglas Paim Lautert, Leonardo Bitzki, Matheus Cabral e Matheus Martins Ciocca\n**Instituição:** Sociedade Brasileira de Computação (SBC) — Comitê Técnico de Artefatos (CTA), SBRC 2026\n\n## Descrição\n\nDos **11 revisores premiados** como Melhores Revisores de Artefatos do SBRC 2026, **6 são do AI Horizon Labs / UNIPAMPA**: Cristhian Kapelinski, Diego Kreutz, Douglas Paim Lautert, Leonardo Bitzki, Matheus Cabral e Matheus Martins Ciocca.\n\nUma marca inédita: nunca, em toda a história da avaliação de artefatos do SBRC, um único laboratório e uma única instituição alcançaram algo assim. O resultado é fruto de uma vertente pioneira e forte em artefatos de qualidade no Brasil, construída ao longo dos anos por meio de iniciativas do Prof. Diego Kreutz, incluindo disciplinas de Graduação e Pós-Graduação, como o Laboratório de Engenharia de Artefatos de Software, além de inúmeras sessões de treinamento e do acompanhamento próximo de orientandos e alunos colaboradores.\n\n<p><strong>Links:</strong>\n<a href=\"https://doc-artefatos.github.io/sbrc2026/results.html\" target=\"_blank\" rel=\"noopener noreferrer\">Resultados oficiais (CTA)</a> ·\n<a href=\"https://ai-horizon-labs.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">AI Horizon Labs</a> ·\n<a href=\"https://sbrc.sbc.org.br/2026/\" target=\"_blank\" rel=\"noopener noreferrer\">SBRC 2026</a></p>"
   }
 ];
 

@@ -48,20 +48,19 @@ function renderMember(member, isCoordinator = false) {
     ${member.data.email ? `<a href="mailto:${member.data.email}"><i class="fas fa-envelope" title="Email"></i></a>` : ''}
   `;
   
-  // Renderizar foto ou placeholder
-  const photoHeight = isCoordinator ? '200px' : '180px';
-  const photoWidth = isCoordinator ? '200px' : '100%';
-  const placeholderHtml = `<div style="width:100%;height:100%;background:linear-gradient(135deg,#f0f4f8,#e2e8f0);display:flex;align-items:center;justify-content:center;border-radius:8px;border:2px dashed #cbd5e0;">
+  // Renderizar foto ou placeholder (estilo redondo)
+  const photoSize = isCoordinator ? '200px' : '150px';
+  const placeholderHtml = `<div style="width:100%;height:100%;background:linear-gradient(135deg,#f0f4f8,#e2e8f0);display:flex;align-items:center;justify-content:center;border-radius:50%;border:2px dashed #cbd5e0;">
          <i class="fas ${icon}" style="font-size:${iconSize};color:#a0aec0;"></i>
        </div>`;
   const photoHtml = member.data.photo
-    ? `<img src="${member.data.photo}" alt="${member.data.name}" style="width:100%;height:100%;object-fit:cover;border-radius:8px;" onerror="this.parentElement.innerHTML='${placeholderHtml.replace(/\n\s*/g, '').replace(/'/g, "\\'").replace(/"/g, '&quot;')}'">`
+    ? `<img src="${member.data.photo}" alt="${member.data.name}" style="width:100%;height:100%;object-fit:cover;border-radius:50%;" onerror="this.parentElement.innerHTML='${placeholderHtml.replace(/\n\s*/g, '').replace(/'/g, "\\'").replace(/"/g, '&quot;')}'">`
     : placeholderHtml;
-  
+
   return `
     <div class="card member-card" style="padding:0;overflow:hidden;">
-      <div style="padding:var(--spacing-md);padding-bottom:0;${isCoordinator ? 'display:flex;justify-content:center;' : ''}">
-        <div style="width:${photoWidth};height:${photoHeight};overflow:hidden;">
+      <div style="padding:var(--spacing-md);padding-bottom:0;display:flex;justify-content:center;">
+        <div style="width:${photoSize};height:${photoSize};overflow:hidden;border-radius:50%;">
           ${photoHtml}
         </div>
       </div>

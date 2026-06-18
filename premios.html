@@ -81,6 +81,13 @@
                         <div style="color: var(--color-text-medium);">Prêmios Recebidos</div>
                     </div>
                     <div class="stat-card" style="background: white; padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
+                        <div style="font-size: 2.5rem; color: var(--color-primary-light); margin-bottom: 0.5rem;">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div id="awards-2026" style="font-size: 2rem; font-weight: 700; color: var(--color-primary-light);">0</div>
+                        <div style="color: var(--color-text-medium);">Prêmios em 2026</div>
+                    </div>
+                    <div class="stat-card" style="background: white; padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
                         <div style="font-size: 2.5rem; color: var(--color-accent); margin-bottom: 0.5rem;">
                             <i class="fas fa-medal"></i>
                         </div>
@@ -185,10 +192,12 @@
                 document.getElementById('total-awards').textContent = awards.length;
                 
                 // Calculate statistics
+                const awards2026 = awards.filter(a => (a.data.date || '').startsWith('2026')).length;
                 const awards2025 = awards.filter(a => (a.data.date || '').startsWith('2025')).length;
                 const awards2024 = awards.filter(a => (a.data.date || '').startsWith('2024')).length;
                 const internationalAwards = awards.filter(a => a.data.scope === 'international').length;
 
+                document.getElementById('awards-2026').textContent = awards2026;
                 document.getElementById('awards-2025').textContent = awards2025;
                 document.getElementById('awards-2024').textContent = awards2024;
                 document.getElementById('international-awards').textContent = internationalAwards;

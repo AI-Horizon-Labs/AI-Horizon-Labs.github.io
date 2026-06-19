@@ -84,4 +84,4 @@ build/
 *.min.css
 
 # Arquivos de trabalho/rascunho (nao versionar)
-novos_premios.txt
+*.txt

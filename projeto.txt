@@ -1,8 +1,0 @@
-Nome do projeto
-Tune3-G: Escalonamento Geométrico de Hiperparâmetros para Redes Neurais em Cibersegurança.
-
-Framework de otimização que usa matemática avançada para ensinar redes neurais a se autoajustarem durante o treinamento, tornando sistemas de detecção de malware mais rápidos, estáveis e confiáveis, com tecnologia disponibilizada como software livre.
-
-Coordenador: Dr. Dionatan Ricardo Schmidt
-Valor: 50.000,00 reais 
-Financiador: FAPERGS ARD 2025

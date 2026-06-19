@@ -30,7 +30,7 @@ const MEMBERS_DATA = [
       "linkedin": "https://www.linkedin.com/in/diegokreutz/",
       "website": "https://diegokreutz.github.io"
     },
-    "content": "# Diego Kreutz\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Computação, com atuação em cibersegurança, IA aplicada, IA adversarial, AutoML, otimização de pipelines de IA, sistemas distribuídos, computação em nuvem, engenharia de artefatos de software e redes de computadores.\n\n## Interesses de Pesquisa\n\n- Cibersegurança e IA adversarial\n- IA aplicada, AutoML e otimização de pipelines de IA\n- Sistemas distribuídos, computação em nuvem e redes de computadores\n- Engenharia de artefatos de software"
+    "content": "# Diego Kreutz\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Computação, com atuação em cibersegurança, IA aplicada, IA adversarial, LLMs e SLMs, AutoML, otimização de pipelines de IA, sistemas distribuídos, computação em nuvem, engenharia de artefatos de software e redes de computadores.\n\n## Interesses de Pesquisa\n\n- Cibersegurança e IA adversarial\n- LLMs e SLMs (modelos de linguagem)\n- IA aplicada, AutoML e otimização de pipelines de IA\n- Sistemas distribuídos, computação em nuvem e redes de computadores\n- Engenharia de artefatos de software"
   },
   {
     "data": {

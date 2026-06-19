@@ -17,11 +17,12 @@ website: https://diegokreutz.github.io
 
 ## Biografia
 
-Doutor em Computação, com atuação em cibersegurança, IA aplicada, IA adversarial, AutoML, otimização de pipelines de IA, sistemas distribuídos, computação em nuvem, engenharia de artefatos de software e redes de computadores.
+Doutor em Computação, com atuação em cibersegurança, IA aplicada, IA adversarial, LLMs e SLMs, AutoML, otimização de pipelines de IA, sistemas distribuídos, computação em nuvem, engenharia de artefatos de software e redes de computadores.
 
 ## Interesses de Pesquisa
 
 - Cibersegurança e IA adversarial
+- LLMs e SLMs (modelos de linguagem)
 - IA aplicada, AutoML e otimização de pipelines de IA
 - Sistemas distribuídos, computação em nuvem e redes de computadores
 - Engenharia de artefatos de software

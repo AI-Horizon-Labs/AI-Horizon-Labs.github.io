@@ -1,8 +1,8 @@
 ---
 id: 3
 name: Dr. Silvio Ereno Quincozes
-role: Professor Pesquisador
-category: pesquisadores
+role: Coordenador
+category: coordenacao
 photo: assets/images/members/silvio-quincozes.png
 lattes: http://lattes.cnpq.br/9401130360785458
 orcid: 0000-0001-6793-4033

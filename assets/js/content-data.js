@@ -9,15 +9,15 @@ const MEMBERS_DATA = [
     "data": {
       "id": "2",
       "name": "Diego Kreutz",
-      "role": "Professor Pesquisador",
-      "category": "pesquisadores",
+      "role": "Coordenador",
+      "category": "coordenacao",
       "photo": "assets/images/members/diego-kreutz.png",
       "lattes": "http://lattes.cnpq.br/2781747995973774",
       "scholar": "https://scholar.google.com.br/citations?user=JcL8biEAAAAJ",
       "linkedin": "https://www.linkedin.com/in/diegokreutz/",
       "website": "https://diegokreutz.github.io"
     },
-    "content": "# Diego Kreutz\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Informática, com atuação em redes definidas por software (SDN), segurança computacional e computação em nuvem.\n\n## Interesses de Pesquisa\n\n- IA aplicada à segurança de redes e sistemas\n- Redes definidas por software (SDN)\n- Computação em nuvem e sistemas distribuídos"
+    "content": "# Diego Kreutz\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Computação, com atuação em cibersegurança, IA aplicada, IA adversarial, AutoML, otimização de pipelines de IA, sistemas distribuídos, computação em nuvem, engenharia de artefatos de software e redes de computadores.\n\n## Interesses de Pesquisa\n\n- Cibersegurança e IA adversarial\n- IA aplicada, AutoML e otimização de pipelines de IA\n- Sistemas distribuídos, computação em nuvem e redes de computadores\n- Engenharia de artefatos de software"
   },
   {
     "data": {
@@ -77,8 +77,8 @@ const MEMBERS_DATA = [
     "data": {
       "id": "3",
       "name": "Dr. Silvio Ereno Quincozes",
-      "role": "Professor Pesquisador",
-      "category": "pesquisadores",
+      "role": "Coordenador",
+      "category": "coordenacao",
       "photo": "assets/images/members/silvio-quincozes.png",
       "lattes": "http://lattes.cnpq.br/9401130360785458",
       "orcid": "0000-0001-6793-4033",
@@ -3760,12 +3760,11 @@ const AWARDS_DATA = [
       "title": "Melhor Artefato do SBRC 2026 (AnonShield)",
       "category": "research",
       "scope": "national",
-      "work": "AnonShield: Scalable On-Premise Pseudonymization for CSIRT Network Vulnerability Data",
       "recipient": "Cristhian Kapelinski; Douglas Paim Lautert; Beatriz Roland Machado; Diego Kreutz; Isadora Ferrão",
       "institution": "Sociedade Brasileira de Computação (SBC) — Comitê Técnico de Artefatos (CTA), SBRC 2026",
-      "link": "https://www.linkedin.com/posts/sbrc2026-unipampa-aihorizonlabs-ugcPost-7471695108376088577-yOcL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAENRnYBThvatut1RVySkxnfKomkGmSzhcU"
+      "link": "https://doc-artefatos.github.io/sbrc2026/results.html"
     },
-    "content": "# Melhor Artefato do SBRC 2026 (AnonShield)\n\n**Data:** 14 de Junho de 2026\n**Premiado(s):** Cristhian Kapelinski, Douglas Paim Lautert, Beatriz Roland Machado, Diego Kreutz e Isadora Ferrão, PhD\n**Instituição:** Sociedade Brasileira de Computação (SBC) — Comitê Técnico de Artefatos (CTA), SBRC 2026\n\n## Descrição\n\nO artefato <strong>AnonShield: Scalable On-Premise Pseudonymization for CSIRT Network Vulnerability Data</strong> foi selecionado como o <strong>Melhor Artefato do SBRC 2026</strong> pelo Comitê Técnico de Artefatos (CTA), pela excelência no desenvolvimento, na documentação e na apresentação.\n\nO reconhecimento confirma a vertente pioneira e forte do AI Horizon Labs / UNIPAMPA em artefatos de qualidade no Brasil, reprodutíveis, documentados e avaliados, transformando conhecimento em engenharia, código e ferramentas que rodam no mundo real.\n\n<p><strong>Links:</strong>\n<a href=\"https://github.com/AnonShield/tool\" target=\"_blank\" rel=\"noopener noreferrer\">AnonShield (repositório)</a> ·\n<a href=\"https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42580\" target=\"_blank\" rel=\"noopener noreferrer\">Artigo (SOL/SBC)</a> ·\n<a href=\"https://doc-artefatos.github.io/sbrc2026/results.html\" target=\"_blank\" rel=\"noopener noreferrer\">Resultados oficiais (CTA)</a> ·\n<a href=\"https://sbrc.sbc.org.br/2026/\" target=\"_blank\" rel=\"noopener noreferrer\">SBRC 2026</a></p>"
+    "content": "# Melhor Artefato do SBRC 2026 (AnonShield)\n\n**Data:** 14 de Junho de 2026\n**Premiado(s):** Cristhian Kapelinski, Douglas Paim Lautert, Beatriz Roland Machado, Diego Kreutz e Isadora Ferrão, PhD\n**Instituição:** Sociedade Brasileira de Computação (SBC) — Comitê Técnico de Artefatos (CTA), SBRC 2026\n\n## Descrição\n\nO artefato **AnonShield: Scalable On-Premise Pseudonymization for CSIRT Network Vulnerability Data** foi selecionado como o **Melhor Artefato do SBRC 2026** pelo Comitê Técnico de Artefatos (CTA), pela excelência no desenvolvimento, na documentação e na apresentação.\n\nO reconhecimento confirma a vertente pioneira e forte do AI Horizon Labs / UNIPAMPA em artefatos de qualidade no Brasil — reprodutíveis, documentados e avaliados — transformando conhecimento em engenharia, código e ferramentas que rodam no mundo real.\n\n<p><strong>Links:</strong>\n<a href=\"https://github.com/AnonShield/tool\" target=\"_blank\" rel=\"noopener noreferrer\">AnonShield (repositório)</a> ·\n<a href=\"https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42580\" target=\"_blank\" rel=\"noopener noreferrer\">Artigo (SOL/SBC)</a> ·\n<a href=\"https://doc-artefatos.github.io/sbrc2026/results.html\" target=\"_blank\" rel=\"noopener noreferrer\">Resultados oficiais (CTA)</a> ·\n<a href=\"https://sbrc.sbc.org.br/2026/\" target=\"_blank\" rel=\"noopener noreferrer\">SBRC 2026</a></p>"
   },
   {
     "data": {
@@ -3775,7 +3774,7 @@ const AWARDS_DATA = [
       "scope": "national",
       "recipient": "Cristhian Kapelinski; Diego Kreutz; Douglas Paim Lautert; Leonardo Bitzki; Matheus Cabral; Matheus Martins Ciocca",
       "institution": "Sociedade Brasileira de Computação (SBC) — Comitê Técnico de Artefatos (CTA), SBRC 2026",
-      "link": "https://www.linkedin.com/posts/sbrc2026-unipampa-aihorizonlabs-ugcPost-7471695108376088577-yOcL/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAAENRnYBThvatut1RVySkxnfKomkGmSzhcU"
+      "link": "https://doc-artefatos.github.io/sbrc2026/results.html"
     },
     "content": "# Melhores Revisores de Artefatos do SBRC 2026\n\n**Data:** 14 de Junho de 2026\n**Premiado(s):** Cristhian Kapelinski, Diego Kreutz, Douglas Paim Lautert, Leonardo Bitzki, Matheus Cabral e Matheus Martins Ciocca\n**Instituição:** Sociedade Brasileira de Computação (SBC) — Comitê Técnico de Artefatos (CTA), SBRC 2026\n\n## Descrição\n\nDos **11 revisores premiados** como Melhores Revisores de Artefatos do SBRC 2026, **6 são do AI Horizon Labs / UNIPAMPA**: Cristhian Kapelinski, Diego Kreutz, Douglas Paim Lautert, Leonardo Bitzki, Matheus Cabral e Matheus Martins Ciocca.\n\nUma marca inédita: nunca, em toda a história da avaliação de artefatos do SBRC, um único laboratório e uma única instituição alcançaram algo assim. O resultado é fruto de uma vertente pioneira e forte em artefatos de qualidade no Brasil, construída ao longo dos anos por meio de iniciativas do Prof. Diego Kreutz, incluindo disciplinas de Graduação e Pós-Graduação, como o Laboratório de Engenharia de Artefatos de Software, além de inúmeras sessões de treinamento e do acompanhamento próximo de orientandos e alunos colaboradores.\n\n<p><strong>Links:</strong>\n<a href=\"https://doc-artefatos.github.io/sbrc2026/results.html\" target=\"_blank\" rel=\"noopener noreferrer\">Resultados oficiais (CTA)</a> ·\n<a href=\"https://ai-horizon-labs.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">AI Horizon Labs</a> ·\n<a href=\"https://sbrc.sbc.org.br/2026/\" target=\"_blank\" rel=\"noopener noreferrer\">SBRC 2026</a></p>"
   }

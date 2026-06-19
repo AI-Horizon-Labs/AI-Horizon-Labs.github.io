@@ -86,7 +86,9 @@ function renderMembersPage() {
   if (coordContainer && members.coordenacao.length > 0) {
     coordContainer.innerHTML = `
       <div class="section-title"><h2>Coordenação</h2></div>
-      ${members.coordenacao.map(m => renderMember(m, true)).join('')}
+      <div class="grid grid-2">
+        ${members.coordenacao.map(m => renderMember(m, true)).join('')}
+      </div>
     `;
   }
   

@@ -7,9 +7,19 @@
 const MEMBERS_DATA = [
   {
     "data": {
+      "id": "8",
+      "name": "Dra. Aline Lunkes",
+      "role": "Professora Pesquisadora - PUCPR",
+      "category": "pesquisadores",
+      "photo": "assets/images/members/aline-lunkes.jpg"
+    },
+    "content": "# Dra. Aline Lunkes\n\n**Função:** Pesquisadora\n\n## Biografia\n\nDoutora em Modelagem Computacional, atualmente na Pontifícia Universidade Católica do Paraná (PUCPR), com atuação em Inteligência Artificial, Modelagem Matemática e Computacional, Problemas Inversos e Criptografia Homomórfica.\n\n## Interesses de Pesquisa\n\n- Inteligência Artificial aplicada e LLMs\n- Otimização, privacidade e segurança de dados\n- Modelagem matemática e computacional e problemas inversos"
+  },
+  {
+    "data": {
       "id": "2",
       "name": "Diego Kreutz",
-      "role": "Coordenador",
+      "role": "Coordenador - UNIPAMPA",
       "category": "coordenacao",
       "photo": "assets/images/members/diego-kreutz.png",
       "lattes": "http://lattes.cnpq.br/2781747995973774",
@@ -23,7 +33,7 @@ const MEMBERS_DATA = [
     "data": {
       "id": "7",
       "name": "Dr. Dionatan Ricardo Schmidt",
-      "role": "Professor Pesquisador",
+      "role": "Professor Pesquisador - UNIPAMPA",
       "category": "pesquisadores",
       "photo": "assets/images/members/dionatan-schmidt.jpg",
       "lattes": "http://lattes.cnpq.br/7951967592535355",
@@ -36,7 +46,7 @@ const MEMBERS_DATA = [
     "data": {
       "id": "4",
       "name": "Dr. Gilleanes Thorwald Araujo Guedes",
-      "role": "Professor Pesquisador",
+      "role": "Professor Pesquisador - UNIPAMPA",
       "category": "pesquisadores",
       "photo": "assets/images/members/gilleanes-guedes.jpg",
       "lattes": "http://lattes.cnpq.br/6804701791614680",
@@ -49,7 +59,7 @@ const MEMBERS_DATA = [
     "data": {
       "id": "5",
       "name": "Dr. Paulo Silas Severo de Souza",
-      "role": "Professor Pesquisador",
+      "role": "Professor Pesquisador - UNIPAMPA",
       "category": "pesquisadores",
       "photo": "assets/images/members/paulo-severo.png",
       "lattes": "http://lattes.cnpq.br/2653484244901352",
@@ -61,7 +71,7 @@ const MEMBERS_DATA = [
     "data": {
       "id": "1",
       "name": "Dr. Rodrigo Mansilha",
-      "role": "Professor Pesquisador",
+      "role": "Professor Pesquisador - UNIPAMPA",
       "category": "pesquisadores",
       "photo": "assets/images/members/rodrigo-mansilha.jpg",
       "lattes": "http://lattes.cnpq.br/3118442101667444",
@@ -77,7 +87,7 @@ const MEMBERS_DATA = [
     "data": {
       "id": "3",
       "name": "Dr. Silvio Ereno Quincozes",
-      "role": "Coordenador",
+      "role": "Coordenador - UNIPAMPA",
       "category": "coordenacao",
       "photo": "assets/images/members/silvio-quincozes.png",
       "lattes": "http://lattes.cnpq.br/9401130360785458",
@@ -92,13 +102,13 @@ const MEMBERS_DATA = [
     "data": {
       "id": "6",
       "name": "Dr. Williamson Alison Freitas Silva",
-      "role": "Professor Pesquisador",
+      "role": "Professor Pesquisador - UFCA",
       "category": "pesquisadores",
       "photo": "assets/images/members/williamson-silva.jpeg",
       "lattes": "http://lattes.cnpq.br/7511013446343990",
       "linkedin": "https://www.linkedin.com/in/williamson-silva/"
     },
-    "content": "# Dr. Williamson Alison Freitas Silva\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Informática, com atuação em engenharia de requisitos, qualidade de software e engenharia de software experimental.\n\n## Interesses de Pesquisa\n\n- Engenharia de requisitos\n- Qualidade de software\n- Engenharia de software experimental"
+    "content": "# Dr. Williamson Alison Freitas Silva\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Informática, atualmente na Universidade Federal do Cariri (UFCA), com atuação em engenharia de requisitos, qualidade de software e engenharia de software experimental.\n\n## Interesses de Pesquisa\n\n- Engenharia de requisitos\n- Qualidade de software\n- Engenharia de software experimental"
   }
 ];
 
@@ -284,8 +294,8 @@ const PROJECTS_DATA = [
       "order": "4",
       "title": "GT Smart AgroRAF — Contratos Inteligentes para Rastreabilidade da Agricultura Familiar",
       "status": "ativo",
-      "theme": "ia-blockchain",
-      "coordinator": "Rodrigo Mansilha",
+      "theme": "ia-aplicada",
+      "coordinator": "Diego Kreutz",
       "funding": "Grupo de Trabalho RNP",
       "period": "2025–2026",
       "keywords": "Blockchain / Contratos Inteligentes / Rastreabilidade / Agricultura Familiar",

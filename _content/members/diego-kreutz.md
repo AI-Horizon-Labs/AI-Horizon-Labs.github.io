@@ -1,7 +1,7 @@
 ---
 id: 2
 name: Diego Kreutz
-role: Coordenador
+role: Coordenador - UNIPAMPA
 category: coordenacao
 photo: assets/images/members/diego-kreutz.png
 lattes: http://lattes.cnpq.br/2781747995973774

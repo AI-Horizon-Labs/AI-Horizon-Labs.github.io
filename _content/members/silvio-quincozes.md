@@ -1,7 +1,7 @@
 ---
 id: 3
 name: Dr. Silvio Ereno Quincozes
-role: Coordenador
+role: Coordenador - UNIPAMPA
 category: coordenacao
 photo: assets/images/members/silvio-quincozes.png
 lattes: http://lattes.cnpq.br/9401130360785458

@@ -1,7 +1,7 @@
 ---
 id: 7
 name: Dr. Dionatan Ricardo Schmidt
-role: Professor Pesquisador
+role: Professor Pesquisador - UNIPAMPA
 category: pesquisadores
 photo: assets/images/members/dionatan-schmidt.jpg
 lattes: http://lattes.cnpq.br/7951967592535355

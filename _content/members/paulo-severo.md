@@ -1,7 +1,7 @@
 ---
 id: 5
 name: Dr. Paulo Silas Severo de Souza
-role: Professor Pesquisador
+role: Professor Pesquisador - UNIPAMPA
 category: pesquisadores
 photo: assets/images/members/paulo-severo.png
 lattes: http://lattes.cnpq.br/2653484244901352

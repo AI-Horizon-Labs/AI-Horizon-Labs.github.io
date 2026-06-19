@@ -1,7 +1,7 @@
 ---
 id: 4
 name: Dr. Gilleanes Thorwald Araujo Guedes
-role: Professor Pesquisador
+role: Professor Pesquisador - UNIPAMPA
 category: pesquisadores
 photo: assets/images/members/gilleanes-guedes.jpg
 lattes: http://lattes.cnpq.br/6804701791614680

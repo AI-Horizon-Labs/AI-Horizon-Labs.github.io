@@ -1,7 +1,7 @@
 ---
 id: 1
 name: Dr. Rodrigo Mansilha
-role: Professor Pesquisador
+role: Professor Pesquisador - UNIPAMPA
 category: pesquisadores
 photo: assets/images/members/rodrigo-mansilha.jpg
 lattes: http://lattes.cnpq.br/3118442101667444

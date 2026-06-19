@@ -11,7 +11,9 @@ const MEMBERS_DATA = [
       "name": "Dra. Aline Lunkes",
       "role": "Professora Pesquisadora - PUCPR",
       "category": "pesquisadores",
-      "photo": "assets/images/members/aline-lunkes.jpg"
+      "photo": "assets/images/members/aline-lunkes.jpg",
+      "lattes": "http://lattes.cnpq.br/3047726188512006",
+      "linkedin": "https://www.linkedin.com/in/aline-lunkes-126b7713b/"
     },
     "content": "# Dra. Aline Lunkes\n\n**Função:** Pesquisadora\n\n## Biografia\n\nDoutora em Modelagem Computacional, atualmente na Pontifícia Universidade Católica do Paraná (PUCPR), com atuação em Inteligência Artificial, Modelagem Matemática e Computacional, Problemas Inversos e Criptografia Homomórfica.\n\n## Interesses de Pesquisa\n\n- Inteligência Artificial aplicada e LLMs\n- Otimização, privacidade e segurança de dados\n- Modelagem matemática e computacional e problemas inversos"
   },
@@ -23,6 +25,7 @@ const MEMBERS_DATA = [
       "category": "coordenacao",
       "photo": "assets/images/members/diego-kreutz.png",
       "lattes": "http://lattes.cnpq.br/2781747995973774",
+      "orcid": "0000-0003-0830-0238",
       "scholar": "https://scholar.google.com.br/citations?user=JcL8biEAAAAJ",
       "linkedin": "https://www.linkedin.com/in/diegokreutz/",
       "website": "https://diegokreutz.github.io"

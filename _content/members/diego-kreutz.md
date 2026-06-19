@@ -5,6 +5,7 @@ role: Coordenador - UNIPAMPA
 category: coordenacao
 photo: assets/images/members/diego-kreutz.png
 lattes: http://lattes.cnpq.br/2781747995973774
+orcid: 0000-0003-0830-0238
 scholar: https://scholar.google.com.br/citations?user=JcL8biEAAAAJ
 linkedin: https://www.linkedin.com/in/diegokreutz/
 website: https://diegokreutz.github.io

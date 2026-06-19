@@ -43,7 +43,7 @@ const MEMBERS_DATA = [
       "email": "dionatanschmidt@unipampa.edu.br",
       "website": "https://unipampa.edu.br/alegrete/docente/19363/dados-gerais"
     },
-    "content": "# Dr. Dionatan Ricardo Schmidt\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor, docente do Campus Alegrete da Universidade Federal do Pampa (Unipampa)."
+    "content": "# Dr. Dionatan Ricardo Schmidt\n\n**Função:** Pesquisador\n\n## Biografia\n\nDoutor em Matemática, docente do Campus Alegrete da Universidade Federal do Pampa (Unipampa), com atuação em teoria espectral de grafos, combinatória algébrica e fundamentação matemática de métodos de inteligência artificial.\n\n## Interesses de Pesquisa\n\n- Teoria espectral de grafos e combinatória algébrica\n- Fundamentos matemáticos de IA e otimização\n- Geometria da paisagem de perda em redes neurais\n- IA aplicada à cibersegurança"
   },
   {
     "data": {
@@ -321,6 +321,20 @@ const PROJECTS_DATA = [
       "keywords": "Cibersegurança / Internet das Coisas / Smart Homes"
     },
     "content": "# TRAP-IoT — Tecnologia Resiliente para Aplicações em Protocolos IoT\n\n## Descrição\n\nSoluções de segurança para Internet das Coisas em dispositivos de baixo custo (ESP32, Arduino, Raspberry Pi), com foco em comunicação segura e detecção de intrusões em protocolos emergentes (Zenoh) e tradicionais (DDS, Wi-Fi, Bluetooth) aplicados à saúde, smart homes e vestíveis.\n\n## Equipe\n\n- Diego Kreutz | Docente | Co-coordenador\n- Diego Nunes Brandão | Externo | Colaborador\n- Douglas Rodrigues Fideles | Externo | Voluntário\n- Isadora Fenner Spohr | Externo | Voluntário\n- José Gabriel Ribeiro Fagundes | Externo | Voluntário\n- Juliano Fontoura Kazienko | Externo | Co-coordenador\n- Raphael Pereira de Oliveira Guerra | Externo | Colaborador\n- Silvio Ereno Quincozes | Docente | Coordenador\n- Vagner Ereno Quincozes | Externo | Co-coordenador"
+  },
+  {
+    "data": {
+      "order": "4",
+      "title": "Tune3-G: Escalonamento Geométrico de Hiperparâmetros para Redes Neurais em Cibersegurança",
+      "status": "ativo",
+      "theme": "ia-ciberseguranca",
+      "coordinator": "Dionatan Ricardo Schmidt",
+      "funding": "Projeto de Pesquisa",
+      "financiador": "FAPERGS — ARD 2025",
+      "valor": "R$ 50.000,00",
+      "keywords": "Otimização de Hiperparâmetros / Redes Neurais / Detecção de Malware / Software Livre"
+    },
+    "content": "# Tune3-G: Escalonamento Geométrico de Hiperparâmetros para Redes Neurais em Cibersegurança\n\n## Descrição\n\nFramework de otimização que usa matemática avançada para ensinar redes neurais a se autoajustarem durante o treinamento, tornando sistemas de detecção de malware mais rápidos, estáveis e confiáveis, com tecnologia disponibilizada como software livre.\n\n## Equipe\n\n- Dionatan Ricardo Schmidt | Docente | Coordenador"
   },
   {
     "data": {
@@ -922,6 +936,15 @@ const CONTRIBUTORS_DATA = [
     "data": {
       "nome": "Diogo Silveira Kersten",
       "tipo": "Técnico",
+      "projetos": 1,
+      "coordena": 1
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "nome": "Dionatan Ricardo Schmidt",
+      "tipo": "Docente",
       "projetos": 1,
       "coordena": 1
     },

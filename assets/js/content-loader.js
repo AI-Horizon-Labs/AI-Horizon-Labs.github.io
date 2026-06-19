@@ -257,7 +257,9 @@ function renderProject(project) {
         <strong>Coordenação:</strong> ${d.coordinator}<br>
         ${d.lab ? `<strong>Grupo:</strong> ${d.lab}<br>` : ''}
         <strong>Modalidade:</strong> ${d.funding}<br>
-        <strong>Período:</strong> ${d.period}
+        ${d.financiador ? `<strong>Financiador:</strong> ${d.financiador}<br>` : ''}
+        ${d.valor ? `<strong>Valor:</strong> ${d.valor}<br>` : ''}
+        ${d.period ? `<strong>Período:</strong> ${d.period}` : ''}
       </p>
       ${siteHtml}
       ${tagsHtml}

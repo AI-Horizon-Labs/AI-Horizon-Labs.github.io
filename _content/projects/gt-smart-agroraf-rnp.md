@@ -3,7 +3,7 @@ order: 4
 title: GT Smart AgroRAF — Contratos Inteligentes para Rastreabilidade da Agricultura Familiar
 status: ativo
 theme: ia-aplicada
-coordinator: Diego Kreutz
+coordinator: Rodrigo Brandão Mansilha
 funding: Grupo de Trabalho RNP
 period: 2025–2026
 keywords: Blockchain / Contratos Inteligentes / Rastreabilidade / Agricultura Familiar
@@ -19,5 +19,5 @@ Solução de rastreabilidade de produtos baseada em blockchain projetada para a 
 
 ## Equipe
 
-- Diego Kreutz | Docente | Coordenador
-- Rodrigo Brandão Mansilha | Docente | Co-coordenador
+- Rodrigo Brandão Mansilha | Docente | Coordenador
+- Diego Kreutz | Docente | Co-coordenador

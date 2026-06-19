@@ -298,14 +298,14 @@ const PROJECTS_DATA = [
       "title": "GT Smart AgroRAF — Contratos Inteligentes para Rastreabilidade da Agricultura Familiar",
       "status": "ativo",
       "theme": "ia-aplicada",
-      "coordinator": "Diego Kreutz",
+      "coordinator": "Rodrigo Brandão Mansilha",
       "funding": "Grupo de Trabalho RNP",
       "period": "2025–2026",
       "keywords": "Blockchain / Contratos Inteligentes / Rastreabilidade / Agricultura Familiar",
       "website": "https://smart-agroraf.github.io",
       "rnp": "true"
     },
-    "content": "# GT Smart AgroRAF — Contratos Inteligentes para Rastreabilidade da Agricultura Familiar\n\n## Descrição\n\nSolução de rastreabilidade de produtos baseada em blockchain projetada para a agricultura familiar e aderente à regulação brasileira (INC 02/2018), contemplando o projeto e a implementação de contratos inteligentes, sua integração ao sistema de informação Proraf e a avaliação de alternativas de blockchain (Hyperledger Besu e Ethereum) quanto a custo, velocidade de transação e usabilidade. Grupo de Trabalho fomentado pela RNP no âmbito do projeto Ilíada.\n\n## Equipe\n\n- Diego Kreutz | Docente | Coordenador\n- Rodrigo Brandão Mansilha | Docente | Co-coordenador"
+    "content": "# GT Smart AgroRAF — Contratos Inteligentes para Rastreabilidade da Agricultura Familiar\n\n## Descrição\n\nSolução de rastreabilidade de produtos baseada em blockchain projetada para a agricultura familiar e aderente à regulação brasileira (INC 02/2018), contemplando o projeto e a implementação de contratos inteligentes, sua integração ao sistema de informação Proraf e a avaliação de alternativas de blockchain (Hyperledger Besu e Ethereum) quanto a custo, velocidade de transação e usabilidade. Grupo de Trabalho fomentado pela RNP no âmbito do projeto Ilíada.\n\n## Equipe\n\n- Rodrigo Brandão Mansilha | Docente | Coordenador\n- Diego Kreutz | Docente | Co-coordenador"
   },
   {
     "data": {

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logomarca | AI Horizon Labs</title>
+<link rel="icon" type="image/png" href="assets/images/favicon_2.png">
+<link rel="shortcut icon" type="image/png" href="assets/images/favicon_2.png">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<style>
+  /* === Estilos específicos da página de Logomarca === */
+  .wip-banner {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: linear-gradient(135deg, rgba(255,140,66,0.12), rgba(26,75,124,0.10));
+    border: 1px solid var(--color-accent);
+    border-left: 6px solid var(--color-accent);
+    border-radius: var(--border-radius);
+    padding: 1.25rem 1.5rem;
+    margin-bottom: var(--spacing-xl);
+  }
+  .wip-banner i { font-size: 1.75rem; color: var(--color-accent-dark); flex-shrink: 0; }
+  .wip-banner strong { color: var(--color-primary-dark); }
+  .wip-banner p { margin: 0; color: var(--color-text-dark); }
+
+  .status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: var(--color-accent);
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    padding: 0.35rem 0.85rem;
+    border-radius: 999px;
+    margin-bottom: 1rem;
+  }
+  .status-pill .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: #fff;
+    animation: pulse 1.6s infinite;
+  }
+  @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:0.35;} }
+
+  .family-block { margin-bottom: var(--spacing-2xl); }
+  .family-head {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    flex-wrap: wrap;
+    border-bottom: 2px solid var(--color-border);
+    padding-bottom: 0.75rem;
+    margin-bottom: var(--spacing-lg);
+  }
+  .family-head .num {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    background: var(--color-primary);
+    width: 2rem; height: 2rem;
+    display: inline-flex; align-items: center; justify-content: center;
+    border-radius: 50%;
+    flex-shrink: 0;
+  }
+  .family-head h2 { margin: 0; font-size: 1.6rem; }
+  .family-head .tag {
+    font-size: 0.8rem;
+    color: var(--color-primary);
+    background: rgba(26,75,124,0.08);
+    padding: 0.25rem 0.7rem;
+    border-radius: 999px;
+    font-weight: 600;
+  }
+  .family-desc { color: var(--color-text-medium); margin-bottom: var(--spacing-lg); max-width: 760px; }
+
+  .logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+    gap: var(--spacing-lg);
+  }
+  .logo-card {
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    background: var(--color-white);
+    box-shadow: var(--shadow-sm);
+    transition: var(--transition);
+    display: flex;
+    flex-direction: column;
+  }
+  .logo-card:hover { box-shadow: var(--shadow-lg); transform: translateY(-4px); }
+  .logo-frame {
+    background:
+      linear-gradient(45deg, #f0f0f0 25%, transparent 25%) 0 0/20px 20px,
+      linear-gradient(-45deg, #f0f0f0 25%, transparent 25%) 0 10px/20px 20px,
+      linear-gradient(45deg, transparent 75%, #f0f0f0 75%) 10px -10px/20px 20px,
+      linear-gradient(-45deg, transparent 75%, #f0f0f0 75%) -10px 0/20px 20px,
+      #fafafa;
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 200px;
+  }
+  .logo-frame.dark { background: #0D1B2A; }
+  .logo-frame img { max-width: 100%; height: auto; display: block; }
+  .logo-meta { padding: 1rem 1.25rem; border-top: 1px solid var(--color-border); }
+  .logo-meta h3 { font-size: 1rem; margin: 0 0 0.35rem; color: var(--color-text-dark); }
+  .logo-meta p { font-size: 0.85rem; color: var(--color-text-medium); margin: 0; }
+  .logo-meta .chips { margin-top: 0.6rem; display: flex; gap: 0.4rem; flex-wrap: wrap; }
+  .logo-meta .chip {
+    font-size: 0.7rem; font-weight: 600;
+    color: var(--color-primary);
+    background: rgba(26,75,124,0.08);
+    padding: 0.2rem 0.55rem; border-radius: 999px;
+  }
+  .logo-meta .chip.accent { color: var(--color-accent-dark); background: rgba(255,140,66,0.12); }
+
+  .feedback-box {
+    background: var(--color-primary-dark);
+    color: #fff;
+    border-radius: var(--border-radius);
+    padding: var(--spacing-xl);
+    text-align: center;
+  }
+  .feedback-box h2 { color: #fff; }
+  .feedback-box p { color: rgba(255,255,255,0.85); max-width: 620px; margin: 0 auto var(--spacing-lg); }
+  .feedback-box .btn { margin: 0.35rem; }
+</style>
+</head>
+<body>
+<header class="header"><nav class="navbar"><div class="container"><a href="index.html" class="logo"><span style="font-size:1.5rem;font-weight:700;color:var(--color-primary);">AI Horizon Labs</span></a><ul class="nav-menu"><li><a href="sobre.html">Sobre</a></li><li class="dropdown"><a href="#">Pesquisa <i class="fas fa-chevron-down"></i></a><ul class="dropdown-menu"><li><a href="linhas-de-pesquisa.html">Linhas de Pesquisa</a></li><li><a href="projetos.html">Projetos</a></li></ul></li><li><a href="membros.html">Membros</a></li><li><a href="publicacoes.html">Publicações</a></li><li><a href="premios.html">Prêmios</a></li><li><a href="noticias.html">Notícias</a></li><li><a href="contato.html" class="btn-primary">Contato</a></li></ul><button class="mobile-menu-toggle" aria-label="Toggle menu"><i class="fas fa-bars"></i></button></div></nav></header>
+
+<main id="main-content">
+  <section class="hero" style="padding:3rem 0;">
+    <div class="container">
+      <span class="status-pill"><span class="dot"></span> Em construção</span>
+      <h1>Logomarca</h1>
+      <p>Propostas visuais para a identidade do AI Horizon Labs</p>
+    </div>
+  </section>
+
+  <section>
+    <div class="container">
+      <div class="wip-banner">
+        <i class="fas fa-flask"></i>
+        <p><strong>A logomarca ainda está em definição.</strong> As artes abaixo são propostas em estudo, organizadas por similaridade. Nada aqui é definitivo: cores, símbolo, tipografia e assinatura podem mudar. <strong>Propostas e ideias são muito bem-vindas</strong> — veja como contribuir ao final da página.</p>
+      </div>
+
+      <!-- Família 1 -->
+      <div class="family-block">
+        <div class="family-head">
+          <span class="num">1</span>
+          <h2>Símbolo vertical, azul gradiente</h2>
+          <span class="tag">Assinatura principal candidata</span>
+        </div>
+        <p class="family-desc">Versões empilhadas e centralizadas com o monograma "A" em gradiente azul e o sol nascente sobre o horizonte. Transmitem profundidade e tecnologia. Indicadas para uso institucional de destaque (capa, apresentações, perfil).</p>
+        <div class="logo-grid">
+          <figure class="logo-card">
+            <a class="logo-frame" href="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2009_16_26%20AM.png" target="_blank" rel="noopener">
+              <img src="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2009_16_26%20AM.png" alt="Logo vertical azul gradiente, tagline Advancing AI Beyond the Horizon" loading="lazy">
+            </a>
+            <figcaption class="logo-meta">
+              <h3>Vertical gradiente — A</h3>
+              <p>Tagline "Advancing AI Beyond the Horizon".</p>
+              <div class="chips"><span class="chip">Vertical</span><span class="chip accent">Cor</span><span class="chip">EN</span></div>
+            </figcaption>
+          </figure>
+          <figure class="logo-card">
+            <a class="logo-frame" href="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_50_08%20AM.png" target="_blank" rel="noopener">
+              <img src="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_50_08%20AM.png" alt="Logo vertical azul gradiente, variação" loading="lazy">
+            </a>
+            <figcaption class="logo-meta">
+              <h3>Vertical gradiente — B</h3>
+              <p>Variação do mesmo conceito, ajuste de proporção e brilho.</p>
+              <div class="chips"><span class="chip">Vertical</span><span class="chip accent">Cor</span><span class="chip">EN</span></div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Família 2 -->
+      <div class="family-block">
+        <div class="family-head">
+          <span class="num">2</span>
+          <h2>Símbolo vertical, monocromático</h2>
+          <span class="tag">Versão preto e branco</span>
+        </div>
+        <p class="family-desc">O mesmo símbolo vertical em uma só cor, em fundo claro e em fundo escuro. Essenciais para documentos, carimbos, fundos coloridos e situações de impressão em uma cor.</p>
+        <div class="logo-grid">
+          <figure class="logo-card">
+            <a class="logo-frame" href="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_57_47%20AM.png" target="_blank" rel="noopener">
+              <img src="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_57_47%20AM.png" alt="Logo vertical monocromática em fundo claro" loading="lazy">
+            </a>
+            <figcaption class="logo-meta">
+              <h3>Mono — fundo claro</h3>
+              <p>Preto sobre branco. Tagline "Advancing AI Beyond the Horizon".</p>
+              <div class="chips"><span class="chip">Vertical</span><span class="chip">Mono</span><span class="chip">Fundo claro</span></div>
+            </figcaption>
+          </figure>
+          <figure class="logo-card">
+            <a class="logo-frame dark" href="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_59_40%20AM.png" target="_blank" rel="noopener">
+              <img src="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_59_40%20AM.png" alt="Logo vertical monocromática em fundo escuro" loading="lazy">
+            </a>
+            <figcaption class="logo-meta">
+              <h3>Mono — fundo escuro</h3>
+              <p>Branco sobre preto, para aplicações invertidas.</p>
+              <div class="chips"><span class="chip">Vertical</span><span class="chip">Mono</span><span class="chip">Fundo escuro</span></div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Família 3 -->
+      <div class="family-block">
+        <div class="family-head">
+          <span class="num">3</span>
+          <h2>Lockup horizontal</h2>
+          <span class="tag">Cabeçalhos e banners</span>
+        </div>
+        <p class="family-desc">Composição na horizontal, com o símbolo à esquerda e o nome à direita. Formato ideal para cabeçalho do site, assinaturas de e-mail, banners e papel timbrado. Disponível em azul e monocromático, com tagline em português e inglês.</p>
+        <div class="logo-grid">
+          <figure class="logo-card">
+            <a class="logo-frame" href="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_29_15%20AM.png" target="_blank" rel="noopener">
+              <img src="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_29_15%20AM.png" alt="Lockup horizontal azul gradiente, tagline em inglês" loading="lazy">
+            </a>
+            <figcaption class="logo-meta">
+              <h3>Horizontal azul — EN</h3>
+              <p>"Exploring New Frontiers in Artificial Intelligence".</p>
+              <div class="chips"><span class="chip">Horizontal</span><span class="chip accent">Cor</span><span class="chip">EN</span></div>
+            </figcaption>
+          </figure>
+          <figure class="logo-card">
+            <a class="logo-frame" href="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_49_08%20AM.png" target="_blank" rel="noopener">
+              <img src="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_49_08%20AM.png" alt="Lockup horizontal azul, tagline em português" loading="lazy">
+            </a>
+            <figcaption class="logo-meta">
+              <h3>Horizontal azul — PT</h3>
+              <p>"Explorando Novas Fronteiras da Inteligência Artificial".</p>
+              <div class="chips"><span class="chip">Horizontal</span><span class="chip accent">Cor</span><span class="chip">PT</span></div>
+            </figcaption>
+          </figure>
+          <figure class="logo-card">
+            <a class="logo-frame" href="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_34_25%20AM.png" target="_blank" rel="noopener">
+              <img src="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_34_25%20AM.png" alt="Lockup horizontal monocromático, tagline em inglês" loading="lazy">
+            </a>
+            <figcaption class="logo-meta">
+              <h3>Horizontal mono — EN</h3>
+              <p>Versão preto e branco, tagline em inglês.</p>
+              <div class="chips"><span class="chip">Horizontal</span><span class="chip">Mono</span><span class="chip">EN</span></div>
+            </figcaption>
+          </figure>
+          <figure class="logo-card">
+            <a class="logo-frame" href="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_39_30%20AM.png" target="_blank" rel="noopener">
+              <img src="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_39_30%20AM.png" alt="Lockup horizontal monocromático, tagline em português" loading="lazy">
+            </a>
+            <figcaption class="logo-meta">
+              <h3>Horizontal mono — PT</h3>
+              <p>Versão preto e branco, tagline em português.</p>
+              <div class="chips"><span class="chip">Horizontal</span><span class="chip">Mono</span><span class="chip">PT</span></div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+      <!-- Família 4 -->
+      <div class="family-block">
+        <div class="family-head">
+          <span class="num">4</span>
+          <h2>Sistema de marca e versões claro/escuro</h2>
+          <span class="tag">Folhas de aplicação</span>
+        </div>
+        <p class="family-desc">Composições mais completas, que apresentam os pilares do laboratório (Pesquisa Aplicada, Inovação Científica, Engenharia de Software e Impacto Real) e o comportamento da marca em fundos claro e escuro. Úteis para avaliar a marca como sistema, não só como ícone isolado.</p>
+        <div class="logo-grid">
+          <figure class="logo-card">
+            <a class="logo-frame" href="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2009_58_40%20AM.png" target="_blank" rel="noopener">
+              <img src="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2009_58_40%20AM.png" alt="Folha de marca colorida com pilares" loading="lazy">
+            </a>
+            <figcaption class="logo-meta">
+              <h3>Sistema com pilares — cor</h3>
+              <p>Tagline "Construindo o futuro da IA" e os quatro pilares.</p>
+              <div class="chips"><span class="chip">Sistema</span><span class="chip accent">Cor</span><span class="chip">PT</span></div>
+            </figcaption>
+          </figure>
+          <figure class="logo-card">
+            <a class="logo-frame" href="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_05_39%20AM.png" target="_blank" rel="noopener">
+              <img src="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_05_39%20AM.png" alt="Folha de marca monocromática com pilares" loading="lazy">
+            </a>
+            <figcaption class="logo-meta">
+              <h3>Sistema com pilares — mono</h3>
+              <p>Mesma estrutura em preto e branco.</p>
+              <div class="chips"><span class="chip">Sistema</span><span class="chip">Mono</span><span class="chip">PT</span></div>
+            </figcaption>
+          </figure>
+          <figure class="logo-card">
+            <a class="logo-frame" href="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_15_29%20AM.png" target="_blank" rel="noopener">
+              <img src="logomarca/ChatGPT%20Image%20Jun%2019%2C%202026%2C%2010_15_29%20AM.png" alt="Par de logos claro e escuro com tagline bilíngue" loading="lazy">
+            </a>
+            <figcaption class="logo-meta">
+              <h3>Par claro/escuro — bilíngue</h3>
+              <p>Mesma marca em fundo branco (EN) e fundo navy (PT).</p>
+              <div class="chips"><span class="chip">Sistema</span><span class="chip accent">Cor</span><span class="chip">EN/PT</span></div>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-alt">
+    <div class="container">
+      <div class="feedback-box">
+        <h2>Propostas e ideias são bem-vindas</h2>
+        <p>Esta identidade está sendo construída de forma colaborativa. Tem uma sugestão de cor, símbolo, tipografia, tagline ou até uma proposta de logo inteira? Compartilhe conosco — toda contribuição ajuda a definir a cara do AI Horizon Labs.</p>
+        <a href="mailto:aihorizonlabs@unipampa.edu.br?subject=Proposta%20de%20logomarca%20-%20AI%20Horizon%20Labs" class="btn btn-primary"><i class="fas fa-envelope"></i> Enviar proposta</a>
+        <a href="contato.html" class="btn btn-secondary">Página de contato</a>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-section"><h3>AI Horizon Labs</h3><p>Laboratório de Pesquisa em Inteligência Artificial e Engenharia de Software</p><p><strong>PPGES - UNIPAMPA</strong></p></div><div class="footer-section"><h4>Links Rápidos</h4><ul><li><a href="sobre.html">Sobre</a></li><li><a href="projetos.html">Projetos</a></li><li><a href="publicacoes.html">Publicações</a></li><li><a href="membros.html">Membros</a></li><li><a href="https://sites.unipampa.edu.br/lampad/" target="_blank" rel="noopener noreferrer">LAMPAD</a></li></ul></div><div class="footer-section"><h4>Contato</h4><p><i class="fas fa-envelope"></i> aihorizonlabs@unipampa.edu.br</p><div class="social-links"><a href="https://github.com/AI-Horizon-Labs" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a><a href="https://www.linkedin.com/company/aihorizonlabs/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a></div></div></div><div class="footer-bottom"><p>&copy; 2026 AI Horizon Labs - UNIPAMPA.</p></div></div></footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

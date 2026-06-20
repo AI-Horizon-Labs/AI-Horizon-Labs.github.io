@@ -4,13 +4,13 @@
 
 /* === Variáveis CSS === */
 :root {
-  /* Cores - Baseadas na identidade visual */
-  --color-primary: #1A4B7C;        /* Azul metálico profundo */
-  --color-primary-light: #2E6BA8;  /* Azul metálico claro */
-  --color-primary-dark: #0D2C4A;   /* Azul metálico escuro */
-  --color-accent: #FF8C42;         /* Laranja metálico sol */
-  --color-accent-light: #FFB175;   /* Laranja claro */
-  --color-accent-dark: #E67325;    /* Laranja escuro */
+  /* Cores - Baseadas na nova logomarca (vertical gradiente B) */
+  --color-primary: #1A4FB5;        /* Azul royal da marca (A / LABS) */
+  --color-primary-light: #2E7CD6;  /* Azul céu (brilho do A) */
+  --color-primary-dark: #0A1F4D;   /* Azul navy profundo (wordmark / horizonte) */
+  --color-accent: #F7A823;         /* Sol dourado / âmbar */
+  --color-accent-light: #FCD06C;   /* Dourado claro */
+  --color-accent-dark: #E08A12;    /* Âmbar escuro */
   --color-text-dark: #1F2937;
   --color-text-medium: #6B7280;
   --color-text-light: #9CA3AF;
@@ -121,7 +121,7 @@ img {
   position: sticky;
   top: 0;
   z-index: 1000;
-  box-shadow: 0 2px 12px rgba(26, 75, 124, 0.1);
+  box-shadow: 0 2px 12px rgba(26, 79, 181, 0.1);
 }
 
 .navbar {
@@ -166,7 +166,7 @@ img {
 .nav-menu a:hover {
   color: var(--color-white);
   background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-light) 100%);
-  box-shadow: 0 2px 8px rgba(26, 75, 124, 0.3);
+  box-shadow: 0 2px 8px rgba(26, 79, 181, 0.3);
 }
 
 .nav-menu .dropdown {
@@ -224,14 +224,14 @@ img {
   background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
   color: var(--color-white);
   border: none;
-  box-shadow: 0 4px 15px rgba(255, 140, 66, 0.3);
+  box-shadow: 0 4px 15px rgba(247, 168, 35, 0.3);
 }
 
 .btn-primary:hover {
   background: linear-gradient(135deg, var(--color-accent-light) 0%, var(--color-accent) 100%);
   color: var(--color-white);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(255, 140, 66, 0.4);
+  box-shadow: 0 6px 20px rgba(247, 168, 35, 0.4);
 }
 
 .btn-secondary {
@@ -246,7 +246,7 @@ img {
   color: var(--color-white);
   border-color: var(--color-white);
   transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(26, 75, 124, 0.4);
+  box-shadow: 0 6px 20px rgba(26, 79, 181, 0.4);
 }
 
 /* === Hero Section === */
@@ -256,7 +256,7 @@ img {
   padding: 0;
   text-align: center;
   position: relative;
-  min-height: 500px;
+  min-height: 320px;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -295,7 +295,7 @@ img {
   position: absolute;
   width: 300px;
   height: 300px;
-  background: radial-gradient(circle, rgba(255, 140, 66, 0.3) 0%, transparent 70%);
+  background: radial-gradient(circle, rgba(247, 168, 35, 0.3) 0%, transparent 70%);
   border-radius: 50%;
   bottom: -100px;
   right: -100px;
@@ -378,7 +378,7 @@ section {
 
 .card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 12px 24px rgba(26, 75, 124, 0.15);
+  box-shadow: 0 12px 24px rgba(26, 79, 181, 0.15);
   border-top: 3px solid var(--color-accent);
 }
 
@@ -499,7 +499,7 @@ section {
 }
 
 .publication-item:hover {
-  box-shadow: 0 4px 16px rgba(26, 75, 124, 0.15);
+  box-shadow: 0 4px 16px rgba(26, 79, 181, 0.15);
   border-left-width: 6px;
   transform: translateX(4px);
 }
@@ -513,7 +513,7 @@ section {
   font-size: 0.875rem;
   font-weight: 600;
   margin-bottom: var(--spacing-xs);
-  box-shadow: 0 2px 8px rgba(26, 75, 124, 0.2);
+  box-shadow: 0 2px 8px rgba(26, 79, 181, 0.2);
 }
 
 .publication-title {
@@ -736,7 +736,7 @@ section {
 .form-select:focus {
   outline: none;
   border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(30, 58, 138, 0.1);
+  box-shadow: 0 0 0 3px rgba(26, 79, 181, 0.1);
 }
 
 .form-textarea {
@@ -807,7 +807,7 @@ section {
 .social-links a:hover {
   background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
   transform: translateY(-3px);
-  box-shadow: 0 4px 12px rgba(255, 140, 66, 0.3);
+  box-shadow: 0 4px 12px rgba(247, 168, 35, 0.3);
 }
 
 .footer-bottom {

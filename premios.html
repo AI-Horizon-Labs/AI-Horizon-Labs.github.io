@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Prêmios e Reconhecimentos do AI Horizon Labs - Conquistas do Laboratório, Alunos e Pesquisadores">
+    <meta name="description" data-i18n-attr="content|premios.meta.desc" content="Prêmios e Reconhecimentos do AI Horizon Labs - Conquistas do Laboratório, Alunos e Pesquisadores">
     <meta name="keywords" content="AI Horizon Labs, Prêmios, Awards, Reconhecimentos, UNIPAMPA, Pesquisa">
-    <title>Prêmios | AI Horizon Labs - UNIPAMPA</title>
+    <title data-i18n="premios.title">Prêmios | AI Horizon Labs - UNIPAMPA</title>
     
     <link rel="icon" type="image/png" href="assets/images/favicon-ailabs.png">
     <link rel="shortcut icon" type="image/png" href="assets/images/favicon-ailabs.png">
@@ -23,19 +23,19 @@
             <div class="container">
                 <a href="index.html" class="logo"><img src="assets/images/logo-horizontal.png" alt="AI Horizon Labs" width="164" height="40"></a>
                 <ul class="nav-menu">
-                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="sobre.html" data-i18n="nav.about">Sobre</a></li>
                     <li class="dropdown">
-                        <a href="#">Pesquisa <i class="fas fa-chevron-down"></i></a>
+                        <a href="#" data-i18n="nav.research">Pesquisa <i class="fas fa-chevron-down"></i></a>
                         <ul class="dropdown-menu">
-                            <li><a href="linhas-de-pesquisa.html">Linhas de Pesquisa</a></li>
-                            <li><a href="projetos.html">Projetos</a></li>
+                            <li><a href="linhas-de-pesquisa.html" data-i18n="nav.lines">Linhas de Pesquisa</a></li>
+                            <li><a href="projetos.html" data-i18n="nav.projects">Projetos</a></li>
                         </ul>
                     </li>
-                    <li><a href="membros.html">Membros</a></li>
-                    <li><a href="publicacoes.html">Publicações</a></li>
-                    <li><a href="premios.html">Prêmios</a></li>
-                    <li><a href="noticias.html">Notícias</a></li>
-                    <li><a href="logomarca.html">Marca</a></li><li><a href="contato.html" class="btn-primary">Contato</a></li>
+                    <li><a href="membros.html" data-i18n="nav.members">Membros</a></li>
+                    <li><a href="publicacoes.html" data-i18n="nav.publications">Publicações</a></li>
+                    <li><a href="premios.html" data-i18n="nav.awards">Prêmios</a></li>
+                    <li><a href="noticias.html" data-i18n="nav.news">Notícias</a></li>
+                    <li><a href="logomarca.html" data-i18n="nav.brand">Marca</a></li><li><a href="contato.html" class="btn-primary" data-i18n="nav.contact">Contato</a></li><li class="lang-switcher" role="group" aria-label="Idioma / Language"><button type="button" data-lang="pt" aria-pressed="true">PT</button><button type="button" data-lang="es" aria-pressed="false">ES</button><button type="button" data-lang="en" aria-pressed="false">EN</button></li>
                 </ul>
                 <button class="mobile-menu-toggle" aria-label="Toggle menu">
                     <i class="fas fa-bars"></i>
@@ -47,7 +47,7 @@
     <main id="main-content">
         <section class="hero">
             <div class="container">
-                <h1><i class="fas fa-trophy"></i> Prêmios e Reconhecimentos</h1>
+                <h1><span data-i18n="premios.hero"><i class="fas fa-trophy"></i> Prêmios e Reconhecimentos</span></h1>
                 <p class="subtitle"></p>
             </div>
         </section>
@@ -55,14 +55,14 @@
         <section>
             <div class="container">
                 <div class="section-title">
-                    <h2>Nossos Prêmios</h2>
-                    <p>Reconhecimento pela excelência em pesquisa, desenvolvimento, engenharia e inovação</p>
+                    <h2 data-i18n="premios.section.title">Nossos Prêmios</h2>
+                    <p data-i18n="premios.section.subtitle">Reconhecimento pela excelência em pesquisa, desenvolvimento, engenharia e inovação</p>
                 </div>
 
                 <div id="awards-container">
                     <div class="loading-placeholder" style="text-align: center; padding: var(--spacing-xl);">
                         <i class="fas fa-spinner fa-spin" style="font-size: 2rem; color: var(--color-primary);"></i>
-                        <p style="margin-top: var(--spacing-md); color: var(--color-text-medium);">Carregando prêmios...</p>
+                        <p style="margin-top: var(--spacing-md); color: var(--color-text-medium);" data-i18n="premios.loading">Carregando prêmios...</p>
                     </div>
                 </div>
             </div>
@@ -76,35 +76,35 @@
                             <i class="fas fa-trophy"></i>
                         </div>
                         <div id="total-awards" style="font-size: 2rem; font-weight: 700; color: var(--color-primary);">0</div>
-                        <div style="color: var(--color-text-medium);">Prêmios Recebidos</div>
+                        <div style="color: var(--color-text-medium);" data-i18n="premios.stat.total">Prêmios Recebidos</div>
                     </div>
                     <div class="stat-card" style="background: white; padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
                         <div style="font-size: 2.5rem; color: var(--color-primary-light); margin-bottom: 0.5rem;">
                             <i class="fas fa-star"></i>
                         </div>
                         <div id="awards-2026" style="font-size: 2rem; font-weight: 700; color: var(--color-primary-light);">0</div>
-                        <div style="color: var(--color-text-medium);">Prêmios em 2026</div>
+                        <div style="color: var(--color-text-medium);" data-i18n="premios.stat.2026">Prêmios em 2026</div>
                     </div>
                     <div class="stat-card" style="background: white; padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
                         <div style="font-size: 2.5rem; color: var(--color-accent); margin-bottom: 0.5rem;">
                             <i class="fas fa-medal"></i>
                         </div>
                         <div id="awards-2025" style="font-size: 2rem; font-weight: 700; color: var(--color-accent);">0</div>
-                        <div style="color: var(--color-text-medium);">Prêmios em 2025</div>
+                        <div style="color: var(--color-text-medium);" data-i18n="premios.stat.2025">Prêmios em 2025</div>
                     </div>
                     <div class="stat-card" style="background: white; padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
                         <div style="font-size: 2.5rem; color: var(--color-success); margin-bottom: 0.5rem;">
                             <i class="fas fa-calendar-check"></i>
                         </div>
                         <div id="awards-2024" style="font-size: 2rem; font-weight: 700; color: var(--color-success);">0</div>
-                        <div style="color: var(--color-text-medium);">Prêmios em 2024</div>
+                        <div style="color: var(--color-text-medium);" data-i18n="premios.stat.2024">Prêmios em 2024</div>
                     </div>
                     <div class="stat-card" style="background: white; padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
                         <div style="font-size: 2.5rem; color: var(--color-warning); margin-bottom: 0.5rem;">
                             <i class="fas fa-award"></i>
                         </div>
                         <div id="international-awards" style="font-size: 2rem; font-weight: 700; color: var(--color-warning);">0</div>
-                        <div style="color: var(--color-text-medium);">Prêmios Internacionais</div>
+                        <div style="color: var(--color-text-medium);" data-i18n="premios.stat.international">Prêmios Internacionais</div>
                     </div>
                 </div>
             </div>
@@ -112,11 +112,11 @@
 
         <section>
             <div class="container text-center">
-                <h2 class="mb-2">Parabéns aos nossos pesquisadores!</h2>
-                <p class="mb-3" style="font-size: 1.125rem; color: var(--color-text-medium);">
+                <h2 class="mb-2" data-i18n="premios.cta.title">Parabéns aos nossos pesquisadores!</h2>
+                <p class="mb-3" style="font-size: 1.125rem; color: var(--color-text-medium);" data-i18n="premios.cta.text">
                     Conheça a equipe por trás dessas conquistas
                 </p>
-                <a href="membros.html" class="btn btn-primary">Ver Membros do Laboratório</a>
+                <a href="membros.html" class="btn btn-primary" data-i18n="common.viewmembers">Ver Membros do Laboratório</a>
             </div>
         </section>
     </main>
@@ -126,25 +126,25 @@
             <div class="footer-grid">
                 <div class="footer-section">
                     <h3>AI Horizon Labs</h3>
-                    <p>Laboratório de Pesquisa em Inteligência Artificial e Engenharia de Software</p>
+                    <p data-i18n="footer.tagline">Laboratório de Pesquisa em Inteligência Artificial e Engenharia de Software</p>
                     <p><strong>PPGES - UNIPAMPA</strong></p>
-                    <p>Universidade Federal do Pampa</p>
+                    <p data-i18n="footer.unifull">Universidade Federal do Pampa</p>
                 </div>
                 <div class="footer-section">
-                    <h4>Links Rápidos</h4>
+                    <h4 data-i18n="footer.quicklinks">Links Rápidos</h4>
                     <ul>
-                        <li><a href="sobre.html">Sobre o Laboratório</a></li>
-                        <li><a href="linhas-de-pesquisa.html">Linhas de Pesquisa</a></li>
-                        <li><a href="projetos.html">Projetos</a></li>
-                        <li><a href="publicacoes.html">Publicações</a></li>
-                        <li><a href="membros.html">Membros</a></li>
-                        <li><a href="premios.html">Prêmios</a></li>
-                        <li><a href="noticias.html">Notícias</a></li>
+                        <li><a href="sobre.html" data-i18n="footer.about_lab">Sobre o Laboratório</a></li>
+                        <li><a href="linhas-de-pesquisa.html" data-i18n="nav.lines">Linhas de Pesquisa</a></li>
+                        <li><a href="projetos.html" data-i18n="nav.projects">Projetos</a></li>
+                        <li><a href="publicacoes.html" data-i18n="nav.publications">Publicações</a></li>
+                        <li><a href="membros.html" data-i18n="nav.members">Membros</a></li>
+                        <li><a href="premios.html" data-i18n="nav.awards">Prêmios</a></li>
+                        <li><a href="noticias.html" data-i18n="nav.news">Notícias</a></li>
                         <li><a href="https://sites.unipampa.edu.br/lampad/" target="_blank" rel="noopener noreferrer">LAMPAD <i class="fas fa-external-link-alt" style="font-size: 0.7em;"></i></a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Contato</h4>
+                    <h4 data-i18n="nav.contact">Contato</h4>
                     <p><i class="fas fa-envelope"></i> aihorizonlabs@unipampa.edu.br</p>
                     <p><i class="fas fa-map-marker-alt"></i> Alegrete, RS - Brasil</p>
                     <p><i class="fas fa-globe"></i> UNIPAMPA Campus Alegrete</p>
@@ -157,14 +157,15 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2026 AI Horizon Labs - UNIPAMPA. Todos os direitos reservados.</p>
+                <p data-i18n="footer.rights">&copy; 2026 AI Horizon Labs - UNIPAMPA. Todos os direitos reservados.</p>
             </div>
         </div>
     </footer>
 
     <script src="assets/js/content-loader.js"></script>
     <script src="assets/js/content-data.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script src="assets/js/i18n.js"></script>
+<script src="assets/js/main.js"></script>
     <script>
         // Load awards content
         document.addEventListener('DOMContentLoaded', function() {

@@ -411,24 +411,113 @@ function groupPublicationsByEvent() {
     .sort((a, b) => a.ordem - b.ordem);
 }
 
-function renderPublicationsPage() {
-  const container = document.getElementById('publicacoes-container');
-  if (!container) return;
+// Card de destaque (publicação selecionada)
+function renderFeatured(pub) {
+  const d = pub.data;
+  const badges = (d.badges || [])
+    .map(b => `<span class="pub-badge${b.cls ? ' pub-badge--' + b.cls : ''}">${b.label}</span>`)
+    .join('');
 
-  if (typeof PUBLICATIONS_DATA === 'undefined' || PUBLICATIONS_DATA.length === 0) {
-    container.innerHTML = '<p>Nenhuma publicação disponível no momento.</p>';
-    return;
-  }
+  const links = `
+    ${d.doi ? `<a href="https://doi.org/${d.doi}" target="_blank" rel="noopener"><i class="fas fa-link"></i> DOI</a>` : ''}
+    ${d.link ? `<a href="${d.link}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Publicação</a>` : ''}
+    ${d.pdf ? `<a href="${d.pdf}" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>` : ''}
+    ${d.github ? `<a href="${d.github}" target="_blank" rel="noopener"><i class="fab fa-github"></i> Código</a>` : ''}
+    ${d.scholar ? `<a href="${d.scholar}" target="_blank" rel="noopener"><i class="fas fa-graduation-cap"></i> Scholar</a>` : ''}
+  `;
+
+  const citation = d.citations
+    ? `<span class="citation-chip"><i class="fas fa-quote-right"></i> ${d.citations} citações</span>`
+    : '';
+
+  return `
+    <article class="featured-card">
+      ${badges ? `<div class="pub-badges">${badges}</div>` : ''}
+      <h3 class="publication-title">${d.title}</h3>
+      <p class="publication-authors">${d.authors || ''}</p>
+      <p class="featured-venue">${d.venue}${d.year ? ', ' + d.year : ''}</p>
+      <div class="featured-meta">
+        ${citation}
+        ${d.member ? `<span style="font-size:.8rem;color:var(--color-text-light);"><i class="fas fa-user"></i> ${d.member}</span>` : ''}
+      </div>
+      <div class="publication-links">${links}</div>
+    </article>
+  `;
+}
+
+// Bloco com links para o acervo completo de cada membro no Google Scholar
+function renderScholarCallout() {
+  if (typeof SCHOLAR_PROFILES === 'undefined' || !SCHOLAR_PROFILES.length) return '';
+  const links = SCHOLAR_PROFILES
+    .map(p => `<a class="scholar-link" href="${p.url}" target="_blank" rel="noopener" title="Google Scholar de ${p.nome}"><i class="fas fa-graduation-cap"></i> ${p.nome}</a>`)
+    .join('');
+  return `
+    <div class="section-title" style="margin-top:var(--spacing-xl);">
+      <h2><i class="fas fa-graduation-cap" style="color:var(--color-primary);margin-right:.5rem;"></i>Acervo completo no Google Scholar</h2>
+      <p style="color:var(--color-text-medium);max-width:75ch;margin-top:.25rem;">
+        A lista completa de publicações e as contagens de citação atualizadas ficam no perfil de cada pesquisador.
+      </p>
+    </div>
+    <div class="scholar-callout">${links}</div>
+  `;
+}
+
+// Painel 1: Publicações Selecionadas (destaques)
+function renderSelectedPanel() {
+  const panel = document.getElementById('panel-selecionadas');
+  if (!panel || typeof SELECTED_PUBLICATIONS === 'undefined') return;
+
+  const cards = SELECTED_PUBLICATIONS.map(renderFeatured).join('');
+  panel.innerHTML = `
+    <p style="font-size:1.125rem;color:var(--color-text-medium);max-width:70ch;margin-bottom:var(--spacing-lg);">
+      Trabalhos de maior impacto dos membros do laboratório: artigos mais citados e
+      publicações em periódicos e eventos recentes (2024-2026), selecionados a partir
+      do Google Scholar de cada pesquisador.
+    </p>
+    <div class="featured-grid">${cards}</div>
+    ${renderScholarCallout()}
+  `;
+}
+
+// Seleciona uma amostra diversa do acervo de eventos (de tudo um pouco):
+// os trabalhos mais recentes de cada evento.
+function pickGeneralSample(perEvent) {
+  const groups = groupPublicationsByEvent();
+  const sample = [];
+  groups.forEach(g => sample.push(...g.pubs.slice(0, perEvent)));
+  return sample.sort((a, b) => (b.data.year - a.data.year) ||
+    a.data.title.localeCompare(b.data.title, 'pt-BR'));
+}
+
+// Painel 2: Publicações Gerais (de tudo um pouco)
+function renderGeneralPanel() {
+  const panel = document.getElementById('panel-gerais');
+  if (!panel || typeof PUBLICATIONS_DATA === 'undefined') return;
+
+  const sample = pickGeneralSample(2);
+  panel.innerHTML = `
+    <p style="font-size:1.125rem;color:var(--color-text-medium);max-width:70ch;margin-bottom:var(--spacing-lg);">
+      Uma amostra variada da produção do laboratório, com trabalhos recentes de
+      diferentes linhas de pesquisa e eventos. Para a lista completa, consulte os
+      perfis no Google Scholar ou a aba <strong>Por Eventos</strong>.
+    </p>
+    ${sample.map(renderPublication).join('')}
+    ${renderScholarCallout()}
+  `;
+}
+
+// Painel 3: Publicações Por Eventos (acervo completo da SBC)
+function renderEventsPanel() {
+  const panel = document.getElementById('panel-eventos');
+  if (!panel || typeof PUBLICATIONS_DATA === 'undefined' || !PUBLICATIONS_DATA.length) return;
 
   const eventGroups = groupPublicationsByEvent();
-
   let html = `
-    <p style="font-size:1.125rem;color:var(--color-text-medium);max-width:65ch;margin-bottom:var(--spacing-lg);">
+    <p style="font-size:1.125rem;color:var(--color-text-medium);max-width:70ch;margin-bottom:var(--spacing-lg);">
       ${PUBLICATIONS_DATA.length} publicações em anais de eventos científicos, organizadas por evento.
       Cada trabalho traz o link direto para a publicação na Biblioteca Digital da SBC (SOL) e o PDF.
     </p>
   `;
-
   eventGroups.forEach(g => {
     html += `
       <div class="section-title" style="margin-top:var(--spacing-xl);">
@@ -440,9 +529,36 @@ function renderPublicationsPage() {
       ${g.pubs.map(p => renderPublication(p)).join('')}
     `;
   });
+  panel.innerHTML = html;
+}
 
-  container.innerHTML = html;
+// Navegação por abas (com suporte a deep-link via hash)
+function initPubTabs() {
+  const tabs = Array.from(document.querySelectorAll('.pub-tab'));
+  const panels = Array.from(document.querySelectorAll('.pub-panel'));
+  if (!tabs.length) return;
 
+  function activate(name) {
+    tabs.forEach(t => t.classList.toggle('active', t.dataset.tab === name));
+    panels.forEach(p => p.classList.toggle('active', p.dataset.panel === name));
+  }
+
+  tabs.forEach(t => t.addEventListener('click', () => {
+    activate(t.dataset.tab);
+    history.replaceState(null, '', '#' + t.dataset.tab);
+  }));
+
+  const hash = (window.location.hash || '').replace('#', '');
+  if (hash && tabs.some(t => t.dataset.tab === hash)) activate(hash);
+}
+
+function renderPublicationsPage() {
+  if (!document.getElementById('panel-selecionadas')) return;
+
+  renderSelectedPanel();
+  renderGeneralPanel();
+  renderEventsPanel();
+  initPubTabs();
   renderAuthorsSection();
 }
 

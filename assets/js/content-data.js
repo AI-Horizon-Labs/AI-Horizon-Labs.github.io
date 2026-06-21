@@ -1519,6 +1519,184 @@ const CONTRIBUTORS_DATA = [
   }
 ];
 
+// ============================================
+// PERFIS NO GOOGLE SCHOLAR (membros do laboratório)
+// Acervo completo e contagens de citação atualizadas no Google Scholar.
+// ============================================
+const SCHOLAR_PROFILES = [
+  { nome: "Diego Kreutz", url: "https://scholar.google.com/citations?user=JcL8biEAAAAJ" },
+  { nome: "Rodrigo Brandão Mansilha", url: "https://scholar.google.com/citations?user=grhQHAQAAAAJ" },
+  { nome: "Silvio Ereno Quincozes", url: "https://scholar.google.com/citations?user=1eDPdn8AAAAJ" },
+  { nome: "Williamson Silva", url: "https://scholar.google.com/citations?user=57eR6ykAAAAJ" },
+  { nome: "Gilleanes T. A. Guedes", url: "https://scholar.google.com/citations?user=1vAb8cYAAAAJ" },
+  { nome: "Paulo Silas Severo de Souza", url: "https://scholar.google.com/citations?user=2TIpYeoAAAAJ" }
+];
+
+// ============================================
+// PUBLICAÇÕES SELECIONADAS (destaques)
+// Curadoria a partir do Google Scholar dos membros: trabalhos de maior
+// impacto (mais citados) e periódicos/eventos mais recentes (2024-2026).
+// As contagens de citação são aproximadas; o número atualizado fica no
+// Google Scholar de cada autor (campo "scholar").
+// ============================================
+const SELECTED_PUBLICATIONS = [
+  {
+    "data": {
+      "badges": [{ "label": "Mais citado", "cls": "cited" }, { "label": "Survey", "cls": "" }, { "label": "Journal", "cls": "journal" }],
+      "type": "Journal",
+      "title": "Software-Defined Networking: A Comprehensive Survey",
+      "authors": "Diego Kreutz; Fernando M. V. Ramos; Paulo Veríssimo; Christian Esteve Rothenberg; Siamak Azodolmolky; Steve Uhlig",
+      "venue": "Proceedings of the IEEE, v. 103, n. 1, p. 14-76",
+      "year": "2015",
+      "citations": "4.000+",
+      "member": "Diego Kreutz",
+      "scholar": "https://scholar.google.com/citations?user=JcL8biEAAAAJ",
+      "doi": "10.1109/JPROC.2014.2371999",
+      "pdf": "https://arxiv.org/pdf/1406.0440"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Mais citado", "cls": "cited" }, { "label": "Survey", "cls": "" }, { "label": "Journal", "cls": "journal" }],
+      "type": "Journal",
+      "title": "A survey on intrusion detection and prevention systems in digital substations",
+      "authors": "Silvio E. Quincozes; Célio Albuquerque; Diego Passos; Daniel Mossé",
+      "venue": "Computer Networks (Elsevier), v. 184, art. 107679",
+      "year": "2021",
+      "member": "Silvio Ereno Quincozes",
+      "scholar": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
+      "doi": "10.1016/j.comnet.2020.107679"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Journal", "cls": "journal" }, { "label": "Editors' Choice", "cls": "cited" }],
+      "type": "Journal",
+      "title": "EdgeSimPy: Python-based modeling and simulation of edge computing resource management policies",
+      "authors": "Paulo S. Severo de Souza; Tiago Ferreto; Rodrigo N. Calheiros",
+      "venue": "Future Generation Computer Systems (Elsevier), v. 148, p. 446-459",
+      "year": "2023",
+      "member": "Paulo Silas Severo de Souza",
+      "scholar": "https://scholar.google.com/citations?user=2TIpYeoAAAAJ",
+      "doi": "10.1016/j.future.2023.06.013",
+      "github": "https://github.com/EdgeSimPy/EdgeSimPy"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Muito citado", "cls": "cited" }],
+      "type": "Conferência",
+      "title": "Towards Secure and Dependable Software-Defined Networks",
+      "authors": "Diego Kreutz; Fernando M. V. Ramos; Paulo Veríssimo",
+      "venue": "ACM SIGCOMM Workshop on Hot Topics in SDN (HotSDN)",
+      "year": "2013",
+      "member": "Diego Kreutz",
+      "scholar": "https://scholar.google.com/citations?user=JcL8biEAAAAJ",
+      "doi": "10.1145/2491185.2491199"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Journal", "cls": "journal" }, { "label": "IEEE", "cls": "" }],
+      "type": "Journal",
+      "title": "ERENO: A Framework for Generating Realistic IEC-61850 Intrusion Detection Datasets for Smart Grids",
+      "authors": "Silvio E. Quincozes; Célio Albuquerque; Diego Passos; Daniel Mossé",
+      "venue": "IEEE Transactions on Dependable and Secure Computing",
+      "year": "2024",
+      "member": "Silvio Ereno Quincozes",
+      "scholar": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
+      "link": "https://www.researchgate.net/publication/376204327"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Journal", "cls": "journal" }],
+      "type": "Journal",
+      "title": "MASRML - A Domain-specific Modeling Language for Multi-agent Systems Requirements",
+      "authors": "Gilleanes T. A. Guedes; Iderli P. de Souza Filho; Lukas F. Gaedicke; Giovane D'Ávila Mendonça; Rosa M. Vicari; Carlos Brusius",
+      "venue": "International Journal of Software Engineering & Applications (IJSEA), v. 11, n. 5, p. 25-45",
+      "year": "2020",
+      "member": "Gilleanes T. A. Guedes",
+      "scholar": "https://scholar.google.com/citations?user=1vAb8cYAAAAJ",
+      "link": "https://aircconline.com/abstract/ijsea/v11n5/11520ijsea03.html"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Muito citado", "cls": "cited" }],
+      "type": "Conferência",
+      "title": "Attacking a Swarm with a Band of Liars: Evaluating the Impact of Attacks on BitTorrent",
+      "authors": "Marlom A. Konrath; Marinho P. Barcellos; Rodrigo B. Mansilha",
+      "venue": "IEEE International Conference on Peer-to-Peer Computing (P2P)",
+      "year": "2007",
+      "member": "Rodrigo Brandão Mansilha",
+      "scholar": "https://scholar.google.com/citations?user=grhQHAQAAAAJ"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Muito citado", "cls": "cited" }],
+      "type": "Conferência",
+      "title": "Designing Activity Diagrams Aiming at Achieving Usability in Interactive Applications: An Empirical Study",
+      "authors": "Williamson Silva e colaboradores",
+      "venue": "HCI International",
+      "year": "2016",
+      "member": "Williamson Silva",
+      "scholar": "https://scholar.google.com/citations?user=57eR6ykAAAAJ"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Recente 2025", "cls": "recent" }, { "label": "ACM", "cls": "" }],
+      "type": "Workshop",
+      "title": "Critical IEC 61850 MMS Feature Selection for ML-Driven IDS",
+      "authors": "Silvio E. Quincozes e colaboradores",
+      "venue": "11th ACM Cyber-Physical System Security Workshop (CPSS)",
+      "year": "2025",
+      "member": "Silvio Ereno Quincozes",
+      "scholar": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
+      "doi": "10.1145/3709017.3737710"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Recente 2025", "cls": "recent" }],
+      "type": "Preprint",
+      "title": "Assessing the Impact of Post-Quantum Digital Signature Algorithms on Blockchains",
+      "authors": "Rodrigo B. Mansilha e colaboradores",
+      "venue": "arXiv:2510.09271",
+      "year": "2025",
+      "member": "Rodrigo Brandão Mansilha",
+      "scholar": "https://scholar.google.com/citations?user=grhQHAQAAAAJ",
+      "link": "https://arxiv.org/abs/2510.09271"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Recente 2025", "cls": "recent" }],
+      "type": "Preprint",
+      "title": "Example-Based Learning in Software Engineering Education: A Systematic Mapping Study",
+      "authors": "Williamson Silva e colaboradores",
+      "venue": "arXiv (2025)",
+      "year": "2025",
+      "member": "Williamson Silva",
+      "scholar": "https://scholar.google.com/citations?user=57eR6ykAAAAJ",
+      "link": "https://arxiv.org/abs/2503.18080"
+    },
+    "content": ""
+  }
+];
+
 const PUBLICATIONS_DATA = [
   {
     "data": {

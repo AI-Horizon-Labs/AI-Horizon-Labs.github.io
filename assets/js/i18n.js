@@ -203,6 +203,10 @@
       // ---- Publicacoes ----
       'publicacoes.title': 'Publicaciones | AI Horizon Labs',
       'publicacoes.hero': 'Publicaciones',
+      'publicacoes.intro': 'Producción científica del laboratorio a partir del Google Scholar de los miembros: destacados de mayor impacto, una muestra general y el acervo completo organizado por evento.',
+      'publicacoes.tab.selected': 'Seleccionadas',
+      'publicacoes.tab.general': 'Generales',
+      'publicacoes.tab.events': 'Por Eventos',
 
       // ---- Premios ----
       'premios.title': 'Premios | AI Horizon Labs - UNIPAMPA',
@@ -496,6 +500,10 @@
       // ---- Publications ----
       'publicacoes.title': 'Publications | AI Horizon Labs',
       'publicacoes.hero': 'Publications',
+      'publicacoes.intro': "The lab's scientific output drawn from the members' Google Scholar profiles: high-impact highlights, a general sample, and the full archive organized by venue.",
+      'publicacoes.tab.selected': 'Selected',
+      'publicacoes.tab.general': 'General',
+      'publicacoes.tab.events': 'By Venue',
 
       // ---- Awards ----
       'premios.title': 'Awards | AI Horizon Labs - UNIPAMPA',

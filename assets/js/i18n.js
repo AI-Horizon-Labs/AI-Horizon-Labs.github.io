@@ -28,6 +28,7 @@
       'nav.research': 'Investigación <i class="fas fa-chevron-down"></i>',
       'nav.lines': 'Líneas de Investigación',
       'nav.projects': 'Proyectos',
+      'nav.tools': 'Herramientas',
       'nav.members': 'Miembros',
       'nav.publications': 'Publicaciones',
       'nav.awards': 'Premios',
@@ -64,6 +65,7 @@
       'home.stat.researchers': 'Investigadores',
       'home.stat.publications': 'Publicaciones',
       'home.stat.projects': 'Proyectos Activos',
+      'home.stat.tools': 'Herramientas',
       'home.stat.partnerships': 'Alianzas',
       'home.lines.title': 'Líneas de Investigación',
       'home.lines.subtitle': 'Nuestras principales áreas de investigación científica',
@@ -207,6 +209,13 @@
       'publicacoes.tab.selected': 'Seleccionadas',
       'publicacoes.tab.general': 'Generales',
       'publicacoes.tab.events': 'Por Eventos',
+      'publicacoes.tools.title': 'Herramientas del grupo',
+      'publicacoes.tools.text': 'Conozca las herramientas publicadas en los Salones de Herramientas (SBSeg, SBRC, SBSI), con el artículo en SOL/SBC y el repositorio en GitHub.',
+
+      // ---- Herramientas ----
+      'ferramentas.title': 'Herramientas | AI Horizon Labs',
+      'ferramentas.hero': 'Herramientas',
+      'ferramentas.intro': 'Herramientas y artefactos de software publicados por los miembros del grupo en los Salones de Herramientas de eventos como SBSeg, SBRC y SBSI. Cada herramienta incluye el enlace al artículo en la Biblioteca Digital de la SBC (SOL), el PDF y, cuando está disponible, el repositorio en GitHub.',
 
       // ---- Premios ----
       'premios.title': 'Premios | AI Horizon Labs - UNIPAMPA',
@@ -325,6 +334,7 @@
       'nav.research': 'Research <i class="fas fa-chevron-down"></i>',
       'nav.lines': 'Research Lines',
       'nav.projects': 'Projects',
+      'nav.tools': 'Tools',
       'nav.members': 'Members',
       'nav.publications': 'Publications',
       'nav.awards': 'Awards',
@@ -361,6 +371,7 @@
       'home.stat.researchers': 'Researchers',
       'home.stat.publications': 'Publications',
       'home.stat.projects': 'Active Projects',
+      'home.stat.tools': 'Tools',
       'home.stat.partnerships': 'Partnerships',
       'home.lines.title': 'Research Lines',
       'home.lines.subtitle': 'Our main areas of scientific investigation',
@@ -504,6 +515,13 @@
       'publicacoes.tab.selected': 'Selected',
       'publicacoes.tab.general': 'General',
       'publicacoes.tab.events': 'By Venue',
+      'publicacoes.tools.title': 'Group tools',
+      'publicacoes.tools.text': 'Explore the tools published in the Tool Tracks (SBSeg, SBRC, SBSI), each with its paper on SOL/SBC and its GitHub repository.',
+
+      // ---- Tools ----
+      'ferramentas.title': 'Tools | AI Horizon Labs',
+      'ferramentas.hero': 'Tools',
+      'ferramentas.intro': "Software tools and artifacts published by the group's members in the Tool Tracks of venues such as SBSeg, SBRC and SBSI. Each tool includes the link to the paper in the SBC Digital Library (SOL), the PDF and, when available, the GitHub repository.",
 
       // ---- Awards ----
       'premios.title': 'Awards | AI Horizon Labs - UNIPAMPA',

@@ -707,6 +707,95 @@ section {
   border-color: #86EFAC;
 }
 
+.pub-badge--award {
+  background: linear-gradient(135deg, var(--color-accent) 0%, var(--color-accent-dark) 100%);
+  color: var(--color-white);
+  border-color: transparent;
+}
+
+/* === Ferramentas === */
+.tool-card .publication-title {
+  font-size: 1.15rem;
+  margin-bottom: 0.5rem;
+}
+
+.tool-desc {
+  font-size: 0.9rem;
+  color: var(--color-text-medium);
+  margin-bottom: var(--spacing-sm);
+}
+
+.tools-summary {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md) var(--spacing-lg);
+  margin-bottom: var(--spacing-md);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-sm);
+}
+
+.tools-summary-item {
+  text-align: center;
+}
+
+.tools-summary-item .stat-number {
+  font-size: 2.25rem;
+}
+
+.tools-callout {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-md);
+  max-width: 70ch;
+  margin-top: var(--spacing-md);
+  padding: var(--spacing-md);
+  background-color: var(--color-white);
+  border: 1px solid var(--color-border);
+  border-left: 4px solid var(--color-primary);
+  border-radius: var(--border-radius);
+  text-decoration: none;
+  color: var(--color-text-dark);
+  box-shadow: var(--shadow-sm);
+  transition: var(--transition);
+}
+
+.tools-callout:hover {
+  box-shadow: var(--shadow-md);
+  border-left-color: var(--color-accent);
+  transform: translateY(-2px);
+}
+
+.tools-callout-icon {
+  font-size: 1.6rem;
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.tools-callout-text {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.tools-callout-text strong {
+  font-size: 1.05rem;
+}
+
+.tools-callout-text span {
+  font-size: 0.88rem;
+  color: var(--color-text-medium);
+}
+
+.tools-callout-arrow {
+  margin-left: auto;
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
 .featured-card .publication-title {
   font-size: 1.05rem;
   margin-bottom: 0.4rem;

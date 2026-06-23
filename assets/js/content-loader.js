@@ -596,6 +596,69 @@ function renderAuthorsSection() {
 }
 
 // ============================================
+// FERRAMENTAS (página dedicada)
+// ============================================
+function renderToolCard(t) {
+  const badges = [
+    `<span class="pub-badge">${t.event} ${t.year}</span>`,
+    t.destaque ? `<span class="pub-badge pub-badge--award"><i class="fas fa-award"></i> ${t.destaque}</span>` : ''
+  ].join('');
+
+  const links = `
+    ${t.link ? `<a href="${t.link}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Paper (SOL/SBC)</a>` : ''}
+    ${t.pdf ? `<a href="${t.pdf}" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>` : ''}
+    ${t.github ? `<a href="${t.github}" target="_blank" rel="noopener"><i class="fab fa-github"></i> Repositório</a>` : ''}
+  `;
+
+  return `
+    <article class="featured-card tool-card">
+      <div class="pub-badges">${badges}</div>
+      <h3 class="publication-title"><i class="fas fa-screwdriver-wrench" style="color:var(--color-primary);margin-right:.4rem;"></i>${t.nome}</h3>
+      <p class="tool-desc">${t.descricao}</p>
+      <div class="publication-links" style="margin-top:auto;">${links}</div>
+    </article>
+  `;
+}
+
+function renderToolsPage() {
+  const container = document.getElementById('ferramentas-container');
+  if (!container || typeof TOOLS_DATA === 'undefined' || !TOOLS_DATA.length) return;
+
+  // Agrupa por evento (ordem SBSeg, SBRC, SBSI) e ordena por ano desc dentro de cada um
+  const groups = {};
+  TOOLS_DATA.forEach(t => { (groups[t.event] = groups[t.event] || []).push(t); });
+  const order = Object.keys(groups).sort((a, b) =>
+    (groups[a][0].event_ordem ?? 99) - (groups[b][0].event_ordem ?? 99));
+
+  const total = TOOLS_DATA.length;
+  const comRepo = TOOLS_DATA.filter(t => t.github).length;
+  const premiadas = TOOLS_DATA.filter(t => t.destaque).length;
+
+  let html = `
+    <div class="tools-summary">
+      <div class="tools-summary-item"><span class="stat-number">${total}</span><span class="stat-label">Ferramentas</span></div>
+      <div class="tools-summary-item"><span class="stat-number">${comRepo}</span><span class="stat-label">Com repositório</span></div>
+      <div class="tools-summary-item"><span class="stat-number">${premiadas}</span><span class="stat-label">Premiadas</span></div>
+    </div>
+  `;
+
+  order.forEach(ev => {
+    const tools = groups[ev].sort((a, b) => b.year - a.year ||
+      a.nome.localeCompare(b.nome, 'pt-BR'));
+    html += `
+      <div class="section-title" style="margin-top:var(--spacing-xl);">
+        <h2><i class="fas fa-book" style="color:var(--color-primary);margin-right:.5rem;"></i>${ev}
+          <span style="font-weight:400;color:var(--color-text-medium);font-size:1rem;">(${tools.length})</span>
+        </h2>
+      </div>
+      <div class="featured-grid">${tools.map(renderToolCard).join('')}</div>
+    `;
+  });
+
+  container.innerHTML = html;
+}
+
+// ============================================
 // HOME PAGE STATS
 // ============================================
 function updateHomeStats() {
@@ -616,6 +679,11 @@ function updateHomeStats() {
   if (statProjetos) {
     const projetosAtivos = PROJECTS_DATA.filter(p => p.data.status === 'ativo').length;
     statProjetos.textContent = projetosAtivos + '+';
+  }
+
+  const statFerramentas = document.getElementById('stat-ferramentas');
+  if (statFerramentas && typeof TOOLS_DATA !== 'undefined') {
+    statFerramentas.textContent = TOOLS_DATA.length + '+';
   }
 }
 
@@ -647,5 +715,8 @@ document.addEventListener('DOMContentLoaded', () => {
   } else if (path.includes('publicacoes.html')) {
     console.log('Carregando publicações...');
     renderPublicationsPage();
+  } else if (path.includes('ferramentas.html')) {
+    console.log('Carregando ferramentas...');
+    renderToolsPage();
   }
 });

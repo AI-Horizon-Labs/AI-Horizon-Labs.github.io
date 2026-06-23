@@ -688,6 +688,26 @@ function updateHomeStats() {
 }
 
 // ============================================
+// SOBRE PAGE STATS ("Em Números")
+// ============================================
+function updateAboutStats() {
+  const setStat = (id, value) => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = value;
+  };
+
+  if (typeof PUBLICATIONS_DATA !== 'undefined') {
+    setStat('about-stat-pubs', PUBLICATIONS_DATA.length + '+');
+  }
+  if (typeof PROJECTS_DATA !== 'undefined') {
+    setStat('about-stat-projects', PROJECTS_DATA.length + '+');
+  }
+  if (typeof TOOLS_DATA !== 'undefined') {
+    setStat('about-stat-tools', TOOLS_DATA.length + '+');
+  }
+}
+
+// ============================================
 // Inicialização
 // ============================================
 document.addEventListener('DOMContentLoaded', () => {
@@ -703,6 +723,9 @@ document.addEventListener('DOMContentLoaded', () => {
   if (path.includes('index.html') || path.endsWith('/')) {
     console.log('Atualizando estatísticas da home...');
     updateHomeStats();
+  } else if (path.includes('sobre.html')) {
+    console.log('Atualizando estatísticas do Sobre...');
+    updateAboutStats();
   } else if (path.includes('membros.html')) {
     console.log('Carregando membros...');
     renderMembersPage();

@@ -3737,6 +3737,95 @@ const TOOLS_DATA = [
     "event": "SBSI", "year": "2024", "event_ordem": 3,
     "link": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/view/28617",
     "pdf": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/download/28617/28421"
+  },
+  // ---- ERRC 2025 ----
+  {
+    "nome": "AnonLFI 2.0",
+    "descricao": "Arquitetura extensível para pseudonimização de PII em CSIRTs, com OCR e reconhecedores técnicos. Usa HMAC-SHA256 para gerar pseudônimos fortes e reversíveis, preservando a estrutura de arquivos XML e JSON.",
+    "event": "ERRC", "year": "2025", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/39186",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39186/38958"
+  },
+  {
+    "nome": "Tune3",
+    "descricao": "Método adaptativo multiestágio de otimização de hiperparâmetros para redes neurais em cibersegurança (detecção de malware Android), reduzindo o tempo de busca em até 44% com estabilidade comparável ou superior ao Random Search.",
+    "event": "ERRC", "year": "2025", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/39198",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39198/38970"
+  },
+  {
+    "nome": "Extração Estruturada de Vulnerabilidades (LLM)",
+    "descricao": "Abordagem baseada em LLMs (GPT-4.1 e DeepSeek) para extrair e estruturar vulnerabilidades de relatórios dos scanners OpenVAS e Tenable WAS, convertendo dados não estruturados em formato padronizado (ROUGE-L acima de 0,7).",
+    "event": "ERRC", "year": "2025", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/39195",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39195/38967"
+  },
+  {
+    "nome": "Classificador de Incidentes com SLMs On-Premise",
+    "descricao": "Avaliação de SLMs open-source on-premise frente a LLMs comerciais para classificação de incidentes de segurança em SOCs e CSIRTs, com cinco técnicas de engenharia de prompt e taxonomia NIST SP 800-61r3.",
+    "event": "ERRC", "year": "2025", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/39193",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39193/38965"
+  },
+  // ---- ERRC 2024 ----
+  {
+    "nome": "RouteBastion",
+    "descricao": "Plataforma SaaS que unifica APIs de roteamento de veículos (VRP), com arquitetura modular e escalável para comparar, selecionar e alternar entre provedores conforme custo e desempenho.",
+    "event": "ERRC", "year": "2024", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/35427",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35427/35214"
+  },
+  {
+    "nome": "MosqMon",
+    "descricao": "Sistema distribuído agente/gerente para captura de áudio em ambientes não controlados, gerando datasets realistas para treinar redes neurais detectoras do mosquito Aedes aegypti pelo som das asas.",
+    "event": "ERRC", "year": "2024", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/35440",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35440/35227",
+    "github": "https://github.com/Y4ngfr/MosqMon"
+  },
+  {
+    "nome": "DDS-Builder",
+    "descricao": "Ferramenta para coletar, categorizar e analisar vulnerabilidades em sistemas baseados em Data Distribution Service (DDS), integrando a base Vulners e o Gemini 1.5 Pro para classificação por CWE, com dataset público.",
+    "event": "ERRC", "year": "2024", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/35452",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35452/35239"
+  },
+  {
+    "nome": "MH-API",
+    "descricao": "API escalável para análise de aplicativos Android e construção de datasets em larga escala, com cache local de metadados de mais de 2 milhões de APKs, integração com VirusTotal e AndroZoo e endpoint de modelo preditivo.",
+    "event": "ERRC", "year": "2024", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/35453",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35453/35240"
+  },
+  // ---- ERRC 2023 ----
+  {
+    "nome": "eWebAPI",
+    "descricao": "API web que disponibiliza o e-certsDS como serviço remoto para assinar digitalmente lotes de certificados eletrônicos (OpenPGP), eliminando instalação complexa e execução por linha de comando.",
+    "event": "ERRC", "year": "2023", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/26018",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/26018/25841"
+  },
+  {
+    "nome": "AutoDroid",
+    "descricao": "Solução baseada em virtualização leve que disponibiliza a ferramenta DroidAugmentor como serviço, permitindo o aumento de datasets para combate a malware Android por meio de IA.",
+    "event": "ERRC", "year": "2023", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/26020",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/26020/25843"
+  },
+  {
+    "nome": "PDFWebSigner",
+    "descricao": "Solução web para posicionamento visual de estampas de assinatura digital em documentos PDF, com backend pyHanko, suporte a certificados PKCS#11/12 (ICPEdu) e distribuição containerizada via Docker.",
+    "event": "ERRC", "year": "2023", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/26021",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/26021/25844"
+  },
+  // ---- ERRC 2021 ----
+  {
+    "nome": "QuickAutoML",
+    "descricao": "Ferramenta de AutoML que automatiza a criação, o treinamento, o ajuste de hiperparâmetros e a validação de modelos de aprendizado de máquina, abstraindo a complexidade do processo para usuários com pouca experiência técnica.",
+    "event": "ERRC", "year": "2021", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/18547",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/18547/18380"
   }
 ];
 

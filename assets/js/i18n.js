@@ -43,6 +43,14 @@
       'footer.about_lab': 'Acerca del Laboratorio',
       'footer.rights': '&copy; 2026 AI Horizon Labs - UNIPAMPA. Todos los derechos reservados.',
 
+      // ---- Estatísticas (stats.html) ----
+      'stats.title': 'Estadísticas | AI Horizon Labs',
+      'stats.hero': 'Estadísticas de Acceso',
+      'stats.intro': 'Datos de acceso al sitio en tiempo real, incluido el mapa de ubicación de los visitantes. Métricas sin cookies ni datos personales (compatible con la LGPD).',
+      'stats.loading': 'Cargando panel de estadísticas...',
+      'stats.fallback': 'Si el panel no carga, abra el',
+      'stats.fallback_link': 'panel completo en una pestaña nueva',
+
       // ---- Banner LinkedIn (compartilhado) ----
       'banner.title': 'Novedades en LinkedIn',
       'banner.text': 'Sigue a AI Horizon Labs para conocer los bastidores, premios y anuncios de primera mano.',
@@ -349,6 +357,14 @@
       'footer.quicklinks': 'Quick Links',
       'footer.about_lab': 'About the Lab',
       'footer.rights': '&copy; 2026 AI Horizon Labs - UNIPAMPA. All rights reserved.',
+
+      // ---- Statistics (stats.html) ----
+      'stats.title': 'Statistics | AI Horizon Labs',
+      'stats.hero': 'Access Statistics',
+      'stats.intro': 'Real-time site access data, including a map of visitor locations. Cookieless metrics with no personal data (GDPR/LGPD friendly).',
+      'stats.loading': 'Loading statistics dashboard...',
+      'stats.fallback': 'If the dashboard does not load, open the',
+      'stats.fallback_link': 'full dashboard in a new tab',
 
       // ---- LinkedIn banner (shared) ----
       'banner.title': 'Updates on LinkedIn',

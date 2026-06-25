@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="noindex, nofollow">
+    <title data-i18n="stats.title">Estatísticas | AI Horizon Labs</title>
+    <link rel="icon" type="image/png" href="assets/images/favicon-ailabs.png">
+    <link rel="shortcut icon" type="image/png" href="assets/images/favicon-ailabs.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="logo"><img src="assets/images/logo-horizontal.png" alt="AI Horizon Labs" width="164" height="40"></a>
+                <ul class="nav-menu">
+                    <li><a href="sobre.html" data-i18n="nav.about">Sobre</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-i18n="nav.research">Pesquisa <i class="fas fa-chevron-down"></i></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="linhas-de-pesquisa.html" data-i18n="nav.lines">Linhas de Pesquisa</a></li>
+                            <li><a href="projetos.html" data-i18n="nav.projects">Projetos</a></li><li><a href="ferramentas.html" data-i18n="nav.tools">Ferramentas</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="membros.html" data-i18n="nav.members">Membros</a></li>
+                    <li><a href="publicacoes.html" data-i18n="nav.publications">Publicações</a></li>
+                    <li><a href="premios.html" data-i18n="nav.awards">Prêmios</a></li>
+                    <li><a href="noticias.html" data-i18n="nav.news">Notícias</a></li>
+                    <li><a href="logomarca.html" data-i18n="nav.brand">Marca</a></li><li><a href="contato.html" class="btn-primary" data-i18n="nav.contact">Contato</a></li><li class="lang-switcher" role="group" aria-label="Idioma / Language"><button type="button" data-lang="pt" aria-pressed="true">PT</button><button type="button" data-lang="es" aria-pressed="false">ES</button><button type="button" data-lang="en" aria-pressed="false">EN</button></li>
+                </ul>
+                <button class="mobile-menu-toggle"><i class="fas fa-bars"></i></button>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <section class="hero" style="padding: 3rem 0;">
+            <div class="container">
+                <h1 data-i18n="stats.hero">Estatísticas de Acesso</h1>
+                <p style="max-width: 800px; margin-top: var(--spacing-sm);" data-i18n="stats.intro">Dados de acesso ao site em tempo real, incluindo o mapa de localização dos visitantes. Métricas sem cookies e sem dados pessoais (compatível com a LGPD).</p>
+            </div>
+        </section>
+
+        <section style="padding-top: 0;">
+            <div class="container">
+                <div class="card" style="padding: 0; overflow: hidden;">
+                    <div id="stats-loading" style="padding: var(--spacing-xl); text-align: center; color: var(--color-text-light);">
+                        <i class="fas fa-spinner fa-spin" style="font-size: 1.5rem;"></i>
+                        <p style="margin-top: var(--spacing-sm);" data-i18n="stats.loading">Carregando painel de estatísticas...</p>
+                    </div>
+                    <iframe
+                        id="stats-frame"
+                        title="AI Horizon Labs - Umami"
+                        src="https://stats-bia.iotedu.org/share/ViXkd8RpN"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        style="width: 100%; height: 2200px; border: 0; display: block;"
+                        onload="document.getElementById('stats-loading').style.display='none';"></iframe>
+                </div>
+                <p style="margin-top: var(--spacing-md); font-size: 0.9rem; color: var(--color-text-light);">
+                    <span data-i18n="stats.fallback">Se o painel não carregar, abra o</span>
+                    <a href="https://stats-bia.iotedu.org/share/ViXkd8RpN" target="_blank" rel="noopener noreferrer" data-i18n="stats.fallback_link">painel completo em uma nova aba</a>.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-bottom">
+                <p data-i18n="footer.rights">&copy; 2026 AI Horizon Labs - UNIPAMPA. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/i18n.js"></script>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

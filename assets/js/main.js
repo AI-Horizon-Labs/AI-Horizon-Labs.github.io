@@ -4,6 +4,26 @@
  */
 
 // ============================================
+// Analytics (Umami, self-hosted)
+// Injetado aqui para cobrir todas as páginas que carregam main.js.
+// Sem cookies e sem dados pessoais (compatível com LGPD).
+// ============================================
+(function loadAnalytics() {
+  // Não rastreia acessos locais (dev) nem a própria página de estatísticas.
+  const host = window.location.hostname;
+  const isLocal = host === 'localhost' || host === '127.0.0.1' || host === '';
+  const isStatsPage = window.location.pathname.split('/').pop() === 'stats.html';
+  if (isLocal || isStatsPage) return;
+
+  const s = document.createElement('script');
+  s.async = true;
+  s.defer = true;
+  s.setAttribute('data-website-id', 'AXfoVmcw8');
+  s.src = 'https://stats-bia.iotedu.org/script.js';
+  document.head.appendChild(s);
+})();
+
+// ============================================
 // Mobile Menu Toggle
 // ============================================
 document.addEventListener('DOMContentLoaded', () => {

@@ -18,7 +18,7 @@
   const s = document.createElement('script');
   s.async = true;
   s.defer = true;
-  s.setAttribute('data-website-id', 'AXfoVmcw8');
+  s.setAttribute('data-website-id', 'd2993664-7bd7-40a7-b0e9-4436cb755b60');
   s.src = 'https://stats-bia.iotedu.org/script.js';
   document.head.appendChild(s);
 })();

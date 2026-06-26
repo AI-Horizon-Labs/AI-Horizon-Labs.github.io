@@ -79,6 +79,13 @@
                         <div style="color: var(--color-text-medium);" data-i18n="premios.stat.total">Prêmios Recebidos</div>
                     </div>
                     <div class="stat-card" style="background: white; padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
+                        <div style="font-size: 2.5rem; color: var(--color-accent-dark); margin-bottom: 0.5rem;">
+                            <i class="fas fa-layer-group"></i>
+                        </div>
+                        <div id="awarded-events" style="font-size: 2rem; font-weight: 700; color: var(--color-accent-dark);">0</div>
+                        <div style="color: var(--color-text-medium);" data-i18n="premios.stat.events">Eventos com Premiação</div>
+                    </div>
+                    <div class="stat-card" style="background: white; padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
                         <div style="font-size: 2.5rem; color: var(--color-primary-light); margin-bottom: 0.5rem;">
                             <i class="fas fa-star"></i>
                         </div>
@@ -172,6 +179,20 @@
             loadAwards();
         });
 
+        // Deriva uma chave canônica de evento a partir de instituição + título.
+        // Agrupa premiações do mesmo evento (mesmo acrônimo + ano), tratando
+        // strings heterogêneas como "SBSeg/SBC — XXV SBSeg 2025" e
+        // "SBSeg/SBC/Google — XXV SBSeg 2025" como o mesmo evento.
+        function awardEventKey(a) {
+            const s = ((a.data.institution || '') + ' ' + (a.data.title || ''));
+            const m = s.match(/(SBSeg|SBRC|WRSeg|ERES|ERRC|WTICG)\s*\(?\s*(20\d\d)/i)
+                   || s.match(/(SBSeg|SBRC|WRSeg|ERES|ERRC|WTICG)[^0-9]{0,12}(20\d\d)/i);
+            if (m) return (m[1] + ' ' + m[2]).toUpperCase();
+            if (/SIGCOMM/i.test(s)) return 'ACM SIGCOMM';
+            if (/UNIPAMPA/i.test(s)) return 'UNIPAMPA';
+            return (a.data.institution || 'OUTRO').toUpperCase();
+        }
+
         function loadAwards() {
             try {
                 const awards = AWARDS_DATA;
@@ -189,7 +210,15 @@
 
                 // Update stats
                 document.getElementById('total-awards').textContent = awards.length;
-                
+
+                // Eventos distintos com pelo menos uma premiação.
+                // Os dados não têm um campo "evento" explícito, então derivamos
+                // uma chave canônica a partir de instituição + título (ex.: todas
+                // as variações de "SBSeg 2025" colapsam em um único evento).
+                const eventKeys = new Set(awards.map(awardEventKey));
+                const eventsEl = document.getElementById('awarded-events');
+                if (eventsEl) eventsEl.textContent = eventKeys.size;
+
                 // Calculate statistics
                 const awards2026 = awards.filter(a => (a.data.date || '').startsWith('2026')).length;
                 const awards2025 = awards.filter(a => (a.data.date || '').startsWith('2025')).length;

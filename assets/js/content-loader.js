@@ -685,6 +685,11 @@ function updateHomeStats() {
   if (statFerramentas && typeof TOOLS_DATA !== 'undefined') {
     statFerramentas.textContent = TOOLS_DATA.length + '+';
   }
+
+  const statPremios = document.getElementById('stat-premios');
+  if (statPremios && typeof AWARDS_DATA !== 'undefined') {
+    statPremios.textContent = AWARDS_DATA.length + '+';
+  }
 }
 
 // ============================================
@@ -704,6 +709,9 @@ function updateAboutStats() {
   }
   if (typeof TOOLS_DATA !== 'undefined') {
     setStat('about-stat-tools', TOOLS_DATA.length + '+');
+  }
+  if (typeof AWARDS_DATA !== 'undefined') {
+    setStat('about-stat-awards', AWARDS_DATA.length + '+');
   }
 }
 

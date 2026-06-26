@@ -6,6 +6,7 @@ scope: national
 recipient: Lucas Ferreira, Angelo Nogueira, Diego Kreutz, Dionatan Schmidt e Rodrigo Mansilha
 institution: SBC — IX WRSeg 2025 (ERRC/WRSeg)
 link: https://sites.unipampa.edu.br/lea/2026/05/22/unipampa-e-destaque-nas-premiacoes-na-errc-wrseg-2025-e-consolida-lideranca-regional-em-pesquisa-em-ciberseguranca/
+certificate: premios/wrseg2025_terceiro_lugar.pdf
 ---
 
 # Menção Honrosa (3º lugar) — WRSeg 2025

@@ -281,7 +281,10 @@
                                     <div style="margin-top: var(--spacing-md); color: var(--color-text-dark);">
                                         ${description}
                                     </div>
-                                    ${award.data.link ? `<a href="${award.data.link}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="margin-top: var(--spacing-md); display: inline-block;">Saiba Mais <i class="fas fa-external-link-alt"></i></a>` : ''}
+                                    <div style="margin-top: var(--spacing-md); display: flex; flex-wrap: wrap; gap: var(--spacing-sm);">
+                                        ${award.data.link ? `<a href="${award.data.link}" target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="display: inline-block;">Saiba Mais <i class="fas fa-external-link-alt"></i></a>` : ''}
+                                        ${award.data.certificate ? `<a href="${award.data.certificate}" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="display: inline-block;"><i class="fas fa-certificate"></i> Ver Certificado</a>` : ''}
+                                    </div>
                                 </div>
                             </div>
                         </div>

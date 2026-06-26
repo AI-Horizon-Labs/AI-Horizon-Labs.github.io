@@ -6,6 +6,7 @@ scope: national
 recipient: Marcio Pohlmann, Alex Sandre Severo, Gefté de Almeida, Diego Kreutz, Tiago Heinrich e Lourenço Alves Jr.
 institution: SBC — IX WRSeg 2025 (ERRC/WRSeg)
 link: https://sites.unipampa.edu.br/lea/2026/05/22/unipampa-e-destaque-nas-premiacoes-na-errc-wrseg-2025-e-consolida-lideranca-regional-em-pesquisa-em-ciberseguranca/
+certificate: premios/wrseg2025_primeiro_lugar.pdf
 ---
 
 # Melhor Artigo (1º lugar) — WRSeg 2025

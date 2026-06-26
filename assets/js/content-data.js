@@ -1519,6 +1519,181 @@ const CONTRIBUTORS_DATA = [
   }
 ];
 
+const SCHOLAR_PROFILES = [
+  { nome: "Diego Kreutz", url: "https://scholar.google.com/citations?user=JcL8biEAAAAJ" },
+  { nome: "Rodrigo Brandão Mansilha", url: "https://scholar.google.com/citations?user=grhQHAQAAAAJ" },
+  { nome: "Silvio Ereno Quincozes", url: "https://scholar.google.com/citations?user=1eDPdn8AAAAJ" },
+  { nome: "Williamson Silva", url: "https://scholar.google.com/citations?user=57eR6ykAAAAJ" },
+  { nome: "Gilleanes T. A. Guedes", url: "https://scholar.google.com/citations?user=1vAb8cYAAAAJ" },
+  { nome: "Paulo Silas Severo de Souza", url: "https://scholar.google.com/citations?user=2TIpYeoAAAAJ" }
+];
+
+// ============================================
+// PUBLICAÇÕES SELECIONADAS (destaques)
+// Curadoria a partir do Google Scholar dos membros: trabalhos de maior
+// impacto (mais citados) e periódicos/eventos mais recentes (2024-2026).
+// As contagens de citação são aproximadas; o número atualizado fica no
+// Google Scholar de cada autor (campo "scholar").
+// ============================================
+const SELECTED_PUBLICATIONS = [
+  {
+    "data": {
+      "badges": [{ "label": "Mais citado", "cls": "cited" }, { "label": "Survey", "cls": "" }, { "label": "Journal", "cls": "journal" }],
+      "type": "Journal",
+      "title": "Software-Defined Networking: A Comprehensive Survey",
+      "authors": "Diego Kreutz; Fernando M. V. Ramos; Paulo Veríssimo; Christian Esteve Rothenberg; Siamak Azodolmolky; Steve Uhlig",
+      "venue": "Proceedings of the IEEE, v. 103, n. 1, p. 14-76",
+      "year": "2015",
+      "citations": "4.000+",
+      "member": "Diego Kreutz",
+      "scholar": "https://scholar.google.com/citations?user=JcL8biEAAAAJ",
+      "doi": "10.1109/JPROC.2014.2371999",
+      "pdf": "https://arxiv.org/pdf/1406.0440"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Mais citado", "cls": "cited" }, { "label": "Survey", "cls": "" }, { "label": "Journal", "cls": "journal" }],
+      "type": "Journal",
+      "title": "A survey on intrusion detection and prevention systems in digital substations",
+      "authors": "Silvio E. Quincozes; Célio Albuquerque; Diego Passos; Daniel Mossé",
+      "venue": "Computer Networks (Elsevier), v. 184, art. 107679",
+      "year": "2021",
+      "member": "Silvio Ereno Quincozes",
+      "scholar": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
+      "doi": "10.1016/j.comnet.2020.107679"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Journal", "cls": "journal" }, { "label": "Editors' Choice", "cls": "cited" }],
+      "type": "Journal",
+      "title": "EdgeSimPy: Python-based modeling and simulation of edge computing resource management policies",
+      "authors": "Paulo S. Severo de Souza; Tiago Ferreto; Rodrigo N. Calheiros",
+      "venue": "Future Generation Computer Systems (Elsevier), v. 148, p. 446-459",
+      "year": "2023",
+      "member": "Paulo Silas Severo de Souza",
+      "scholar": "https://scholar.google.com/citations?user=2TIpYeoAAAAJ",
+      "doi": "10.1016/j.future.2023.06.013",
+      "github": "https://github.com/EdgeSimPy/EdgeSimPy"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Muito citado", "cls": "cited" }],
+      "type": "Conferência",
+      "title": "Towards Secure and Dependable Software-Defined Networks",
+      "authors": "Diego Kreutz; Fernando M. V. Ramos; Paulo Veríssimo",
+      "venue": "ACM SIGCOMM Workshop on Hot Topics in SDN (HotSDN)",
+      "year": "2013",
+      "member": "Diego Kreutz",
+      "scholar": "https://scholar.google.com/citations?user=JcL8biEAAAAJ",
+      "doi": "10.1145/2491185.2491199"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Journal", "cls": "journal" }, { "label": "IEEE", "cls": "" }],
+      "type": "Journal",
+      "title": "ERENO: A Framework for Generating Realistic IEC-61850 Intrusion Detection Datasets for Smart Grids",
+      "authors": "Silvio E. Quincozes; Célio Albuquerque; Diego Passos; Daniel Mossé",
+      "venue": "IEEE Transactions on Dependable and Secure Computing",
+      "year": "2024",
+      "member": "Silvio Ereno Quincozes",
+      "scholar": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
+      "link": "https://www.researchgate.net/publication/376204327"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Journal", "cls": "journal" }],
+      "type": "Journal",
+      "title": "MASRML - A Domain-specific Modeling Language for Multi-agent Systems Requirements",
+      "authors": "Gilleanes T. A. Guedes; Iderli P. de Souza Filho; Lukas F. Gaedicke; Giovane D'Ávila Mendonça; Rosa M. Vicari; Carlos Brusius",
+      "venue": "International Journal of Software Engineering & Applications (IJSEA), v. 11, n. 5, p. 25-45",
+      "year": "2020",
+      "member": "Gilleanes T. A. Guedes",
+      "scholar": "https://scholar.google.com/citations?user=1vAb8cYAAAAJ",
+      "link": "https://aircconline.com/abstract/ijsea/v11n5/11520ijsea03.html"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Muito citado", "cls": "cited" }],
+      "type": "Conferência",
+      "title": "Attacking a Swarm with a Band of Liars: Evaluating the Impact of Attacks on BitTorrent",
+      "authors": "Marlom A. Konrath; Marinho P. Barcellos; Rodrigo B. Mansilha",
+      "venue": "IEEE International Conference on Peer-to-Peer Computing (P2P)",
+      "year": "2007",
+      "member": "Rodrigo Brandão Mansilha",
+      "scholar": "https://scholar.google.com/citations?user=grhQHAQAAAAJ"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Muito citado", "cls": "cited" }],
+      "type": "Conferência",
+      "title": "Designing Activity Diagrams Aiming at Achieving Usability in Interactive Applications: An Empirical Study",
+      "authors": "Williamson Silva e colaboradores",
+      "venue": "HCI International",
+      "year": "2016",
+      "member": "Williamson Silva",
+      "scholar": "https://scholar.google.com/citations?user=57eR6ykAAAAJ"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Recente 2025", "cls": "recent" }, { "label": "ACM", "cls": "" }],
+      "type": "Workshop",
+      "title": "Critical IEC 61850 MMS Feature Selection for ML-Driven IDS",
+      "authors": "Silvio E. Quincozes e colaboradores",
+      "venue": "11th ACM Cyber-Physical System Security Workshop (CPSS)",
+      "year": "2025",
+      "member": "Silvio Ereno Quincozes",
+      "scholar": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
+      "doi": "10.1145/3709017.3737710"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Recente 2025", "cls": "recent" }],
+      "type": "Preprint",
+      "title": "Assessing the Impact of Post-Quantum Digital Signature Algorithms on Blockchains",
+      "authors": "Rodrigo B. Mansilha e colaboradores",
+      "venue": "arXiv:2510.09271",
+      "year": "2025",
+      "member": "Rodrigo Brandão Mansilha",
+      "scholar": "https://scholar.google.com/citations?user=grhQHAQAAAAJ",
+      "link": "https://arxiv.org/abs/2510.09271"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [{ "label": "Recente 2025", "cls": "recent" }],
+      "type": "Preprint",
+      "title": "Example-Based Learning in Software Engineering Education: A Systematic Mapping Study",
+      "authors": "Williamson Silva e colaboradores",
+      "venue": "arXiv (2025)",
+      "year": "2025",
+      "member": "Williamson Silva",
+      "scholar": "https://scholar.google.com/citations?user=57eR6ykAAAAJ",
+      "link": "https://arxiv.org/abs/2503.18080"
+    },
+    "content": ""
+  }
+];
+
+
 const PUBLICATIONS_DATA = [
   {
     "data": {
@@ -3340,6 +3515,310 @@ const PUBLICATIONS_DATA = [
     "content": ""
   }
 ];
+
+const TOOLS_DATA = [
+  // ---- SBRC 2026 ----
+  {
+    "nome": "AnonShield",
+    "descricao": "Pseudonimização escalável e on-premise de dados de vulnerabilidade de redes, voltada a equipes de resposta a incidentes (CSIRTs).",
+    "event": "SBRC", "year": "2026", "event_ordem": 2,
+    "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42580",
+    "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42580/42347",
+    "github": "https://github.com/AnonShield/tool",
+    "destaque": "Melhor Artefato do SBRC 2026"
+  },
+  {
+    "nome": "IoT-ID",
+    "descricao": "Identificação determinística de dispositivos IoT por meio de impressão digital híbrida de rede (fingerprinting).",
+    "event": "SBRC", "year": "2026", "event_ordem": 2,
+    "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42588",
+    "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42588/42355",
+    "github": "https://github.com/GT-IoTEdu/sbrc26_fingerprint"
+  },
+  {
+    "nome": "IoT-Zoo",
+    "descricao": "Framework baseado em contêineres para criar perfis heterogêneos de dispositivos IoT e capturar tráfego reprodutível.",
+    "event": "SBRC", "year": "2026", "event_ordem": 2,
+    "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42589",
+    "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42589/42356",
+    "github": "https://github.com/GT-IoTEdu/sbrc2026-IoT-Zoo"
+  },
+  {
+    "nome": "dsm2cli",
+    "descricao": "Pipeline observável e verificável para traduzir intenções de rede em comandos CLI compatíveis com múltiplos fabricantes.",
+    "event": "SBRC", "year": "2026", "event_ordem": 2,
+    "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42581",
+    "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42581/42348",
+    "github": "https://github.com/net2d-community/dsm2cli"
+  },
+  {
+    "nome": "LLM-GOOSE Pipeline",
+    "descricao": "Pipeline baseado em LLMs para geração automatizada de regras de detecção e prevenção de intrusão em tempo real no protocolo GOOSE (subestações).",
+    "event": "SBRC", "year": "2026", "event_ordem": 2,
+    "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/42585",
+    "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/42585/42352"
+  },
+  // ---- SBRC 2025 ----
+  {
+    "nome": "Cloud AutoDroid",
+    "descricao": "Sistema distribuído escalável para execução de ferramentas de IA generativa aplicadas à análise de malware Android.",
+    "event": "SBRC", "year": "2025", "event_ordem": 2,
+    "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/35867",
+    "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/35867/35654",
+    "github": "https://github.com/MalwareDataLab/autodroid-sbrc25",
+    "destaque": "Artefato Destaque do SBRC 2025"
+  },
+  {
+    "nome": "VulnSyncAI",
+    "descricao": "PLN e LLMs para construção e atualização contínua de datasets de vulnerabilidades de segurança.",
+    "event": "SBRC", "year": "2025", "event_ordem": 2,
+    "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/35868",
+    "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/35868/35655",
+    "github": "https://github.com/datasets-community/VulnSyncAI",
+    "destaque": "Melhor Ferramenta e Artefato Destaque do SBRC 2025"
+  },
+  {
+    "nome": "TrueState-SNA",
+    "descricao": "Solução baseada em SSoT (Single Source of Truth) para automação de redes heterogêneas.",
+    "event": "SBRC", "year": "2025", "event_ordem": 2,
+    "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/35869",
+    "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/35869/35656",
+    "github": "https://github.com/net2d-community/net2d"
+  },
+  // ---- SBSeg 2025 ----
+  {
+    "nome": "MalDataGen",
+    "descricao": "Framework modular para geração de dados tabulares sintéticos aplicado à detecção de malware.",
+    "event": "SBSeg", "year": "2025", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/36739",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/36739/36525",
+    "github": "https://github.com/kayua/MalDataGen",
+    "destaque": "Melhor Ferramenta do SBSeg 2025"
+  },
+  // ---- SBSeg 2024 ----
+  {
+    "nome": "IWSHAP",
+    "descricao": "Ferramenta para seleção incremental de características combinando IWSS e SHAP.",
+    "event": "SBSeg", "year": "2024", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30123",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30123/29931",
+    "destaque": "Artefato Destaque do SBSeg 2024"
+  },
+  {
+    "nome": "MH-AutoML",
+    "descricao": "AutoML com transparência, interpretabilidade e desempenho na detecção de malware Android.",
+    "event": "SBSeg", "year": "2024", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30124",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30124/29932",
+    "github": "https://github.com/SBSegSF24/MH-AutoML",
+    "destaque": "Artefato Destaque do SBSeg 2024"
+  },
+  {
+    "nome": "MH-FSF",
+    "descricao": "Framework para reprodução, experimentação e avaliação de métodos de seleção de características.",
+    "event": "SBSeg", "year": "2024", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30125",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30125/29933",
+    "github": "https://github.com/SBSegSF24/MH-FSF",
+    "destaque": "Artefato Destaque do SBSeg 2024"
+  },
+  {
+    "nome": "MalSynGen",
+    "descricao": "Redes neurais artificiais para a geração de dados tabulares sintéticos voltados à detecção de malware.",
+    "event": "SBSeg", "year": "2024", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30126",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30126/29934",
+    "github": "https://github.com/SBSegSF24/MalSynGen",
+    "destaque": "Artefato Destaque do SBSeg 2024"
+  },
+  {
+    "nome": "SigAPI AutoCraft",
+    "descricao": "Ferramenta de seleção de características com capacidade de generalização.",
+    "event": "SBSeg", "year": "2024", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/30131",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/30131/29939",
+    "github": "https://github.com/SBSegSF24/SigAPI-AutoCraft",
+    "destaque": "Artefato Destaque do SBSeg 2024"
+  },
+  // ---- SBSeg 2023 ----
+  {
+    "nome": "AMGenerator e AMExplorer",
+    "descricao": "Geração de metadados e construção de datasets Android para análise de malware. Repositórios separados para o gerador (AMGenerator) e o explorador (AMExplorer).",
+    "event": "SBSeg", "year": "2023", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27271",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/27271/27087",
+    "github": "https://github.com/Malware-Hunter/SF23-AMGenerator"
+  },
+  {
+    "nome": "DroidAugmentor",
+    "descricao": "Ferramenta de treinamento e avaliação de cGANs para geração de dados sintéticos.",
+    "event": "SBSeg", "year": "2023", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27273",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/27273/27089",
+    "github": "https://github.com/LEA-SF23/DroidAugmentor"
+  },
+  {
+    "nome": "BOU-Guard",
+    "descricao": "Abordagem para detecção de conteúdo impróprio na Internet.",
+    "event": "SBSeg", "year": "2023", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/27303",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/27303/27119"
+  },
+  // ---- SBSeg 2022 ----
+  {
+    "nome": "ERENO",
+    "descricao": "Ferramenta extensível para geração de datasets realistas de detecção de intrusão em redes IEC-61850.",
+    "event": "SBSeg", "year": "2022", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21685",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21685/21509",
+    "github": "https://github.com/sequincozes/ereno"
+  },
+  {
+    "nome": "ERENO-UI",
+    "descricao": "Interface para a geração de conjuntos de dados para detecção de intrusão em redes IEC-61850, integrada ao ERENO.",
+    "event": "SBSeg", "year": "2022", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21694",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21694/21518"
+  },
+  {
+    "nome": "FWNL",
+    "descricao": "Sistema de processamento de linguagem natural para configuração de múltiplos firewalls.",
+    "event": "SBSeg", "year": "2022", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21700",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21700/21524",
+    "github": "https://github.com/fw-tools/fwnl"
+  },
+  {
+    "nome": "AutoCAR",
+    "descricao": "Automação e reprodutibilidade de testes de métodos de classificação baseados em regras de associação.",
+    "event": "SBSeg", "year": "2022", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21701",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21701/21525",
+    "github": "https://github.com/Malware-Hunter/sf22-autoCAR"
+  },
+  {
+    "nome": "DroidAutoML",
+    "descricao": "Ferramenta de AutoML para o domínio de detecção de malwares Android.",
+    "event": "SBSeg", "year": "2022", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21702",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21702/21526",
+    "github": "https://github.com/Malware-Hunter/sf22-DroidAutoML"
+  },
+  {
+    "nome": "ADBuilder",
+    "descricao": "Ferramenta de construção de datasets para detecção de malwares Android.",
+    "event": "SBSeg", "year": "2022", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21703",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21703/21527",
+    "github": "https://github.com/Malware-Hunter/sf22-adbuilder"
+  },
+  {
+    "nome": "FS3E",
+    "descricao": "Ferramenta para execução e avaliação de métodos de seleção de características para detecção de malwares Android.",
+    "event": "SBSeg", "year": "2022", "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21704",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/21704/21528",
+    "github": "https://github.com/Malware-Hunter/sf22-fs3e"
+  },
+  // ---- SBSI 2024 ----
+  {
+    "nome": "PRORAF",
+    "descricao": "Sistema de rastreamento da agricultura familiar.",
+    "event": "SBSI", "year": "2024", "event_ordem": 3,
+    "link": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/view/28617",
+    "pdf": "https://sol.sbc.org.br/index.php/sbsi_estendido/article/download/28617/28421"
+  },
+  // ---- ERRC 2025 ----
+  {
+    "nome": "AnonLFI 2.0",
+    "descricao": "Arquitetura extensível para pseudonimização de PII em CSIRTs, com OCR e reconhecedores técnicos. Usa HMAC-SHA256 para gerar pseudônimos fortes e reversíveis, preservando a estrutura de arquivos XML e JSON.",
+    "event": "ERRC", "year": "2025", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/39186",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39186/38958"
+  },
+  {
+    "nome": "Tune3",
+    "descricao": "Método adaptativo multiestágio de otimização de hiperparâmetros para redes neurais em cibersegurança (detecção de malware Android), reduzindo o tempo de busca em até 44% com estabilidade comparável ou superior ao Random Search.",
+    "event": "ERRC", "year": "2025", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/39198",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39198/38970"
+  },
+  {
+    "nome": "Extração Estruturada de Vulnerabilidades (LLM)",
+    "descricao": "Abordagem baseada em LLMs (GPT-4.1 e DeepSeek) para extrair e estruturar vulnerabilidades de relatórios dos scanners OpenVAS e Tenable WAS, convertendo dados não estruturados em formato padronizado (ROUGE-L acima de 0,7).",
+    "event": "ERRC", "year": "2025", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/39195",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39195/38967"
+  },
+  {
+    "nome": "Classificador de Incidentes com SLMs On-Premise",
+    "descricao": "Avaliação de SLMs open-source on-premise frente a LLMs comerciais para classificação de incidentes de segurança em SOCs e CSIRTs, com cinco técnicas de engenharia de prompt e taxonomia NIST SP 800-61r3.",
+    "event": "ERRC", "year": "2025", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/39193",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/39193/38965"
+  },
+  // ---- ERRC 2024 ----
+  {
+    "nome": "RouteBastion",
+    "descricao": "Plataforma SaaS que unifica APIs de roteamento de veículos (VRP), com arquitetura modular e escalável para comparar, selecionar e alternar entre provedores conforme custo e desempenho.",
+    "event": "ERRC", "year": "2024", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/35427",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35427/35214"
+  },
+  {
+    "nome": "MosqMon",
+    "descricao": "Sistema distribuído agente/gerente para captura de áudio em ambientes não controlados, gerando datasets realistas para treinar redes neurais detectoras do mosquito Aedes aegypti pelo som das asas.",
+    "event": "ERRC", "year": "2024", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/35440",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35440/35227",
+    "github": "https://github.com/Y4ngfr/MosqMon"
+  },
+  {
+    "nome": "DDS-Builder",
+    "descricao": "Ferramenta para coletar, categorizar e analisar vulnerabilidades em sistemas baseados em Data Distribution Service (DDS), integrando a base Vulners e o Gemini 1.5 Pro para classificação por CWE, com dataset público.",
+    "event": "ERRC", "year": "2024", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/35452",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35452/35239"
+  },
+  {
+    "nome": "MH-API",
+    "descricao": "API escalável para análise de aplicativos Android e construção de datasets em larga escala, com cache local de metadados de mais de 2 milhões de APKs, integração com VirusTotal e AndroZoo e endpoint de modelo preditivo.",
+    "event": "ERRC", "year": "2024", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/35453",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/35453/35240"
+  },
+  // ---- ERRC 2023 ----
+  {
+    "nome": "eWebAPI",
+    "descricao": "API web que disponibiliza o e-certsDS como serviço remoto para assinar digitalmente lotes de certificados eletrônicos (OpenPGP), eliminando instalação complexa e execução por linha de comando.",
+    "event": "ERRC", "year": "2023", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/26018",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/26018/25841"
+  },
+  {
+    "nome": "AutoDroid",
+    "descricao": "Solução baseada em virtualização leve que disponibiliza a ferramenta DroidAugmentor como serviço, permitindo o aumento de datasets para combate a malware Android por meio de IA.",
+    "event": "ERRC", "year": "2023", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/26020",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/26020/25843"
+  },
+  {
+    "nome": "PDFWebSigner",
+    "descricao": "Solução web para posicionamento visual de estampas de assinatura digital em documentos PDF, com backend pyHanko, suporte a certificados PKCS#11/12 (ICPEdu) e distribuição containerizada via Docker.",
+    "event": "ERRC", "year": "2023", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/26021",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/26021/25844"
+  },
+  // ---- ERRC 2021 ----
+  {
+    "nome": "QuickAutoML",
+    "descricao": "Ferramenta de AutoML que automatiza a criação, o treinamento, o ajuste de hiperparâmetros e a validação de modelos de aprendizado de máquina, abstraindo a complexidade do processo para usuários com pouca experiência técnica.",
+    "event": "ERRC", "year": "2021", "event_ordem": 4,
+    "link": "https://sol.sbc.org.br/index.php/errc/article/view/18547",
+    "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/18547/18380"
+  }
+];
+
 
 const AUTHORS_DATA = [
   {

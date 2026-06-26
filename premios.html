@@ -107,6 +107,13 @@
                         <div style="color: var(--color-text-medium);" data-i18n="premios.stat.2024">Prêmios em 2024</div>
                     </div>
                     <div class="stat-card" style="background: white; padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
+                        <div style="font-size: 2.5rem; color: var(--color-accent-dark); margin-bottom: 0.5rem;">
+                            <i class="fas fa-calendar-check"></i>
+                        </div>
+                        <div id="awards-2023" style="font-size: 2rem; font-weight: 700; color: var(--color-accent-dark);">0</div>
+                        <div style="color: var(--color-text-medium);" data-i18n="premios.stat.2023">Prêmios em 2023</div>
+                    </div>
+                    <div class="stat-card" style="background: white; padding: var(--spacing-lg); border-radius: var(--border-radius); box-shadow: var(--shadow-sm);">
                         <div style="font-size: 2.5rem; color: var(--color-warning); margin-bottom: 0.5rem;">
                             <i class="fas fa-award"></i>
                         </div>
@@ -223,11 +230,13 @@
                 const awards2026 = awards.filter(a => (a.data.date || '').startsWith('2026')).length;
                 const awards2025 = awards.filter(a => (a.data.date || '').startsWith('2025')).length;
                 const awards2024 = awards.filter(a => (a.data.date || '').startsWith('2024')).length;
+                const awards2023 = awards.filter(a => (a.data.date || '').startsWith('2023')).length;
                 const internationalAwards = awards.filter(a => a.data.scope === 'international').length;
 
                 document.getElementById('awards-2026').textContent = awards2026;
                 document.getElementById('awards-2025').textContent = awards2025;
                 document.getElementById('awards-2024').textContent = awards2024;
+                document.getElementById('awards-2023').textContent = awards2023;
                 document.getElementById('international-awards').textContent = internationalAwards;
 
                 // Sort awards by date (most recent first)

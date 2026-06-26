@@ -3816,6 +3816,44 @@ const AWARDS_DATA = [
       "link": "https://doc-artefatos.github.io/sbrc2026/results.html"
     },
     "content": "# Melhores Revisores de Artefatos do SBRC 2026\n\n**Data:** 14 de Junho de 2026\n**Premiado(s):** Cristhian Kapelinski, Diego Kreutz, Douglas Paim Lautert, Leonardo Bitzki, Matheus Cabral e Matheus Martins Ciocca\n**Instituição:** Sociedade Brasileira de Computação (SBC) — Comitê Técnico de Artefatos (CTA), SBRC 2026\n\n## Descrição\n\nDos **11 revisores premiados** como Melhores Revisores de Artefatos do SBRC 2026, **6 são do AI Horizon Labs / UNIPAMPA**: Cristhian Kapelinski, Diego Kreutz, Douglas Paim Lautert, Leonardo Bitzki, Matheus Cabral e Matheus Martins Ciocca.\n\nUma marca inédita: nunca, em toda a história da avaliação de artefatos do SBRC, um único laboratório e uma única instituição alcançaram algo assim. O resultado é fruto de uma vertente pioneira e forte em artefatos de qualidade no Brasil, construída ao longo dos anos por meio de iniciativas do Prof. Diego Kreutz, incluindo disciplinas de Graduação e Pós-Graduação, como o Laboratório de Engenharia de Artefatos de Software, além de inúmeras sessões de treinamento e do acompanhamento próximo de orientandos e alunos colaboradores.\n\n<p><strong>Links:</strong>\n<a href=\"https://doc-artefatos.github.io/sbrc2026/results.html\" target=\"_blank\" rel=\"noopener noreferrer\">Resultados oficiais (CTA)</a> ·\n<a href=\"https://ai-horizon-labs.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">AI Horizon Labs</a> ·\n<a href=\"https://sbrc.sbc.org.br/2026/\" target=\"_blank\" rel=\"noopener noreferrer\">SBRC 2026</a></p>"
+  },
+  {
+    "data": {
+      "date": "2023-10-26",
+      "title": "Segundo Melhor Trabalho do WRSeg 2023 (AutoDroid)",
+      "category": "publication",
+      "scope": "national",
+      "recipient": "Luiz Felipe Laviola Leite, Kayuã Oleques Paim, Diego Kreutz e Rodrigo Brandão Mansilha",
+      "institution": "SBC / VII WRSeg 2023 (ERRC/WRSeg), UFRGS",
+      "work": "AutoDroid: disponibilizando a ferramenta DroidAugmentor como serviço",
+      "link": "https://cursos.unipampa.edu.br/cursos/cienciadacomputacao/2023/10/26/professor-diego-kreutz-e-o-estudante-mauricio-el-uri-representam-a-unipampa-na-errc-e-wrseg-2023/"
+    },
+    "content": "# Segundo Melhor Trabalho do WRSeg 2023 (AutoDroid)\n\n**Data:** 26 de Outubro de 2023\n**Premiado(s):** Luiz Felipe Laviola Leite, Kayuã Oleques Paim, Diego Kreutz e Rodrigo Brandão Mansilha\n**Instituição:** SBC / VII WRSeg 2023 (ERRC/WRSeg), UFRGS\n\n## Descrição\n\nO artigo \"AutoDroid: disponibilizando a ferramenta DroidAugmentor como serviço\" conquistou o prêmio de Segundo Melhor Trabalho do VII Workshop Regional de Segurança da Informação e de Sistemas Computacionais (WRSeg 2023), realizado em conjunto com a XX Escola Regional de Redes de Computadores (ERRC 2023), na UFRGS, em Porto Alegre (RS)."
+  },
+  {
+    "data": {
+      "date": "2023-10-26",
+      "title": "Menção Honrosa do WRSeg 2023 (e-certsDS)",
+      "category": "publication",
+      "scope": "national",
+      "recipient": "Alan Miguel Dorr Schulze e Diego Kreutz",
+      "institution": "SBC / VII WRSeg 2023 (ERRC/WRSeg), UFRGS",
+      "work": "Uma API para assinar digitalmente documentos usando e-certsDS",
+      "link": "https://cursos.unipampa.edu.br/cursos/cienciadacomputacao/2023/10/26/professor-diego-kreutz-e-o-estudante-mauricio-el-uri-representam-a-unipampa-na-errc-e-wrseg-2023/"
+    },
+    "content": "# Menção Honrosa do WRSeg 2023 (e-certsDS)\n\n**Data:** 26 de Outubro de 2023\n**Premiado(s):** Alan Miguel Dorr Schulze e Diego Kreutz\n**Instituição:** SBC / VII WRSeg 2023 (ERRC/WRSeg), UFRGS\n\n## Descrição\n\nO artigo \"Uma API para assinar digitalmente documentos usando e-certsDS\" recebeu Menção Honrosa do VII Workshop Regional de Segurança da Informação e de Sistemas Computacionais (WRSeg 2023), realizado em conjunto com a XX Escola Regional de Redes de Computadores (ERRC 2023), na UFRGS, em Porto Alegre (RS)."
+  },
+  {
+    "data": {
+      "date": "2023-10-26",
+      "title": "Melhor Revisor do WRSeg 2023",
+      "category": "research",
+      "scope": "national",
+      "recipient": "Prof. Diego Kreutz",
+      "institution": "SBC / VII WRSeg 2023 (ERRC/WRSeg), UFRGS",
+      "link": "https://cursos.unipampa.edu.br/cursos/cienciadacomputacao/2023/10/26/professor-diego-kreutz-e-o-estudante-mauricio-el-uri-representam-a-unipampa-na-errc-e-wrseg-2023/"
+    },
+    "content": "# Melhor Revisor do WRSeg 2023\n\n**Data:** 26 de Outubro de 2023\n**Premiado(s):** Prof. Diego Kreutz\n**Instituição:** SBC / VII WRSeg 2023 (ERRC/WRSeg), UFRGS\n\n## Descrição\n\nReconhecimento como Melhor Revisor do VII Workshop Regional de Segurança da Informação e de Sistemas Computacionais (WRSeg 2023), pela qualidade e pelo rigor das avaliações realizadas no processo de revisão do evento, realizado na UFRGS, em Porto Alegre (RS)."
   }
 ];
 

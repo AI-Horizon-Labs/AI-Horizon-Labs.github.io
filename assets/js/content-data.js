@@ -75,6 +75,16 @@ const MEMBERS_DATA = [
   },
   {
     "data": {
+      "id": "12",
+      "name": "Dra. Isadora Ferrão",
+      "role": "Pesquisadora Internacional - UBO",
+      "category": "pesquisadores",
+      "photo": "assets/images/members/isadora-ferrao.jpeg"
+    },
+    "content": "# Dra. Isadora Ferrão\n\n**Função:** Pesquisadora Internacional\n\n## Biografia\n\nDoutora em Ciências da Computação, atualmente atua como pesquisadora de pós-doutorado na Université de Bretagne Occidentale (UBO), em Brest, na França, como talento internacional.\n\n## Interesses de Pesquisa\n\n- Cibersegurança e inteligência artificial\n- Veículos autônomos e detecção de intrusão e anomalias\n- Desenvolvimento de arquiteturas resilientes"
+  },
+  {
+    "data": {
       "id": "11",
       "name": "Maria Luiza Ribeiro Rocha",
       "role": "Mestranda",

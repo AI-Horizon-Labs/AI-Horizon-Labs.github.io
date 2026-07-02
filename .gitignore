@@ -88,3 +88,6 @@ build/
 
 # Dados brutos do formulário de cadastro (planilha + fotos originais)
 dados/
+
+# Arquivos brutos de membros (fotos + textos originais para cadastro)
+membros/

@@ -3,12 +3,12 @@ id: 11
 name: Maria Luiza Ribeiro Rocha 
 role: Mestranda
 category: discentes
-photo: assets/images/members/maria-rocha.jpeg
+photo: assets/images/members/maria-rocha.jpg
 lattes:  https://lattes.cnpq.br/4130944079618644
 linkedin: https://linkedin.com/in/marialuizaribeirorocha
 ---
 
-Maria Luiza Ribeiro Rocha 
+# Maria Luiza Ribeiro Rocha 
 
 **Função:** Mestranda - Unipampa
 

@@ -13,9 +13,12 @@ const MEMBERS_DATA = [
       "category": "discentes",
       "photo": "assets/images/members/adriano-gomes.png",
       "lattes": "http://lattes.cnpq.br/3573634365032912",
-      "linkedin": "https://www.linkedin.com/in/adrianogebertgomes/"
+      "linkedin": "https://www.linkedin.com/in/adrianogebertgomes/",
+      "orcid": "0000-0002-3970-975X",
+      "scholar": "https://scholar.google.com.br/citations?hl=pt-BR&user=nlYc960AAAAJ",
+      "email": "adrianogomes.aluno@unipampa.edu.br"
     },
-    "content": "# Adriano Gebert Gomes\n\n**Função:** Mestrando - Unipampa\n\n## Biografia\n\nMestrando em Engenharia de Software pela Universidade Federal do Pampa (Unipampa), especialista em Ciência de Dados na Administração Pública pela Universidade Federal de Santa Maria (UFSM) e bacharel em Ciência da Computação pela Universidade Federal do Rio Grande do Sul (UFRGS). Desenvolve pesquisas na área de Engenharia de Software, com foco na aplicação de Modelos de Linguagem de Grande Escala (LLMs) para análise e identificação de vulnerabilidades em código-fonte.\n\n## Interesses de Pesquisa\n\n- Inteligência Artificial aplicada à Engenharia de Software\n- Modelos de Linguagem de Grande Escala (LLMs)\n- Segurança de Software\n- Análise de Vulnerabilidades em Software\n- Desenvolvimento de Software"
+    "content": "# Adriano Gebert Gomes\n\n**Função:** Mestrando - Unipampa\n\n## Biografia\n\nMestrando em Engenharia de Software, especialista em Ciência de Dados na Administração Pública pela UFSM e bacharel em Ciência da Computação pela UFRGS. Atua na pesquisa em uso de LLMs para análise e identificação de vulnerabilidades em código-fonte PHP.\n\n## Interesses de Pesquisa\n\n- Engenharia de Software Inteligente\n- Análise de Vulnerabilidades em Código-Fonte\n- Uso de LLMs para automação"
   },
   {
     "data": {
@@ -78,9 +81,11 @@ const MEMBERS_DATA = [
       "category": "discentes",
       "photo": "assets/images/members/maria-rocha.png",
       "lattes": "https://lattes.cnpq.br/4130944079618644",
-      "linkedin": "https://linkedin.com/in/marialuizaribeirorocha"
+      "linkedin": "https://linkedin.com/in/marialuizaribeirorocha",
+      "website": "https://github.com/Mariarocha0",
+      "email": "marialuiza.aluno@unipampa.edu.br"
     },
-    "content": "# Maria Luiza Ribeiro Rocha \n\n**Função:** Mestranda - Unipampa\n\n## Biografia\n\nEngenheira de Software formada pela UNIPAMPA, com experiência em desenvolvimento web e mobile utilizando Java, PHP, Python, Flutter e Firebase. Atuei em projetos acadêmicos e profissionais, com foco em desenvolvimento de software, APIs REST, testes automatizados e UX. Tenho interesse em criar soluções inovadoras, aprender novas tecnologias e contribuir com equipes colaborativas e orientadas a resultados.\n\n## Interesses de Pesquisa\n\n- Engenharia de Software\n- Experiência do Usuário (UX)\n- Inteligência Artificial\n- Chatbots\n- Desenvolvimento de Software"
+    "content": "# Maria Luiza Ribeiro Rocha\n\n**Função:** Mestranda - Unipampa\n\n## Biografia\n\nEngenheira de Software formada pela UNIPAMPA, com experiência em desenvolvimento web e mobile utilizando Java, PHP, Python, Flutter e Firebase. Atuou em projetos acadêmicos e profissionais, com foco em desenvolvimento de software, APIs REST, testes automatizados e UX. Tem interesse em criar soluções inovadoras, aprender novas tecnologias e contribuir com equipes colaborativas e orientadas a resultados.\n\n## Interesses de Pesquisa\n\n- Engenharia de Software\n- Experiência do Usuário (UX)\n- Inteligência Artificial\n- Chatbots\n- Desenvolvimento de Software"
   },
   {
     "data": {
@@ -133,9 +138,11 @@ const MEMBERS_DATA = [
       "category": "discentes",
       "photo": "assets/images/members/tuigg-barcelos.png",
       "lattes": "http://lattes.cnpq.br/9627192907130585",
-      "linkedin": "https://www.linkedin.com/in/tuiggbarcelos/"
+      "linkedin": "https://www.linkedin.com/in/tuiggbarcelos/",
+      "orcid": "0009-0000-3520-102X",
+      "email": "tuiggbarcelos.aluno@unipampa.edu.br"
     },
-    "content": "# Tuigg da Rosa Barcelos\n\n**Função:** Mestrando - Unipampa\n\n## Biografia\n\nPesquisador e desenvolvedor focado em Inteligência Artificial e cibersegurança inteligente. É Mestrando em Engenharia de Software e possui formação em Análise e Desenvolvimento de Sistemas e especialização em  Ciência de Dados. No AI Horizon Labs, aplica seu conhecimento técnico para construir sistemas inteligêntes e analisar novas superficies de ataques geradas pelo uso de IA.\n\n## Interesses de Pesquisa\n\n- Agentic AI\n- Inteligência Artificial\n- Cibersegurança Inteligente\n- Detecção de intrusões e segurança de redes"
+    "content": "# Tuigg da Rosa Barcelos\n\n**Função:** Mestrando - Unipampa\n\n## Biografia\n\nPesquisador e desenvolvedor focado em Inteligência Artificial e cibersegurança inteligente. É Mestrando em Engenharia de Software e possui formação em Análise e Desenvolvimento de Sistemas e especialização em Ciência de Dados. No AI Horizon Labs, aplica seu conhecimento técnico para construir sistemas inteligentes e analisar novas superfícies de ataques geradas pelo uso de IA.\n\n## Interesses de Pesquisa\n\n- Agentic AI\n- Inteligência Artificial\n- Cibersegurança Inteligente\n- Detecção de intrusões e segurança de redes"
   },
   {
     "data": {

@@ -6,6 +6,9 @@ category: discentes
 photo: assets/images/members/adriano-gomes.png
 lattes: http://lattes.cnpq.br/3573634365032912
 linkedin: https://www.linkedin.com/in/adrianogebertgomes/
+orcid: 0000-0002-3970-975X
+scholar: https://scholar.google.com.br/citations?hl=pt-BR&user=nlYc960AAAAJ
+email: adrianogomes.aluno@unipampa.edu.br
 ---
 
 # Adriano Gebert Gomes
@@ -14,12 +17,10 @@ linkedin: https://www.linkedin.com/in/adrianogebertgomes/
 
 ## Biografia
 
-Mestrando em Engenharia de Software pela Universidade Federal do Pampa (Unipampa), especialista em Ciência de Dados na Administração Pública pela Universidade Federal de Santa Maria (UFSM) e bacharel em Ciência da Computação pela Universidade Federal do Rio Grande do Sul (UFRGS). Desenvolve pesquisas na área de Engenharia de Software, com foco na aplicação de Modelos de Linguagem de Grande Escala (LLMs) para análise e identificação de vulnerabilidades em código-fonte.
+Mestrando em Engenharia de Software, especialista em Ciência de Dados na Administração Pública pela UFSM e bacharel em Ciência da Computação pela UFRGS. Atua na pesquisa em uso de LLMs para análise e identificação de vulnerabilidades em código-fonte PHP.
 
 ## Interesses de Pesquisa
 
-- Inteligência Artificial aplicada à Engenharia de Software
-- Modelos de Linguagem de Grande Escala (LLMs)
-- Segurança de Software
-- Análise de Vulnerabilidades em Software
-- Desenvolvimento de Software
+- Engenharia de Software Inteligente
+- Análise de Vulnerabilidades em Código-Fonte
+- Uso de LLMs para automação

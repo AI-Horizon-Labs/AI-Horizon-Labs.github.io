@@ -4,8 +4,10 @@ name: Tuigg da Rosa Barcelos
 role: Mestrando
 category: discentes
 photo: assets/images/members/tuigg-barcelos.png
-lattes:  http://lattes.cnpq.br/9627192907130585
+lattes: http://lattes.cnpq.br/9627192907130585
 linkedin: https://www.linkedin.com/in/tuiggbarcelos/
+orcid: 0009-0000-3520-102X
+email: tuiggbarcelos.aluno@unipampa.edu.br
 ---
 
 # Tuigg da Rosa Barcelos
@@ -14,7 +16,7 @@ linkedin: https://www.linkedin.com/in/tuiggbarcelos/
 
 ## Biografia
 
-Pesquisador e desenvolvedor focado em Inteligência Artificial e cibersegurança inteligente. É Mestrando em Engenharia de Software e possui formação em Análise e Desenvolvimento de Sistemas e especialização em  Ciência de Dados. No AI Horizon Labs, aplica seu conhecimento técnico para construir sistemas inteligêntes e analisar novas superficies de ataques geradas pelo uso de IA.
+Pesquisador e desenvolvedor focado em Inteligência Artificial e cibersegurança inteligente. É Mestrando em Engenharia de Software e possui formação em Análise e Desenvolvimento de Sistemas e especialização em Ciência de Dados. No AI Horizon Labs, aplica seu conhecimento técnico para construir sistemas inteligentes e analisar novas superfícies de ataques geradas pelo uso de IA.
 
 ## Interesses de Pesquisa
 

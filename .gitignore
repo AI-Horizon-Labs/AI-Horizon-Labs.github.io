@@ -85,3 +85,6 @@ build/
 
 # Arquivos de trabalho/rascunho (nao versionar)
 *.txt
+
+# Dados brutos do formulário de cadastro (planilha + fotos originais)
+dados/

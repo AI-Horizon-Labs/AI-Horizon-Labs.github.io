@@ -3,7 +3,7 @@ id: 9
 name: Adriano Gebert Gomes
 role: Mestrando
 category: discentes
-photo: assets/images/members/adriano-gomes.jpg
+photo: assets/images/members/adriano-gomes.png
 lattes: http://lattes.cnpq.br/3573634365032912
 linkedin: https://www.linkedin.com/in/adrianogebertgomes/
 ---

@@ -3,7 +3,7 @@ id: 11
 name: Maria Luiza Ribeiro Rocha 
 role: Mestranda
 category: discentes
-photo: assets/images/members/maria-rocha.jpg
+photo: assets/images/members/maria-rocha.png
 lattes:  https://lattes.cnpq.br/4130944079618644
 linkedin: https://linkedin.com/in/marialuizaribeirorocha
 ---

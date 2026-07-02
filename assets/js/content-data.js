@@ -11,7 +11,7 @@ const MEMBERS_DATA = [
       "name": "Adriano Gebert Gomes",
       "role": "Mestrando",
       "category": "discentes",
-      "photo": "assets/images/members/adriano-gomes.jpg",
+      "photo": "assets/images/members/adriano-gomes.png",
       "lattes": "http://lattes.cnpq.br/3573634365032912",
       "linkedin": "https://www.linkedin.com/in/adrianogebertgomes/"
     },
@@ -76,7 +76,7 @@ const MEMBERS_DATA = [
       "name": "Maria Luiza Ribeiro Rocha",
       "role": "Mestranda",
       "category": "discentes",
-      "photo": "assets/images/members/maria-rocha.jpg",
+      "photo": "assets/images/members/maria-rocha.png",
       "lattes": "https://lattes.cnpq.br/4130944079618644",
       "linkedin": "https://linkedin.com/in/marialuizaribeirorocha"
     },
@@ -131,7 +131,7 @@ const MEMBERS_DATA = [
       "name": "Tuigg da Rosa Barcelos",
       "role": "Mestrando",
       "category": "discentes",
-      "photo": "assets/images/members/tuigg-barcelos.jpg",
+      "photo": "assets/images/members/tuigg-barcelos.png",
       "lattes": "http://lattes.cnpq.br/9627192907130585",
       "linkedin": "https://www.linkedin.com/in/tuiggbarcelos/"
     },

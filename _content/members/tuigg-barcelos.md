@@ -3,7 +3,7 @@ id: 10
 name: Tuigg da Rosa Barcelos
 role: Mestrando
 category: discentes
-photo: assets/images/members/tuigg-barcelos.jpg
+photo: assets/images/members/tuigg-barcelos.png
 lattes:  http://lattes.cnpq.br/9627192907130585
 linkedin: https://www.linkedin.com/in/tuiggbarcelos/
 ---

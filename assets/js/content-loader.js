@@ -75,11 +75,68 @@ function renderMember(member, isCoordinator = false) {
   `;
 }
 
+// Quadro de discentes e técnicos conforme o cadastro do grupo de pesquisa no
+// Diretório dos Grupos de Pesquisa (DGP/CNPq). Atualizado em 02/07/2026 a
+// partir do espelho do grupo (dgp.cnpq.br/dgp/espelhogrupo/5033996631635878).
+const DISCENTES_ROSTER = [
+  'Adriano Gebert Gomes',
+  'Alex Sandre Pinheiro Severo',
+  'Andre Avelino',
+  'Angelo Gaspar Diniz Nogueira',
+  'Arthur De Freitas Medeiros',
+  'Beatriz Roland Machado',
+  'Camilla Charão Borchhardt',
+  'Cristhian Eduardo Kapelinski de Avila',
+  'Douglas Paim Lautert',
+  'Douglas Rodrigues Fideles',
+  'Eduardo Leal de Carvalho',
+  'Emanuel Carricio Ferreira',
+  'Fábio Araujo Fabres',
+  'Fabner Aguiar',
+  'Felipe Homrich Scherer',
+  'Felipe Nestor Dresch',
+  'Giovanni Henrique Munhoz de Lion Siervo',
+  'Guilherme Chagas Mundt',
+  'Henrique Fan da Silva',
+  'Leonardo de Jesus Bitzki',
+  'Leonardo Espíndola Pires',
+  'Lucas Albino Martins',
+  'Lucas Ferreira Areias de Oliveira',
+  'Luis Alberto Tschiedel',
+  'Luis Eduardo Teles Mourão',
+  'Marcio Pohlmann',
+  'Mariana Rodrigues Padilha',
+  'Matheus Martins Ciocca',
+  'Paulo Vitor Costa Lima',
+  'Rafael Rodrigues Nogueira',
+  'Renato de Souza Garcia',
+  'Sandro da Cruz Maruxo',
+  'Tiago William de Morais',
+  'Tuigg Da Rosa Barcelos',
+  'Willian Samuel Gerstberger',
+  'Yang da Fontoura Rodrigues'
+];
+
+const TECNICOS_ROSTER = [
+  'Emerson Oliveira Rizzatti',
+  'Vitor Rodrigues Almada'
+];
+
+// Lista simples de nomes (chips), usada para discentes e técnicos.
+function renderNameList(names) {
+  return `
+    <ul class="name-list">
+      ${names.map(n => `<li class="name-list-item">${n}</li>`).join('')}
+    </ul>
+  `;
+}
+
 function renderMembersPage() {
   const coordContainer = document.getElementById('coordenacao-container');
   const pesqContainer = document.getElementById('pesquisadores-container');
   const discContainer = document.getElementById('discentes-container');
-  
+  const tecContainer = document.getElementById('tecnicos-container');
+
   const members = loadMembers();
   
   // Coordenação
@@ -102,13 +159,19 @@ function renderMembersPage() {
     `;
   }
   
-  // Discentes
-  if (discContainer && members.discentes.length > 0) {
+  // Discentes (quadro completo do grupo no DGP/CNPq, apenas nomes)
+  if (discContainer && DISCENTES_ROSTER.length > 0) {
     discContainer.innerHTML = `
       <div class="section-title"><h2>Discentes</h2></div>
-      <div class="grid grid-4">
-        ${members.discentes.map(m => renderMember(m, false)).join('')}
-      </div>
+      ${renderNameList(DISCENTES_ROSTER)}
+    `;
+  }
+
+  // Técnicos
+  if (tecContainer && TECNICOS_ROSTER.length > 0) {
+    tecContainer.innerHTML = `
+      <div class="section-title"><h2>Técnicos</h2></div>
+      ${renderNameList(TECNICOS_ROSTER)}
     `;
   }
 }

@@ -89,5 +89,8 @@ build/
 # Dados brutos do formulário de cadastro (planilha + fotos originais)
 dados/
 
+# Espelho/exportação do grupo no DGP/CNPq (documento de origem, não versionar)
+cnpq/
+
 # Arquivos brutos de membros (fotos + textos originais para cadastro)
 membros/

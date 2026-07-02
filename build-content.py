@@ -54,8 +54,22 @@ def load_content_files(directory):
             'data': data,
             'content': markdown
         })
-    
+
     return items
+
+def load_tools():
+    """Carrega as ferramentas do Salão de Ferramentas (fonte: _content/tools.json).
+
+    A lista é mantida em JSON (e não em .md) porque cada ferramenta é um registro
+    simples de campos, sem corpo em markdown. Manter a fonte aqui garante que o
+    TOOLS_DATA seja regenerado junto com os demais dados e nunca mais desapareça
+    de content-data.js.
+    """
+    tools_path = Path('_content') / 'tools.json'
+    if not tools_path.exists():
+        return []
+    with open(tools_path, 'r', encoding='utf-8') as f:
+        return json.load(f)
 
 # Nomes completos dos eventos (para exibição agrupada)
 EVENT_INFO = {
@@ -267,7 +281,8 @@ def generate_js_content():
     publications = load_publications_from_sol()
     authors = load_authors_from_manifest(publications)
     awards = load_content_files('award')
-    
+    tools = load_tools()
+
     js_code = """/**
  * AI Horizon Labs - Content Data
  * Dados gerados automaticamente dos arquivos Markdown
@@ -296,7 +311,10 @@ def generate_js_content():
 
     # Awards
     js_code += "const AWARDS_DATA = " + json.dumps(awards, ensure_ascii=False, indent=2) + ";\n\n"
-    
+
+    # Tools / Ferramentas (Salão de Ferramentas SBSeg/SBRC/SBSI/ERRC)
+    js_code += "const TOOLS_DATA = " + json.dumps(tools, ensure_ascii=False, indent=2) + ";\n\n"
+
     return js_code
 
 def main():

@@ -94,3 +94,6 @@ cnpq/
 
 # Arquivos brutos de membros (fotos + textos originais para cadastro)
 membros/
+
+# Slides originais (.pptx e PDFs brutos). Os PDFs publicados ficam em assets/slides/
+/slides/

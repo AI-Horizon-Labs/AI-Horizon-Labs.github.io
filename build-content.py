@@ -161,23 +161,24 @@ def load_publications_from_sol():
         # Só publicamos trabalhos com ao menos um coautor membro do grupo
         if not has_group_member(authors):
             continue
-        items.append({
-            'data': {
-                'event': event,
-                'event_nome': info['nome'],
-                'event_ordem': info['ordem'],
-                'track': track,
-                'track_label': track_label,
-                'type': 'Conferência',
-                'title': p.get('title', ''),
-                'authors': authors,
-                'venue': venue,
-                'year': p.get('year', ''),
-                'link': p.get('sol_link', ''),
-                'pdf': p.get('pdf_url', ''),
-            },
-            'content': ''
-        })
+        data = {
+            'event': event,
+            'event_nome': info['nome'],
+            'event_ordem': info['ordem'],
+            'track': track,
+            'track_label': track_label,
+            'type': 'Conferência',
+            'title': p.get('title', ''),
+            'authors': authors,
+            'venue': venue,
+            'year': p.get('year', ''),
+            'link': p.get('sol_link', ''),
+            'pdf': p.get('pdf_url', ''),
+        }
+        # Slides da apresentação, quando o PDF está publicado no site
+        if p.get('slides'):
+            data['slides'] = p['slides']
+        items.append({'data': data, 'content': ''})
     return items
 
 

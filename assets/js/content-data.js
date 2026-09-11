@@ -1630,7 +1630,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Trilha Principal",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44328",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44328/44091"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44328/44091",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-mulitaminer-multi-version.pdf"
     },
     "content": ""
   },
@@ -1647,7 +1648,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Trilha Principal",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44330",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44330/44093"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44330/44093",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-4bit-quantizers-pii.pdf"
     },
     "content": ""
   },
@@ -1664,7 +1666,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Trilha Principal",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44342",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44342/44105"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44342/44105",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-text-to-terraform.pdf"
     },
     "content": ""
   },
@@ -1681,7 +1684,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Trilha Principal",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44348",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44348/44111"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44348/44111",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-statistical-ranking.pdf"
     },
     "content": ""
   },
@@ -1715,7 +1719,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Trilha Principal",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44361",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44361/44124"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44361/44124",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-when-balancing-harms.pdf"
     },
     "content": ""
   },
@@ -1749,7 +1754,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Trilha Principal",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44366",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44366/44129"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44366/44129",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-context-aware-siem-rules.pdf"
     },
     "content": ""
   },
@@ -1766,7 +1772,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Trilha Principal",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44371",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44371/44134"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44371/44134",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-docker-hub-random-sample.pdf"
     },
     "content": ""
   },
@@ -1783,7 +1790,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Trilha Principal",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44372",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44372/44135"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg/article/download/44372/44135",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-oscensus-docker-hub.pdf"
     },
     "content": ""
   },
@@ -1817,7 +1825,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Anais Estendidos",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44454",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44454/44217"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44454/44217",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-adminforge.pdf"
     },
     "content": ""
   },
@@ -1834,7 +1843,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Anais Estendidos",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44455",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44455/44218"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44455/44218",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-aiacgateguard.pdf"
     },
     "content": ""
   },
@@ -1851,7 +1861,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Anais Estendidos",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44457",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44457/44220"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44457/44220",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-attackzoo.pdf"
     },
     "content": ""
   },
@@ -1885,7 +1896,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Anais Estendidos",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44462",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44462/44225"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44462/44225",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-iotedu-core.pdf"
     },
     "content": ""
   },
@@ -1936,7 +1948,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Anais Estendidos",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44469",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44469/44232"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44469/44232",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-mulitaminer-tool.pdf"
     },
     "content": ""
   },
@@ -1953,7 +1966,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Anais Estendidos",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44471",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44471/44234"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44471/44234",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-rulesfarmer.pdf"
     },
     "content": ""
   },
@@ -1970,7 +1984,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Anais Estendidos",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44474",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44474/44237"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44474/44237",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-zerolinc.pdf"
     },
     "content": ""
   },
@@ -1987,7 +2002,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Anais Estendidos",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44497",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44497/44260"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44497/44260",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-cryptocensus.pdf"
     },
     "content": ""
   },
@@ -2021,7 +2037,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Anais Estendidos",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44510",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44510/44273"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44510/44273",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-mulitaminer-on-premise-vs-cloud.pdf"
     },
     "content": ""
   },
@@ -2038,7 +2055,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Anais Estendidos",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44514",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44514/44277"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44514/44277",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-pixguard-sim.pdf"
     },
     "content": ""
   },
@@ -2055,7 +2073,8 @@ const PUBLICATIONS_DATA = [
       "venue": "SBSeg 2026 — Anais Estendidos",
       "year": "2026",
       "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44517",
-      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44517/44280"
+      "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44517/44280",
+      "slides": "assets/slides/sbseg-2026/sbseg-2026-ragtrap.pdf"
     },
     "content": ""
   },

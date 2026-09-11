@@ -484,6 +484,7 @@ function renderPublication(pub) {
   const links = `
     ${d.link ? `<a href="${d.link}" target="_blank" rel="noopener"><i class="fas fa-external-link-alt"></i> Publicação (SOL/SBC)</a>` : ''}
     ${d.pdf ? `<a href="${d.pdf}" target="_blank" rel="noopener"><i class="fas fa-file-pdf"></i> PDF</a>` : ''}
+    ${d.slides ? `<a href="${d.slides}" download><i class="fas fa-file-powerpoint"></i> Slides (PDF)</a>` : ''}
     ${d.doi ? `<a href="https://doi.org/${d.doi}" target="_blank" rel="noopener"><i class="fas fa-link"></i> DOI</a>` : ''}
     ${d.github ? `<a href="${d.github}" target="_blank" rel="noopener"><i class="fab fa-github"></i> Código</a>` : ''}
     ${d.dataset ? `<a href="${d.dataset}" target="_blank" rel="noopener"><i class="fas fa-database"></i> Dataset</a>` : ''}
@@ -631,6 +632,7 @@ function renderEventsPanel() {
     <p style="font-size:1.125rem;color:var(--color-text-medium);max-width:70ch;margin-bottom:var(--spacing-lg);">
       ${PUBLICATIONS_DATA.length} publicações em anais de eventos científicos, organizadas por evento.
       Cada trabalho traz o link direto para a publicação na Biblioteca Digital da SBC (SOL) e o PDF.
+      Quando os slides da apresentação estão disponíveis, o PDF também fica aqui para download.
     </p>
   `;
   eventGroups.forEach(g => {

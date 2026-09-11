@@ -183,6 +183,8 @@ def merge(event, year, track, novos):
         anterior = por_link.get(novo['sol_link'])
         if anterior:
             novo['file'] = anterior.get('file', novo['file'])
+            if anterior.get('slides'):
+                novo['slides'] = anterior['slides']
 
     ordem_track = {'principal': 0, 'estendido': 1}
     def posicao(r):
@@ -206,7 +208,8 @@ def merge(event, year, track, novos):
 
     INDEX_JSON.write_text(json.dumps(registros, ensure_ascii=False, indent=2) + '\n',
                           encoding='utf-8')
-    campos = ['event', 'year', 'track', 'title', 'authors', 'sol_link', 'pdf_url', 'file']
+    campos = ['event', 'year', 'track', 'title', 'authors', 'sol_link', 'pdf_url',
+              'file', 'slides']
     with open(INDEX_CSV, 'w', encoding='utf-8', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=campos)
         writer.writeheader()

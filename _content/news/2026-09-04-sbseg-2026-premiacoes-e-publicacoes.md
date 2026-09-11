@@ -1,31 +1,31 @@
 ---
 date: 2026-09-04
-title: "AI Horizon Labs no SBSeg 2026: 32 trabalhos, 4 prêmios, minicurso, WCIA e CTF"
+title: "AI Horizon Labs no SBSeg 2026: 32 trabalhos, 5 prêmios, minicurso, WCIA e CTF"
 category: evento
-summary: No XXVI Simpósio Brasileiro de Cibersegurança, em Armação dos Búzios (RJ), o laboratório assina 32 trabalhos nos anais, com 57 pesquisadores envolvidos, e conquista 4 prêmios (os dois Melhores Artefatos, Menção Honrosa no Salão de Ferramentas e Melhores Avaliadores de Artefatos), além de ministrar o minicurso de IA aplicada à Resposta a Incidentes e coordenar a estreia do WCIA e a primeira edição brasileira do FIRST CTF Replay.
+summary: No XXVI Simpósio Brasileiro de Cibersegurança, em Armação dos Búzios (RJ), o laboratório assina 32 trabalhos nos anais, com 57 pesquisadores envolvidos, e conquista 5 prêmios (os dois Melhores Artefatos, Menção Honrosa no Salão de Ferramentas e dois Melhores Revisores de Artefatos), além de ministrar o minicurso de IA aplicada à Resposta a Incidentes e coordenar a estreia do WCIA e a primeira edição brasileira do FIRST CTF Replay.
 link: https://sol.sbc.org.br/index.php/sbseg/issue/view/1728
 ---
 
-# AI Horizon Labs no SBSeg 2026: 32 trabalhos, 4 prêmios, minicurso, WCIA e CTF
+# AI Horizon Labs no SBSeg 2026: 32 trabalhos, 5 prêmios, minicurso, WCIA e CTF
 
 **Data:** 04 de Setembro de 2026
 **Categoria:** Evento
 
 ## Resumo
 
-De 1º a 4 de setembro de 2026, o XXVI Simpósio Brasileiro de Cibersegurança (SBSeg 2026) reuniu em Armação dos Búzios (RJ) a comunidade brasileira de cibersegurança. Fechados os anais, pesquisadores do AI Horizon Labs assinam 32 trabalhos publicados, com 57 pesquisadores envolvidos, e conquistaram 4 prêmios, além de ministrar um minicurso e coordenar o I WCIA e a estreia brasileira do FIRST CTF Replay.
+De 1º a 4 de setembro de 2026, o XXVI Simpósio Brasileiro de Cibersegurança (SBSeg 2026) reuniu em Armação dos Búzios (RJ) a comunidade brasileira de cibersegurança. Fechados os anais, pesquisadores do AI Horizon Labs assinam 32 trabalhos publicados, com 57 pesquisadores envolvidos, e conquistaram 5 prêmios, além de ministrar um minicurso e coordenar o I WCIA e a estreia brasileira do FIRST CTF Replay.
 
 ## Conteúdo Completo
 
 Os temas cobrem segurança de agentes de IA e do Model Context Protocol (MCP), LLMs e SLMs na resposta a incidentes, vazamento de PII em modelos ajustados, cadeia de suprimentos de software (Docker Hub, npm e Infrastructure as Code), infraestrutura crítica e IoT, e detecção de malware em Android. As apresentações foram espetaculares, com salas cheias e discussões que seguiram muito além do tempo de sessão.
 
-### Os 4 prêmios conquistados
+### Os 5 prêmios conquistados
 
 **🥇 Os dois Melhores Artefatos do SBSeg 2026:** *Security-First Evaluation of Text-to-Terraform: Benchmarking LLMs and SLMs for Secure IaC Generation*, cujo artefato foi publicado no Salão de Ferramentas como AIaCGateGuard, e *PQCinBlock*, sobre o impacto da Criptografia Pós-Quântica em blockchains.
 
 **🥈 Menção Honrosa no Salão de Ferramentas:** *AdminForge: Declarative Privileged-Identity Management for Linux Server Fleets*.
 
-**🥇 Melhores Avaliadores de Artefatos:** 2 dos 11 nomes reconhecidos são do AI Horizon Labs.
+**🥇 Melhores Revisores de Artefatos:** 2 dos 11 nomes reconhecidos são do AI Horizon Labs.
 
 Parabéns aos autores premiados do laboratório: Cristhian Kapelinski, Diego Kreutz, Francis Vargas, Henrique Silva, Leonardo Bitzki, Rodrigo Brandão Mansilha e Rui de Quadros Ribeiro.
 

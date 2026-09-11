@@ -82,6 +82,107 @@
     "github": "https://github.com/net2d-community/net2d"
   },
   {
+    "nome": "AdminForge",
+    "descricao": "Gestão declarativa de identidades privilegiadas em frotas de servidores Linux: o estado desejado de acessos administrativos é descrito em uma fonte única de verdade e aplicado de forma reprodutível e auditável.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44454",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44454/44217",
+    "destaque": "Menção Honrosa no Salão de Ferramentas do SBSeg 2026"
+  },
+  {
+    "nome": "AIaCGateGuard",
+    "descricao": "Pipeline de benchmarking com segurança em primeiro lugar para Infrastructure as Code gerada por LLMs e SLMs, medindo quanto do código produzido chega ao ambiente com configurações inseguras.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44455",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44455/44218",
+    "github": "https://gitlab.com/security-iac/security-first-evaluation-of-text-to-terraform/-/releases/sbseg-sf",
+    "destaque": "Melhor Artefato do SBSeg 2026"
+  },
+  {
+    "nome": "AttackZoo",
+    "descricao": "Testbed reprodutível para execução de ataques e geração de datasets de tráfego de rede, com cenários versionados e captura padronizada.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44457",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44457/44220",
+    "github": "https://github.com/GT-IoTEdu/attackzoo-sbseg26"
+  },
+  {
+    "nome": "GT-LFI",
+    "descricao": "Plataforma do Grupo de Trabalho LFI para anonimização, classificação e aprendizagem gamificada a partir de incidentes reais cedidos por CSIRTs parceiros.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44461",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44461/44224",
+    "github": "https://github.com/rsmiani/gt-lfi-rnp"
+  },
+  {
+    "nome": "IoTEdu Core",
+    "descricao": "Correlação de múltiplos IDS e contenção automatizada de ataques em redes IoT institucionais, integrando detecção e resposta em um único núcleo operacional.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44462",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44462/44225",
+    "github": "https://github.com/GT-IoTEdu/iotedu-core_sbseg26"
+  },
+  {
+    "nome": "KETRIN",
+    "descricao": "Elicitação adaptativa de conhecimento para diagnóstico de maturidade em proteção de dados, com apoio à avaliação de conformidade com a LGPD.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44463",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44463/44226",
+    "github": "https://github.com/KetrinDiovanaVargas/PlatformLGPDCompliance"
+  },
+  {
+    "nome": "MulitaMiner",
+    "descricao": "Ferramenta baseada em LLMs para estruturar relatórios de scanners de vulnerabilidade, convertendo saídas heterogêneas em registros comparáveis.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44469",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44469/44232",
+    "github": "https://github.com/tooltmm-png/TMM"
+  },
+  {
+    "nome": "PQCinBlock",
+    "descricao": "Análise do impacto de algoritmos de Criptografia Pós-Quântica em blockchains por benchmark e simulação, medindo o custo real da migração pós-quântica.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44464",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44464/44227",
+    "github": "https://github.com/conseg/PQCinBlock",
+    "destaque": "Melhor Artefato do SBSeg 2026"
+  },
+  {
+    "nome": "Rules Farmer",
+    "descricao": "Geração de regras e validação ao vivo para detecção de intrusão agêntica na Internet das Coisas, com foco em ataques ao protocolo XRCE-DDS.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44471",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44471/44234",
+    "github": "https://github.com/GT-IoTEdu/rules-farmer_sbseg26"
+  },
+  {
+    "nome": "ZeroLINC",
+    "descricao": "Classificação local de relatórios de incidentes de segurança sem treinamento prévio, executando inteiramente on-premise.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44474",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44474/44237"
+  },
+  {
     "nome": "MalDataGen",
     "descricao": "Framework modular para geração de dados tabulares sintéticos aplicado à detecção de malware.",
     "event": "SBSeg",

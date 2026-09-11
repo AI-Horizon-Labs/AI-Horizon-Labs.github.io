@@ -252,12 +252,12 @@ const NEWS_DATA = [
   {
     "data": {
       "date": "2026-09-04",
-      "title": "AI Horizon Labs no SBSeg 2026: 32 trabalhos, 4 prêmios, minicurso, WCIA e CTF",
+      "title": "AI Horizon Labs no SBSeg 2026: 32 trabalhos, 5 prêmios, minicurso, WCIA e CTF",
       "category": "evento",
-      "summary": "No XXVI Simpósio Brasileiro de Cibersegurança, em Armação dos Búzios (RJ), o laboratório assina 32 trabalhos nos anais, com 57 pesquisadores envolvidos, e conquista 4 prêmios (os dois Melhores Artefatos, Menção Honrosa no Salão de Ferramentas e Melhores Avaliadores de Artefatos), além de ministrar o minicurso de IA aplicada à Resposta a Incidentes e coordenar a estreia do WCIA e a primeira edição brasileira do FIRST CTF Replay.",
+      "summary": "No XXVI Simpósio Brasileiro de Cibersegurança, em Armação dos Búzios (RJ), o laboratório assina 32 trabalhos nos anais, com 57 pesquisadores envolvidos, e conquista 5 prêmios (os dois Melhores Artefatos, Menção Honrosa no Salão de Ferramentas e dois Melhores Revisores de Artefatos), além de ministrar o minicurso de IA aplicada à Resposta a Incidentes e coordenar a estreia do WCIA e a primeira edição brasileira do FIRST CTF Replay.",
       "link": "https://sol.sbc.org.br/index.php/sbseg/issue/view/1728"
     },
-    "content": "# AI Horizon Labs no SBSeg 2026: 32 trabalhos, 4 prêmios, minicurso, WCIA e CTF\n\n**Data:** 04 de Setembro de 2026\n**Categoria:** Evento\n\n## Resumo\n\nDe 1º a 4 de setembro de 2026, o XXVI Simpósio Brasileiro de Cibersegurança (SBSeg 2026) reuniu em Armação dos Búzios (RJ) a comunidade brasileira de cibersegurança. Fechados os anais, pesquisadores do AI Horizon Labs assinam 32 trabalhos publicados, com 57 pesquisadores envolvidos, e conquistaram 4 prêmios, além de ministrar um minicurso e coordenar o I WCIA e a estreia brasileira do FIRST CTF Replay.\n\n## Conteúdo Completo\n\nOs temas cobrem segurança de agentes de IA e do Model Context Protocol (MCP), LLMs e SLMs na resposta a incidentes, vazamento de PII em modelos ajustados, cadeia de suprimentos de software (Docker Hub, npm e Infrastructure as Code), infraestrutura crítica e IoT, e detecção de malware em Android. As apresentações foram espetaculares, com salas cheias e discussões que seguiram muito além do tempo de sessão.\n\n### Os 4 prêmios conquistados\n\n**🥇 Os dois Melhores Artefatos do SBSeg 2026:** *Security-First Evaluation of Text-to-Terraform: Benchmarking LLMs and SLMs for Secure IaC Generation*, cujo artefato foi publicado no Salão de Ferramentas como AIaCGateGuard, e *PQCinBlock*, sobre o impacto da Criptografia Pós-Quântica em blockchains.\n\n**🥈 Menção Honrosa no Salão de Ferramentas:** *AdminForge: Declarative Privileged-Identity Management for Linux Server Fleets*.\n\n**🥇 Melhores Avaliadores de Artefatos:** 2 dos 11 nomes reconhecidos são do AI Horizon Labs.\n\nParabéns aos autores premiados do laboratório: Cristhian Kapelinski, Diego Kreutz, Francis Vargas, Henrique Silva, Leonardo Bitzki, Rodrigo Brandão Mansilha e Rui de Quadros Ribeiro.\n\n### Minicurso\n\nO laboratório ministrou o minicurso **Inteligência Artificial aplicada à Resposta a Incidentes**: três horas de capítulo e prática, com base em trabalhos desenvolvidos pelo grupo em projetos no último ano. Foram três estudos de caso sobre tickets reais de incidentes cedidos por CSIRTs parceiros, abordando pseudonimização, classificação e geração assistida de playbooks.\n\n### Os 32 trabalhos, um a um\n\n#### Trilha principal, artigos completos\n\n- [An LLM-Based Agentic Pipeline for Generator-Level Adversarial Evaluation of Smart Grid IDSs](https://sol.sbc.org.br/index.php/sbseg/article/view/44281)\n- [Data Exfiltration in Model Context Protocol (MCP)-Based Intelligent Agents: An Evaluation of Prompt Injection Vectors](https://sol.sbc.org.br/index.php/sbseg/article/view/44305)\n- [MulitaMiner: A Multi-Version Evaluation of LLM-Based Vulnerability Report Extraction](https://sol.sbc.org.br/index.php/sbseg/article/view/44328)\n- [Not All 4-bit Quantizers Are Equal: Deployment-Time Mitigation of PII Leakage in Fine-Tuned Small Language Models](https://sol.sbc.org.br/index.php/sbseg/article/view/44330)\n- [Security-First Evaluation of Text-to-Terraform: Benchmarking LLMs and SLMs for Secure IaC Generation](https://sol.sbc.org.br/index.php/sbseg/article/view/44342)\n- [Statistical Ranking: A Voting-Based Ensemble Approach to Feature Selection in Android Malware Detection](https://sol.sbc.org.br/index.php/sbseg/article/view/44348)\n- [Twenty-Five Years of the Brazilian Cybersecurity Symposium (SBSeg): A Retrospective Review](https://sol.sbc.org.br/index.php/sbseg/article/view/44351)\n- [When Balancing Harms: Structural Conditions That Degrade Android Malware Detection After Class Imbalance Correction](https://sol.sbc.org.br/index.php/sbseg/article/view/44361)\n- [WOCI: Weighted Operational Cost Index A New Evaluation Metric for Intrusion Detection](https://sol.sbc.org.br/index.php/sbseg/article/view/44362)\n\n#### Trilha principal, artigos curtos\n\n- [A Multi-Scanner Census of the Linux Operating-System Base Images of Docker Hub](https://sol.sbc.org.br/index.php/sbseg/article/view/44372)\n- [A Uniform Random-Sample Security Measurement of Docker Hub Images](https://sol.sbc.org.br/index.php/sbseg/article/view/44371)\n- [Context-Aware SIEM Rule Generation with LLMs: When Site Profiles Are Not Enough](https://sol.sbc.org.br/index.php/sbseg/article/view/44366)\n- [Visual Graph Representations for Supply Chain Risk Detection: A Novel Study on npm Packages](https://sol.sbc.org.br/index.php/sbseg/article/view/44377)\n\n#### Salão de Ferramentas\n\n- [AdminForge: Declarative Privileged-Identity Management for Linux Server Fleets](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44454)\n- [AIaCGateGuard: A Security-First Pipeline for Benchmarking LLM- and SLM-Generated Infrastructure-as-Code](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44455)\n- [AttackZoo: A Reproducible Testbed for Attack Execution and Network Traffic Dataset Generation](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44457)\n- [GT-LFI: Anonimização, Classificação e Aprendizagem Gamificada a partir de Incidentes Reais](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44461)\n- [IoTEdu Core: Multi-IDS Correlation and Automated Containment of Attacks in Institutional IoT Networks](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44462)\n- [KETRIN: Elicitação Adaptativa de Conhecimento para Diagnóstico de Maturidade em Proteção de Dados](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44463)\n- [MulitaMiner: An LLM-Based Tool for Structuring Vulnerability Scanner Report](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44469)\n- [PQCinBlock: uma ferramenta para análise do impacto de algoritmos de Criptografia Pós-Quântica em blockchains via benchmark e simulação](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44464)\n- [Toward Agentic Intrusion Detection in the Internet of Things: Rule Generation and Live Validation for XRCE-DDS Attacks](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44471)\n- [ZeroLINC: Training-Free Local Classification of Security Incident Reports](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44474)\n\n#### WTICG\n\n- [CryptoCensus: Cryptographic Posture and Post-Quantum Readiness of Docker Hub](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44497)\n- [LLMs para Detecção de Phishing em E-mails: Comparação Controlada com Baselines TF-IDF e Red Flags Auditáveis](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44508)\n- [On-Premise vs. Cloud: Local LLMs for Vulnerability Extraction from Security Scanner Reports](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44510)\n- [PixGuard-Sim: A Deadline-Aware Testbed for Pix Fraud Detectors](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44514)\n- [RAGtrap: Source Revocation and Indexed Provenance Lookup for Poisoned RAG Corpora](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44517)\n- [Who Guards the Guard? Evaluating Deterministic, LLM-Based, and Hybrid Firewalls for Tool-Using Agents](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44524)\n\n#### WTICG, trabalhos em andamento\n\n- [APEX: Agentic Pentesting Execution](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44525)\n- [Secure Exposure of REST APIs in Homelab Environments using Cloudflare Tunnel](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44531)\n\n#### I Workshop de Cibersegurança em IA (WCIA)\n\n- [From Implicit Trust to Continuous Verification: A Position on the Authorization of AI Agents in Production Services](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44562)\n\n### Os 57 pesquisadores por trás dos 32 trabalhos e do minicurso\n\nAlessandro Bof, Alison G. Schemitt, Alvaro S. Santos, Angelo Gaspar Diniz, Anna Luiza Gomes da Silva, Avelino F. Zorzo, Beatriz Machado, Bernardo Dorneles, Camilla Borchhardt Quincozes, Célio Vinicius Neves de Albuquerque, Cristhian Kapelinski, Daniel Mossé, Danielly Cristina do Carmo Neves, Diego Gimenez Passos, Diego Kreutz, Diego Molinos, Diego S. Araujo, Dionatan Ricardo Schmidt, Douglas Paim Lautert, Douglas Rodrigues Fideles, Eduardo Cabezudo Vilhalba, Emanuel Carricio Ferreira, Felipe Homrich Scherer, Felipe Nestor Dresch, Francis Luis Santos Vargas, Gabriel Pereira Bellagamba, Guilherme Chagas Mundt, Henrique C. P. Horch, Henrique F. da Silva, Ian Rankin, Isadora Garcia Ferrão, João Pedro Ramires Esteves, Kayuã Oleques Paim, Ketrin Diovana Alves Rodrigues Vargas, Leandro Márcio Bertholdo, Leonardo Bitzki, Lourenço Alves Pereira Júnior, Lucas Ferreira Areias de Oliveira, Marcelo Z. do Nascimento, Marcio Pohlmann, Marco A. C. Rodegheri, Matheus Martins Ciocca, Murray Evangelista de Souza, Paulo Silas Severo de Souza, Paulo Vitor C. Lima, Priscila Schafhauzer, Rafael D. Araújo, Roben C. Lunardi, Rodrigo Brandão Mansilha, Rodrigo Sanches Miani, Rui de Quadros Ribeiro, Sebastião Alves de Jesus Filho, Sidnei Barbieri, Silvio Ereno Quincozes, Tuigg da Rosa Barcelos, Ulisses Thorwald Moraes Guedes e Vagner Ereno Quincozes.\n\n### 🧠 WCIA\n\nO laboratório coordenou a estreia do **I Workshop de Cibersegurança em IA (WCIA)**, que recebeu 48 submissões, de 135 autores e 39 instituições, e lotou a sala na primeira manhã do simpósio. A cibersegurança em IA ganhou um fórum próprio no Brasil.\n\n### 🚩 CTF\n\nO laboratório coordenou também a primeira edição brasileira do **FIRST CTF Replay**: oito horas de CTF defensivo, em que 18 equipes não exploraram nada e analisaram evidências de 81 incidentes reais, trazidos ao Brasil pelo CERT.br/NIC.br. É praticamente uma aula de análise, e a intenção é transformá-la em disciplina.\n\n### Links\n\n<p>\n<a href=\"https://sol.sbc.org.br/index.php/sbseg/issue/view/1728\" target=\"_blank\" rel=\"noopener noreferrer\">Anais da trilha principal (SOL/SBC)</a> ·\n<a href=\"https://sol.sbc.org.br/index.php/sbseg_estendido/issue/view/1730\" target=\"_blank\" rel=\"noopener noreferrer\">Anais estendidos (SOL/SBC)</a> ·\n<a href=\"https://www.sbseg2026.uff.br/workshops/wcia/\" target=\"_blank\" rel=\"noopener noreferrer\">I WCIA</a> ·\n<a href=\"https://sbseg-ctf.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">FIRST CTF Replay</a></p>"
+    "content": "# AI Horizon Labs no SBSeg 2026: 32 trabalhos, 5 prêmios, minicurso, WCIA e CTF\n\n**Data:** 04 de Setembro de 2026\n**Categoria:** Evento\n\n## Resumo\n\nDe 1º a 4 de setembro de 2026, o XXVI Simpósio Brasileiro de Cibersegurança (SBSeg 2026) reuniu em Armação dos Búzios (RJ) a comunidade brasileira de cibersegurança. Fechados os anais, pesquisadores do AI Horizon Labs assinam 32 trabalhos publicados, com 57 pesquisadores envolvidos, e conquistaram 5 prêmios, além de ministrar um minicurso e coordenar o I WCIA e a estreia brasileira do FIRST CTF Replay.\n\n## Conteúdo Completo\n\nOs temas cobrem segurança de agentes de IA e do Model Context Protocol (MCP), LLMs e SLMs na resposta a incidentes, vazamento de PII em modelos ajustados, cadeia de suprimentos de software (Docker Hub, npm e Infrastructure as Code), infraestrutura crítica e IoT, e detecção de malware em Android. As apresentações foram espetaculares, com salas cheias e discussões que seguiram muito além do tempo de sessão.\n\n### Os 5 prêmios conquistados\n\n**🥇 Os dois Melhores Artefatos do SBSeg 2026:** *Security-First Evaluation of Text-to-Terraform: Benchmarking LLMs and SLMs for Secure IaC Generation*, cujo artefato foi publicado no Salão de Ferramentas como AIaCGateGuard, e *PQCinBlock*, sobre o impacto da Criptografia Pós-Quântica em blockchains.\n\n**🥈 Menção Honrosa no Salão de Ferramentas:** *AdminForge: Declarative Privileged-Identity Management for Linux Server Fleets*.\n\n**🥇 Melhores Revisores de Artefatos:** 2 dos 11 nomes reconhecidos são do AI Horizon Labs.\n\nParabéns aos autores premiados do laboratório: Cristhian Kapelinski, Diego Kreutz, Francis Vargas, Henrique Silva, Leonardo Bitzki, Rodrigo Brandão Mansilha e Rui de Quadros Ribeiro.\n\n### Minicurso\n\nO laboratório ministrou o minicurso **Inteligência Artificial aplicada à Resposta a Incidentes**: três horas de capítulo e prática, com base em trabalhos desenvolvidos pelo grupo em projetos no último ano. Foram três estudos de caso sobre tickets reais de incidentes cedidos por CSIRTs parceiros, abordando pseudonimização, classificação e geração assistida de playbooks.\n\n### Os 32 trabalhos, um a um\n\n#### Trilha principal, artigos completos\n\n- [An LLM-Based Agentic Pipeline for Generator-Level Adversarial Evaluation of Smart Grid IDSs](https://sol.sbc.org.br/index.php/sbseg/article/view/44281)\n- [Data Exfiltration in Model Context Protocol (MCP)-Based Intelligent Agents: An Evaluation of Prompt Injection Vectors](https://sol.sbc.org.br/index.php/sbseg/article/view/44305)\n- [MulitaMiner: A Multi-Version Evaluation of LLM-Based Vulnerability Report Extraction](https://sol.sbc.org.br/index.php/sbseg/article/view/44328)\n- [Not All 4-bit Quantizers Are Equal: Deployment-Time Mitigation of PII Leakage in Fine-Tuned Small Language Models](https://sol.sbc.org.br/index.php/sbseg/article/view/44330)\n- [Security-First Evaluation of Text-to-Terraform: Benchmarking LLMs and SLMs for Secure IaC Generation](https://sol.sbc.org.br/index.php/sbseg/article/view/44342)\n- [Statistical Ranking: A Voting-Based Ensemble Approach to Feature Selection in Android Malware Detection](https://sol.sbc.org.br/index.php/sbseg/article/view/44348)\n- [Twenty-Five Years of the Brazilian Cybersecurity Symposium (SBSeg): A Retrospective Review](https://sol.sbc.org.br/index.php/sbseg/article/view/44351)\n- [When Balancing Harms: Structural Conditions That Degrade Android Malware Detection After Class Imbalance Correction](https://sol.sbc.org.br/index.php/sbseg/article/view/44361)\n- [WOCI: Weighted Operational Cost Index A New Evaluation Metric for Intrusion Detection](https://sol.sbc.org.br/index.php/sbseg/article/view/44362)\n\n#### Trilha principal, artigos curtos\n\n- [A Multi-Scanner Census of the Linux Operating-System Base Images of Docker Hub](https://sol.sbc.org.br/index.php/sbseg/article/view/44372)\n- [A Uniform Random-Sample Security Measurement of Docker Hub Images](https://sol.sbc.org.br/index.php/sbseg/article/view/44371)\n- [Context-Aware SIEM Rule Generation with LLMs: When Site Profiles Are Not Enough](https://sol.sbc.org.br/index.php/sbseg/article/view/44366)\n- [Visual Graph Representations for Supply Chain Risk Detection: A Novel Study on npm Packages](https://sol.sbc.org.br/index.php/sbseg/article/view/44377)\n\n#### Salão de Ferramentas\n\n- [AdminForge: Declarative Privileged-Identity Management for Linux Server Fleets](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44454)\n- [AIaCGateGuard: A Security-First Pipeline for Benchmarking LLM- and SLM-Generated Infrastructure-as-Code](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44455)\n- [AttackZoo: A Reproducible Testbed for Attack Execution and Network Traffic Dataset Generation](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44457)\n- [GT-LFI: Anonimização, Classificação e Aprendizagem Gamificada a partir de Incidentes Reais](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44461)\n- [IoTEdu Core: Multi-IDS Correlation and Automated Containment of Attacks in Institutional IoT Networks](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44462)\n- [KETRIN: Elicitação Adaptativa de Conhecimento para Diagnóstico de Maturidade em Proteção de Dados](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44463)\n- [MulitaMiner: An LLM-Based Tool for Structuring Vulnerability Scanner Report](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44469)\n- [PQCinBlock: uma ferramenta para análise do impacto de algoritmos de Criptografia Pós-Quântica em blockchains via benchmark e simulação](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44464)\n- [Toward Agentic Intrusion Detection in the Internet of Things: Rule Generation and Live Validation for XRCE-DDS Attacks](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44471)\n- [ZeroLINC: Training-Free Local Classification of Security Incident Reports](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44474)\n\n#### WTICG\n\n- [CryptoCensus: Cryptographic Posture and Post-Quantum Readiness of Docker Hub](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44497)\n- [LLMs para Detecção de Phishing em E-mails: Comparação Controlada com Baselines TF-IDF e Red Flags Auditáveis](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44508)\n- [On-Premise vs. Cloud: Local LLMs for Vulnerability Extraction from Security Scanner Reports](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44510)\n- [PixGuard-Sim: A Deadline-Aware Testbed for Pix Fraud Detectors](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44514)\n- [RAGtrap: Source Revocation and Indexed Provenance Lookup for Poisoned RAG Corpora](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44517)\n- [Who Guards the Guard? Evaluating Deterministic, LLM-Based, and Hybrid Firewalls for Tool-Using Agents](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44524)\n\n#### WTICG, trabalhos em andamento\n\n- [APEX: Agentic Pentesting Execution](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44525)\n- [Secure Exposure of REST APIs in Homelab Environments using Cloudflare Tunnel](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44531)\n\n#### I Workshop de Cibersegurança em IA (WCIA)\n\n- [From Implicit Trust to Continuous Verification: A Position on the Authorization of AI Agents in Production Services](https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44562)\n\n### Os 57 pesquisadores por trás dos 32 trabalhos e do minicurso\n\nAlessandro Bof, Alison G. Schemitt, Alvaro S. Santos, Angelo Gaspar Diniz, Anna Luiza Gomes da Silva, Avelino F. Zorzo, Beatriz Machado, Bernardo Dorneles, Camilla Borchhardt Quincozes, Célio Vinicius Neves de Albuquerque, Cristhian Kapelinski, Daniel Mossé, Danielly Cristina do Carmo Neves, Diego Gimenez Passos, Diego Kreutz, Diego Molinos, Diego S. Araujo, Dionatan Ricardo Schmidt, Douglas Paim Lautert, Douglas Rodrigues Fideles, Eduardo Cabezudo Vilhalba, Emanuel Carricio Ferreira, Felipe Homrich Scherer, Felipe Nestor Dresch, Francis Luis Santos Vargas, Gabriel Pereira Bellagamba, Guilherme Chagas Mundt, Henrique C. P. Horch, Henrique F. da Silva, Ian Rankin, Isadora Garcia Ferrão, João Pedro Ramires Esteves, Kayuã Oleques Paim, Ketrin Diovana Alves Rodrigues Vargas, Leandro Márcio Bertholdo, Leonardo Bitzki, Lourenço Alves Pereira Júnior, Lucas Ferreira Areias de Oliveira, Marcelo Z. do Nascimento, Marcio Pohlmann, Marco A. C. Rodegheri, Matheus Martins Ciocca, Murray Evangelista de Souza, Paulo Silas Severo de Souza, Paulo Vitor C. Lima, Priscila Schafhauzer, Rafael D. Araújo, Roben C. Lunardi, Rodrigo Brandão Mansilha, Rodrigo Sanches Miani, Rui de Quadros Ribeiro, Sebastião Alves de Jesus Filho, Sidnei Barbieri, Silvio Ereno Quincozes, Tuigg da Rosa Barcelos, Ulisses Thorwald Moraes Guedes e Vagner Ereno Quincozes.\n\n### 🧠 WCIA\n\nO laboratório coordenou a estreia do **I Workshop de Cibersegurança em IA (WCIA)**, que recebeu 48 submissões, de 135 autores e 39 instituições, e lotou a sala na primeira manhã do simpósio. A cibersegurança em IA ganhou um fórum próprio no Brasil.\n\n### 🚩 CTF\n\nO laboratório coordenou também a primeira edição brasileira do **FIRST CTF Replay**: oito horas de CTF defensivo, em que 18 equipes não exploraram nada e analisaram evidências de 81 incidentes reais, trazidos ao Brasil pelo CERT.br/NIC.br. É praticamente uma aula de análise, e a intenção é transformá-la em disciplina.\n\n### Links\n\n<p>\n<a href=\"https://sol.sbc.org.br/index.php/sbseg/issue/view/1728\" target=\"_blank\" rel=\"noopener noreferrer\">Anais da trilha principal (SOL/SBC)</a> ·\n<a href=\"https://sol.sbc.org.br/index.php/sbseg_estendido/issue/view/1730\" target=\"_blank\" rel=\"noopener noreferrer\">Anais estendidos (SOL/SBC)</a> ·\n<a href=\"https://www.sbseg2026.uff.br/workshops/wcia/\" target=\"_blank\" rel=\"noopener noreferrer\">I WCIA</a> ·\n<a href=\"https://sbseg-ctf.github.io\" target=\"_blank\" rel=\"noopener noreferrer\">FIRST CTF Replay</a></p>"
   }
 ];
 
@@ -4451,14 +4451,14 @@ const AWARDS_DATA = [
   {
     "data": {
       "date": "2026-09-04",
-      "title": "Melhores Avaliadores de Artefatos do SBSeg 2026",
+      "title": "Melhores Revisores de Artefatos do SBSeg 2026",
       "category": "research",
       "scope": "national",
       "recipient": "Leonardo Bitzki; Cristhian Kapelinski",
       "institution": "Sociedade Brasileira de Computação (SBC), Comitê Técnico de Artefatos (CTA), SBSeg 2026",
       "link": "https://doc-artefatos.github.io/sbseg2026/results.html"
     },
-    "content": "# Melhores Avaliadores de Artefatos do SBSeg 2026\n\n**Data:** 4 de Setembro de 2026\n**Premiado(s):** Leonardo Bitzki e Cristhian Kapelinski\n**Instituição:** Sociedade Brasileira de Computação (SBC), Comitê Técnico de Artefatos (CTA), SBSeg 2026\n\n## Descrição\n\nDos **11 pesquisadores reconhecidos** como Melhores Avaliadores de Artefatos do SBSeg 2026, **2 são do AI Horizon Labs / UNIPAMPA**: Leonardo Bitzki e Cristhian Kapelinski.\n\nO reconhecimento dá continuidade ao resultado inédito obtido meses antes no SBRC 2026, quando 6 dos 11 melhores avaliadores eram do laboratório. Avaliar artefatos bem é uma competência construída: exige ler código alheio, executar experimentos de outras equipes e julgar disponibilidade, funcionalidade, sustentabilidade e reprodutibilidade com critério. É uma prática cultivada no laboratório por meio de disciplinas de Graduação e Pós-Graduação, como o Laboratório de Engenharia de Artefatos de Software, e de sessões de treinamento conduzidas pelo Prof. Diego Kreutz.\n\n<p><strong>Links:</strong>\n<a href=\"https://doc-artefatos.github.io/sbseg2026/results.html\" target=\"_blank\" rel=\"noopener noreferrer\">Resultados oficiais (CTA)</a> ·\n<a href=\"https://www.sbseg2026.uff.br/\" target=\"_blank\" rel=\"noopener noreferrer\">SBSeg 2026</a></p>"
+    "content": "# Melhores Revisores de Artefatos do SBSeg 2026\n\n**Data:** 4 de Setembro de 2026\n**Premiado(s):** Leonardo Bitzki e Cristhian Kapelinski\n**Instituição:** Sociedade Brasileira de Computação (SBC), Comitê Técnico de Artefatos (CTA), SBSeg 2026\n\n## Descrição\n\nDos **11 pesquisadores reconhecidos** como Melhores Revisores de Artefatos do SBSeg 2026, **2 são do AI Horizon Labs / UNIPAMPA**: Leonardo Bitzki e Cristhian Kapelinski.\n\nO reconhecimento dá continuidade ao resultado inédito obtido meses antes no SBRC 2026, quando 6 dos 11 melhores revisores eram do laboratório. Revisar artefatos bem é uma competência construída: exige ler código alheio, executar experimentos de outras equipes e julgar disponibilidade, funcionalidade, sustentabilidade e reprodutibilidade com critério. É uma prática cultivada no laboratório por meio de disciplinas de Graduação e Pós-Graduação, como o Laboratório de Engenharia de Artefatos de Software, e de sessões de treinamento conduzidas pelo Prof. Diego Kreutz.\n\n<p><strong>Links:</strong>\n<a href=\"https://doc-artefatos.github.io/sbseg2026/results.html\" target=\"_blank\" rel=\"noopener noreferrer\">Resultados oficiais (CTA)</a> ·\n<a href=\"https://www.sbseg2026.uff.br/\" target=\"_blank\" rel=\"noopener noreferrer\">SBSeg 2026</a></p>"
   },
   {
     "data": {
@@ -4556,6 +4556,107 @@ const TOOLS_DATA = [
     "link": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/35869",
     "pdf": "https://sol.sbc.org.br/index.php/sbrc_estendido/article/download/35869/35656",
     "github": "https://github.com/net2d-community/net2d"
+  },
+  {
+    "nome": "AdminForge",
+    "descricao": "Gestão declarativa de identidades privilegiadas em frotas de servidores Linux: o estado desejado de acessos administrativos é descrito em uma fonte única de verdade e aplicado de forma reprodutível e auditável.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44454",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44454/44217",
+    "destaque": "Menção Honrosa no Salão de Ferramentas do SBSeg 2026"
+  },
+  {
+    "nome": "AIaCGateGuard",
+    "descricao": "Pipeline de benchmarking com segurança em primeiro lugar para Infrastructure as Code gerada por LLMs e SLMs, medindo quanto do código produzido chega ao ambiente com configurações inseguras.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44455",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44455/44218",
+    "github": "https://gitlab.com/security-iac/security-first-evaluation-of-text-to-terraform/-/releases/sbseg-sf",
+    "destaque": "Melhor Artefato do SBSeg 2026"
+  },
+  {
+    "nome": "AttackZoo",
+    "descricao": "Testbed reprodutível para execução de ataques e geração de datasets de tráfego de rede, com cenários versionados e captura padronizada.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44457",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44457/44220",
+    "github": "https://github.com/GT-IoTEdu/attackzoo-sbseg26"
+  },
+  {
+    "nome": "GT-LFI",
+    "descricao": "Plataforma do Grupo de Trabalho LFI para anonimização, classificação e aprendizagem gamificada a partir de incidentes reais cedidos por CSIRTs parceiros.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44461",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44461/44224",
+    "github": "https://github.com/rsmiani/gt-lfi-rnp"
+  },
+  {
+    "nome": "IoTEdu Core",
+    "descricao": "Correlação de múltiplos IDS e contenção automatizada de ataques em redes IoT institucionais, integrando detecção e resposta em um único núcleo operacional.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44462",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44462/44225",
+    "github": "https://github.com/GT-IoTEdu/iotedu-core_sbseg26"
+  },
+  {
+    "nome": "KETRIN",
+    "descricao": "Elicitação adaptativa de conhecimento para diagnóstico de maturidade em proteção de dados, com apoio à avaliação de conformidade com a LGPD.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44463",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44463/44226",
+    "github": "https://github.com/KetrinDiovanaVargas/PlatformLGPDCompliance"
+  },
+  {
+    "nome": "MulitaMiner",
+    "descricao": "Ferramenta baseada em LLMs para estruturar relatórios de scanners de vulnerabilidade, convertendo saídas heterogêneas em registros comparáveis.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44469",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44469/44232",
+    "github": "https://github.com/tooltmm-png/TMM"
+  },
+  {
+    "nome": "PQCinBlock",
+    "descricao": "Análise do impacto de algoritmos de Criptografia Pós-Quântica em blockchains por benchmark e simulação, medindo o custo real da migração pós-quântica.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44464",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44464/44227",
+    "github": "https://github.com/conseg/PQCinBlock",
+    "destaque": "Melhor Artefato do SBSeg 2026"
+  },
+  {
+    "nome": "Rules Farmer",
+    "descricao": "Geração de regras e validação ao vivo para detecção de intrusão agêntica na Internet das Coisas, com foco em ataques ao protocolo XRCE-DDS.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44471",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44471/44234",
+    "github": "https://github.com/GT-IoTEdu/rules-farmer_sbseg26"
+  },
+  {
+    "nome": "ZeroLINC",
+    "descricao": "Classificação local de relatórios de incidentes de segurança sem treinamento prévio, executando inteiramente on-premise.",
+    "event": "SBSeg",
+    "year": "2026",
+    "event_ordem": 1,
+    "link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44474",
+    "pdf": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44474/44237"
   },
   {
     "nome": "MalDataGen",
@@ -4837,6 +4938,274 @@ const TOOLS_DATA = [
     "event_ordem": 4,
     "link": "https://sol.sbc.org.br/index.php/errc/article/view/18547",
     "pdf": "https://sol.sbc.org.br/index.php/errc/article/download/18547/18380"
+  }
+];
+
+const SCHOLAR_PROFILES = [
+  {
+    "nome": "Diego Kreutz",
+    "url": "https://scholar.google.com/citations?user=JcL8biEAAAAJ"
+  },
+  {
+    "nome": "Rodrigo Brandão Mansilha",
+    "url": "https://scholar.google.com/citations?user=grhQHAQAAAAJ"
+  },
+  {
+    "nome": "Silvio Ereno Quincozes",
+    "url": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ"
+  },
+  {
+    "nome": "Williamson Silva",
+    "url": "https://scholar.google.com/citations?user=57eR6ykAAAAJ"
+  },
+  {
+    "nome": "Gilleanes T. A. Guedes",
+    "url": "https://scholar.google.com/citations?user=1vAb8cYAAAAJ"
+  },
+  {
+    "nome": "Paulo Silas Severo de Souza",
+    "url": "https://scholar.google.com/citations?user=2TIpYeoAAAAJ"
+  }
+];
+
+const SELECTED_PUBLICATIONS = [
+  {
+    "data": {
+      "badges": [
+        {
+          "label": "Mais citado",
+          "cls": "cited"
+        },
+        {
+          "label": "Survey",
+          "cls": ""
+        },
+        {
+          "label": "Journal",
+          "cls": "journal"
+        }
+      ],
+      "type": "Journal",
+      "title": "Software-Defined Networking: A Comprehensive Survey",
+      "authors": "Diego Kreutz; Fernando M. V. Ramos; Paulo Veríssimo; Christian Esteve Rothenberg; Siamak Azodolmolky; Steve Uhlig",
+      "venue": "Proceedings of the IEEE, v. 103, n. 1, p. 14-76",
+      "year": "2015",
+      "citations": "4.000+",
+      "member": "Diego Kreutz",
+      "scholar": "https://scholar.google.com/citations?user=JcL8biEAAAAJ",
+      "doi": "10.1109/JPROC.2014.2371999",
+      "pdf": "https://arxiv.org/pdf/1406.0440"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [
+        {
+          "label": "Mais citado",
+          "cls": "cited"
+        },
+        {
+          "label": "Survey",
+          "cls": ""
+        },
+        {
+          "label": "Journal",
+          "cls": "journal"
+        }
+      ],
+      "type": "Journal",
+      "title": "A survey on intrusion detection and prevention systems in digital substations",
+      "authors": "Silvio E. Quincozes; Célio Albuquerque; Diego Passos; Daniel Mossé",
+      "venue": "Computer Networks (Elsevier), v. 184, art. 107679",
+      "year": "2021",
+      "member": "Silvio Ereno Quincozes",
+      "scholar": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
+      "doi": "10.1016/j.comnet.2020.107679"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [
+        {
+          "label": "Journal",
+          "cls": "journal"
+        },
+        {
+          "label": "Editors' Choice",
+          "cls": "cited"
+        }
+      ],
+      "type": "Journal",
+      "title": "EdgeSimPy: Python-based modeling and simulation of edge computing resource management policies",
+      "authors": "Paulo S. Severo de Souza; Tiago Ferreto; Rodrigo N. Calheiros",
+      "venue": "Future Generation Computer Systems (Elsevier), v. 148, p. 446-459",
+      "year": "2023",
+      "member": "Paulo Silas Severo de Souza",
+      "scholar": "https://scholar.google.com/citations?user=2TIpYeoAAAAJ",
+      "doi": "10.1016/j.future.2023.06.013",
+      "github": "https://github.com/EdgeSimPy/EdgeSimPy"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [
+        {
+          "label": "Muito citado",
+          "cls": "cited"
+        }
+      ],
+      "type": "Conferência",
+      "title": "Towards Secure and Dependable Software-Defined Networks",
+      "authors": "Diego Kreutz; Fernando M. V. Ramos; Paulo Veríssimo",
+      "venue": "ACM SIGCOMM Workshop on Hot Topics in SDN (HotSDN)",
+      "year": "2013",
+      "member": "Diego Kreutz",
+      "scholar": "https://scholar.google.com/citations?user=JcL8biEAAAAJ",
+      "doi": "10.1145/2491185.2491199"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [
+        {
+          "label": "Journal",
+          "cls": "journal"
+        },
+        {
+          "label": "IEEE",
+          "cls": ""
+        }
+      ],
+      "type": "Journal",
+      "title": "ERENO: A Framework for Generating Realistic IEC-61850 Intrusion Detection Datasets for Smart Grids",
+      "authors": "Silvio E. Quincozes; Célio Albuquerque; Diego Passos; Daniel Mossé",
+      "venue": "IEEE Transactions on Dependable and Secure Computing",
+      "year": "2024",
+      "member": "Silvio Ereno Quincozes",
+      "scholar": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
+      "link": "https://www.researchgate.net/publication/376204327"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [
+        {
+          "label": "Journal",
+          "cls": "journal"
+        }
+      ],
+      "type": "Journal",
+      "title": "MASRML - A Domain-specific Modeling Language for Multi-agent Systems Requirements",
+      "authors": "Gilleanes T. A. Guedes; Iderli P. de Souza Filho; Lukas F. Gaedicke; Giovane D'Ávila Mendonça; Rosa M. Vicari; Carlos Brusius",
+      "venue": "International Journal of Software Engineering & Applications (IJSEA), v. 11, n. 5, p. 25-45",
+      "year": "2020",
+      "member": "Gilleanes T. A. Guedes",
+      "scholar": "https://scholar.google.com/citations?user=1vAb8cYAAAAJ",
+      "link": "https://aircconline.com/abstract/ijsea/v11n5/11520ijsea03.html"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [
+        {
+          "label": "Muito citado",
+          "cls": "cited"
+        }
+      ],
+      "type": "Conferência",
+      "title": "Attacking a Swarm with a Band of Liars: Evaluating the Impact of Attacks on BitTorrent",
+      "authors": "Marlom A. Konrath; Marinho P. Barcellos; Rodrigo B. Mansilha",
+      "venue": "IEEE International Conference on Peer-to-Peer Computing (P2P)",
+      "year": "2007",
+      "member": "Rodrigo Brandão Mansilha",
+      "scholar": "https://scholar.google.com/citations?user=grhQHAQAAAAJ"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [
+        {
+          "label": "Muito citado",
+          "cls": "cited"
+        }
+      ],
+      "type": "Conferência",
+      "title": "Designing Activity Diagrams Aiming at Achieving Usability in Interactive Applications: An Empirical Study",
+      "authors": "Williamson Silva e colaboradores",
+      "venue": "HCI International",
+      "year": "2016",
+      "member": "Williamson Silva",
+      "scholar": "https://scholar.google.com/citations?user=57eR6ykAAAAJ"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [
+        {
+          "label": "Recente 2025",
+          "cls": "recent"
+        },
+        {
+          "label": "ACM",
+          "cls": ""
+        }
+      ],
+      "type": "Workshop",
+      "title": "Critical IEC 61850 MMS Feature Selection for ML-Driven IDS",
+      "authors": "Silvio E. Quincozes e colaboradores",
+      "venue": "11th ACM Cyber-Physical System Security Workshop (CPSS)",
+      "year": "2025",
+      "member": "Silvio Ereno Quincozes",
+      "scholar": "https://scholar.google.com/citations?user=1eDPdn8AAAAJ",
+      "doi": "10.1145/3709017.3737710"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [
+        {
+          "label": "Recente 2025",
+          "cls": "recent"
+        }
+      ],
+      "type": "Preprint",
+      "title": "Assessing the Impact of Post-Quantum Digital Signature Algorithms on Blockchains",
+      "authors": "Rodrigo B. Mansilha e colaboradores",
+      "venue": "arXiv:2510.09271",
+      "year": "2025",
+      "member": "Rodrigo Brandão Mansilha",
+      "scholar": "https://scholar.google.com/citations?user=grhQHAQAAAAJ",
+      "link": "https://arxiv.org/abs/2510.09271"
+    },
+    "content": ""
+  },
+  {
+    "data": {
+      "badges": [
+        {
+          "label": "Recente 2025",
+          "cls": "recent"
+        }
+      ],
+      "type": "Preprint",
+      "title": "Example-Based Learning in Software Engineering Education: A Systematic Mapping Study",
+      "authors": "Williamson Silva e colaboradores",
+      "venue": "arXiv (2025)",
+      "year": "2025",
+      "member": "Williamson Silva",
+      "scholar": "https://scholar.google.com/citations?user=57eR6ykAAAAJ",
+      "link": "https://arxiv.org/abs/2503.18080"
+    },
+    "content": ""
   }
 ];
 

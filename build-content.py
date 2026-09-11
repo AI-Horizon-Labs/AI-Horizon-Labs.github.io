@@ -71,6 +71,22 @@ def load_tools():
     with open(tools_path, 'r', encoding='utf-8') as f:
         return json.load(f)
 
+
+def load_json_content(nome_arquivo):
+    """Carrega uma lista curada de _content/<nome_arquivo>.
+
+    Mesmo motivo de load_tools(): são registros de campos simples, sem corpo em
+    markdown, e precisam ser regenerados junto com os demais dados. Quando essas
+    listas ficavam escritas à mão dentro de content-data.js, todo `build-content.py`
+    as apagava, e o painel correspondente sumia do site.
+    """
+    caminho = Path('_content') / nome_arquivo
+    if not caminho.exists():
+        print(f"⚠️  {caminho} não encontrado; lista ficará vazia.")
+        return []
+    with open(caminho, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
 # Nomes completos dos eventos (para exibição agrupada)
 EVENT_INFO = {
     "SBSeg":     {"nome": "Simpósio Brasileiro em Segurança da Informação e de Sistemas Computacionais", "ordem": 1},
@@ -282,6 +298,8 @@ def generate_js_content():
     authors = load_authors_from_manifest(publications)
     awards = load_content_files('award')
     tools = load_tools()
+    selected = load_json_content('selected-publications.json')
+    scholar = load_json_content('scholar-profiles.json')
 
     js_code = """/**
  * AI Horizon Labs - Content Data
@@ -314,6 +332,14 @@ def generate_js_content():
 
     # Tools / Ferramentas (Salão de Ferramentas SBSeg/SBRC/SBSI/ERRC)
     js_code += "const TOOLS_DATA = " + json.dumps(tools, ensure_ascii=False, indent=2) + ";\n\n"
+
+    # Perfis no Google Scholar (aba "Selecionadas" da página de publicações)
+    js_code += "const SCHOLAR_PROFILES = " + json.dumps(scholar, ensure_ascii=False, indent=2) + ";\n\n"
+
+    # Publicações selecionadas: curadoria a partir do Google Scholar dos membros,
+    # com os trabalhos de maior impacto (mais citados) e os periódicos e eventos
+    # mais recentes. Fonte: _content/selected-publications.json.
+    js_code += "const SELECTED_PUBLICATIONS = " + json.dumps(selected, ensure_ascii=False, indent=2) + ";\n\n"
 
     return js_code
 

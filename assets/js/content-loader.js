@@ -187,12 +187,63 @@ function loadNews() {
   return NEWS_DATA.sort((a, b) => new Date(b.data.date) - new Date(a.data.date));
 }
 
+// Converte o subconjunto de Markdown usado nos corpos das notícias em HTML.
+// Sem isso, o texto seria injetado cru e os marcadores (**, *, ###, -) apareceriam
+// literalmente na página.
+function newsMarkdownToHtml(md) {
+  const inline = t => t
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
+    .replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+    .replace(/(^|[^*])\*([^*]+)\*/g, '$1<em>$2</em>');
+
+  const html = [];
+  let lista = null;
+
+  const fechaLista = () => {
+    if (lista) { html.push(`<ul class="news-detail-list">${lista.join('')}</ul>`); lista = null; }
+  };
+
+  md.trim().split(/\n{2,}/).forEach(bloco => {
+    const linhas = bloco.split('\n').map(l => l.trim()).filter(Boolean);
+    linhas.forEach(linha => {
+      if (/^<\w/.test(linha)) { fechaLista(); html.push(linha); return; }
+      const h = linha.match(/^(#{3,4})\s+(.*)$/);
+      if (h) {
+        fechaLista();
+        const tag = h[1].length === 3 ? 'h4' : 'h5';
+        const cls = h[1].length === 3 ? 'news-detail-title' : 'news-detail-subtitle';
+        html.push(`<${tag} class="${cls}">${inline(h[2])}</${tag}>`);
+        return;
+      }
+      if (linha.startsWith('- ')) { (lista = lista || []).push(`<li>${inline(linha.slice(2))}</li>`); return; }
+      fechaLista();
+      html.push(`<p>${inline(linha)}</p>`);
+    });
+  });
+  fechaLista();
+  return html.join('');
+}
+
+// Extrai a seção "## Conteúdo Completo" do corpo em Markdown da notícia
+function newsFullContent(newsItem) {
+  const m = (newsItem.content || '').match(/## Conteúdo Completo\s*\n([\s\S]*)$/);
+  return m ? m[1].trim() : '';
+}
+
 function renderNewsItem(newsItem) {
   const date = new Date(newsItem.data.date);
   const day = date.getDate().toString().padStart(2, '0');
   const month = date.toLocaleDateString('pt-BR', { month: 'short' }).replace('.', '');
   const readMoreLink = newsItem.data.link
-    ? `<a href="${newsItem.data.link}" style="display:inline-block;margin-top:.6rem;font-size:.85rem;font-weight:600;color:var(--color-primary);">Leia mais &rarr;</a>`
+    ? `<a href="${newsItem.data.link}" target="_blank" rel="noopener" style="display:inline-block;margin-top:.6rem;font-size:.85rem;font-weight:600;color:var(--color-primary);">Leia mais &rarr;</a>`
+    : '';
+
+  const corpo = newsFullContent(newsItem);
+  const detalhes = corpo
+    ? `<details class="news-details">
+         <summary><i class="fas fa-chevron-right"></i> Ver matéria completa</summary>
+         <div class="news-detail-body">${newsMarkdownToHtml(corpo)}</div>
+       </details>`
     : '';
 
   return `
@@ -204,6 +255,7 @@ function renderNewsItem(newsItem) {
       <div class="news-content">
         <h3>${newsItem.data.title}</h3>
         <p>${newsItem.data.summary}</p>
+        ${detalhes}
         ${readMoreLink}
       </div>
     </div>

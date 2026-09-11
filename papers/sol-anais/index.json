@@ -1,6 +1,326 @@
 [
   {
     "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "An LLM-Based Agentic Pipeline for Generator-Level Adversarial Evaluation of Smart Grid IDSs",
+    "authors": "Camilla B. Quincozes, Guilherme C. Mundt, Ian Rankin, Silvio E. Quincozes, Paulo S. Severo, Daniel Mossé",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44281",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44281/44044",
+    "file": "SBSeg/2026/principal/44281_An-LLM-Based-Agentic-Pipeline-for-Generator-Level-Adversarial-Evaluation-of-Smart-Grid-IDS.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "Data Exfiltration in Model Context Protocol (MCP)-Based Intelligent Agents: An Evaluation of Prompt Injection Vectors",
+    "authors": "Tuigg R. Barcelos, Silvio E. Quincozes, Paulo Souza",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44305",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44305/44068",
+    "file": "SBSeg/2026/principal/44305_Data-Exfiltration-in-Model-Context-Protocol-MCP-Based-Intelligent-Agents-An-Evaluation-of.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "MulitaMiner: A Multi-Version Evaluation of LLM-Based Vulnerability Report Extraction",
+    "authors": "Beatriz Machado, Douglas Lautert, Cristhian Kapelinski, Diego Kreutz, Isadora Garcia Ferrão, Alessandro Bof",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44328",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44328/44091",
+    "file": "SBSeg/2026/principal/44328_MulitaMiner-A-Multi-Version-Evaluation-of-LLM-Based-Vulnerability-Report-Extraction.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "Not All 4-bit Quantizers Are Equal: Deployment-Time Mitigation of PII Leakage in Fine-Tuned Small Language Models",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44330",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44330/44093",
+    "file": "SBSeg/2026/principal/44330_Not-All-4-bit-Quantizers-Are-Equal-Deployment-Time-Mitigation-of-PII-Leakage-in-Fine-Tuned.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "Security-First Evaluation of Text-to-Terraform: Benchmarking LLMs and SLMs for Secure IaC Generation",
+    "authors": "Francis Luis Santos Vargas, Rodrigo Brandão Mansilha, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44342",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44342/44105",
+    "file": "SBSeg/2026/principal/44342_Security-First-Evaluation-of-Text-to-Terraform-Benchmarking-LLMs-and-SLMs-for-Secure-IaC-G.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "Statistical Ranking: A Voting-Based Ensemble Approach to Feature Selection in Android Malware Detection",
+    "authors": "Anna Luiza Gomes da Silva, Lucas Ferreira Areias de Oliveira, Angelo Diniz, Diego Kreutz, Dionatan R. Schmidt, Rodrigo Mansilha, Kayuã Oleques Paim",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44348",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44348/44111",
+    "file": "SBSeg/2026/principal/44348_Statistical-Ranking-A-Voting-Based-Ensemble-Approach-to-Feature-Selection-in-Android-Malwa.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "Twenty-Five Years of the Brazilian Cybersecurity Symposium (SBSeg): A Retrospective Review",
+    "authors": "Silvio E. Quincozes, Camilla B. Quincozes, Paulo Souza",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44351",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44351/44114",
+    "file": "SBSeg/2026/principal/44351_Twenty-Five-Years-of-the-Brazilian-Cybersecurity-Symposium-SBSeg-A-Retrospective-Review.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "When Balancing Harms: Structural Conditions That Degrade Android Malware Detection After Class Imbalance Correction",
+    "authors": "Lucas Ferreira Areias de Oliveira, Anna Luiza Gomes da Silva, Angelo Diniz, Diego Kreutz, Dionatan R. Schmidt, Rodrigo Mansilha, Kayuã Oleques Paim",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44361",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44361/44124",
+    "file": "SBSeg/2026/principal/44361_When-Balancing-Harms-Structural-Conditions-That-Degrade-Android-Malware-Detection-After-Cl.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "WOCI: Weighted Operational Cost Index A New Evaluation Metric for Intrusion Detection",
+    "authors": "Vagner E. Quincozes, Silvio E. Quincozes, Célio Albuquerque, Diego Passos, Daniel Mossé",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44362",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44362/44125",
+    "file": "SBSeg/2026/principal/44362_WOCI-Weighted-Operational-Cost-Index-A-New-Evaluation-Metric-for-Intrusion-Detection.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "Context-Aware SIEM Rule Generation with LLMs: When Site Profiles Are Not Enough",
+    "authors": "Priscila Schafhauzer, Cristhian Kapelinski, Marcio Pohlmann, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44366",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44366/44129",
+    "file": "SBSeg/2026/principal/44366_Context-Aware-SIEM-Rule-Generation-with-LLMs-When-Site-Profiles-Are-Not-Enough.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "A Uniform Random-Sample Security Measurement of Docker Hub Images",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44371",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44371/44134",
+    "file": "SBSeg/2026/principal/44371_A-Uniform-Random-Sample-Security-Measurement-of-Docker-Hub-Images.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "A Multi-Scanner Census of the Linux Operating-System Base Images of Docker Hub",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44372",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44372/44135",
+    "file": "SBSeg/2026/principal/44372_A-Multi-Scanner-Census-of-the-Linux-Operating-System-Base-Images-of-Docker-Hub.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "principal",
+    "title": "Visual Graph Representations for Supply Chain Risk Detection: A Novel Study on npm Packages",
+    "authors": "Paulo Vitor C. Lima, Silvio E. Quincozes, Marcelo Z. do Nascimento",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg/article/view/44377",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg/article/download/44377/44140",
+    "file": "SBSeg/2026/principal/44377_Visual-Graph-Representations-for-Supply-Chain-Risk-Detection-A-Novel-Study-on-npm-Packages.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "AdminForge: Declarative Privileged-Identity Management for Linux Server Fleets",
+    "authors": "Rui de Quadros Ribeiro, Cristhian Kapelinski, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44454",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44454/44217",
+    "file": "SBSeg/2026/estendido/44454_AdminForge-Declarative-Privileged-Identity-Management-for-Linux-Server-Fleets.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "AIaCGateGuard: A Security-First Pipeline for Benchmarking LLM- and SLM-Generated Infrastructure-as-Code",
+    "authors": "Francis Luis Santos Vargas, Rodrigo Brandão Mansilha, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44455",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44455/44218",
+    "file": "SBSeg/2026/estendido/44455_AIaCGateGuard-A-Security-First-Pipeline-for-Benchmarking-LLM-and-SLM-Generated-Infrastruct.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "AttackZoo: A Reproducible Testbed for Attack Execution and Network Traffic Dataset Generation",
+    "authors": "Leonardo Bitzki, Diego Kreutz, Leandro Bertholdo, Cristhian Kapelinski",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44457",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44457/44220",
+    "file": "SBSeg/2026/estendido/44457_AttackZoo-A-Reproducible-Testbed-for-Attack-Execution-and-Network-Traffic-Dataset-Generati.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "GT-LFI: Anonimização, Classificação e Aprendizagem Gamificada a partir de Incidentes Reais",
+    "authors": "Rodrigo S. Miani, Diego Kreutz, Silvio E. Quincozes, Leandro M. Bertholdo, Rafael D. Araújo, Felipe N. Dresch, Felipe H. Scherer, João P. R. Esteves, Sebastião A. de Jesus Filho, Alvaro S. Santos",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44461",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44461/44224",
+    "file": "SBSeg/2026/estendido/44461_GT-LFI-Anonimizacao-Classificacao-e-Aprendizagem-Gamificada-a-partir-de-Incidentes-Reais.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "IoTEdu Core: Multi-IDS Correlation and Automated Containment of Attacks in Institutional IoT Networks",
+    "authors": "Emanuel Ferreira, Matheus Ciocca, Douglas Fideles, Tuigg Barcelos, Silvio Quincozes, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44462",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44462/44225",
+    "file": "SBSeg/2026/estendido/44462_IoTEdu-Core-Multi-IDS-Correlation-and-Automated-Containment-of-Attacks-in-Institutional-Io.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "KETRIN: Elicitação Adaptativa de Conhecimento para Diagnóstico de Maturidade em Proteção de Dados",
+    "authors": "Ketrin Diovana Alves Rodrigues Vargas, Tuigg R. Barcelos, Camilla B. Quincozes, Silvio E. Quincozes, Paulo Silas Severo de Souza",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44463",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44463/44226",
+    "file": "SBSeg/2026/estendido/44463_KETRIN-Elicitacao-Adaptativa-de-Conhecimento-para-Diagnostico-de-Maturidade-em-Protecao-de.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "PQCinBlock: uma ferramenta para análise do impacto de algoritmos de Criptografia Pós-Quântica em blockchains via benchmark e simulação",
+    "authors": "Alison G. Schemitt, Marco A. C. Rodegheri, Henrique C. P. Horch, Roben C. Lunardi, Avelino F. Zorzo, Henrique F. da Silva, Diego Kreutz, Rodrigo B. Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44464",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44464/44227",
+    "file": "SBSeg/2026/estendido/44464_PQCinBlock-uma-ferramenta-para-analise-do-impacto-de-algoritmos-de-Criptografia-Pos-Quanti.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "MulitaMiner: An LLM-Based Tool for Structuring Vulnerability Scanner Report",
+    "authors": "Douglas Lautert, Beatriz Machado, Cristhian Kapelinski, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44469",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44469/44232",
+    "file": "SBSeg/2026/estendido/44469_MulitaMiner-An-LLM-Based-Tool-for-Structuring-Vulnerability-Scanner-Report.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "Toward Agentic Intrusion Detection in the Internet of Things: Rule Generation and Live Validation for XRCE-DDS Attacks",
+    "authors": "Matheus M. Ciocca, Emanuel C. Ferreira, Tuigg R. Barcelos, Silvio E. Quincozes, Diego Kreutz, Paulo Silas Severo de Souza",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44471",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44471/44234",
+    "file": "SBSeg/2026/estendido/44471_Toward-Agentic-Intrusion-Detection-in-the-Internet-of-Things-Rule-Generation-and-Live-Vali.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "ZeroLINC: Training-Free Local Classification of Security Incident Reports",
+    "authors": "Cristhian Kapelinski, Beatriz Machado, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44474",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44474/44237",
+    "file": "SBSeg/2026/estendido/44474_ZeroLINC-Training-Free-Local-Classification-of-Security-Incident-Reports.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "CryptoCensus: Cryptographic Posture and Post-Quantum Readiness of Docker Hub",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44497",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44497/44260",
+    "file": "SBSeg/2026/estendido/44497_CryptoCensus-Cryptographic-Posture-and-Post-Quantum-Readiness-of-Docker-Hub.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "LLMs para Detecção de Phishing em E-mails: Comparação Controlada com Baselines TF-IDF e Red Flags Auditáveis",
+    "authors": "Bernardo Dorneles, Silvio Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44508",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44508/44271",
+    "file": "SBSeg/2026/estendido/44508_LLMs-para-Deteccao-de-Phishing-em-E-mails-Comparacao-Controlada-com-Baselines-TF-IDF-e-Red.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "On-Premise vs. Cloud: Local LLMs for Vulnerability Extraction from Security Scanner Reports",
+    "authors": "Beatriz Machado, Cristhian Kapelinski, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44510",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44510/44273",
+    "file": "SBSeg/2026/estendido/44510_On-Premise-vs-Cloud-Local-LLMs-for-Vulnerability-Extraction-from-Security-Scanner-Reports.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "PixGuard-Sim: A Deadline-Aware Testbed for Pix Fraud Detectors",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44514",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44514/44277",
+    "file": "SBSeg/2026/estendido/44514_PixGuard-Sim-A-Deadline-Aware-Testbed-for-Pix-Fraud-Detectors.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "RAGtrap: Source Revocation and Indexed Provenance Lookup for Poisoned RAG Corpora",
+    "authors": "Cristhian Kapelinski, Diego Kreutz",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44517",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44517/44280",
+    "file": "SBSeg/2026/estendido/44517_RAGtrap-Source-Revocation-and-Indexed-Provenance-Lookup-for-Poisoned-RAG-Corpora.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "Who Guards the Guard? Evaluating Deterministic, LLM-Based, and Hybrid Firewalls for Tool-Using Agents",
+    "authors": "Camilla B. Quincozes, Paulo Souza, Rafael Araujo, Diego Molinos, Silvio E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44524",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44524/44287",
+    "file": "SBSeg/2026/estendido/44524_Who-Guards-the-Guard-Evaluating-Deterministic-LLM-Based-and-Hybrid-Firewalls-for-Tool-Usin.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "APEX: Agentic Pentesting Execution",
+    "authors": "Tuigg R. Barcelos, Camilla B. Quincozes, Gabriel Pereira Bellagamba, Paulo Souza, Silvio E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44525",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44525/44288",
+    "file": "SBSeg/2026/estendido/44525_APEX-Agentic-Pentesting-Execution.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "Secure Exposure of REST APIs in Homelab Environments using Cloudflare Tunnel",
+    "authors": "Ulisses Thorwald Moraes Guedes, Eduardo Cabezudo Vilhalba, Danielly Cristina do Carmo Neves, Silvio E. Quincozes",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44531",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44531/44294",
+    "file": "SBSeg/2026/estendido/44531_Secure-Exposure-of-REST-APIs-in-Homelab-Environments-using-Cloudflare-Tunnel.pdf"
+  },
+  {
+    "event": "SBSeg",
+    "year": "2026",
+    "track": "estendido",
+    "title": "From Implicit Trust to Continuous Verification: A Position on the Authorization of AI Agents in Production Services",
+    "authors": "Diego S. Araujo, Silvio E. Quincozes, Rodrigo Brandão Mansilha",
+    "sol_link": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44562",
+    "pdf_url": "https://sol.sbc.org.br/index.php/sbseg_estendido/article/download/44562/44325",
+    "file": "SBSeg/2026/estendido/44562_From-Implicit-Trust-to-Continuous-Verification-A-Position-on-the-Authorization-of-AI-Agent.pdf"
+  },
+  {
+    "event": "SBSeg",
     "year": "2025",
     "track": "principal",
     "title": "Apresentação e Organização",

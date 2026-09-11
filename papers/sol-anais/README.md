@@ -1,13 +1,143 @@
-# Papers SOL/SBC — coautoria de Diego Kreutz, Rodrigo Mansilha ou Silvio Quincozes
+# Papers SOL/SBC: coautoria de Diego Kreutz, Rodrigo Mansilha ou Silvio Quincozes
 
-Coleta automatica das **ultimas 4 edicoes** de cada evento (anais da trilha **principal** + anais **estendidos**), realizada em 2026-06-03.
+Coleta automática das últimas edições de cada evento (anais da trilha **principal** + anais **estendidos**), realizada com `scripts/fetch-sol-anais.py`. Última atualização: 2026-09-11.
 
-**Total: 112 artigos.** Criterio de inclusao: lista de autores contendo `Kreutz`, `Mansilha`, ou `Silvio`+`Quincozes` (exclui Vagner/Camilla Quincozes, que sao outras pessoas).
+**Total: 144 artigos.** Critério de inclusão: lista de autores contendo `Kreutz`, `Mansilha`, ou `Silvio`+`Quincozes` (exclui Vagner/Camilla Quincozes, que são outras pessoas).
 
-Indices completos para processamento tambem em `index.csv` e `index.json`. Estrutura de pastas: `EVENTO/ANO/{principal,estendido}/<id>_<titulo>.pdf`.
+Índices completos para processamento também em `index.csv` e `index.json`. Estrutura de pastas: `EVENTO/ANO/{principal,estendido}/<id>_<titulo>.pdf`.
 
 
 ## SBSeg
+
+### 2026
+- **[principal]** A Multi-Scanner Census of the Linux Operating-System Base Images of Docker Hub
+  - Autores: Cristhian Kapelinski, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44372
+  - PDF: `SBSeg/2026/principal/44372_A-Multi-Scanner-Census-of-the-Linux-Operating-System-Base-Images-of-Docker-Hub.pdf`
+- **[principal]** A Uniform Random-Sample Security Measurement of Docker Hub Images
+  - Autores: Cristhian Kapelinski, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44371
+  - PDF: `SBSeg/2026/principal/44371_A-Uniform-Random-Sample-Security-Measurement-of-Docker-Hub-Images.pdf`
+- **[principal]** An LLM-Based Agentic Pipeline for Generator-Level Adversarial Evaluation of Smart Grid IDSs
+  - Autores: Camilla B. Quincozes, Guilherme C. Mundt, Ian Rankin, Silvio E. Quincozes, Paulo S. Severo, Daniel Mossé
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44281
+  - PDF: `SBSeg/2026/principal/44281_An-LLM-Based-Agentic-Pipeline-for-Generator-Level-Adversarial-Evaluation-of-Smart-Grid-IDS.pdf`
+- **[principal]** Context-Aware SIEM Rule Generation with LLMs: When Site Profiles Are Not Enough
+  - Autores: Priscila Schafhauzer, Cristhian Kapelinski, Marcio Pohlmann, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44366
+  - PDF: `SBSeg/2026/principal/44366_Context-Aware-SIEM-Rule-Generation-with-LLMs-When-Site-Profiles-Are-Not-Enough.pdf`
+- **[principal]** Data Exfiltration in Model Context Protocol (MCP)-Based Intelligent Agents: An Evaluation of Prompt Injection Vectors
+  - Autores: Tuigg R. Barcelos, Silvio E. Quincozes, Paulo Souza
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44305
+  - PDF: `SBSeg/2026/principal/44305_Data-Exfiltration-in-Model-Context-Protocol-MCP-Based-Intelligent-Agents-An-Evaluation-of.pdf`
+- **[principal]** MulitaMiner: A Multi-Version Evaluation of LLM-Based Vulnerability Report Extraction
+  - Autores: Beatriz Machado, Douglas Lautert, Cristhian Kapelinski, Diego Kreutz, Isadora Garcia Ferrão, Alessandro Bof
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44328
+  - PDF: `SBSeg/2026/principal/44328_MulitaMiner-A-Multi-Version-Evaluation-of-LLM-Based-Vulnerability-Report-Extraction.pdf`
+- **[principal]** Not All 4-bit Quantizers Are Equal: Deployment-Time Mitigation of PII Leakage in Fine-Tuned Small Language Models
+  - Autores: Cristhian Kapelinski, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44330
+  - PDF: `SBSeg/2026/principal/44330_Not-All-4-bit-Quantizers-Are-Equal-Deployment-Time-Mitigation-of-PII-Leakage-in-Fine-Tuned.pdf`
+- **[principal]** Security-First Evaluation of Text-to-Terraform: Benchmarking LLMs and SLMs for Secure IaC Generation
+  - Autores: Francis Luis Santos Vargas, Rodrigo Brandão Mansilha, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44342
+  - PDF: `SBSeg/2026/principal/44342_Security-First-Evaluation-of-Text-to-Terraform-Benchmarking-LLMs-and-SLMs-for-Secure-IaC-G.pdf`
+- **[principal]** Statistical Ranking: A Voting-Based Ensemble Approach to Feature Selection in Android Malware Detection
+  - Autores: Anna Luiza Gomes da Silva, Lucas Ferreira Areias de Oliveira, Angelo Diniz, Diego Kreutz, Dionatan R. Schmidt, Rodrigo Mansilha, Kayuã Oleques Paim
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44348
+  - PDF: `SBSeg/2026/principal/44348_Statistical-Ranking-A-Voting-Based-Ensemble-Approach-to-Feature-Selection-in-Android-Malwa.pdf`
+- **[principal]** Twenty-Five Years of the Brazilian Cybersecurity Symposium (SBSeg): A Retrospective Review
+  - Autores: Silvio E. Quincozes, Camilla B. Quincozes, Paulo Souza
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44351
+  - PDF: `SBSeg/2026/principal/44351_Twenty-Five-Years-of-the-Brazilian-Cybersecurity-Symposium-SBSeg-A-Retrospective-Review.pdf`
+- **[principal]** Visual Graph Representations for Supply Chain Risk Detection: A Novel Study on npm Packages
+  - Autores: Paulo Vitor C. Lima, Silvio E. Quincozes, Marcelo Z. do Nascimento
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44377
+  - PDF: `SBSeg/2026/principal/44377_Visual-Graph-Representations-for-Supply-Chain-Risk-Detection-A-Novel-Study-on-npm-Packages.pdf`
+- **[principal]** WOCI: Weighted Operational Cost Index A New Evaluation Metric for Intrusion Detection
+  - Autores: Vagner E. Quincozes, Silvio E. Quincozes, Célio Albuquerque, Diego Passos, Daniel Mossé
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44362
+  - PDF: `SBSeg/2026/principal/44362_WOCI-Weighted-Operational-Cost-Index-A-New-Evaluation-Metric-for-Intrusion-Detection.pdf`
+- **[principal]** When Balancing Harms: Structural Conditions That Degrade Android Malware Detection After Class Imbalance Correction
+  - Autores: Lucas Ferreira Areias de Oliveira, Anna Luiza Gomes da Silva, Angelo Diniz, Diego Kreutz, Dionatan R. Schmidt, Rodrigo Mansilha, Kayuã Oleques Paim
+  - SOL: https://sol.sbc.org.br/index.php/sbseg/article/view/44361
+  - PDF: `SBSeg/2026/principal/44361_When-Balancing-Harms-Structural-Conditions-That-Degrade-Android-Malware-Detection-After-Cl.pdf`
+- **[estendido]** AIaCGateGuard: A Security-First Pipeline for Benchmarking LLM- and SLM-Generated Infrastructure-as-Code
+  - Autores: Francis Luis Santos Vargas, Rodrigo Brandão Mansilha, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44455
+  - PDF: `SBSeg/2026/estendido/44455_AIaCGateGuard-A-Security-First-Pipeline-for-Benchmarking-LLM-and-SLM-Generated-Infrastruct.pdf`
+- **[estendido]** APEX: Agentic Pentesting Execution
+  - Autores: Tuigg R. Barcelos, Camilla B. Quincozes, Gabriel Pereira Bellagamba, Paulo Souza, Silvio E. Quincozes
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44525
+  - PDF: `SBSeg/2026/estendido/44525_APEX-Agentic-Pentesting-Execution.pdf`
+- **[estendido]** AdminForge: Declarative Privileged-Identity Management for Linux Server Fleets
+  - Autores: Rui de Quadros Ribeiro, Cristhian Kapelinski, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44454
+  - PDF: `SBSeg/2026/estendido/44454_AdminForge-Declarative-Privileged-Identity-Management-for-Linux-Server-Fleets.pdf`
+- **[estendido]** AttackZoo: A Reproducible Testbed for Attack Execution and Network Traffic Dataset Generation
+  - Autores: Leonardo Bitzki, Diego Kreutz, Leandro Bertholdo, Cristhian Kapelinski
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44457
+  - PDF: `SBSeg/2026/estendido/44457_AttackZoo-A-Reproducible-Testbed-for-Attack-Execution-and-Network-Traffic-Dataset-Generati.pdf`
+- **[estendido]** CryptoCensus: Cryptographic Posture and Post-Quantum Readiness of Docker Hub
+  - Autores: Cristhian Kapelinski, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44497
+  - PDF: `SBSeg/2026/estendido/44497_CryptoCensus-Cryptographic-Posture-and-Post-Quantum-Readiness-of-Docker-Hub.pdf`
+- **[estendido]** From Implicit Trust to Continuous Verification: A Position on the Authorization of AI Agents in Production Services
+  - Autores: Diego S. Araujo, Silvio E. Quincozes, Rodrigo Brandão Mansilha
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44562
+  - PDF: `SBSeg/2026/estendido/44562_From-Implicit-Trust-to-Continuous-Verification-A-Position-on-the-Authorization-of-AI-Agent.pdf`
+- **[estendido]** GT-LFI: Anonimização, Classificação e Aprendizagem Gamificada a partir de Incidentes Reais
+  - Autores: Rodrigo S. Miani, Diego Kreutz, Silvio E. Quincozes, Leandro M. Bertholdo, Rafael D. Araújo, Felipe N. Dresch, Felipe H. Scherer, João P. R. Esteves, Sebastião A. de Jesus Filho, Alvaro S. Santos
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44461
+  - PDF: `SBSeg/2026/estendido/44461_GT-LFI-Anonimizacao-Classificacao-e-Aprendizagem-Gamificada-a-partir-de-Incidentes-Reais.pdf`
+- **[estendido]** IoTEdu Core: Multi-IDS Correlation and Automated Containment of Attacks in Institutional IoT Networks
+  - Autores: Emanuel Ferreira, Matheus Ciocca, Douglas Fideles, Tuigg Barcelos, Silvio Quincozes, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44462
+  - PDF: `SBSeg/2026/estendido/44462_IoTEdu-Core-Multi-IDS-Correlation-and-Automated-Containment-of-Attacks-in-Institutional-Io.pdf`
+- **[estendido]** KETRIN: Elicitação Adaptativa de Conhecimento para Diagnóstico de Maturidade em Proteção de Dados
+  - Autores: Ketrin Diovana Alves Rodrigues Vargas, Tuigg R. Barcelos, Camilla B. Quincozes, Silvio E. Quincozes, Paulo Silas Severo de Souza
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44463
+  - PDF: `SBSeg/2026/estendido/44463_KETRIN-Elicitacao-Adaptativa-de-Conhecimento-para-Diagnostico-de-Maturidade-em-Protecao-de.pdf`
+- **[estendido]** LLMs para Detecção de Phishing em E-mails: Comparação Controlada com Baselines TF-IDF e Red Flags Auditáveis
+  - Autores: Bernardo Dorneles, Silvio Quincozes
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44508
+  - PDF: `SBSeg/2026/estendido/44508_LLMs-para-Deteccao-de-Phishing-em-E-mails-Comparacao-Controlada-com-Baselines-TF-IDF-e-Red.pdf`
+- **[estendido]** MulitaMiner: An LLM-Based Tool for Structuring Vulnerability Scanner Report
+  - Autores: Douglas Lautert, Beatriz Machado, Cristhian Kapelinski, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44469
+  - PDF: `SBSeg/2026/estendido/44469_MulitaMiner-An-LLM-Based-Tool-for-Structuring-Vulnerability-Scanner-Report.pdf`
+- **[estendido]** On-Premise vs. Cloud: Local LLMs for Vulnerability Extraction from Security Scanner Reports
+  - Autores: Beatriz Machado, Cristhian Kapelinski, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44510
+  - PDF: `SBSeg/2026/estendido/44510_On-Premise-vs-Cloud-Local-LLMs-for-Vulnerability-Extraction-from-Security-Scanner-Reports.pdf`
+- **[estendido]** PQCinBlock: uma ferramenta para análise do impacto de algoritmos de Criptografia Pós-Quântica em blockchains via benchmark e simulação
+  - Autores: Alison G. Schemitt, Marco A. C. Rodegheri, Henrique C. P. Horch, Roben C. Lunardi, Avelino F. Zorzo, Henrique F. da Silva, Diego Kreutz, Rodrigo B. Mansilha
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44464
+  - PDF: `SBSeg/2026/estendido/44464_PQCinBlock-uma-ferramenta-para-analise-do-impacto-de-algoritmos-de-Criptografia-Pos-Quanti.pdf`
+- **[estendido]** PixGuard-Sim: A Deadline-Aware Testbed for Pix Fraud Detectors
+  - Autores: Cristhian Kapelinski, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44514
+  - PDF: `SBSeg/2026/estendido/44514_PixGuard-Sim-A-Deadline-Aware-Testbed-for-Pix-Fraud-Detectors.pdf`
+- **[estendido]** RAGtrap: Source Revocation and Indexed Provenance Lookup for Poisoned RAG Corpora
+  - Autores: Cristhian Kapelinski, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44517
+  - PDF: `SBSeg/2026/estendido/44517_RAGtrap-Source-Revocation-and-Indexed-Provenance-Lookup-for-Poisoned-RAG-Corpora.pdf`
+- **[estendido]** Secure Exposure of REST APIs in Homelab Environments using Cloudflare Tunnel
+  - Autores: Ulisses Thorwald Moraes Guedes, Eduardo Cabezudo Vilhalba, Danielly Cristina do Carmo Neves, Silvio E. Quincozes
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44531
+  - PDF: `SBSeg/2026/estendido/44531_Secure-Exposure-of-REST-APIs-in-Homelab-Environments-using-Cloudflare-Tunnel.pdf`
+- **[estendido]** Toward Agentic Intrusion Detection in the Internet of Things: Rule Generation and Live Validation for XRCE-DDS Attacks
+  - Autores: Matheus M. Ciocca, Emanuel C. Ferreira, Tuigg R. Barcelos, Silvio E. Quincozes, Diego Kreutz, Paulo Silas Severo de Souza
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44471
+  - PDF: `SBSeg/2026/estendido/44471_Toward-Agentic-Intrusion-Detection-in-the-Internet-of-Things-Rule-Generation-and-Live-Vali.pdf`
+- **[estendido]** Who Guards the Guard? Evaluating Deterministic, LLM-Based, and Hybrid Firewalls for Tool-Using Agents
+  - Autores: Camilla B. Quincozes, Paulo Souza, Rafael Araujo, Diego Molinos, Silvio E. Quincozes
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44524
+  - PDF: `SBSeg/2026/estendido/44524_Who-Guards-the-Guard-Evaluating-Deterministic-LLM-Based-and-Hybrid-Firewalls-for-Tool-Usin.pdf`
+- **[estendido]** ZeroLINC: Training-Free Local Classification of Security Incident Reports
+  - Autores: Cristhian Kapelinski, Beatriz Machado, Diego Kreutz
+  - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/44474
+  - PDF: `SBSeg/2026/estendido/44474_ZeroLINC-Training-Free-Local-Classification-of-Security-Incident-Reports.pdf`
 
 ### 2025
 - **[principal]** Além da Similaridade: Uma super-métrica Generalizável para Avaliação de Fidelidade em Dados Sintéticos de Malware
@@ -237,6 +367,7 @@ Indices completos para processamento tambem em `index.csv` e `index.json`. Estru
   - SOL: https://sol.sbc.org.br/index.php/sbseg_estendido/article/view/21700
   - PDF: `SBSeg/2022/estendido/21700_FWNL-Um-Sistema-de-Processamento-de-Linguagem-Natural-para-Configuracao-de-Multiplos-Firew.pdf`
 
+
 ## SBRC
 
 ### 2026
@@ -279,17 +410,6 @@ Indices completos para processamento tambem em `index.csv` e `index.json`. Estru
   - SOL: https://sol.sbc.org.br/index.php/sbrc_estendido/article/view/35868
   - PDF: `SBRC/2025/estendido/35868_VulnSyncAI-PLN-e-LLMs-para-Construcao-e-Atualizacao-Continua-de-Datasets-de-Vulnerabilidad.pdf`
 
-## SBSI
-
-### 2024
-- **[estendido]** Evangelização Tecnológica da Agricultura Familiar
-  - Autores: Nykolas F. Santos, Augusto Goulart, Diogo S. Kersten, Jhon P. L. Cornelio, Fábio Basso, Rodrigo B. Mansilha
-  - SOL: https://sol.sbc.org.br/index.php/sbsi_estendido/article/view/28629
-  - PDF: `SBSI/2024/estendido/28629_Evangelizacao-Tecnologica-da-Agricultura-Familiar.pdf`
-- **[estendido]** PRORAF: Rastreamento da Agricultura Familiar
-  - Autores: Nykolas F. Santos, Augusto Goulart, Diogo S. Kersten, Jhon P. L. Cornelio, Fábio Basso, Rodrigo B. Mansilha
-  - SOL: https://sol.sbc.org.br/index.php/sbsi_estendido/article/view/28617
-  - PDF: `SBSI/2024/estendido/28617_PRORAF-Rastreamento-da-Agricultura-Familiar.pdf`
 
 ## ERRC
 
@@ -437,6 +557,7 @@ Indices completos para processamento tambem em `index.csv` e `index.json`. Estru
   - SOL: https://sol.sbc.org.br/index.php/errc/article/view/18546
   - PDF: `ERRC/2021/principal/18546_Usabilidade-de-Ferramentas-para-Assinatura-Digital-de-Documentos-PDF.pdf`
 
+
 ## ERAMIA-RS
 
 ### 2025
@@ -452,6 +573,20 @@ Indices completos para processamento tambem em `index.csv` e `index.json`. Estru
   - Autores: Rafael Prates Quevedo, Bruno Boessio Vizzotto, Elder de Macedo Rodrigues, Rodrigo Brandão Mansilha, Eliezer Soares Flores
   - SOL: https://sol.sbc.org.br/index.php/eramiars/article/view/39380
   - PDF: `ERAMIA-RS/2025/principal/39380_Vision-Transformers-para-a-Classificacao-de-Cianobacterias-a-partir-de-Imagens.pdf`
+
+
+## SBSI
+
+### 2024
+- **[estendido]** Evangelização Tecnológica da Agricultura Familiar
+  - Autores: Nykolas F. Santos, Augusto Goulart, Diogo S. Kersten, Jhon P. L. Cornelio, Fábio Basso, Rodrigo B. Mansilha
+  - SOL: https://sol.sbc.org.br/index.php/sbsi_estendido/article/view/28629
+  - PDF: `SBSI/2024/estendido/28629_Evangelizacao-Tecnologica-da-Agricultura-Familiar.pdf`
+- **[estendido]** PRORAF: Rastreamento da Agricultura Familiar
+  - Autores: Nykolas F. Santos, Augusto Goulart, Diogo S. Kersten, Jhon P. L. Cornelio, Fábio Basso, Rodrigo B. Mansilha
+  - SOL: https://sol.sbc.org.br/index.php/sbsi_estendido/article/view/28617
+  - PDF: `SBSI/2024/estendido/28617_PRORAF-Rastreamento-da-Agricultura-Familiar.pdf`
+
 
 ## ERES
 

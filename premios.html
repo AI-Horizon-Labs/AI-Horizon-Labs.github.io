@@ -264,7 +264,12 @@
                     // Extrai apenas a seção "## Descrição" do corpo Markdown
                     // (mesma convenção usada em content-loader.js para projetos)
                     const descMatch = award.content.match(/## Descrição\s*\n([\s\S]*?)(?=\n##|\n---|$)/);
-                    const description = descMatch ? descMatch[1].trim() : '';
+                    // A descrição vem em Markdown e é injetada como HTML: converte o
+                    // negrito **texto** em <strong>, senão os asteriscos apareceriam
+                    // literalmente na página.
+                    const description = descMatch
+                        ? descMatch[1].trim().replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>')
+                        : '';
 
                     const scopeBadge = award.data.scope === 'international'
                         ? '<span class="badge" style="background: var(--color-warning); color: white; padding: 0.25rem 0.75rem; border-radius: 1rem; font-size: 0.875rem; margin-left: 0.5rem;"><i class="fas fa-globe"></i> Internacional</span>'

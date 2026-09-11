@@ -939,6 +939,71 @@ section {
   color: var(--color-text-medium);
 }
 
+/* Matéria completa da notícia, recolhida por padrão em <details> */
+.news-details {
+  margin-top: var(--spacing-sm);
+}
+
+.news-details > summary {
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .85rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  list-style: none;
+}
+
+.news-details > summary::-webkit-details-marker {
+  display: none;
+}
+
+.news-details > summary i {
+  font-size: .7rem;
+  transition: transform .2s;
+}
+
+.news-details[open] > summary i {
+  transform: rotate(90deg);
+}
+
+.news-detail-body {
+  margin-top: var(--spacing-sm);
+  padding-left: var(--spacing-md);
+  border-left: 2px solid var(--color-border);
+}
+
+.news-detail-body p {
+  margin-bottom: var(--spacing-sm);
+}
+
+.news-detail-title {
+  margin: var(--spacing-md) 0 var(--spacing-xs);
+  font-size: 1rem;
+  color: var(--color-primary);
+}
+
+.news-detail-subtitle {
+  margin: var(--spacing-sm) 0 var(--spacing-xs);
+  font-size: .8rem;
+  font-weight: 700;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+}
+
+.news-detail-list {
+  margin: 0 0 var(--spacing-sm);
+  padding-left: 1.1rem;
+  color: var(--color-text-medium);
+}
+
+.news-detail-list li {
+  margin-bottom: .35rem;
+  line-height: 1.45;
+}
+
 /* === Banner LinkedIn === */
 .linkedin-banner {
   display: flex;
